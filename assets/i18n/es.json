@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Inicio", "lista": "Lista de Discusión", "org": "Organización",
+    "comissoes": "Comisiones", "conferencistas": "Conferenciantes Sénior",
+    "grupos": "Grupos de Investigación", "instituto": "Instituto", "sbseg": "SBSeg",
+    "anais": "Actas — Pista Principal", "minicursos": "Minicursos", "wise": "WISE",
+    "homenagens": "Homenajes", "publicacoes": "Publicaciones",
+    "referenciais": "Referencias", "ondepublicar": "Dónde Publicar",
+    "documentos": "Documentos", "atas": "Actas", "regimentos": "Reglamentos", "portarias": "Resoluciones"
+  },
+  "footer": {
+    "about": "Comisión Especial de Ciberseguridad de la Sociedad Brasileña de Computación. Creada en 2004.",
+    "cnpj": "CNPJ 29.532.264/0001-78",
+    "contactTitle": "Contacto",
+    "address": "Av. Bento Gonçalves, 9500 — Agronomia, Porto Alegre/RS, Brasil, 91501-970",
+    "navTitle": "Navegación"
+  },
+  "common": {
+    "pending": "Contenido por confirmar",
+    "pendingNote": "Esta sección se completará con el contenido oficial. Consulte la página original en",
+    "originalLink": "ceseg.org"
+  },
+  "home": {
+    "title": "CESeg — Comisión Especial de Ciberseguridad (SBC)",
+    "desc": "La Comisión Especial de Ciberseguridad de la Sociedad Brasileña de Computación reúne y articula a la comunidad académica brasileña en ciberseguridad.",
+    "eyebrow": "Sociedad Brasileña de Computación · desde 2004",
+    "h1": "Comisión Especial de Ciberseguridad",
+    "lead": "Reúne y articula a la comunidad académica brasileña que trabaja en ciberseguridad.",
+    "ctaSbseg": "Conozca el SBSeg 2025",
+    "ctaAbout": "Sobre la comisión",
+    "aboutEyebrow": "Acerca de",
+    "aboutH2": "Qué es CESeg",
+    "aboutText": "La Comisión Especial de Ciberseguridad (CESeg) de la Sociedad Brasileña de Computación reúne y articula a la comunidad académica brasileña que trabaja en ciberseguridad. Creada en 2004, congrega a investigadores, estudiantes, industria y profesionales en torno a la ciencia y tecnología de la ciberseguridad en Brasil.",
+    "eventEyebrow": "Evento principal",
+    "eventH2": "SBSeg 2025 — Foz do Iguaçu",
+    "eventText": "Simposio Brasileño de Ciberseguridad: el foro que conecta investigación, industria y estudiantes.",
+    "eventCta": "Más información →",
+    "cardInstH3": "Instituto Nacional de Ciberseguridad",
+    "cardInstText": "Colaboración entre las principales instituciones de investigación del país, en el programa INCT/CNPq.",
+    "cardGroupsH3": "Grupos de Investigación",
+    "cardGroupsText": "Seguridad de sistemas, de redes y de la información en universidades de todo Brasil.",
+    "commEyebrow": "Comunidad",
+    "commH2": "Acciones de la comunidad",
+    "comm1t": "Computação Brasil", "comm1s": "Ediciones sobre ciberseguridad",
+    "comm2t": "Auditoría del sistema electoral", "comm2s": "Participación de la comunidad",
+    "comm3t": "Talleres y carrera", "comm3s": "Formación en el área",
+    "partnersEyebrow": "Instituciones asociadas",
+    "partnersNote": "Logos de las instituciones asociadas"
+  },
+  "lista": {
+    "title": "Lista de Discusión — CESeg", "desc": "Lista de discusión de la comunidad de ciberseguridad de la SBC.",
+    "eyebrow": "Comunidad", "h1": "Lista de Discusión",
+    "intro": "CESeg mantiene una lista de discusión para articular a la comunidad brasileña de ciberseguridad y difundir convocatorias, eventos y oportunidades.",
+    "pending": true
+  },
+  "org": {
+    "title": "Organización — CESeg", "desc": "Coordinación, comité gestor y comité consultivo de CESeg.",
+    "eyebrow": "Organización", "h1": "Organización",
+    "intro": "CESeg está coordinada por un equipo elegido por la comunidad, apoyado por un comité gestor y un comité consultivo.",
+    "coordH2": "Coordinación 2024–2026",
+    "coordCoord": "Coordinador: Marcos Simplício (USP)",
+    "coordVice": "Vicecoordinador: Diego Kreutz (UNIPAMPA)",
+    "histH2": "Coordinaciones anteriores",
+    "histText": "Desde 2004, la coordinación ha incluido a investigadores como Eduardo L. Feitosa (UFAM), Altair Santin (PUC-PR), Carlos Maziero (UFPR) y Ricardo Dahab (Unicamp), entre otros, representando a instituciones como USP, UFPR, Unicamp, PUC-PR, UFAM y UnB.",
+    "pending": true
+  },
+  "comissoes": {
+    "title": "Comisiones — CESeg", "desc": "Comisiones de CESeg.",
+    "eyebrow": "Organización", "h1": "Comisiones",
+    "intro": "Las comisiones organizan frentes específicos de trabajo de CESeg.",
+    "pending": true
+  },
+  "conferencistas": {
+    "title": "Conferenciantes Sénior — CESeg", "desc": "Conferenciantes sénior de la comunidad.",
+    "eyebrow": "Organización", "h1": "Conferenciantes Sénior",
+    "intro": "Investigadores sénior reconocidos por la comunidad de ciberseguridad de la SBC.",
+    "pending": true
+  },
+  "grupos": {
+    "title": "Grupos de Investigación — CESeg", "desc": "Grupos de investigación en ciberseguridad en Brasil.",
+    "eyebrow": "Grupos de Investigación", "h1": "Grupos de Investigación",
+    "intro": "Grupos de investigación en seguridad de sistemas, de redes y de la información, distribuidos en universidades de todo Brasil.",
+    "pending": true
+  },
+  "instituto": {
+    "title": "Instituto — CESeg", "desc": "Instituto Nacional de Ciberseguridad (INCT).",
+    "eyebrow": "Grupos de Investigación", "h1": "Instituto Nacional de Ciberseguridad",
+    "intro": "Colaboración entre las principales instituciones de investigación del país, articulada en el programa de Institutos Nacionales de Ciencia y Tecnología (INCT/CNPq), orientada a la ciberseguridad.",
+    "pending": true
+  },
+  "sbseg": {
+    "title": "SBSeg — CESeg", "desc": "Simposio Brasileño de Ciberseguridad (SBSeg).",
+    "eyebrow": "SBSeg", "h1": "Simposio Brasileño de Ciberseguridad",
+    "intro": "El SBSeg es el principal evento científico del área de seguridad de la información y de sistemas computacionales en Brasil, promovido por la SBC a través de CESeg.",
+    "edH2": "SBSeg 2025 — Foz do Iguaçu",
+    "edText": "La edición de 2025 tiene lugar en Foz do Iguaçu. Información en sbseg2025.ppgia.pucpr.br.",
+    "pending": true
+  },
+  "anais": {
+    "title": "Actas — Pista Principal — CESeg", "desc": "Actas de la pista principal del SBSeg.",
+    "eyebrow": "SBSeg", "h1": "Actas — Pista Principal",
+    "intro": "Actas de la pista principal del Simposio Brasileño de Ciberseguridad, con los artículos científicos de las ediciones del evento.",
+    "pending": true
+  },
+  "minicursos": {
+    "title": "Minicursos — CESeg", "desc": "Minicursos del SBSeg.",
+    "eyebrow": "SBSeg", "h1": "Minicursos",
+    "intro": "Los minicursos del SBSeg ofrecen formación en profundidad sobre temas actuales de ciberseguridad, publicados como capítulos de libro.",
+    "pending": true
+  },
+  "wise": {
+    "title": "WISE — CESeg", "desc": "Workshop on Information Security Education (WISE).",
+    "eyebrow": "SBSeg", "h1": "WISE",
+    "intro": "Pista dedicada a la educación y formación en seguridad de la información, en el contexto del SBSeg.",
+    "pending": true
+  },
+  "homenageados": {
+    "title": "Homenajes — CESeg", "desc": "Homenajeados y premios de la comunidad.",
+    "eyebrow": "Homenajes", "h1": "Homenajes",
+    "intro": "CESeg reconoce contribuciones relevantes de investigadores y profesionales a la ciberseguridad en Brasil.",
+    "pending": true
+  },
+  "publicacoes": {
+    "title": "Publicaciones — CESeg", "desc": "Publicaciones y medios de la comunidad de ciberseguridad.",
+    "eyebrow": "Publicaciones", "h1": "Publicaciones",
+    "intro": "Referencias y medios de publicación relevantes para la comunidad brasileña de ciberseguridad.",
+    "pending": true
+  },
+  "referenciais": {
+    "title": "Referencias — CESeg", "desc": "Referencias del área.",
+    "eyebrow": "Publicaciones", "h1": "Referencias",
+    "intro": "Materiales de referencia para la investigación y la enseñanza en ciberseguridad.",
+    "pending": true
+  },
+  "ondepublicar": {
+    "title": "Dónde Publicar — CESeg", "desc": "Medios de publicación del área.",
+    "eyebrow": "Publicaciones", "h1": "Dónde Publicar",
+    "intro": "Orientaciones sobre revistas, conferencias y medios para publicar investigación en ciberseguridad.",
+    "pending": true
+  },
+  "documentos": {
+    "title": "Documentos — CESeg", "desc": "Actas, reglamentos y resoluciones de CESeg.",
+    "eyebrow": "Documentos", "h1": "Documentos",
+    "intro": "Documentos oficiales de CESeg: actas de reuniones, reglamentos y resoluciones.",
+    "pending": true
+  },
+  "atas": {
+    "title": "Actas — CESeg", "desc": "Actas de las reuniones de CESeg.",
+    "eyebrow": "Documentos", "h1": "Actas",
+    "intro": "Actas de las reuniones y asambleas de CESeg.",
+    "pending": true
+  },
+  "regimentos": {
+    "title": "Reglamentos — CESeg", "desc": "Reglamentos de CESeg.",
+    "eyebrow": "Documentos", "h1": "Reglamentos",
+    "intro": "Reglamento interno y normas que rigen el funcionamiento de CESeg.",
+    "pending": true
+  },
+  "portarias": {
+    "title": "Resoluciones — CESeg", "desc": "Resoluciones de CESeg.",
+    "eyebrow": "Documentos", "h1": "Resoluciones",
+    "intro": "Resoluciones y actos oficiales de CESeg.",
+    "pending": true
+  }
+}
