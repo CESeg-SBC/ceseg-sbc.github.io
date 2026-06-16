@@ -16,9 +16,15 @@
     "navTitle": "Navigation"
   },
   "common": {
-    "pending": "Content to be confirmed",
-    "pendingNote": "This section will be filled with the official content. See the original page at",
-    "originalLink": "ceseg.org"
+    "sourceNote": "Content from the official page"
+  },
+  "ui": {
+    "members": "Members",
+    "current": "Current",
+    "previous": "Previous",
+    "inMemoriam": "(in memoriam)",
+    "downloadPdf": "Download PDF",
+    "noLink": "no link"
   },
   "home": {
     "title": "CESeg — Special Committee on Cybersecurity (SBC)",
@@ -50,116 +56,135 @@
   "lista": {
     "title": "Mailing List — CESeg", "desc": "Mailing list of the SBC cybersecurity community.",
     "eyebrow": "Community", "h1": "Mailing List",
-    "intro": "CESeg maintains a mailing list to articulate the Brazilian cybersecurity community and to share calls, events and opportunities.",
-    "pending": true
+    "intro": "The SBC Information and Computer Systems Security mailing list is a meeting point for the Brazilian academic community working in security, with thematic discussions and event announcements.",
+    "warn": "This list is <strong>not</strong> meant to be used for technical consulting on system configuration — there are more appropriate forums for that.",
+    "joinH2": "How to join",
+    "joinText": "Subscription and archive access (for subscribers) are handled through the list platform, hosted at UFRGS.",
+    "joinCta": "Subscribe to the list →"
   },
   "org": {
-    "title": "Organization — CESeg", "desc": "Coordination, steering committee and advisory committee of CESeg.",
+    "title": "Organization — CESeg", "desc": "Coordination and steering committee of CESeg.",
     "eyebrow": "Organization", "h1": "Organization",
-    "intro": "CESeg is led by a team elected by the community, supported by a steering committee and an advisory committee.",
+    "intro": "CESeg is led by a team elected by the community, supported by a steering committee.",
     "coordH2": "Coordination 2024–2026",
-    "coordCoord": "Coordinator: Marcos Simplício (USP)",
-    "coordVice": "Vice-coordinator: Diego Kreutz (UNIPAMPA)",
-    "histH2": "Previous coordinations",
-    "histText": "Since 2004, the coordination has included researchers such as Eduardo L. Feitosa (UFAM), Altair Santin (PUC-PR), Carlos Maziero (UFPR) and Ricardo Dahab (Unicamp), among others, representing institutions such as USP, UFPR, Unicamp, PUC-PR, UFAM and UnB.",
-    "pending": true
+    "lblCoord": "Coordinator",
+    "lblVice": "Vice-coordinator",
+    "histH2": "Coordination history",
+    "thTerm": "Term",
+    "gestorH2": "Steering committee (2026)",
+    "gestorText": "The steering committee includes, among others, Altair Olivo Santin, André Grégio, Charles Miers, Diego Kreutz and Diogo Mattos, representing several Brazilian universities."
   },
   "comissoes": {
-    "title": "Committees — CESeg", "desc": "CESeg committees.",
+    "title": "Committees — CESeg", "desc": "CESeg Education and Competitions committees.",
     "eyebrow": "Organization", "h1": "Committees",
     "intro": "The committees organize specific lines of work within CESeg.",
-    "pending": true
+    "eduH2": "Education Committee",
+    "eduText": "Appointed by Ordinance No. 020 of July 23, 2021, it produced the cybersecurity curricular references intended for the National Curricular Guidelines. The public consultation ran from 12/13/2022 to 02/27/2023, and the final version was published in the SBC Digital Library (SOL).",
+    "compH2": "Competitions Committee",
+    "compText": "Established on September 19, 2023, it works to define and promote competition strategies aligned with the Education Committee, serving the security research community and society's demands."
   },
   "conferencistas": {
-    "title": "Senior Speakers — CESeg", "desc": "Senior speakers of the community.",
+    "title": "Senior Speakers — CESeg", "desc": "Senior speakers of the SBC cybersecurity community.",
     "eyebrow": "Organization", "h1": "Senior Speakers",
     "intro": "Senior researchers recognized by the SBC cybersecurity community.",
-    "pending": true
+    "progText": "In 2014, the Brazilian Computer Society (SBC) launched the Senior Speakers Program. Through it, each Special Committee nominates researchers with extensive experience in their field to represent it at events and lectures."
   },
   "grupos": {
     "title": "Research Groups — CESeg", "desc": "Cybersecurity research groups in Brazil.",
     "eyebrow": "Research Groups", "h1": "Research Groups",
     "intro": "Research groups in systems, network and information security, spread across universities throughout Brazil.",
-    "pending": true
+    "liveText": "The list of research groups is dynamic and maintained on the official CESeg portal, where it is continuously updated. See the complete list — institutions, coordinators and lines of work — directly at the source:",
+    "liveCta": "See the full list of groups →"
   },
   "instituto": {
-    "title": "Institute — CESeg", "desc": "National Institute of Cybersecurity (INCT).",
+    "title": "Institute — CESeg", "desc": "National Institute of Science and Technology in Cybersecurity.",
     "eyebrow": "Research Groups", "h1": "National Institute of Cybersecurity",
     "intro": "A collaboration among the country's leading research institutions, articulated under the National Institutes of Science and Technology program (INCT/CNPq), focused on cybersecurity.",
-    "pending": true
+    "fullName": "<strong>National Institute of Science and Technology in Cybersecurity</strong>",
+    "netText": "A network of 19 research institutions, led by UNICAMP, dedicated to the science and technology of cybersecurity.",
+    "instH2": "Participating institutions"
   },
   "sbseg": {
     "title": "SBSeg — CESeg", "desc": "Brazilian Symposium on Cybersecurity (SBSeg).",
     "eyebrow": "SBSeg", "h1": "Brazilian Symposium on Cybersecurity",
     "intro": "SBSeg is the leading scientific event on information and computer systems security in Brazil, promoted by SBC through CESeg.",
-    "edH2": "SBSeg 2025 — Foz do Iguaçu",
-    "edText": "The 2025 edition takes place in Foz do Iguaçu. Information at sbseg2025.ppgia.pucpr.br.",
-    "pending": true
+    "histH2": "History",
+    "histText": "Formerly called the Brazilian Symposium on Information and Computer Systems Security, SBSeg ran as a workshop from 2001 to 2004. From 2005, alongside the creation of the special committee, it began to be organized as a standalone event, becoming the country's leading cybersecurity forum.",
+    "edsH2": "Recent editions",
+    "thYear": "Year", "thDate": "Date", "thPlace": "Location", "thSite": "Website",
+    "olderText": "Earlier editions and their proceedings are available in the SBC Digital Library (SOL)."
   },
   "anais": {
     "title": "Proceedings — Main Track — CESeg", "desc": "Proceedings of the SBSeg main track.",
     "eyebrow": "SBSeg", "h1": "Proceedings — Main Track",
     "intro": "Proceedings of the main track of the Brazilian Symposium on Cybersecurity, with the scientific papers from the event's editions.",
-    "pending": true
+    "solText": "The Brazilian Computer Society Digital Library (SOL) gathers the papers from all SBSeg editions.",
+    "solCta": "SBSeg papers on SOL →"
   },
   "minicursos": {
     "title": "Short Courses — CESeg", "desc": "SBSeg short courses.",
     "eyebrow": "SBSeg", "h1": "Short Courses",
     "intro": "The SBSeg short courses offer in-depth training on current cybersecurity topics, published as book chapters.",
-    "pending": true
+    "solText": "The SBSeg short courses are published as book chapters and are available in the SBC Digital Library (SOL).",
+    "solCta": "Short courses on SOL →"
   },
   "wise": {
-    "title": "WISE — CESeg", "desc": "Workshop on Information Security Education (WISE).",
+    "title": "WISE — CESeg", "desc": "SBSeg track on information security education.",
     "eyebrow": "SBSeg", "h1": "WISE",
     "intro": "A track dedicated to education and training in information security, within the SBSeg context.",
-    "pending": true
+    "text": "WISE is the SBSeg track dedicated to education and training in information security, gathering works and experiences on teaching cybersecurity."
   },
   "homenageados": {
-    "title": "Honors — CESeg", "desc": "Honorees and awards of the community.",
+    "title": "Honors — CESeg", "desc": "Honorees of the cybersecurity community.",
     "eyebrow": "Honors", "h1": "Honors",
-    "intro": "CESeg recognizes significant contributions by researchers and professionals to cybersecurity in Brazil.",
-    "pending": true
+    "intro": "CESeg recognizes significant contributions by researchers and professionals to cybersecurity in Brazil."
   },
   "publicacoes": {
     "title": "Publications — CESeg", "desc": "Publications and venues of the cybersecurity community.",
     "eyebrow": "Publications", "h1": "Publications",
     "intro": "References and publication venues relevant to the Brazilian cybersecurity community.",
-    "pending": true
+    "text": "CESeg gathers references and publication venues relevant to the Brazilian cybersecurity community, as well as the field's curricular references."
   },
   "referenciais": {
-    "title": "References — CESeg", "desc": "Reference materials in the field.",
+    "title": "References — CESeg", "desc": "Cybersecurity Training References.",
     "eyebrow": "Publications", "h1": "References",
     "intro": "Reference materials for research and teaching in cybersecurity.",
-    "pending": true
+    "text": "The Cybersecurity Training References were developed by CESeg's Education Committee to guide institutions on the competencies required to train professionals in the field, aiming at integration with the National Curricular Guidelines (DCN) of the Ministry of Education. The final version is published in the SBC Digital Library (SOL). © 2020 CESeg.",
+    "cta": "Access the references on SOL →"
   },
   "ondepublicar": {
-    "title": "Where to Publish — CESeg", "desc": "Publication venues in the field.",
+    "title": "Where to Publish — CESeg", "desc": "Journals and conferences for publishing in the field.",
     "eyebrow": "Publications", "h1": "Where to Publish",
-    "intro": "Guidance on journals, conferences and venues for publishing cybersecurity research.",
-    "pending": true
+    "intro": "Journals and conferences for publishing cybersecurity research.",
+    "jH2": "Journals",
+    "cH2": "Conferences",
+    "cNote": "Among other leading international conferences in the field."
   },
   "documentos": {
     "title": "Documents — CESeg", "desc": "Minutes, bylaws and ordinances of CESeg.",
     "eyebrow": "Documents", "h1": "Documents",
     "intro": "Official CESeg documents: meeting minutes, bylaws and ordinances.",
-    "pending": true
+    "atasText": "Minutes of CESeg meetings held during the annual SBSeg editions.",
+    "regText": "Internal bylaws governing the committee's operation.",
+    "portText": "Ordinances and official acts related to CESeg activities."
   },
   "atas": {
     "title": "Minutes — CESeg", "desc": "Minutes of CESeg meetings.",
     "eyebrow": "Documents", "h1": "Minutes",
     "intro": "Minutes of CESeg meetings and assemblies.",
-    "pending": true
+    "note": "Minutes of the meetings of the Special Committee on Cybersecurity (formerly the Special Committee on Information and Computer Systems Security), held during the annual SBSeg editions.",
+    "thDate": "Date", "thMeeting": "Meeting", "thDoc": "Document"
   },
   "regimentos": {
-    "title": "Bylaws — CESeg", "desc": "CESeg bylaws.",
+    "title": "Bylaws — CESeg", "desc": "CESeg internal bylaws.",
     "eyebrow": "Documents", "h1": "Bylaws",
     "intro": "Internal bylaws and rules governing the operation of CESeg.",
-    "pending": true
+    "item2017": "Current bylaws (2017)"
   },
   "portarias": {
-    "title": "Ordinances — CESeg", "desc": "CESeg ordinances.",
+    "title": "Ordinances — CESeg", "desc": "Ordinances related to CESeg.",
     "eyebrow": "Documents", "h1": "Ordinances",
-    "intro": "Ordinances and official acts of CESeg.",
-    "pending": true
+    "intro": "Ordinances and official acts related to CESeg.",
+    "item020": "SBC — Ordinance No. 020, of July 23, 2021 — Cybersecurity Course"
   }
 }

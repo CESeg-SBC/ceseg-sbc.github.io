@@ -1,42 +1,51 @@
-# Conteúdo pendente de extração
+# Estado do conteúdo
 
-O site original `ceseg.org` é construído no **Wix e renderizado por JavaScript**,
-então o conteúdo detalhado (listas de grupos, comissões, anais, nomes, documentos)
-**não pôde ser transcrito automaticamente** — apenas a estrutura de navegação e
-alguns fatos foram recuperados. As páginas abaixo têm um **intro factual** + o selo
-**"Conteúdo a confirmar"**, e precisam que o conteúdo oficial seja colado à mão nos
-dicionários `assets/i18n/{pt,en,es}.json` (e, se necessário, na marcação HTML).
+Todo o conteúdo das páginas internas foi **transcrito de `ceseg.org`** (site Wix/JS)
+e embutido no site estático em 2026-06. As páginas deixaram de exibir o selo
+"Conteúdo a confirmar".
 
-| Página | Namespace i18n | Página original a consultar |
-|---|---|---|
-| `lista-de-discussao.html` | `lista` | https://www.ceseg.org/lista-de-discucao |
-| `organizacao.html` | `org` | https://www.ceseg.org/organizacao *(coordenação 2024–2026 já preenchida; falta o histórico completo e os comitês)* |
-| `comissoes.html` | `comissoes` | https://www.ceseg.org/comissões |
-| `conferencistas.html` | `conferencistas` | https://www.ceseg.org/conferencistas |
-| `grupos.html` | `grupos` | https://www.ceseg.org/grupos |
-| `instituto.html` | `instituto` | https://www.ceseg.org/instituto |
-| `sbseg.html` | `sbseg` | https://www.ceseg.org/sbseg *(edição 2025 já citada; faltam edições anteriores)* |
-| `anais.html` | `anais` | https://www.ceseg.org/anais-trilha-principal |
-| `minicursos.html` | `minicursos` | https://www.ceseg.org/mini-cursos |
-| `wise.html` | `wise` | https://www.ceseg.org/wise |
-| `homenageados.html` | `homenageados` | https://www.ceseg.org/homenageados |
-| `publicacoes.html` | `publicacoes` | https://www.ceseg.org/publicacoes |
-| `referenciais.html` | `referenciais` | https://www.ceseg.org/referenciais |
-| `onde-publicar.html` | `ondepublicar` | https://www.ceseg.org/onde-publicar |
-| `documentos.html` | `documentos` | https://www.ceseg.org/documentos |
-| `atas.html` | `atas` | https://www.ceseg.org/atas |
-| `regimentos.html` | `regimentos` | https://www.ceseg.org/regimentos |
-| `portarias.html` | `portarias` | https://www.ceseg.org/portarias |
+Texto traduzível (intros, títulos de seção, rótulos) vive em
+`assets/i18n/{pt,en,es}.json` (paridade de chaves verificada: 198 chaves em cada).
+Dados estáveis e neutros a idioma (nomes, instituições, datas, links de PDF, títulos
+de periódicos) são embutidos diretamente no HTML por `scripts/gen_pages.py`.
 
-## Fatos já confirmados e usados no site
+## Conteúdo preenchido por página
 
-- Criação da CESeg: **2004**.
-- Coordenação **2024–2026**: Coordenador **Marcos Simplício (USP)**; Vice **Diego Kreutz (UNIPAMPA)**.
-- Coordenações anteriores incluem Eduardo L. Feitosa (UFAM), Altair Santin (PUC-PR),
-  Carlos Maziero (UFPR), Ricardo Dahab (Unicamp).
+| Página | Conteúdo |
+|---|---|
+| `organizacao.html` | Coordenação 2024–2026 + histórico de 10 mandatos (2004–2026) + comitê gestor 2026 |
+| `comissoes.html` | Comissão de Educação e Comissão de Competições (membros + descrições) |
+| `conferencistas.html` | Programa de Conferencistas Seniores (SBC, 2014); atuais e anteriores |
+| `instituto.html` | INCT em Segurança Cibernética — rede de 19 instituições (UNICAMP à frente) |
+| `sbseg.html` | Histórico + tabela das edições recentes (2023–2025) + ponteiro p/ SOL |
+| `anais.html` | Ponteiro para os artigos no SOL (Biblioteca Digital da SBC) |
+| `minicursos.html` | Ponteiro para os minicursos no SOL |
+| `wise.html` | Descrição da trilha WISE |
+| `homenageados.html` | 6 homenageados (2018–2025), com instituição e descrição |
+| `publicacoes.html` | Visão geral + cards para Referenciais e Onde Publicar |
+| `referenciais.html` | Referenciais de Formação em Cibersegurança + link no SOL |
+| `onde-publicar.html` | 22 periódicos + 11 conferências |
+| `documentos.html` | Cards para Atas, Regimentos e Portarias |
+| `atas.html` | 22 atas (2005–2025) com links de PDF (2 sem link na origem) |
+| `regimentos.html` | Regimento vigente de 2017 (PDF) |
+| `portarias.html` | SBC Portaria nº 020/2021 (PDF) |
+| `lista-de-discussao.html` | Objetivo da lista + como participar (UFRGS Mailman) |
+
+## Única exceção — lista de grupos (`grupos.html`)
+
+A relação dos grupos de pesquisa **não é servida no HTML** de `ceseg.org`: é renderizada
+por um app Wix customizado (`appDefinitionId 14271d6f-…`, TPA `fullscreen_page`) que
+carrega os registros de um datastore próprio via chamada assíncrona, sem API HTTP
+pública trivial. A página `grupos.html` traz a introdução + um botão para a **lista viva
+e sempre atualizada** em `https://www.ceseg.org/lista-grupos`. Isso também é a escolha de
+produto correta: a lista é dinâmica e um snapshot estático envelheceria — mesma filosofia
+adotada para as estatísticas numéricas (ver abaixo).
+
+## Fatos históricos confirmados
+
+- Criação da CESeg: **2004** (aprovada na diretoria da SBC em 01/08/2004).
 - Contato: `ceseg.sbc@gmail.com` · (51) 3308-6835 · Av. Bento Gonçalves, 9500,
   Agronomia, Porto Alegre/RS, CEP 91501-970 · CNPJ 29.532.264/0001-78.
-- SBSeg 2025 em **Foz do Iguaçu** — https://sbseg2025.ppgia.pucpr.br/
 
 ## Decisão de design
 
