@@ -9,6 +9,8 @@ const NAV = [
     {key:'nav.instituto', href:'instituto.html'}]},
   {key:'nav.sbseg', href:'sbseg.html', children:[
     {key:'nav.anais', href:'anais.html'},
+    {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
+    {key:'nav.anaisEst', href:'anais-estendidos.html'},
     {key:'nav.minicursos', href:'minicursos.html'},
     {key:'nav.wise', href:'wise.html'}]},
   {key:'nav.homenagens', href:'homenageados.html'},
@@ -78,6 +80,13 @@ function applyI18n(){
     else if(el.hasAttribute('data-i18n-attr')) el.setAttribute(el.getAttribute('data-i18n-attr'), val);
     else el.innerHTML = val;
   });
+  // Standalone attribute translations (independent of element text content).
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{
+    const v = t(el.getAttribute('data-i18n-placeholder')); if(v!=null) el.setAttribute('placeholder', v);
+  });
+  document.querySelectorAll('[data-i18n-title]').forEach(el=>{
+    const v = t(el.getAttribute('data-i18n-title')); if(v!=null) el.setAttribute('title', v);
+  });
   document.querySelectorAll('.lang button').forEach(b=>
     b.classList.toggle('active', b.dataset.lang===currentLang()));
   document.documentElement.lang = currentLang();
@@ -119,4 +128,53 @@ document.addEventListener('DOMContentLoaded', ()=>{
     b.addEventListener('click', ()=> setLang(b.dataset.lang)));
 
   loadLang(currentLang());
+  initPubList();
 });
+
+// ---- Publications listing: live filter + copy citation ----
+function fold(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); }
+
+function initPubList(){
+  const list = document.getElementById('pubList');
+  if(!list) return;
+  const search = document.getElementById('pubSearch');
+  const visEl = document.getElementById('pubVisible');
+  const noRes = document.getElementById('pubNoResults');
+  const papers = Array.from(list.querySelectorAll('.pub-paper'));
+  // Precompute a normalized haystack per paper once.
+  papers.forEach(p => p._hay = fold(p.dataset.title + ' ' + p.dataset.authors));
+
+  function apply(q){
+    const needle = fold(q.trim());
+    let visible = 0;
+    papers.forEach(p => {
+      const show = !needle || p._hay.includes(needle);
+      p.hidden = !show;
+      if(show) visible++;
+    });
+    // Hide section headers + editions that ended up empty.
+    list.querySelectorAll('.pub-papers').forEach(ul=>{
+      const any = ul.querySelector('.pub-paper:not([hidden])');
+      ul.hidden = !any;
+      const h = ul.previousElementSibling;
+      if(h && h.classList.contains('pub-section')) h.hidden = !any;
+    });
+    list.querySelectorAll('.pub-edition').forEach(sec=>{
+      sec.hidden = !sec.querySelector('.pub-paper:not([hidden])');
+    });
+    if(visEl) visEl.textContent = visible;
+    if(noRes) noRes.hidden = visible !== 0;
+  }
+
+  if(search) search.addEventListener('input', () => apply(search.value));
+
+  list.addEventListener('click', e => {
+    const btn = e.target.closest('.pub-cite');
+    if(!btn) return;
+    const cite = btn.closest('.pub-paper').dataset.cite || '';
+    navigator.clipboard.writeText(cite).then(() => {
+      btn.classList.add('copied');
+      setTimeout(() => btn.classList.remove('copied'), 1500);
+    }).catch(() => {});
+  });
+}
