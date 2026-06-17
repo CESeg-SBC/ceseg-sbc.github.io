@@ -46,13 +46,13 @@
     "eyebrow": "Sociedade Brasileira de Computação · desde 2004",
     "h1": "Comissão Especial de Cibersegurança",
     "lead": "Congrega e articula a comunidade acadêmica brasileira atuando na área de cibersegurança.",
-    "ctaSbseg": "Conheça o SBSeg 2025",
+    "ctaSbseg": "Conheça o SBSeg 2026",
     "ctaAbout": "Sobre a comissão",
     "aboutEyebrow": "Sobre",
     "aboutH2": "O que é o CESeg",
     "aboutText": "A Comissão Especial de Cibersegurança (CESeg) da Sociedade Brasileira de Computação congrega e articula a comunidade acadêmica brasileira atuando na área de cibersegurança. Criada em 2004, reúne pesquisadores, estudantes, indústria e profissionais em torno da ciência e tecnologia de segurança cibernética no Brasil.",
     "eventEyebrow": "Evento principal",
-    "eventH2": "SBSeg 2025 — Foz do Iguaçu",
+    "eventH2": "SBSeg 2026 — Búzios",
     "eventText": "Simpósio Brasileiro de Cibersegurança: o fórum que conecta pesquisa, indústria e estudantes.",
     "eventCta": "Saiba mais →",
     "cardInstH3": "Instituto Nacional de Segurança Cibernética",
@@ -92,8 +92,8 @@
     "lblVice": "Vice-coordenador",
     "histH2": "Histórico de coordenações",
     "thTerm": "Mandato",
-    "gestorH2": "Comitê gestor (2026)",
-    "gestorText": "Integram o comitê gestor, entre outros, Altair Olivo Santin, André Grégio, Charles Miers, Diego Kreutz e Diogo Mattos, representando diversas universidades brasileiras."
+    "gestorH2": "Comitê Gestor",
+    "gestorText": "Composição do comitê gestor por ano."
   },
   "comissoes": {
     "title": "Comissões — CESeg",
@@ -141,12 +141,15 @@
     "intro": "O SBSeg é o principal evento científico da área de segurança da informação e de sistemas computacionais no Brasil, promovido pela SBC por meio da CESeg.",
     "histH2": "Histórico",
     "histText": "Antes denominado Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais, o SBSeg funcionou como workshop entre 2001 e 2004. A partir de 2005, concomitantemente à criação da comissão especial, passou a ser organizado como evento solo, tornando-se o principal fórum de cibersegurança do país.",
-    "edsH2": "Edições recentes",
+    "edsH2": "Edições",
     "thYear": "Ano",
     "thDate": "Data",
     "thPlace": "Local",
     "thSite": "Site",
-    "olderText": "As edições anteriores e seus anais estão disponíveis na Biblioteca Digital da SBC (SOL)."
+    "thPhotos": "Fotos",
+    "olderText": "Os anais de todas as edições estão disponíveis na Biblioteca Digital da SBC (SOL).",
+    "photosNote": "Galerias de fotos por edição quando disponíveis; fotos gerais do evento também no Facebook (facebook.com/SBSegSBC) e no Instagram (@sbseg.sbc).",
+    "histNote": "Edições de 2001 a 2004 realizadas como Workshop em Segurança de Sistemas Computacionais (WSeg)."
   },
   "anais": {
     "title": "Anais — Trilha Principal — CESeg",

@@ -46,13 +46,13 @@
     "eyebrow": "Brazilian Computer Society · since 2004",
     "h1": "Special Committee on Cybersecurity",
     "lead": "Bringing together and articulating the Brazilian academic community working in cybersecurity.",
-    "ctaSbseg": "Discover SBSeg 2025",
+    "ctaSbseg": "Discover SBSeg 2026",
     "ctaAbout": "About the committee",
     "aboutEyebrow": "About",
     "aboutH2": "What is CESeg",
     "aboutText": "The Special Committee on Cybersecurity (CESeg) of the Brazilian Computer Society brings together and articulates the Brazilian academic community working in cybersecurity. Established in 2004, it gathers researchers, students, industry and professionals around the science and technology of cybersecurity in Brazil.",
     "eventEyebrow": "Flagship event",
-    "eventH2": "SBSeg 2025 — Foz do Iguaçu",
+    "eventH2": "SBSeg 2026 — Búzios",
     "eventText": "Brazilian Symposium on Cybersecurity: the forum that connects research, industry and students.",
     "eventCta": "Learn more →",
     "cardInstH3": "National Institute of Cybersecurity",
@@ -92,8 +92,8 @@
     "lblVice": "Vice-coordinator",
     "histH2": "Coordination history",
     "thTerm": "Term",
-    "gestorH2": "Steering committee (2026)",
-    "gestorText": "The steering committee includes, among others, Altair Olivo Santin, André Grégio, Charles Miers, Diego Kreutz and Diogo Mattos, representing several Brazilian universities."
+    "gestorH2": "Steering Committee",
+    "gestorText": "Steering committee composition by year."
   },
   "comissoes": {
     "title": "Committees — CESeg",
@@ -141,12 +141,15 @@
     "intro": "SBSeg is the leading scientific event on information and computer systems security in Brazil, promoted by SBC through CESeg.",
     "histH2": "History",
     "histText": "Formerly called the Brazilian Symposium on Information and Computer Systems Security, SBSeg ran as a workshop from 2001 to 2004. From 2005, alongside the creation of the special committee, it began to be organized as a standalone event, becoming the country's leading cybersecurity forum.",
-    "edsH2": "Recent editions",
+    "edsH2": "Editions",
     "thYear": "Year",
     "thDate": "Date",
     "thPlace": "Location",
     "thSite": "Website",
-    "olderText": "Earlier editions and their proceedings are available in the SBC Digital Library (SOL)."
+    "thPhotos": "Photos",
+    "olderText": "The proceedings of all editions are available in the SBC Digital Library (SOL).",
+    "photosNote": "Per-edition photo galleries where available; general event photos are also on Facebook (facebook.com/SBSegSBC) and Instagram (@sbseg.sbc).",
+    "histNote": "The 2001–2004 editions were held as the Workshop on Computer Systems Security (WSeg)."
   },
   "anais": {
     "title": "Proceedings — Main Track — CESeg",
