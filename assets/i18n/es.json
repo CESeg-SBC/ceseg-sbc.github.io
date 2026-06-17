@@ -164,7 +164,10 @@
     "h1": "Minicursos",
     "intro": "Los minicursos del SBSeg ofrecen formación profunda en temas actuales de ciberseguridad, publicados como capítulos de libro.",
     "solText": "Los minicursos del SBSeg se publican como capítulos de libro y están disponibles en la Biblioteca Digital de la SBC (SOL).",
-    "solCta": "Minicursos en SOL →"
+    "solCta": "Minicursos en SOL →",
+    "ebooksTitle": "Ebooks por edición",
+    "ebooksText": "Los minicursos presentados en cada edición del SBSeg fueron compilados y publicados en ebook en el catálogo de la SBC OpenLib. Accede al ebook de cada edición:",
+    "ebookLink": "ebook ↗"
   },
   "wise": {
     "title": "WISE — CESeg",
@@ -187,7 +190,9 @@
     "eyebrow": "Publicaciones",
     "h1": "Publicaciones",
     "intro": "Referencias y medios de publicación relevantes para la comunidad brasileña de ciberseguridad.",
-    "text": "La CESeg reúne referencias y medios de publicación relevantes para la comunidad brasileña de ciberseguridad, además de los referenciales curriculares del área."
+    "text": "La CESeg reúne referencias y medios de publicación relevantes para la comunidad brasileña de ciberseguridad, además de los referenciales curriculares del área.",
+    "ebooksCard": "Ebooks de Minicursos",
+    "ebooksCardNote": "Los minicursos de cada edición del SBSeg, compilados y publicados en ebook en el catálogo de la SBC OpenLib."
   },
   "referenciais": {
     "title": "Referenciales — CESeg",

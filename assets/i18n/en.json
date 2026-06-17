@@ -167,7 +167,10 @@
     "h1": "Short Courses",
     "intro": "The SBSeg short courses offer in-depth training on current cybersecurity topics, published as book chapters.",
     "solText": "The SBSeg short courses are published as book chapters and are available in the SBC Digital Library (SOL).",
-    "solCta": "Short courses on SOL →"
+    "solCta": "Short courses on SOL →",
+    "ebooksTitle": "Ebooks by edition",
+    "ebooksText": "The short courses presented at each SBSeg edition were compiled and published as an ebook in the SBC OpenLib catalog. Access the ebook for each edition:",
+    "ebookLink": "ebook ↗"
   },
   "wise": {
     "title": "WISE — CESeg",
@@ -190,7 +193,9 @@
     "eyebrow": "Publications",
     "h1": "Publications",
     "intro": "References and publication venues relevant to the Brazilian cybersecurity community.",
-    "text": "CESeg gathers references and publication venues relevant to the Brazilian cybersecurity community, as well as the field's curricular references."
+    "text": "CESeg gathers references and publication venues relevant to the Brazilian cybersecurity community, as well as the field's curricular references.",
+    "ebooksCard": "Short Course Ebooks",
+    "ebooksCardNote": "Each SBSeg edition's short courses, compiled and published as an ebook in the SBC OpenLib catalog."
   },
   "referenciais": {
     "title": "References — CESeg",

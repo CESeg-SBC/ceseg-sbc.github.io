@@ -160,6 +160,16 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--ink)}
 .pub-cite:hover{color:var(--navy);border-color:var(--navy)}
 .pub-cite.copied{color:#15803d;border-color:#86efac;background:#f0fdf4;opacity:1}
 .pub-noresults{padding:1.4rem;text-align:center;color:var(--faint)}
+
+/* Minicurso ebooks grid */
+.ebook-title{font-size:1.4rem;margin:2.2rem 0 .4rem;padding-top:1.4rem;border-top:1px solid var(--border)}
+.ebook-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin:1.2rem 0 1.4rem}
+.ebook-item{display:flex;flex-direction:column;gap:2px;padding:14px 16px;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);transition:border-color .12s,background .12s}
+.ebook-item:hover{text-decoration:none;border-color:var(--navy);background:var(--bg-alt)}
+.ebook-ed{font-weight:700;color:var(--ink)}
+.ebook-year{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.ebook-go{margin-top:6px;font-size:.82rem;font-weight:600;color:var(--navy)}
 @media (max-width:860px){
   .pub-toolbar{top:0}
   .pub-cite{position:static;opacity:1;margin-top:8px;display:inline-block}

@@ -128,6 +128,21 @@ def find_estendido(html_text):
     return m.group(1) if m else None
 
 
+def find_ebook(html_text):
+    """Return the minicursos ebook URL announced on a main issue page, if any.
+
+    SOL pages carry a paragraph like "Os minicursos apresentados no evento foram
+    compilados e publicados em ebook ... catálogo de livros da SBC OpenLib".
+    The host changed over time (sol.sbc.org.br/livros vs books-sol.sbc.org.br),
+    so anchor on the stable wording, not on the host.
+    """
+    m = re.search(
+        r"compilados e publicados em <em>ebook</em>.*?href=\"([^\"]+catalog/book/\d+)\"",
+        html_text, re.S,
+    )
+    return m.group(1) if m else None
+
+
 # --------------------------------------------------------------------------- #
 # Scrape                                                                       #
 # --------------------------------------------------------------------------- #
@@ -140,8 +155,12 @@ def scrape():
               file=sys.stderr)
         page = fetch(f"https://sol.sbc.org.br/index.php/sbseg/issue/view/{issue['id']}")
         sections = parse_issue(page)
-        main_track.append({**issue, "url": f"https://sol.sbc.org.br/index.php/sbseg/issue/view/{issue['id']}",
-                           "sections": sections})
+        entry = {**issue, "url": f"https://sol.sbc.org.br/index.php/sbseg/issue/view/{issue['id']}",
+                 "sections": sections}
+        ebook = find_ebook(page)
+        if ebook:
+            entry["ebook"] = ebook
+        main_track.append(entry)
         ext_url = find_estendido(page)
         if ext_url:
             ext_page = fetch(ext_url)
