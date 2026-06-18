@@ -27,7 +27,8 @@
     "cnpj": "CNPJ 29.532.264/0001-78",
     "contactTitle": "Contact",
     "address": "Av. Bento Gonçalves, 9500 — Agronomia, Porto Alegre/RS, Brazil, 91501-970",
-    "navTitle": "Navigation"
+    "navTitle": "Navigation",
+    "credit": "<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener\">AI Horizon Labs</a> helping the community with this website."
   },
   "common": {
     "sourceNote": "Content from the official page"
@@ -91,6 +92,7 @@
     "lblCoord": "Coordinator",
     "lblVice": "Vice-coordinator",
     "histH2": "Coordination history",
+    "exCoordH2": "Former coordinators",
     "thTerm": "Term",
     "gestorH2": "Steering Committee",
     "gestorText": "Steering committee composition by year."

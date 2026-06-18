@@ -27,7 +27,8 @@
     "cnpj": "CNPJ 29.532.264/0001-78",
     "contactTitle": "Contacto",
     "address": "Av. Bento Gonçalves, 9500 — Agronomia, Porto Alegre/RS, Brasil, 91501-970",
-    "navTitle": "Navegación"
+    "navTitle": "Navegación",
+    "credit": "<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener\">AI Horizon Labs</a> ayudando a la comunidad con este sitio."
   },
   "common": {
     "sourceNote": "Contenido de la página oficial"
@@ -91,6 +92,7 @@
     "lblCoord": "Coordinador",
     "lblVice": "Vicecoordinador",
     "histH2": "Historial de coordinaciones",
+    "exCoordH2": "Ex-coordinadores",
     "thTerm": "Mandato",
     "gestorH2": "Comité gestor (2026)",
     "gestorText": "Integran el comité gestor, entre otros, Altair Olivo Santin, André Grégio, Charles Miers, Diego Kreutz y Diogo Mattos, en representación de diversas universidades brasileñas."

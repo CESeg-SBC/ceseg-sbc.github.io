@@ -27,7 +27,8 @@
     "cnpj": "CNPJ 29.532.264/0001-78",
     "contactTitle": "Contato",
     "address": "Av. Bento Gonçalves, 9500 — Agronomia, Porto Alegre/RS, CEP 91501-970",
-    "navTitle": "Navegação"
+    "navTitle": "Navegação",
+    "credit": "<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener\">AI Horizon Labs</a> ajudando a comunidade com este site."
   },
   "common": {
     "sourceNote": "Conteúdo da página oficial"
@@ -91,6 +92,7 @@
     "lblCoord": "Coordenador",
     "lblVice": "Vice-coordenador",
     "histH2": "Histórico de coordenações",
+    "exCoordH2": "Ex-coordenadores",
     "thTerm": "Mandato",
     "gestorH2": "Comitê Gestor",
     "gestorText": "Composição do comitê gestor por ano."

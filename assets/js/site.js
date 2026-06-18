@@ -39,12 +39,14 @@ function renderHeader(current){
   const links = NAV.map(i => navItemHTML(i, current)).join('');
   return `<div class="wrap nav">
     <a class="brand" href="index.html">CESeg</a>
-    <button class="nav-toggle hamburger" aria-label="Menu" aria-expanded="false">☰</button>
-    <ul class="nav-links" id="navLinks">${links}
-      <li class="lang" role="group" aria-label="Idioma">
+    <ul class="nav-links" id="navLinks">${links}</ul>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Idioma">
         <button data-lang="pt">PT</button><button data-lang="en">EN</button><button data-lang="es">ES</button>
-      </li>
-    </ul></div>`;
+      </div>
+      <button class="nav-toggle hamburger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>`;
 }
 
 function renderFooter(){
@@ -62,6 +64,10 @@ function renderFooter(){
       <p><a href="sbseg.html" data-i18n="nav.sbseg"></a></p>
       <p><a href="publicacoes.html" data-i18n="nav.publicacoes"></a></p>
       <p><a href="documentos.html" data-i18n="nav.documentos"></a></p></div>
+  </div>
+  <div class="wrap footer-credit">
+    <span>© <span id="footYear">2026</span> CESeg — SBC</span>
+    <span data-i18n="footer.credit"></span>
   </div>`;
 }
 
@@ -116,7 +122,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
   const header = document.getElementById('site-header');
   const footer = document.getElementById('site-footer');
   if(header){ header.className='site-header'; header.innerHTML = renderHeader(current); }
-  if(footer){ footer.className='site-footer'; footer.innerHTML = renderFooter(); }
+  if(footer){ footer.className='site-footer'; footer.innerHTML = renderFooter();
+    const yr = document.getElementById('footYear'); if(yr) yr.textContent = new Date().getFullYear(); }
 
   const toggle = document.querySelector('.nav-toggle');
   const links = document.getElementById('navLinks');
