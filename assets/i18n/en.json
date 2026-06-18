@@ -30,9 +30,6 @@
     "navTitle": "Navigation",
     "credit": "<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener\">AI Horizon Labs</a> helping the community with this website."
   },
-  "common": {
-    "sourceNote": "Content from the official page"
-  },
   "ui": {
     "members": "Members",
     "current": "Current",

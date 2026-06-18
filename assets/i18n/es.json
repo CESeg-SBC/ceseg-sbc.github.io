@@ -30,9 +30,6 @@
     "navTitle": "Navegación",
     "credit": "<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener\">AI Horizon Labs</a> ayudando a la comunidad con este sitio."
   },
-  "common": {
-    "sourceNote": "Contenido de la página oficial"
-  },
   "ui": {
     "members": "Miembros",
     "current": "Actuales",
