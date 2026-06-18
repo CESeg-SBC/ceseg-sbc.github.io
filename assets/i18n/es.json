@@ -151,7 +151,8 @@
     "thSiteOffline": "Sitio (offline/clon)",
     "thAnais": "Anales",
     "olderText": "Las ediciones anteriores y sus anales están disponibles en la Biblioteca Digital de la SBC (SOL).",
-    "photosNote": "Clones offline preservados por el archivo SBSeg; fotos del evento en Facebook (facebook.com/SBSegSBC) e Instagram (@sbseg.sbc)."
+    "photosNote": "Clones offline preservados por el archivo SBSeg; fotos del evento en Facebook (facebook.com/SBSegSBC) e Instagram (@sbseg.sbc).",
+    "histNote": "Las ediciones de 2001 a 2004 se realizaron como Taller en Seguridad de Sistemas Computacionales (WSeg)."
   },
   "anais": {
     "title": "Anales — Pista Principal — CESeg",
