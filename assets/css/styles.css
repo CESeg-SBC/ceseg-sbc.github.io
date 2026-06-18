@@ -107,6 +107,22 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--ink)}
 .entry h3{font-size:1.1rem;margin-bottom:.2rem}
 .entry .muted{font-size:.88rem;margin-bottom:.5rem}
 
+/* Content: honorees with photo */
+.homenageado{display:flex;gap:20px;align-items:flex-start;border:1px solid var(--border);
+  border-radius:var(--radius);padding:20px 22px;background:var(--bg)}
+.homenageado>img{width:120px;height:120px;border-radius:12px;object-fit:cover;
+  flex:none;border:1px solid var(--border)}
+.homenageado .bio{min-width:0}
+.homenageado h3{font-size:1.15rem;margin-bottom:.15rem}
+.homenageado .muted{font-size:.88rem;margin-bottom:.6rem}
+.homenageado .award{display:block;font-size:.78rem;text-transform:uppercase;
+  letter-spacing:.06em;color:var(--link);font-weight:600;margin-bottom:.3rem}
+.homenageado p:last-child{font-size:.92rem;line-height:1.6}
+@media(max-width:560px){
+  .homenageado{flex-direction:column;align-items:center;text-align:center}
+  .homenageado .bio{text-align:left}
+}
+
 /* Content: card grid */
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;
   margin:.4rem 0 1.2rem}
@@ -171,6 +187,44 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--ink)}
 .ebook-ed{font-weight:700;color:var(--ink)}
 .ebook-year{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .ebook-go{margin-top:6px;font-size:.82rem;font-weight:600;color:var(--navy)}
+
+/* Minicursos: search + rich edition cards */
+.mini-search{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:1.2rem 0 .4rem}
+#miniSearch{flex:1;min-width:240px;font-family:inherit;font-size:.95rem;padding:10px 14px;
+  border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--ink)}
+#miniSearch:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(30,58,138,.12)}
+.mini-count{font-size:.85rem;color:var(--muted);margin:0;font-variant-numeric:tabular-nums}
+.mini-list{display:flex;flex-direction:column;gap:18px;margin:1rem 0 1.4rem}
+.mini-card{display:flex;gap:20px;align-items:flex-start;border:1px solid var(--border);
+  border-radius:var(--radius);padding:18px 20px;background:var(--bg)}
+.mini-cover-link{flex:none;display:block}
+.mini-cover{width:120px;height:auto;border-radius:6px;border:1px solid var(--border);
+  box-shadow:0 1px 4px rgba(15,23,42,.08);display:block}
+.mini-cover-link:hover .mini-cover{border-color:var(--navy)}
+.mini-body{min-width:0;flex:1}
+.mini-head .ebook-ed{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--link);
+  font-weight:700;display:block;margin-bottom:.15rem}
+.mini-head h3{font-size:1.08rem;margin-bottom:.25rem;line-height:1.35}
+.mini-doi{font-size:.82rem;color:var(--muted);word-break:break-all}
+.mini-kws{margin:.7rem 0}
+.mini-lbl{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--faint);font-weight:600;margin-bottom:.35rem}
+.mini-kw{display:inline-block;font-size:.78rem;background:var(--bg-alt);border:1px solid var(--border);
+  color:var(--muted);border-radius:999px;padding:2px 10px;margin:0 6px 6px 0}
+.mini-ch-wrap{margin:.8rem 0 .6rem}
+.mini-chapters{list-style:none;counter-reset:none;margin:0;padding:0}
+.mini-ch{padding:8px 0;border-top:1px solid var(--border)}
+.mini-ch:first-child{border-top:none}
+.mini-ch-title{display:block;font-size:.92rem;font-weight:600;color:var(--ink);line-height:1.4}
+.mini-ch-authors{display:block;font-size:.82rem;color:var(--muted);margin:.1rem 0}
+.mini-ch-links{font-size:.8rem;font-weight:600}
+.mini-ch-links a{margin-right:10px}
+.mini-ebook-link{display:inline-block;margin-top:.4rem;font-size:.86rem;font-weight:600;color:var(--navy)}
+@media (max-width:560px){
+  .mini-card{flex-direction:column;align-items:center}
+  .mini-cover{width:140px}
+  .mini-body{width:100%}
+}
 @media (max-width:860px){
   .pub-toolbar{top:0}
   .pub-cite{position:static;opacity:1;margin-top:8px;display:inline-block}
@@ -199,17 +253,11 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--ink)}
 .coord-person strong{font-family:var(--serif);font-size:1.05rem;color:var(--navy)}
 .coord-person .role{display:block;font-size:.8rem;text-transform:uppercase;
   letter-spacing:.04em;color:var(--faint);margin:.1rem 0 .15rem}
-/* Former coordinators: photo grid */
-.ex-coords{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
-  gap:20px;margin:.6rem 0 1.8rem}
-.ex-coord{text-align:center}
-.ex-coord img{width:96px;height:96px;border-radius:50%;object-fit:cover;
-  border:2px solid var(--border);background:var(--bg-alt)}
-.ex-coord strong{display:block;font-family:var(--serif);font-size:.95rem;
-  color:var(--navy);margin:.55rem 0 .1rem;line-height:1.2}
-.ex-coord strong a{color:inherit}
-.ex-coord .aff{display:block;font-size:.82rem;color:var(--muted)}
-.ex-coord .term{display:block;font-size:.76rem;color:var(--faint);margin-top:.1rem}
+/* Coordination history: period blocks */
+.coord-period{margin:0 0 .4rem}
+.coord-period h3{font-family:var(--serif);font-size:1.1rem;color:var(--navy);
+  margin:1.4rem 0 .2rem;padding-bottom:.3rem;border-bottom:1px solid var(--border)}
+.coord-period .coord-people{margin:.6rem 0 1rem}
 
 /* Management committee by year */
 .gestor-year{margin:0 0 1.1rem}

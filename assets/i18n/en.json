@@ -147,10 +147,11 @@
     "thYear": "Year",
     "thDate": "Date",
     "thPlace": "Location",
-    "thSite": "Website",
-    "thPhotos": "Photos",
+    "thSiteOnline": "Website (online)",
+    "thSiteOffline": "Website (offline/clone)",
+    "thAnais": "Proceedings",
     "olderText": "The proceedings of all editions are available in the SBC Digital Library (SOL).",
-    "photosNote": "Per-edition photo galleries where available; general event photos are also on Facebook (facebook.com/SBSegSBC) and Instagram (@sbseg.sbc).",
+    "photosNote": "Offline clones preserved by the SBSeg archive; event photos on Facebook (facebook.com/SBSegSBC) and Instagram (@sbseg.sbc).",
     "histNote": "The 2001–2004 editions were held as the Workshop on Computer Systems Security (WSeg)."
   },
   "anais": {
@@ -172,7 +173,13 @@
     "solCta": "Short courses on SOL →",
     "ebooksTitle": "Ebooks by edition",
     "ebooksText": "The short courses presented at each SBSeg edition were compiled and published as an ebook in the SBC OpenLib catalog. Access the ebook for each edition:",
-    "ebookLink": "ebook ↗"
+    "ebookLink": "ebook ↗",
+    "searchPlaceholder": "Search by edition, title, author or keyword…",
+    "editionsLabel": "editions",
+    "noResults": "No results found.",
+    "kwLabel": "Keywords",
+    "chaptersLabel": "Chapters",
+    "ebookOpen": "Open ebook in SBC OpenLib ↗"
   },
   "wise": {
     "title": "WISE — CESeg",
@@ -187,7 +194,7 @@
     "desc": "Honorees of the cybersecurity community.",
     "eyebrow": "Honors",
     "h1": "Honors",
-    "intro": "CESeg recognizes significant contributions by researchers and professionals to cybersecurity in Brazil."
+    "intro": "Since 2018, every two years CESeg brings together the Brazilian cybersecurity community to nominate a researcher to be honored for their contributions to the field. Although the nomination criteria may vary from edition to edition, honorees are generally chosen for their research contributions, their role in training new researchers, and their work on behalf of cybersecurity in Brazil and worldwide. The recognition, named the \"Prêmio Destaque CESeg\", takes place in a dedicated session during that year's SBSeg."
   },
   "publicacoes": {
     "title": "Publications — CESeg",

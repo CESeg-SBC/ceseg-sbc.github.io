@@ -15,6 +15,9 @@ const NAV = [
     {key:'nav.wise', href:'wise.html'}]},
   {key:'nav.homenagens', href:'homenageados.html'},
   {key:'nav.publicacoes', href:'publicacoes.html', children:[
+    {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
+    {key:'nav.anaisEst', href:'anais-estendidos.html'},
+    {key:'nav.minicursos', href:'minicursos.html'},
     {key:'nav.referenciais', href:'referenciais.html'},
     {key:'nav.ondepublicar', href:'onde-publicar.html'}]},
   {key:'nav.documentos', href:'documentos.html', children:[
@@ -136,6 +139,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
   loadLang(currentLang());
   initPubList();
+  initMiniList();
 });
 
 // ---- Publications listing: live filter + copy citation ----
@@ -184,4 +188,28 @@ function initPubList(){
       setTimeout(() => btn.classList.remove('copied'), 1500);
     }).catch(() => {});
   });
+}
+
+// ---- Minicursos ebooks: live filter across edition cards ----
+function initMiniList(){
+  const list = document.getElementById('miniList');
+  if(!list) return;
+  const search = document.getElementById('miniSearch');
+  const visEl = document.getElementById('miniVisible');
+  const noRes = document.getElementById('miniNoResults');
+  const cards = Array.from(list.querySelectorAll('.mini-card'));
+  cards.forEach(c => c._hay = fold(c.dataset.hay || c.textContent));
+
+  function apply(q){
+    const needle = fold(q.trim());
+    let visible = 0;
+    cards.forEach(c => {
+      const show = !needle || c._hay.includes(needle);
+      c.hidden = !show;
+      if(show) visible++;
+    });
+    if(visEl) visEl.textContent = visible;
+    if(noRes) noRes.hidden = visible !== 0;
+  }
+  if(search) search.addEventListener('input', () => apply(search.value));
 }

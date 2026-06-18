@@ -147,10 +147,11 @@
     "thYear": "Ano",
     "thDate": "Data",
     "thPlace": "Local",
-    "thSite": "Site",
-    "thPhotos": "Fotos",
+    "thSiteOnline": "Site (online)",
+    "thSiteOffline": "Site (offline/clone)",
+    "thAnais": "Anais",
     "olderText": "Os anais de todas as edições estão disponíveis na Biblioteca Digital da SBC (SOL).",
-    "photosNote": "Galerias de fotos por edição quando disponíveis; fotos gerais do evento também no Facebook (facebook.com/SBSegSBC) e no Instagram (@sbseg.sbc).",
+    "photosNote": "Clones offline preservados pelo arquivo SBSeg; fotos do evento no Facebook (facebook.com/SBSegSBC) e no Instagram (@sbseg.sbc).",
     "histNote": "Edições de 2001 a 2004 realizadas como Workshop em Segurança de Sistemas Computacionais (WSeg)."
   },
   "anais": {
@@ -172,7 +173,13 @@
     "solCta": "Minicursos no SOL →",
     "ebooksTitle": "Ebooks por edição",
     "ebooksText": "Os minicursos apresentados em cada edição do SBSeg foram compilados e publicados em ebook no catálogo da SBC OpenLib. Acesse o ebook de cada edição:",
-    "ebookLink": "ebook ↗"
+    "ebookLink": "ebook ↗",
+    "searchPlaceholder": "Buscar por edição, título, autor ou palavra-chave…",
+    "editionsLabel": "edições",
+    "noResults": "Nenhum resultado encontrado.",
+    "kwLabel": "Palavras-chave",
+    "chaptersLabel": "Capítulos",
+    "ebookOpen": "Abrir ebook no SBC OpenLib ↗"
   },
   "wise": {
     "title": "WISE — CESeg",
@@ -187,7 +194,7 @@
     "desc": "Homenageados da comunidade de cibersegurança.",
     "eyebrow": "Homenagens",
     "h1": "Homenagens",
-    "intro": "A CESeg reconhece contribuições relevantes de pesquisadores e profissionais para a área de cibersegurança no Brasil."
+    "intro": "Desde 2018, a cada 2 anos a CESeg reúne os membros da comunidade de cibersegurança do Brasil com o objetivo de sugerir um nome para ser homenageado pelas suas contribuições na área. Embora os critérios de indicação possam variar em cada edição, em geral os pesquisadores homenageados são escolhidos em razão de suas contribuições de pesquisa, formação de novos pesquisadores e atuação em favor da área de cibersegurança no Brasil e no mundo. O evento de homenagem, denominado \"Prêmio Destaque CESeg\", acontece em um espaço reservado durante o SBSeg do ano correspondente."
   },
   "publicacoes": {
     "title": "Publicações — CESeg",

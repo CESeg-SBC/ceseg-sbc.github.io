@@ -147,8 +147,11 @@
     "thYear": "Año",
     "thDate": "Fecha",
     "thPlace": "Lugar",
-    "thSite": "Sitio",
-    "olderText": "Las ediciones anteriores y sus anales están disponibles en la Biblioteca Digital de la SBC (SOL)."
+    "thSiteOnline": "Sitio (en línea)",
+    "thSiteOffline": "Sitio (offline/clon)",
+    "thAnais": "Anales",
+    "olderText": "Las ediciones anteriores y sus anales están disponibles en la Biblioteca Digital de la SBC (SOL).",
+    "photosNote": "Clones offline preservados por el archivo SBSeg; fotos del evento en Facebook (facebook.com/SBSegSBC) e Instagram (@sbseg.sbc)."
   },
   "anais": {
     "title": "Anales — Pista Principal — CESeg",
@@ -169,7 +172,13 @@
     "solCta": "Minicursos en SOL →",
     "ebooksTitle": "Ebooks por edición",
     "ebooksText": "Los minicursos presentados en cada edición del SBSeg fueron compilados y publicados en ebook en el catálogo de la SBC OpenLib. Accede al ebook de cada edición:",
-    "ebookLink": "ebook ↗"
+    "ebookLink": "ebook ↗",
+    "searchPlaceholder": "Buscar por edición, título, autor o palabra clave…",
+    "editionsLabel": "ediciones",
+    "noResults": "No se encontraron resultados.",
+    "kwLabel": "Palabras clave",
+    "chaptersLabel": "Capítulos",
+    "ebookOpen": "Abrir ebook en SBC OpenLib ↗"
   },
   "wise": {
     "title": "WISE — CESeg",
@@ -184,7 +193,7 @@
     "desc": "Homenajeados de la comunidad de ciberseguridad.",
     "eyebrow": "Homenajes",
     "h1": "Homenajes",
-    "intro": "La CESeg reconoce contribuciones relevantes de investigadores y profesionales para la ciberseguridad en Brasil."
+    "intro": "Desde 2018, cada 2 años la CESeg reúne a la comunidad de ciberseguridad de Brasil con el objetivo de proponer un nombre para ser homenajeado por sus contribuciones al área. Aunque los criterios de nominación pueden variar en cada edición, en general los investigadores homenajeados son elegidos por sus contribuciones de investigación, la formación de nuevos investigadores y su actuación en favor de la ciberseguridad en Brasil y en el mundo. El evento de homenaje, denominado \"Prêmio Destaque CESeg\", se realiza en un espacio reservado durante el SBSeg del año correspondiente."
   },
   "publicacoes": {
     "title": "Publicaciones — CESeg",

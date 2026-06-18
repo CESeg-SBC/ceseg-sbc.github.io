@@ -1,0 +1,1013 @@
+[
+  {
+    "edition": "XXV",
+    "year": 2025,
+    "book_id": "178",
+    "url": "https://books-sol.sbc.org.br/index.php/sbc/catalog/book/178",
+    "title": "Minicursos do XXV Simpósio Brasileiro de Cibersegurança",
+    "doi": "10.5753/sbc.17851.3",
+    "description": "Temos a satisfação de apresentar a seleção de capítulos deste livro, que reúne os minicursos do XXV Simpósio Brasileiro de Cibersegurança (SBSeg), anteriormente denominado Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais, realizado em Foz do Iguaçu, PR, entre os dias 1º e 4 de setembro de 2025. Foram recebidas 16 propostas de minicursos, das quais 4 foram selecionadas para apresentação durante o evento e publicação neste livro, resultando em uma taxa de aceitação de 25%. Os minicursos do SBSeg têm acompanhado as demandas do público, contemplando tanto os participantes que buscam aprofundamento técnico quanto aqueles interessados em fundamentos conceituais e nos avanços mais recentes da área de cibersegurança.\nOs capítulos reunidos neste livro refletem a diversidade de enfoques, abrangendo desde aspectos teóricos fundamentais até aplicações práticas relevantes e em consolidação. Cada capítulo corresponde a um minicurso ministrado presencialmente por especialistas durante o evento, constituindo um registro técnico e didático do conteúdo apresentado. A seguir, são descritos de forma sintética os temas abordados nos capítulos.\nCapítulo 1, intitulado \"Para além dos Perímetros da Cibersegurança com a Infraestrutura como Código (IaC)\", o capítulo apresenta uma introdução abrangente à aplicação de princípios de Cibersegurança com foco em Infrastructure as Code (IaC) e no modelo de Confiança Zero (Zero Trust). Seu objetivo principal é capacitar os leitores a compreenderem e aplicarem práticas seguras de provisionamento automatizado de infraestrutura. A abordagem combina fundamentos teóricos, como automação, boas práticas de segurança e arquitetura de infraestrutura, com atividades práticas realizadas em ambiente virtualizado, permitindo a experimentação controlada sem necessidade de recursos locais. O capítulo também destaca os riscos associados à exposição inadvertida de componentes sensíveis, como credenciais e imagens de containers.\nCapítulo 2, intitulado \"Zero Trust Architecture para Dispositivos de Internet das Coisas e Redes de Próxima Geração: Ferramentas, Tendências e Desafios\", o capítulo explora a adoção da Arquitetura de Confiança Zero (Zero Trust Architecture – ZTA) como resposta à crescente vulnerabilidade de dispositivos conectados e à limitação dos modelos de segurança baseada em perímetros em redes contemporâneas. A proposta central está na aplicação de autenticação contínua, microsegmentação e controle dinâmico de acesso como fundamentos para ambientes de rede mais resilientes e adaptativos. A abordagem teórica introduz os conceitos essenciais da ZTA, detalha seus principais componentes e discute a viabilidade da arquitetura em cenários complexos, como redes corporativas e federadas. O capítulo inclui atividades práticas baseadas na plataforma OpenZiti, permitindo a experimentação de túneis seguros e serviços implementados segundo os princípios da ZTA. O capítulo busca desenvolver uma compreensão crítica sobre os desafios técnicos e operacionais da arquitetura, ao mesmo tempo em que evidencia seu potencial para a proteção de infraestruturas digitais em redes de próxima geração.\nCapítulo 3, intitulado \"Introdução à Computação Quântica e Impactos em Criptografia\", o capítulo examina os impactos da Computação Quântica sobre sistemas criptográficos clássicos, discutindo algoritmos como Shor e Grover e suas implicações para mecanismos como RSA, ECC e AES. O capítulo apresenta soluções emergentes, como a Criptografia Pós-Quântica e a Criptografia Quântica, com ênfase em fundamentos teóricos e aplicações práticas. Também são explorados casos de uso em áreas como saúde, finanças e processamento de linguagem natural, articulando riscos e oportunidades. O conteúdo combina exposição conceitual, experimentação com Qiskit e reflexão sobre desafios éticos e de formação de profissionais na área. O capítulo visa fornecer uma base sólida para a compreensão das transformações provocadas pelo paradigma quântico.\nCapítulo 4, intitulado \"WiFi Sensing e CSI aplicados à Cibersegurança: Fundamentos, Aplicações e Prática\", o capítulo explora o uso de redes WiFi como sensores contextuais de alta resolução, aproveitando o acesso ao Channel State Information (CSI) e os avanços da emenda 802.11bf. O capítulo combina fundamentos eletromagnéticos, técnicas de autenticação de proximidade e detecção de intrusão, além de estratégias de reforço para sistemas de defesa. São apresentados métodos de captura e análise de CSI em plataformas acessíveis, com demonstrações práticas utilizando ESP32 e Raspberry Pi. O capítulo inclui ainda tendências de pesquisa como fusão sensorial, aprendizado federado e defesa contra ataques adversariais.\nRegistramos nosso reconhecimento aos autores que submeteram propostas ao SBSeg 2025. A qualidade e a diversidade dos trabalhos recebidos contribuíram de forma decisiva para a consolidação e a relevância contínua do evento. Agradecemos, em particular, aos autores dos minicursos selecionados, que se dedicaram à elaboração de capítulos consistentes e tecnicamente robustos. Estendemos também nossos agradecimentos aos membros do Comitê de Programa, cuja avaliação criteriosa e colaboração voluntária foram fundamentais para a qualidade desta edição. Reiteramos nossa gratidão ao coordenador de publicações, professor Rodrigo Brandão Mansilha (UNIPAMPA), pela editoração e publicação deste livro. Agradecemos ainda aos coordenadores gerais do SBSeg 2025, professores Altair Santin (PUCPR), André Gregio (UFPR) e Eduardo K. Viegas (PUCPR), pelo suporte institucional, pelas orientações fornecidas e pela confiança depositada na condução desta atividade. Espera-se que a leitura deste livro seja proveitosa e estimule novas contribuições para o avanço da cibersegurança.",
+    "keywords": [
+      "Infraestrutura como Código (IaC)",
+      "Arquitetura de Confiança Zero (ZTA)",
+      "Internet das Coisas (IoT)",
+      "Computação Quântica e Criptografia",
+      "Sensoriamento via WiFi e CSI",
+      "Redes de Próxima Geração"
+    ],
+    "cover": "assets/img/minicursos/book-178.png",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Para além dos Perímetros da CiberSegurança com a Infraestrutura como Código (IaC)",
+        "authors": "Fellipe M. Veiga, Altair O. Santin, Juliano S. Langaro, Juarez de Oliveira, Eduardo K. Viegas",
+        "doi": "https://doi.org/10.5753/sbc.17851.3.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/178/786/1535"
+      },
+      {
+        "num": "2",
+        "title": "Zero Trust Architecture para Dispositivos de Internet das Coisas e Redes de Próxima Geração: Ferramentas, Tendências e Desafios",
+        "authors": "Guilherme N. N. Barbosa, Martin Andreoni, Diogo M. F. Mattos",
+        "doi": "https://doi.org/10.5753/sbc.17851.3.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/178/787/1536"
+      },
+      {
+        "num": "3",
+        "title": "Introdução à Computação Quântica e Impactos em Criptografia",
+        "authors": "Victor Takashi Hayashi, Bryan Kano Ferreira, Reginaldo Arakaki, Jonatas Faria Rossetti, Routo Terada, Ever Costa, Wildisley Filho, Giovanna Vieira, Luiza Petenazzi, Priscila Falcão",
+        "doi": "https://doi.org/10.5753/sbc.17851.3.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/178/788/1537"
+      },
+      {
+        "num": "4",
+        "title": "Wi-Fi Sensing e CSI aplicados à Cibersegurança: Fundamentos, Aplicações e Prática",
+        "authors": "Felipe Silveira de Almeida, Eduardo Fabrício Gomes Trindade, Gioliano de Oliveira Braga, Ágney Lopes Roth Ferraz, Giovani Hoff da Costa, Gustavo Cavalcanti Morais, Lourenço Alves Pereira Júnior",
+        "doi": "https://doi.org/10.5753/sbc.17851.3.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/178/789/1538"
+      }
+    ]
+  },
+  {
+    "edition": "XXIV",
+    "year": 2024,
+    "book_id": "151",
+    "url": "https://books-sol.sbc.org.br/index.php/sbc/catalog/book/151",
+    "title": "Minicursos do XXIV Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.15101.8",
+    "description": "É com grande satisfação que apresentamos a seleção de capítulos deste livro, que compila os minicursos do XXIV Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg), realizado em São José dos Campos - SP, de 16 a 19 de setembro de 2024. Recebemos 11 propostas de minicursos, das quais 4 foram aceitas para publicação neste livro e para apresentação no evento, resultando em uma taxa de aceitação de 36%.\nOs minicursos do SBSeg têm evoluído para responder às demandas do público do evento, buscando atender tanto aqueles que preferem conteúdos práticos quanto aqueles que desejam explorar as fronteiras do conhecimento em cibersegurança. Os capítulos deste livro refletem essa diversidade, abrangendo desde fundamentações teóricas até aplicações concretas.\nCada minicurso selecionado corresponde a um capítulo de 47 a 67 páginas deste livro, com conteúdo ministrado, por especialistas, de forma presencial durante o evento. Na sequência, apresentamos resumidamente o conteúdo desses capítulos.\nO Capítulo 1, intitulado \"Ciência de Dados Aplicada à Cibersegurança: Teoria e Prática\", explora como a Ciência de Dados e a Inteligência Artificial podem ser aplicadas na cibersegurança. O conteúdo abrange desde a análise de grandes volumes de dados até a identificação de vulnerabilidades e a detecção de intrusos. Além de apresentar os conceitos fundamentais e metodologias, o capítulo demonstra o uso prático dessas técnicas em projetos de pesquisa nacionais, como o MENTORED, incentivando colaborações entre universidades e instituições de pesquisa no Brasil.\nO Capítulo 2, intitulado \"Ferramentas de Jailbreaking para Grandes Modelos de Línguas: Aprendizado de Máquina no Contexto Adversário\", aborda as vulnerabilidades e desafios de segurança em sistemas de IA, com foco nos Modelos de Linguagem Grandes (LLMs). Explora ameaças como envenenamento de dados e violações de privacidade, e discute técnicas e ferramentas para mitigar esses riscos. Além dos aspectos teóricos, o capítulo fala sobre normas e boas práticas recomendadas por órgãos internacionais, como o NIST e a ENISA, para proteger esses complexos sistemas.\nO Capítulo 3, intitulado \"Ambientes de Computação Segura\", em especial, os chamados Ambientes de Execução Confiáveis (TEEs), aprofunda nas tecnologias que garantem a segurança e privacidade de dados em ambientes interconectados. Cobre características como isolamento seguro, criptografia, e resistência a ataques, além de sua aplicação em dispositivos móveis e sistemas operacionais. São explorados exemplos práticos, como o uso em sistemas de pagamento e autenticação biométrica, bem como desafios na adoção de TEEs em novas plataformas, incluindo RISC-V e ambientes de nuvem.\nO Capítulo 4, intitulado \"Análise Forense Aplicada ao Bitcoin\", oferece uma visão abrangente da análise forense aplicada ao Bitcoin, utilizando técnicas de aprendizado de máquina. Ele inicia com uma introdução teórica ao ecossistema Bitcoin, detalhando a blockchain e os desafios das transações pseudônimas. Em seguida, aborda métodos de coleta e análise de dados da blockchain, incluindo a aplicação de heurísticas para rastrear transações em mixers e o uso de OSINT para enriquecer a análise. O capítulo também discute a aplicação de modelos de aprendizado de máquina para detectar atividades ilícitas e melhorar a precisão das investigações forenses.\nPara finalizar essa mensagem, gostaríamos de expressar nossa profunda gratidão a todos os autores que submeteram suas propostas de minicursos do SBSeg 2024, esse esforço incrível e qualidade das propostas auxilia o contínuo crescimento e relevância deste evento anual. E em especial, os autores dos minicursos selecionados, que dedicaram seu tempo e expertise para preparar 50 páginas de cada capítulo que compõem este livro.\nTambém gostaria de expressar respeito e gratidão aos membros do Comitê de Programa por sua valiosa contribuição voluntária no processo de avaliação e seleção dos minicursos. Também estendemos nossos agradecimentos aos coordenadores gerais do SBSeg 2024, os professores Lourenço Alves Pereira Júnior (ITA) e Diego Kreutz (UNIPAMPA), pela dedicação, ajustes operacionais e orientações fornecidas, e por confiarem em nós para coordenar os trabalhos de minicursos desta edição.\nEsperamos que todos aproveitem ao máximo o conteúdo deste livro!",
+    "keywords": [
+      "Ciência de Dados",
+      "Cibersegurança",
+      "Jailbreaking",
+      "Grandes Modelos de Línguas",
+      "Aprendizado de Máquina",
+      "Ambientes de Computação Segura",
+      "Análise Forense",
+      "Bitcoin"
+    ],
+    "cover": "assets/img/minicursos/book-151.png",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Ciência de Dados Aplicada à Cibersegurança: Teoria e Prática",
+        "authors": "Michele Nogueira, Ligia Francielle Borges, Anderson Begamini de Neira, Lucas Albano Olive Cruz, Kristtopher Kayo Coelho",
+        "doi": "https://doi.org/10.5753/sbc.15101.8.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/151/646/1152"
+      },
+      {
+        "num": "2",
+        "title": "Ferramentas de Jailbreaking para Grandes Modelos de Línguas – Aprendizado de Máquina no Contexto Adversário",
+        "authors": "Charles Christian Miers, Marcos Antonio Simplicio Jr., Marco Antonio Torrez Rojas, Diego Eduardo Gonçalves Caetano de Oliveira, Milton Pedro Pagliuso Neto, Felipe Augusto Schaedler Damin, Romeo Bulla Jr., Victor Takashi Hayashi",
+        "doi": "https://doi.org/10.5753/sbc.15101.8.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/151/647/1153"
+      },
+      {
+        "num": "3",
+        "title": "Ambientes de Computação Segura",
+        "authors": "Romeo Bulla Jr., Nelson Yamamoto, Marcos Antonio Simplicio Jr., Julião Braga, Stephan Kovach, Wilson Vicente Ruggiero",
+        "doi": "https://doi.org/10.5753/sbc.15101.8.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/151/648/1154"
+      },
+      {
+        "num": "4",
+        "title": "Análise Forense aplicada ao Bitcoin",
+        "authors": "Ivan da Silva Sendin, Rodrigo Sanches Miani, Pedro Henrique Resende Ribeiro",
+        "doi": "https://doi.org/10.5753/sbc.15101.8.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/151/649/1155"
+      }
+    ]
+  },
+  {
+    "edition": "XXIII",
+    "year": 2023,
+    "book_id": "135",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/135",
+    "title": "Minicursos do XXIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.13567.7",
+    "description": "O Livro de Minicursos do XXIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg) traz a versão escrita das propostas aceitas e apresentadas nesta edição do SBSeg. Nos minicursos do SBSeg há conteúdos mais práticos e também mais próximos da fronteira do conhecimento na área de cibersegurança, assim temos minicursos mais aplicados e mais teóricos nesta edição do SBSeg. Os 6 capítulos do livro de minicursos versam sobre temas como: Autenticação e Autorização: antigas demandas, novos desafios e tecnologias emergentes; Provendo Segurança em Cidades Inteligentes: Aplicações, Desafios e Tendências em Mobilidade Elétrica e Tarifação Inteligente com NFTs; Introdução à Análise de Códigos Maliciosos para ambiente Windows; e Protegendo Redes de Computadores na Era do Plano de Dados Programáveis. Estes capítulos do livro de minicursos tem o objetivo de atualizar os conhecimentos de profissionais que já atuam em cibersegurança e dar formação a estudantes com conteúdo que normalmente não são abordados em cursos da área.",
+    "keywords": [
+      "Minicursos SBSeg 2023",
+      "SBSeg 2023",
+      "Segurança da Informação"
+    ],
+    "cover": "assets/img/minicursos/book-135.png",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Explorando esquemas criptográficos pós-quânticos considerados pelo NIST com implementação em Sage",
+        "authors": "Thales Paiva, Vitor Ponciano, Everaldo Moreira, Rafael Oliveira, Vilc Rufino, Cabral Melo, Julio López, Eduardo Ueda, Routo Terada",
+        "doi": "https://doi.org/10.5753/sbc.13567.7.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/135/587/905"
+      },
+      {
+        "num": "2",
+        "title": "Sistemas de Votação Fim-a-Fim: Teoria e Prática",
+        "authors": "Eduardo Lopes Cominetti, Marcos Antonio Simplicio Junior, Paulo Matias, Roberto Samarone Araújo",
+        "doi": "https://doi.org/10.5753/sbc.13567.7.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/135/588/906"
+      },
+      {
+        "num": "3",
+        "title": "Introdução à Engenharia Social: da Psicologia Cognitiva aos Ataques Automatizados",
+        "authors": "Jéferson Campos Nobre, Pamela Carvalho da Silva, Antônio João Gonçalves de Azambuja, Maurício Ariza, Lisandro Zambenedetti Granville, Caroline Tozzi Reppold",
+        "doi": "https://doi.org/10.5753/sbc.13567.7.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/135/589/907"
+      },
+      {
+        "num": "4",
+        "title": "Ameaças e Vulnerabilidades em Open RAN: Desafios e Soluções",
+        "authors": "Diogo Menezes Ferrazani Mattos, Dianne Scherly Varela de Medeiros, Rodrigo de Souza Couto, Pedro Henrique Cruz Caminha, Lucas Airam Castro de Souza, Felipe Gomes Táparo, Guilherme Araujo Thomaz, João Vitor Valle, Franciele Batista de Oliveira, Miguel Elias Mitre Campista, Luís Henrique Maciel Kosmalski Costa, Igor Monteiro Moraes",
+        "doi": "https://doi.org/10.5753/sbc.13567.7.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/135/590/908"
+      },
+      {
+        "num": "5",
+        "title": "Desenvolvimento ágil de software seguro e a cultura DevSecOps",
+        "authors": "Alexandre Braga",
+        "doi": "https://doi.org/10.5753/sbc.13567.7.5",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/135/591/909"
+      },
+      {
+        "num": "6",
+        "title": "Proteção de Sistemas Biométricos",
+        "authors": "Marco Antonio Torrez Rojas, Charles Christian Miers, Marcos Antonio Simplício Jr, Luis Henrique de Almeida Fernandes, Rafael Yamada de Oliveira, Gabriela Guilherme de Andrade, Isaak Gomes de Araújo, Sara de Almeida Sehnem, Vinicius Dacio da Silva",
+        "doi": "https://doi.org/10.5753/sbc.13567.7.6",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/135/592/910"
+      }
+    ]
+  },
+  {
+    "edition": "XXII",
+    "year": 2022,
+    "book_id": "107",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/107",
+    "title": "Minicursos do XXII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.10710.3",
+    "description": "O Livro de Minicursos do XXII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg 2022) traz a versão escrita das propostas aceitas e apresentadas nesta edição do SBSeg. Nos minicursos do SBSeg há conteúdos mais práticos e também mais próximos da fronteira do conhecimento na área de cibersegurança, assim temos minicursos mais aplicados e mais teóricos nesta edição do SBSeg. Os 4 capítulos do livro de minicursos versam sobre temas como: Autenticação e Autorização: antigas demandas, novos desafios e tecnologias emergentes; Provendo Segurança em Cidades Inteligentes: Aplicações, Desafios e Tendências em Mobilidade Elétrica e Tarifação Inteligente com NFTs; Introdução à Análise de Códigos Maliciosos para ambiente Windows; e Protegendo Redes de Computadores na Era do Plano de Dados Programáveis. Estes capítulos do livro de minicursos tem o objetivo de atualizar os conhecimentos de profissionais que já atuam em cibersegurança e dar formação a estudantes com conteúdo que normalmente não são abordados em cursos da área.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2022",
+      "SBSeg 2022"
+    ],
+    "cover": "assets/img/minicursos/book-107.png",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Autenticação e Autorização: antigas demandas, novos desafios e tecnologias emergentes",
+        "authors": "Emerson Ribeiro de Mello, Shirlei Aparecida de Chaves, Carlos Eduardo da Silva, Michelle Silva Wangham, Andrey Brito, Marco Aurélio Amaral Henriques",
+        "doi": "https://doi.org/10.5753/sbc.10710.3.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/107/477/750"
+      },
+      {
+        "num": "2",
+        "title": "Provendo Segurança em Cidades Inteligentes: Aplicações, Desafios e Tendências em Mobilidade Elétrica e Tarifação Inteligente com NFTs",
+        "authors": "Paulo Mann, Guilherme Scofano, Yona Lopes, Helio N. Cunha Neto, Diogo M. F. Mattos, Natalia C. Fernandes",
+        "doi": "https://doi.org/10.5753/sbc.10710.3.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/107/478/751"
+      },
+      {
+        "num": "3",
+        "title": "Introdução à Análise de Códigos Maliciosos para ambiente Windows",
+        "authors": "Renato Marinho, Mateus Santos, Raimir Holanda, Antonio Horta",
+        "doi": "https://doi.org/10.5753/sbc.10710.3.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/107/479/752"
+      },
+      {
+        "num": "4",
+        "title": "Protegendo Redes de Computadores na era do Plano de Dados Programáveis",
+        "authors": "Arthur Selle Jacobs, Antônio João Gonçalves de Azambuja, Alberto Egon Schaeffer-Filho, Jéferson Campos Nobre, Juliano Araújo Wickboldt, Lisandro Zambenedetti Granville, Luciano Paschoal Gaspary, Weverton Luis da Costa Cordeiro",
+        "doi": "https://doi.org/10.5753/sbc.10710.3.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/107/480/753"
+      }
+    ]
+  },
+  {
+    "edition": "XXI",
+    "year": 2021,
+    "book_id": "71",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/71",
+    "title": "Minicursos do XXI Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.7165.8",
+    "description": "The Short Courses Book of the XXI Brazilian Symposium on Information and Computer Systems Security (SBSeg) brings the written version of the proposals accepted and presented online in this edition of SBSeg. In the SBSeg's short courses, there is practical and cute-edge knowledge in the cybersecurity area, thus we have more applied and theoretical short courses in this edition of SBSeg. The four chapters of the short courses book are about topics such as Full homomorphic cryptography with implementation in Sage, Security and scalability in blockchain sharding, Authentication of cloud-native applications with SPIFFE identities, and Security in 5G networks: opportunities and challenges in anomaly detection and traffic prediction based on machine learning. These short course chapters are intended to update the professional’s knowledge of who works in cybersecurity and provide students with content not normally covered in courses in the area.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos",
+      "SBSeg 2021"
+    ],
+    "cover": "assets/img/minicursos/book-71.png",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Introdução à criptografia completamente homomórfica com implementação em Sage",
+        "authors": "Hilder V. L. Pereira, Eduardo Morais",
+        "doi": "https://doi.org/10.5753/sbc.7165.8.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/71/308/564"
+      },
+      {
+        "num": "2",
+        "title": "Segurança e Escalabilidade em Sharding Blockchain",
+        "authors": "Antonio A. de A. Rocha, Célio V. N. de Albuquerque, Eduardo B. Loivos, Bruno T. Gondim, Arthur A. Vianna, André O. Ferreira",
+        "doi": "https://doi.org/10.5753/sbc.7165.8.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/71/309/565"
+      },
+      {
+        "num": "3",
+        "title": "Autenticando aplicações nativas da nuvem com identidades SPIFFE",
+        "authors": "Eduardo Falcão, Matteus Silva, Clenimar Souza, Andrey Brito",
+        "doi": "https://doi.org/10.5753/sbc.7165.8.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/71/310/566"
+      },
+      {
+        "num": "4",
+        "title": "Segurança em Redes 5G: Oportunidades e Desafios em Detecção de Anomalias e Predição de Tráfego Baseadas em Aprendizado de Máquina",
+        "authors": "Guilherme N. N. Barbosa, Govinda Mohini G. Bezerra, Dianne S. V. de Medeiros, Martin Andreoni Lopez, Diogo M. F. Mattos",
+        "doi": "https://doi.org/10.5753/sbc.7165.8.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/71/311/567"
+      }
+    ]
+  },
+  {
+    "edition": "XX",
+    "year": 2020,
+    "book_id": "82",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/82",
+    "title": "Minicursos do XX Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.8285.6",
+    "description": "The SBSeg 2020 Book of Minicourses presents computing tools focused on Information Security, as well as new paradigms aimed at data privacy, being very useful for people who wish to gain knowledge in the respective areas covered. The first chapter, entitled \"Processing confidential data from sensors in the cloud\", presents how to use confidential computing tools for developing IoT applications that process potentially sensitive data in the cloud. The second chapter, \"Natural Language Processing to Identify Fake News in Social Networks: Tools, Trends and Challenges\", presents methods for preprocessing data in natural language, vectoring, dimensionality reduction, machine learning, and quality assessment of information retrieval. Finally, in the third chapter, \"User Privacy in Collaborative Learning: Federated Learning, from Theory to Practice\", the Federated Learning paradigm is discussed, which allows collaborative execution of learning models in local data and subsequent aggregation into a centralized global model. The chapter focuses on presenting the principles, applications, as well as challenges and attacks on federated learning, through a practical-theoretical approach with a focus on users’ privacy.",
+    "keywords": [
+      "SBSeg 2020",
+      "Segurança da Informação"
+    ],
+    "cover": "assets/img/minicursos/book-82.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Processamento confidencial de dados de sensores na nuvem",
+        "authors": "Andrey Brito, Clenimar Souza, Fábio Silva, Lucas Cavalcante, Matteus Silva",
+        "doi": "https://doi.org/10.5753/sbc.8285.6.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/82/357/615"
+      },
+      {
+        "num": "2",
+        "title": "Processamento de Linguagem Natural para Identificação de Notícias Falsas em Redes Sociais: Ferramentas, Tendências e Desafios",
+        "authors": "Nicollas R. de Oliveira, Pedro Silveira Pisa, Bernardo Costa, Martin Andreoni Lopez, Igor Monteiro Moraes, Diogo M. F. Mattos",
+        "doi": "https://doi.org/10.5753/sbc.8285.6.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/82/358/616"
+      },
+      {
+        "num": "3",
+        "title": "Privacidade do Usuário em Aprendizado Colaborativo: Federated Learning, da Teoria à Prática",
+        "authors": "Helio N. C. Neto, Diogo M. F. Mattos, Natalia C. Fernandes",
+        "doi": "https://doi.org/10.5753/sbc.8285.6.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/82/359/617"
+      }
+    ]
+  },
+  {
+    "edition": "XIX",
+    "year": 2019,
+    "book_id": "85",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/85",
+    "title": "Minicursos do XIX Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.8589.4",
+    "description": "O Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais (SBSeg) é o principal fórum nacional para a apresentação de resultados de pesquisas e atividades relevantes ligadas à segurança da informação, de protocolos de dados e de sistemas.\r\nNesta edição do SBSeg (2019), 13 propostas de minicursos foram submetidas, um número significativo que demonstra a relevância e o interesse da comunidade em temas atuais da área. Dentre estas propostas, quatro foram selecionadas para publicação e apresentação, representando assim uma taxa de aceitação de 30%. Este livro reúne os quatro capítulos produzidos pelos autores das propostas de minicursos aceitas.\r\nO Capítulo 1 trata de um dos grandes desafios para a segurança da informação na atualidade: a criação e manutenção confiáveis de uma identidade digital para cada usuário. Com o advento dos blockchains, novas possibilidades de atribuição e controle de identidades digitais surgiram e este capítulo busca trazer para os leitores uma discussão teórica e atividades práticas sobre emissão e gerenciamento de identificadores descentralizados, além de autenticação e revogação de credenciais.\r\nO Capítulo 2 busca mostrar como a área de segurança pode se beneficiar dos enormes avanços obtidos recentemente nas áreas de ciência de dados e aprendizagem de máquina. O objetivo é conseguir descobrir informações relevantes do ponto de vista da segurança que podem estar ocultas em meio a uma grande quantidade de dados não suspeitos produzidos por ferramentas de segurança e pelos sistemas operacionais. Os conceitos-chave da área serão discutidos e vários exemplos práticos serão demonstrados com o uso de ferramentas gratuitas.\r\nO Capítulo 3 traz uma abordagem mais profunda sobre blockchains, visto que esta ferramenta está se tornando cada vez mais utilizada em diversas áreas, inclusive a da segurança. Dentre as diversas tecnologias adotadas em blockchains, este capítulo dá ênfase ao mecanismo de consenso, um dos principais atores nos quesitos desempenho e segurança da cadeia. Os mecanismos de consenso mais utilizados atualmente exigem um grande poder computacional para operarem satisfatoriamente e proverem um nível de segurança aceitável. Neste contexto, serão apresentados e discutidos os principais tipos de blockchain e seus mecanismos de consenso, bem como experimentos que ilustram na prática diferentes aspectos de segurança nas implementações atuais.\r\nConcluindo este livro, o Capítulo 4 põe o foco em outra face da segurança que tem chamado bastante a atenção da sociedade: trata-se das aplicações maliciosas que, após infectarem um dispositivo, buscam se ocultar das mais variadas formas a fim de escaparem da detecção por mecanismos de segurança e por perícias forenses, mesmo quando estão em execução. Este minicurso mostra a aplicação de técnicas de engenharia reversa para análise de aplicações maliciosas no ambiente Linux, as quais são exemplificadas tanto nos modos kernel como usuário com base em seu traço dinâmico de execução e em técnicas de depuração de código.",
+    "keywords": [
+      "Segurança da Informação",
+      "Minicursos SBSeg 2019"
+    ],
+    "cover": "assets/img/minicursos/book-85.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Identidade Digital Descentralizada: Conceitos, aplicações, iniciativas, plataforma de desenvolvimento e implementação de caso de uso",
+        "authors": "Emilio Tissato Nakamura, Fernando Cezar Herédia Marino, José Reynaldo Formigoni Filho, Sérgio Luís Ribeiro, Vítor Padilha de Oliveira",
+        "doi": "https://doi.org/10.5753/sbc.8589.4.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/85/372/636"
+      },
+      {
+        "num": "2",
+        "title": "Aprendizado de Máquina para Segurança: Algoritmos e Aplicações",
+        "authors": "Fabrício Ceschin, Luis S. Oliveira, André Grégio",
+        "doi": "https://doi.org/10.5753/sbc.8589.4.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/85/373/637"
+      },
+      {
+        "num": "3",
+        "title": "Análise de mecanismos para consenso distribuído aplicados a Blockchain",
+        "authors": "Charles C. Miers, Guilherme P. Koslovski, Maurício A. Pillon, Marcos A. Simplício Jr., Tereza C. M. B. Carvalho, Bruno B. Rodrigues, João H. F. Battisti",
+        "doi": "https://doi.org/10.5753/sbc.8589.4.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/85/374/638"
+      },
+      {
+        "num": "4",
+        "title": "Introdução à Engenharia Reversa de Aplicações Maliciosas em Ambientes Linux",
+        "authors": "Marcus Botacin, Lucas Galante, Otávio Silva, Paulo Lício de Geus",
+        "doi": "https://doi.org/10.5753/sbc.8589.4.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/85/375/639"
+      }
+    ]
+  },
+  {
+    "edition": "XVIII",
+    "year": 2018,
+    "book_id": "22",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/22",
+    "title": "Minicursos do XVIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.2288.7",
+    "description": "The Brazilian Symposium on Information and Computational Systems Security (SBSeg) is a scientific event promoted annually by the Brazilian Computer Society (SBC). SBSeg represents the country’s main forum for disseminating research results and relevant activities related to information and computational systems security.\r\nIn this edition (2018), 14 short-course proposals were submitted, a significant number that demonstrates the relevance and the community interest in current subjects of the area. Four proposals were selected for publication and presentation, an acceptance rate of 28%.\r\nThis book comprises the four chapters produced by the authors of the accepted short-course proposals.\r\nChapter 1 discusses the main concepts, threats, and countermeasures in the context of conventional IoT networks and SDN-based IoT. This chapter also identifies challenges in data analysis focused on network security.\r\nChapter 2 covers the programmatic asymmetric cryptography by software developers with little or no experience in information security and cryptography. This chapter shows good and bad uses of asymmetric cryptography, through real-life examples, counterexamples, code snippets, and illustrative Java programs.\r\nChapter 3 introduces the use of hardware support for inspecting binaries and systems, ranging from how modern processors work to applying the special instructions of these processors in binaries and systems analysis.\r\nChapter 4 shows how smart contracts, codes resident in blockchain that automate multi-step processes, can be used to automatically trade electric energy. This chapter also discusses initiatives, challenges and research opportunities of blockchain technology in the electrical sector.",
+    "keywords": [
+      "Segurança da Informação"
+    ],
+    "cover": "assets/img/minicursos/book-22.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Ameaças de Segurança, Defesas e Análise de Dados em IoT Baseada em SDN",
+        "authors": "Nelson G. Prates Jr., Mateus Pelloso, Ricardo T. Macedo, Michele Nogueira",
+        "doi": "",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/22/380/649"
+      },
+      {
+        "num": "2",
+        "title": "Criptografia Assimétrica para Programadores – Evitando Outros Maus Usos da Criptografia em Sistemas de Software",
+        "authors": "Alexandre Braga, Ricardo Dahab",
+        "doi": "",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/22/381/651"
+      },
+      {
+        "num": "3",
+        "title": "Análise de Binários e Sistemas Assistida por Hardware",
+        "authors": "Marcus Botacin, Paulo Lício de Geus, André Grégio",
+        "doi": "",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/22/382/652"
+      },
+      {
+        "num": "4",
+        "title": "Blockchain para Segurança em Redes Elétricas Inteligentes: Aplicações, Tendências e Desafios",
+        "authors": "Diogo M. F. Mattos, Dianne S. V. Medeiros, Natalia C. Fernandes, Marcela T. de Oliveira, Gabriel R. Carrara, Arthur A. Z. Soares, Luiz Claudio S. Magalhães, Diego Passos, Ricardo C. Carrano, Igor M. Moraes, Célio V. N. Albuquerque, Débora C. Muchaluat-Saade",
+        "doi": "",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/22/383/653"
+      }
+    ]
+  },
+  {
+    "edition": "XVII",
+    "year": 2017,
+    "book_id": "84",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/84",
+    "title": "Minicursos do XVII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.8410.6",
+    "description": "The Brazilian Symposium on Information and Computational Systems Security (SBSeg) is a scientific event promoted annually by the Brazilian Computer Society (SBC). SBSeg represents the country’s main forum for disseminating research results and relevant activities related to information and computational systems security.\r\nIn this edition (2017), 20 short-course proposals were submitted, a significant number that demonstrates the relevance and the community interest in current subjects of the area. Four proposals were selected for publication and presentation, an acceptance rate of 20%.\r\nThis book comprises the four chapters produced by the authors of the accepted short-course proposals. Chapter 1 is in line with the growing and inevitable trend of using small computing devices. This chapter discusses contemporary issues in the area of ​​security and privacy in the context of ubiquitous computing, as well as pointing out research problems that have not yet been solved. Chapter 2 introduces key hardware-based security technologies, covering functionality and use cases of the Intel Software Guard Extensions (SGX) architecture. Chapters 3 and 4 discuss blockchain technology, a diffusion-based technology that has driven new research, development, and innovation in the area of ​​computational systems security. Chapter 3 presents the technology fundamentals and programming aspects involved in application development and systems security. Chapter 4 presents how blockchain technology can be used to provide security and privacy in the context of the Internet of Things (IoT).",
+    "keywords": [
+      "SBSeg 2017",
+      "Segurança da Informação"
+    ],
+    "cover": "assets/img/minicursos/book-84.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "O Computador para o Século 21: Desafios de Segurança e Privacidade após 25 Anos",
+        "authors": "Leonardo B. Oliveira, Fernando Magno Quintão Pereira, Rafael Misoczki, Diego F. Aranha, Fábio Borges, Michele Nogueira, Michelle Wangham",
+        "doi": "https://doi.org/10.5753/sbc.8410.6.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/84/367/631"
+      },
+      {
+        "num": "2",
+        "title": "Mecanismos de segurança baseados em hardware: uma introdução à arquitetura Intel SGX",
+        "authors": "Newton C. Will, Rafael C. R. Condé, Carlos A. Maziero",
+        "doi": "https://doi.org/10.5753/sbc.8410.6.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/84/368/632"
+      },
+      {
+        "num": "3",
+        "title": "Segurança de Aplicações Blockchain Além das Criptomoedas",
+        "authors": "Alexandre Melo Braga, Fernando C. Herédia Marino, Robson Romano dos Santos",
+        "doi": "https://doi.org/10.5753/sbc.8410.6.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/84/369/633"
+      },
+      {
+        "num": "4",
+        "title": "Uso de Blockchain para Privacidade e Segurança em Internet das Coisas",
+        "authors": "Vanessa R. L. Chicarino, Emanuel Ferreira Jesus, Célio V. N. de Albuquerque, Antônio A. de A. Rocha",
+        "doi": "https://doi.org/10.5753/sbc.8410.6.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/84/370/634"
+      }
+    ]
+  },
+  {
+    "edition": "XVI",
+    "year": 2016,
+    "book_id": "89",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/89",
+    "title": "Minicursos do XVI Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.8950.5",
+    "description": "Este livro apresenta a seleção de Minicursos da 16ª edição do Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg).\r\nEm 2016, 14 propostas de minicursos foram submetidas, um número expressivo que demonstra a importância deste evento no panorama nacional de pesquisa. Destas, 4 foram selecionadas para publicação e apresentação, representando assim uma taxa de aceitação de aproximadamente 29%.\r\nEste livro reúne 4 capítulos produzidos pelos autores das propostas aceitas. O Capítulo 1 faz uma abordagem computacional ao problema de proteção de privacidade, apresentando várias técnicas com suas primitivas criptográficas usadas para este fim. O Capítulo 2 apresenta a área de Computação Forense, com foco na área criminal, englobando alguns dos principais crimes cibernéticos e as técnicas e ferramentas usadas na área. O Capítulo 3 discute ataques e contramedidas em implementações em software de métodos criptográficos simétricos, e assimétricos baseados em curvas elípticas. Finalmente, o Capítulo 4 aborda os principais conceitos relacionados a smart grid, com foco nas vulnerabilidades e ataques que esse tipo de rede pode sofrer.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "SBSeg 2016",
+      "Minicursos SBSeg"
+    ],
+    "cover": "assets/img/minicursos/book-89.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Introdução à Privacidade: Uma Abordagem Computacional",
+        "authors": "Fábio Borges",
+        "doi": "https://doi.org/10.5753/sbc.8950.5.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/89/388/659"
+      },
+      {
+        "num": "2",
+        "title": "Crimes Cibernéticos e Computação Forense",
+        "authors": "Wilson Leite da Silva Filho",
+        "doi": "https://doi.org/10.5753/sbc.8950.5.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/89/389/660"
+      },
+      {
+        "num": "3",
+        "title": "Canais laterais em criptografia simétrica e de curvas elípticas: ataques e contramedidas",
+        "authors": "Lucas Z. Ladeira, Erick N. Nascimento, João Paulo F. Ventura, Ricardo Dahab, Diego F. Aranha, Julio C. López Hernández",
+        "doi": "https://doi.org/10.5753/sbc.8950.5.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/89/390/661"
+      },
+      {
+        "num": "4",
+        "title": "Desafios de Segurança e Confiabilidade na Comunicação para Smart Grids",
+        "authors": "Yona Lopes, Tiago Bornia, Vitor Farias, Natalia C. Fernandes, Débora C. Muchaluat-Saade",
+        "doi": "https://doi.org/10.5753/sbc.8950.5.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/89/391/662"
+      }
+    ]
+  },
+  {
+    "edition": "XV",
+    "year": 2015,
+    "book_id": "90",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/90",
+    "title": "Minicursos do XV Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9004.8",
+    "description": "Este livro apresenta a seleção de Minicursos da 15ª edição do Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg). Em 2015, foram submetidas 10 propostas, das quais 4 foram selecionadas para publicação e apresentação, representando assim uma taxa de aceitação de 40%.\r\nEsta edição reúne, portanto, quatro capítulos, produzidos pelos autores das propostas aceitas. No Capítulo 1, os autores discutem a utilização programática de criptografia por desenvolvedores de software com pouca ou nenhuma experiência em segurança da informação e criptografia. O texto mostra aos programadores de software, por meio de exemplos reais e trechos de código, os bons e maus usos da criptografia. O Capítulo 2 discorre sobre o ambiente de aplicações de Mobile Crowd Sensing, focando principalmente nas questões relacionadas à privacidade, segurança e a confiabilidade das informações. No Capítulo 3, os autores descrevem os aspectos que ajudam a tornar uma implementação de criptografia em software eficiente e segura. E, finalmente, o Capítulo 4 apresenta as principais técnicas e trabalhos relacionados à detecção de spam.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos SBSeg 2015",
+      "SBSeg 2015"
+    ],
+    "cover": "assets/img/minicursos/book-90.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Introdução à Criptografia para Programadores: Evitando Maus Usos da Criptografia em Sistemas de Software",
+        "authors": "Alexandre Braga, Ricardo Dahab",
+        "doi": "https://doi.org/10.5753/sbc.9004.8.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/90/393/664"
+      },
+      {
+        "num": "2",
+        "title": "Segurança em Mobile Crowd Sensing",
+        "authors": "Joélisson Joaquim de V. Laurido, Eduardo Luzeiro Feitosa",
+        "doi": "https://doi.org/10.5753/sbc.9004.8.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/90/394/665"
+      },
+      {
+        "num": "3",
+        "title": "Implementação Eficiente e Segura de Algoritmos Criptográficos",
+        "authors": "Armando Faz Hernández, Roberto Cabral, Diego F. Aranha, Julio López",
+        "doi": "https://doi.org/10.5753/sbc.9004.8.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/90/395/666"
+      },
+      {
+        "num": "4",
+        "title": "Abordagens para Detecção de Spam de E-mail",
+        "authors": "Cleber K. Olivo, Altair O. Santin, Luiz Eduardo S. Oliveira",
+        "doi": "https://doi.org/10.5753/sbc.9004.8.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/90/396/667"
+      }
+    ]
+  },
+  {
+    "edition": "XIV",
+    "year": 2014,
+    "book_id": "91",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/91",
+    "title": "Minicursos do XIV Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9199.3",
+    "description": "O Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC). Nesta edição do SBSeg 2014, de um total de 10 submissões de propostas de minicursos foram selecionados quatro minicursos, representando assim uma taxa de aceitação de 40%.\r\nEste livro reúne então 4 capítulos produzidos pelos autores das propostas de minicursos aceitas. O Capítulo 1 mostra o estado da arte em sistemas de armazenamento nas nuvens que sejam tolerantes a faltas e intrusões; O Capítulo 2, discute as técnicas de device fingerprint que são aquelas empregadas para identificar (ou re-identificar) um usuário ou um dispositivo através de um conjunto de atributos (tamanho da tela do dispositivo, versões de softwares instalados, entre muitos outros) e outras características observáveis durante processo de comunicação; O Capítulo 3 apresenta métodos e ferramentas de detecção de botnets; Por fim, o Capítulo 4 analisa os desafios de segurança e as principais contramedidas descritas em trabalhos acadêmicos sobre as inovações das redes veiculares.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos SBSeg 2014",
+      "SBSeg 2014"
+    ],
+    "cover": "assets/img/minicursos/book-91.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Tolerância a Faltas e Intrusões para Sistemas de Armazenamento de Dados em Nuvens Computacionais",
+        "authors": "Hylson Vescovi Netto, Lau Cheuk Lung, Rick Lopes de Souza",
+        "doi": "https://doi.org/10.5753/sbc.9199.3.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/91/398/669"
+      },
+      {
+        "num": "2",
+        "title": "Device Fingerprinting: Conceitos e Técnicas, Exemplos e Contramedidas",
+        "authors": "Adriana Rodrigues Saraiva, Pablo Augusto da Paz Elleres, Guilherme de Brito Carneiro, Eduardo Luzeiro Feitosa",
+        "doi": "https://doi.org/10.5753/sbc.9199.3.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/91/399/670"
+      },
+      {
+        "num": "3",
+        "title": "Botnets: Características e Métodos de Detecção Através do Tráfego de Rede",
+        "authors": "Kaio R. S. Barbosa, Gilbert B. Martins, Eduardo Souto, Eduardo Feitosa",
+        "doi": "https://doi.org/10.5753/sbc.9199.3.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/91/400/671"
+      },
+      {
+        "num": "4",
+        "title": "Segurança em Redes Veiculares: Inovações e Direções Futuras",
+        "authors": "Michelle S. Wangham, Michele Nogueira, Cláudio P. Fernandes, Osmarildo Paviani, Benevid F. da Silva",
+        "doi": "https://doi.org/10.5753/sbc.9199.3.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/91/401/672"
+      }
+    ]
+  },
+  {
+    "edition": "XIII",
+    "year": 2013,
+    "book_id": "92",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/92",
+    "title": "Minicursos do XIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9275.1",
+    "description": "O Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC). Nesta edição do SBSeg 2013, de um total de 10 submissões de propostas de minicursos foram selecionados quatro minicursos, representando assim uma taxa de aceitação de 40%.\r\nEste livro reúne então 4 capítulos produzidos pelos autores das propostas de minicursos aceitas. O Capítulo 1 apresenta técnicas e recursos antiforense para a proteção de informações sensíveis, mas não para ocultar provas e evidências de atos ilícitos; O Capítulo 2, além de introduzir noções básicas das principais linhas de pesquisa pós-quântica, apresenta os estudos mais recentes nesta área visando a melhorias dos esquemas relacionados a tamanhos de chaves, overhead de assinaturas e criptogramas; O Capítulo 3 aborda a área de Segurança de Software com uma visão geral e mostra como adaptar e avaliar as soluções existentes no contexto de Sistemas Embarcados; Por fim, o Capítulo 4 descreve os principais desafios e soluções de segurança para prover autenticação e autorização na Internet das Coisas.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2013",
+      "SBSeg 2013"
+    ],
+    "cover": "assets/img/minicursos/book-92.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Antiforense Digital: conceitos, técnicas, ferramentas e estudos de caso",
+        "authors": "Evandro Della Vecchia, Daniel Weber, Avelino Zorzo",
+        "doi": "https://doi.org/10.5753/sbc.9275.1.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/92/403/674"
+      },
+      {
+        "num": "2",
+        "title": "Introdução à criptografia pós-quântica",
+        "authors": "Paulo S. L. M. Barreto, Felipe Piazza Biasi, Ricardo Dahab, Julio César López-Hérnandez, Eduardo Morais, Ana D. Salina de Oliveira, Geovandro C. C. F. Pereira, Jefferson E. Ricardini",
+        "doi": "https://doi.org/10.5753/sbc.9275.1.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/92/404/675"
+      },
+      {
+        "num": "3",
+        "title": "Segurança de Software em Sistemas Embarcados: Ataques & Defesas",
+        "authors": "Bruno Silva, Diógenes Cecilio da Silva Jr., Evaldo M. Souza, Fernando Pereira, Fernando A. Teixeira, Hao Chi Wong, Henrique Nazaré, Izabela Maffra, Jean Freire, Willer F. Santos, Leonardo B. Oliveira",
+        "doi": "https://doi.org/10.5753/sbc.9275.1.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/92/405/676"
+      },
+      {
+        "num": "4",
+        "title": "Infraestruturas de Autenticação e de Autorização para Internet das Coisas",
+        "authors": "Michelle S. Wangham, Marlon Cordeiro Domenech, Emerson Ribeiro de Mello",
+        "doi": "https://doi.org/10.5753/sbc.9275.1.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/92/406/677"
+      }
+    ]
+  },
+  {
+    "edition": "XII",
+    "year": 2012,
+    "book_id": "94",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/94",
+    "title": "Minicursos do XII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9464.5",
+    "description": "This book presents the selection of the short-courses of the 12th edition of the Brazilian Symposium on Information and Computational Systems Security (SBSeg). In 2012, 13 short-course proposals were submitted, a significant number that demonstrates the relevance and the community interest in current subjects of the area. Four proposals were selected for publication and presentation, an acceptance rate of approximately 31%.\r\nThis book comprises the four chapters produced by the authors of the accepted short-course proposals. Chapter 1 discusses vulnerabilities in modern computational systems, presenting concepts, exploits, and protection mechanisms. Chapter 2 presents an introduction to mobile devices security, using the Android platform as a study case. Chapter 3 discusses security in content-centric networks, focusing on vulnerabilities, attacks, and countermeasures. Finally, Chapter 4 discusses homomorphic encryption, presenting the state of the art and open problems in this area.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2012",
+      "SBSeg 2012"
+    ],
+    "cover": "assets/img/minicursos/book-94.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Análise de vulnerabilidades em Sistemas Computacionais Modernos: Conceitos, Exploits e Proteções",
+        "authors": "Mateus Felipe Tymburibá Ferreira, Thiago de Souza Rocha, Gilbert Breves Martins, Eduardo Feitosa, Eduardo Souto",
+        "doi": "https://doi.org/10.5753/sbc.9464.5.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/94/413/684"
+      },
+      {
+        "num": "2",
+        "title": "Introdução à Segurança de Dispositivos Móveis Modernos – Um Estudo de Caso em Android",
+        "authors": "Alexandre Melo Braga, Erick Nogueira do Nascimento, Lucas Rodrigues da Palma, Rafael Pereira Rosa",
+        "doi": "https://doi.org/10.5753/sbc.9464.5.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/94/414/685"
+      },
+      {
+        "num": "3",
+        "title": "Segurança em Redes Centradas em Conteúdo: Vulnerabilidades, Ataques e Contramedidas",
+        "authors": "Igor C. G. Ribeiro, Flávio Q. Guimarães, Juliano F. Kazienko, Antonio A. de A. Rocha, Pedro B. Velloso, Igor M. Moraes, Célio V. N. Albuquerque",
+        "doi": "https://doi.org/10.5753/sbc.9464.5.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/94/415/686"
+      },
+      {
+        "num": "4",
+        "title": "Encriptação homomórfica",
+        "authors": "Eduardo Morais, Ricardo Dahab",
+        "doi": "https://doi.org/10.5753/sbc.9464.5.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/94/416/687"
+      }
+    ]
+  },
+  {
+    "edition": "XI",
+    "year": 2011,
+    "book_id": "95",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/95",
+    "title": "Minicursos do XI Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9559.1",
+    "description": "The Brazilian Symposium on Information and Computational Systems Security (SBSeg) is a scientific event promoted annually by the Brazilian Computer Society (SBC). SBSeg represents the country’s main forum for disseminating research results and relevant activities related to information and computational systems security.\r\nThis book comprises the six chapters produced by the authors of the short courses selected for presentation at SBSeg 2011.\r\nChapter 1, \"Análise de Malware: Investigação de Códigos Maliciosos Através de uma Abordagem Prática\" has two basic steps: a theoretical one and a real analysis. The goal of the authors is to provide to readers interested in malware analysis the knowledge necessary to develop skills intrinsic to an incident response and computer forensics group. The chapter introduces key concepts and discussions about new trends in malicious code developers and countermeasures. Some models of incident handling and malware analysis have been discussed as tools used in the process have been introduced.\r\nChapter 2, \"Aprendizagem de Máquina para Segurança de Computadores: Métodos e Aplicações\" analyzes different systems for detecting fraudulent activities on web pages, proliferation of malicious codes, denial of service attacks, among others. Anomaly detection has advanced significantly with the use of machine learning and data mining techniques. With a theoretical focus, the chapter provides information on using machine learning techniques for data security, identifying techniques that are appropriate for the intrusion detection problem.\r\nChapter 3, \"Técnicas para Análise Dinâmica de Código Malicioso\" presents the main techniques used to perform dynamic malware analysis, which can operate at the operating system or web level, verifying which are present in the main publicly available analysis systems. This chapter also cites tools used to capture information about the execution of malicious programs. Readers will be able to build a simple dynamic malware analysis system and follow a complete case study from the analysis of malware coming from the web to the compromise of the operating system.\r\nChapter 4, \"Introdução à Composibilidade Universal\", presents a general, modular environment for representing cryptographic protocols and analyzing their security. The chapter allows the analysis of complex protocols from simpler blocks. This chapter also introduces the basics of Universal Composability security and its application in the design and analysis of a cryptographic protocol.\r\nChapter 5, \"Gerência de Identidades Federadas em Nuvens: Enfoque na Utilização de Soluções Abertas\" introduces the idea of ​​moving most of the processing and storage of user applications to a remote cloud of services. The security issue of this approach is still an open problem and difficult to solve. This chapter explores this federated service offering from an Identity Management perspective. Several open solutions used in federated cloud environments will be presented, ending with a case study in which a tool that performs network robotics experiments is used.\r\nChapter 6, \"Live Forensics em Ambientes Windows\" introduces live forensics procedures in Windows operating system environments. Live forensics is characterized by the examination of machines still in operation, allowing the collection of important traces, which can be lost when the machine is turned off. In this chapter, live forensics procedures will be discussed, such as recognition of running processes, ports and files in use, collection and preservation of volatile traces, using only freely available tools.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2011",
+      "SBSeg 2011"
+    ],
+    "cover": "assets/img/minicursos/book-95.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Análise de Malware: Investigação de Códigos Maliciosos Através de uma Abordagem Prática",
+        "authors": "Laerte Peotta de Melo, Dino Macedo Amaral, Flavio Sakakibara, André Resende de Almeida, Rafael Timóteo de Sousa Jr., Anderson Nascimento",
+        "doi": "https://doi.org/10.5753/sbc.9559.1.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/95/418/689"
+      },
+      {
+        "num": "2",
+        "title": "Aprendizagem de Máquina para Segurança em Redes de Computadores: Métodos e Aplicações",
+        "authors": "Márcia Henke, Clayton Santos, Eduardo Nunan, Eduardo Feitosa, Eulanda dos Santos, Eduardo Souto",
+        "doi": "https://doi.org/10.5753/sbc.9559.1.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/95/419/690"
+      },
+      {
+        "num": "3",
+        "title": "Técnicas para Análise Dinâmica de Malware",
+        "authors": "Dario Simões Fernandes Filho, Vitor Monte Afonso, Victor Furuse Martins, André Ricardo Abed Grégio, Paulo Lício de Geus, Mario Jino, Rafael Duarte Coelho dos Santos",
+        "doi": "https://doi.org/10.5753/sbc.9559.1.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/95/420/691"
+      },
+      {
+        "num": "4",
+        "title": "Introdução à Composibilidade Universal",
+        "authors": "João J. C. Gondim",
+        "doi": "https://doi.org/10.5753/sbc.9559.1.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/95/421/692"
+      },
+      {
+        "num": "5",
+        "title": "Gerência de Identidades Federadas em Nuvens: Enfoque na Utilização de Soluções Abertas",
+        "authors": "Guilherme Feliciano, Lucio Agostinho, Eliane Guimarães, Eleri Cardozo",
+        "doi": "https://doi.org/10.5753/sbc.9559.1.5",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/95/422/693"
+      },
+      {
+        "num": "6",
+        "title": "Live forensics em ambiente Microsoft Windows",
+        "authors": "Bruno Werneck Pinto Hoelz, Frederico Imbroisi Mesquita, Pedro Auler",
+        "doi": "https://doi.org/10.5753/sbc.9559.1.6",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/95/423/694"
+      }
+    ]
+  },
+  {
+    "edition": "X",
+    "year": 2010,
+    "book_id": "98",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/98",
+    "title": "Minicursos do X Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9802.8",
+    "description": "O Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC) e representa o principal fórum no país para a apresentação de pesquisas e atividades relevantes ligadas à segurança da informação e de sistemas. Este livro reúne os seis capítulos produzidos pelos autores das propostas de minicursos aceitas para apresentação no SBSeg 2010.\r\nO Capítulo 1, \"Gerenciamento de Identidades Federadas\", analisa os desafios e as soluções para prover gerenciamento de identidades federadas às redes colaborativas.\r\nO Capítulo 2, \"Aspectos de segurança e privacidade em ambientes de Computação em Nuvem\", explora o estado da arte nas áreas de segurança e privacidade no contexto de computação em nuvem. Inicialmente serão apresentados os aspectos fundamentais de computação em nuvem. Após uma revisão dos principais conceitos de segurança e privacidade, serão discutidos em maior profundidade os riscos e ameaças relevantes nos ambientes de nuvem, bem como as abordagens mais conhecidas para mitigá-los. Ao longo do texto serão discutidos problemas em aberto e tentativas de solução propostas na literatura.\r\nO Capítulo 3, \"Transformações de código para proteção de software\", apresenta técnicas de transformação de código para proteção da propriedade intelectual e segurança dos dados contra ataques Man-At-The-End. A segurança convencional é normalmente atrelada com a confidencialidade do canal de comunicação, e esta é baseada em métodos de criptografia. Segurança baseada em proteção de software está associada a técnicas de ofuscação, marca d’água e tamper-proofing. O objetivo destas técnicas é dar maior credibilidade ao software em execução no sistema final assegurando que o software em execução comporte-se de maneira legítima.\r\nO Capítulo 4, \"Aspectos de Segurança na Interconexão de Redes Celulares e WLANs\", explora exatamente os aspectos de segurança, mais precisamente a autenticação e a autorização, observados durante um handover entre WLANs e redes celulares, com foco nas redes 2G e 3G.\r\nO Capítulo 5, \"Introdução à segurança de aplicações para a TV digital interativa brasileira\", descreve resultados preliminares obtidos pelo CPqD na avaliação de segurança de aplicações interativas para a TV digital brasileira. Foram avaliados os aspectos de programação segura, ambiente de execução segura dos aplicativos e segurança de receptores conectados a uma rede IP. Foi iniciado um trabalho de identificação e documentação de vulnerabilidades de programação insegura, de modo que vulnerabilidades em Lua encontrem paralelo em vulnerabilidades já conhecidas em outras linguagens de programação.\r\nO Capítulo 6, \"Estratégias de Contingência para Serviços de Tecnologia da Informação e Comunicação\", apresenta os aspectos teóricos e práticos da gestão da continuidade de negócio com foco para a elaboração dos planos de recuperação de desastres.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2010",
+      "SBSeg 2010"
+    ],
+    "cover": "assets/img/minicursos/book-98.png",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Gerenciamento de Identidades Federadas",
+        "authors": "Michelle S. Wangham, Emerson Ribeiro de Mello, Davi da Silva Böger, Marlon Guerios, Joni da Silva Fraga",
+        "doi": "https://doi.org/10.5753/sbc.9802.8.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/98/434/705"
+      },
+      {
+        "num": "2",
+        "title": "Aspectos de segurança e privacidade em ambientes de Computação em Nuvem",
+        "authors": "Arlindo Marcon Jr, Marcos Laureano, Altair Santin, Carlos Maziero",
+        "doi": "https://doi.org/10.5753/sbc.9802.8.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/98/435/706"
+      },
+      {
+        "num": "3",
+        "title": "Transformações de código para proteção de software",
+        "authors": "Davidson Rodrigo Boccardo, Raphael Carlos Santos Machado, Luiz Fernando Rust da Costa Carmo",
+        "doi": "https://doi.org/10.5753/sbc.9802.8.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/98/436/707"
+      },
+      {
+        "num": "4",
+        "title": "Aspectos de Segurança na Interconexão de Redes Celulares e WLANs",
+        "authors": "Silas Leite Albuquerque, Paulo Roberto de Lira Gondim, Cláudio de Castro Monteiro",
+        "doi": "https://doi.org/10.5753/sbc.9802.8.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/98/437/708"
+      },
+      {
+        "num": "5",
+        "title": "Introdução à segurança de aplicações para a TV digital interativa brasileira",
+        "authors": "Alexandre Melo Braga, Gilmara Santos Restani",
+        "doi": "https://doi.org/10.5753/sbc.9802.8.5",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/98/438/709"
+      },
+      {
+        "num": "6",
+        "title": "Estratégias de Contingência para Serviços de Tecnologia da Informação e Comunicação",
+        "authors": "Leonardo L. Fagundes, Fernando Karl, Luis Baptista, Rafael Santos da Rosa",
+        "doi": "https://doi.org/10.5753/sbc.9802.8.6",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/98/439/710"
+      }
+    ]
+  },
+  {
+    "edition": "IX",
+    "year": 2009,
+    "book_id": "99",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/99",
+    "title": "Minicursos do IX Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9900.4",
+    "description": "&nbsp;Na IX edição do Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg 2009) recebemos um número expressivo de 19 submissões de propostas de minicurso. A comissão de avaliação composta de 13 pesquisadores selecionou as 6 melhores propostas, as quais encontram-se publicadas como capítulos neste livro.\r\nO Capítulo 1, “Introdução a Ataques por Canais Secundários”, aborda a problemática envolvida na proteção de recursos criptográficos sensíveis em dispositivos eletrônicos embarcados.\r\nO Capítulo 2, “Modelos de Criptografia de Chave Pública Alternativos”, concentra os seus esforços na avaliação das dificuldades de uso de infraestrutura de chaves públicas e faz sugestões no sentido da utilização de alternativas para viabilizar a criptografia de chaves públicas em diferentes contextos.\r\nO Capítulo 3, “Segurança em Redes Colaborativas: Desafios e Propostas de Soluções”, discute os desafios na definição de políticas, relações de confiança, autenticação, autorização e na manutenção de privacidade em ambientes colaborativos.\r\nO Capítulo 4, “Segurança em Redes de Sensores sem fio”, faz um apanhado geral dos aspectos de segurança no ambiente de redes de sensores sem fio, dando ênfase a soluções de segurança para problemas relacionados a roteamento, localização e agregação de dados. O capítulo salienta as necessidades de criptografia para proteger um conteúdo em trânsito.\r\nO Capítulo 5, “Técnicas de Visualização de Dados aplicadas à Segurança da Informação”, apresenta o uso de técnicas de visualização gráfica para auxiliar na inspeção de eventos de segurança, quando o número de ocorrências é elevado.\r\nE finalmente, o Capítulo 6, “Vulnerabilidades em Aplicações Web e Mecanismos de Proteção”, estuda as vulnerabilidades mais comuns do ambiente web e propõe um conjunto de medidas de prevenção para mitigar as mesmas.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2009",
+      "SBSeg 2009"
+    ],
+    "cover": "assets/img/minicursos/book-99.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Introdução a Ataques por Canais Secundários",
+        "authors": "João Paulo Fernandes Ventura, Ricardo Dahab",
+        "doi": "https://doi.org/10.5753/sbc.9900.4.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/99/441/712"
+      },
+      {
+        "num": "2",
+        "title": "Modelos de Criptografia de Chave Pública Alternativos",
+        "authors": "Denise Goya, Mehran Misaghi, Vilc Rufino, Routo Terada",
+        "doi": "https://doi.org/10.5753/sbc.9900.4.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/99/442/713"
+      },
+      {
+        "num": "3",
+        "title": "Segurança em Redes Colaborativas: Desafios e Propostas de Soluções",
+        "authors": "Michelle S. Wangham, Emerson Ribeiro de Mello, Davi da Silva Böger, Ramicés dos Santos Silva, Diego Ricardo Holler, Joni da Silva Fraga",
+        "doi": "https://doi.org/10.5753/sbc.9900.4.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/99/443/714"
+      },
+      {
+        "num": "4",
+        "title": "Segurança em Redes de Sensores Sem Fio",
+        "authors": "Cíntia Borges Margi, Marcos Simplício Jr, Paulo S. M. L. Barreto, Tereza C. M. B. Carvalho",
+        "doi": "https://doi.org/10.5753/sbc.9900.4.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/99/444/715"
+      },
+      {
+        "num": "5",
+        "title": "Técnicas de Visualização de Dados aplicadas à Segurança da Informação",
+        "authors": "André Ricardo Abed Grégio, Benício Pereira de Carvalho Filho, Antônio Montes, Rafael Santos",
+        "doi": "https://doi.org/10.5753/sbc.9900.4.5",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/99/445/716"
+      },
+      {
+        "num": "6",
+        "title": "Vulnerabilidades em Aplicações Web e Mecanismos de Proteção",
+        "authors": "Nelson Uto, Sandro Pereira de Melo",
+        "doi": "https://doi.org/10.5753/sbc.9900.4.6",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/99/446/717"
+      }
+    ]
+  },
+  {
+    "edition": "VIII",
+    "year": 2008,
+    "book_id": "96",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/96",
+    "title": "Minicursos do VIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9691.4",
+    "description": "O Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC) e representa o principal fórum no país para a apresentação de pesquisas e atividades relevantes ligadas à segurança da informação e de sistemas\r\nEste livro reúne os quatro capítulos produzidos pelos autores das propostas de minicursos aceitas para apresentação no SBSeg 2008.\r\nO Capítulo 1, \"Gestão de Riscos\", apresenta aspectos teóricos e práticos da gestão de riscos, fornecendo aos alunos uma base para desenvolverem seus próprios projetos. Espera-se, portanto, com esse curso, contribuir para um melhor entendimento da metodologia de gestão de riscos.\r\nO Capítulo 2, \"Segurança em Redes Mesh: Tendências, Desafios e Aplicações\", apresenta, de maneira teórica, os principais problemas de segurança em redes mesh e a discussão de soluções propostas para solucioná-los. O capítulo tem três focos principais: a contextualização das redes mesh; o estado da arte e as questões de segurança em redes em malha sem fio, com seus desafios e deficiência e as principais propostas encontradas na literatura.\r\nO Capítulo 3, \"Tráfego Internet não Desejado: Conceitos, Caracterização e Soluções\", apresenta o universo do tráfego não desejado, incluindo definições, classificação e os motivos que explicam seu surpreendente crescimento. Além disso, aponta as deficiências das soluções existentes e recentes para detecção de tráfego indesejado. Por fim, este capítulo apresenta potenciais soluções e enumera temas de pesquisa em aberto sobre tráfego não desejado na Internet.\r\nO Capítulo 4, \"Virtualização: Conceitos e Aplicações em Segurança\", apresenta os fundamentos conceituais sobre máquinas virtuais, discute as vantagens e desvantagens no uso de máquinas virtuais, explora as principais possibilidades de uso de máquinas virtuais na área de segurança de sistemas e expõe alguns exemplos de ambientes de máquinas virtuais de uso corrente.\r\n&nbsp;",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2008",
+      "SBSeg 2008"
+    ],
+    "cover": "assets/img/minicursos/book-96.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Gestão de Riscos",
+        "authors": "José Eduardo Malta de Sá Brandão, Joni da Silva Fraga",
+        "doi": "https://doi.org/10.5753/sbc.9691.4.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/96/425/696"
+      },
+      {
+        "num": "2",
+        "title": "Segurança em Redes Mesh: Tendências, Desafios e Aplicações",
+        "authors": "Elisangela Santana Aguiar, Rafael Lopes Gomes, Antônio Jorge Gomes Abelém, Douglas Brito Damalio, Billy Anderson Pinheiro",
+        "doi": "https://doi.org/10.5753/sbc.9691.4.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/96/426/697"
+      },
+      {
+        "num": "3",
+        "title": "Tráfego Internet não Desejado: Conceitos, Caracterização e Soluções",
+        "authors": "Eduardo Feitosa, Eduardo Souto, Djamel Sadok",
+        "doi": "https://doi.org/10.5753/sbc.9691.4.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/96/427/698"
+      },
+      {
+        "num": "4",
+        "title": "Virtualização: Conceitos e Aplicações em Segurança",
+        "authors": "Marcos Aurelio Pchek Laureano, Carlos Alberto Maziero",
+        "doi": "https://doi.org/10.5753/sbc.9691.4.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/96/428/699"
+      }
+    ]
+  },
+  {
+    "edition": "VII",
+    "year": 2007,
+    "book_id": "100",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/100",
+    "title": "Minicursos do VII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.10003.5",
+    "description": "The Brazilian Symposium on Information and Computational Systems Security (SBSeg) is a scientific event promoted annually by the Brazilian Computer Society (SBC). SBSeg represents the country’s main forum for disseminating research results and relevant activities related to information and computational systems security. This book comprises the four chapters produced by the authors of the short courses selected for presentation at SBSeg 2007.\r\nChapter 1, \"Forense Computacional: fundamentos, tecnologias e desafios atuais\", presents basic notions of computer forensics and tools that can be used to collect, keep and analyze evidences. The anatomy of some malicious codes and case studies are also used as a complement on the subject and as a way of increasing its comprehension.\r\nChapter 2, \"Esteganografia e suas Aplicações\", explores some steganography techniques since these techniques can be used to protect communications. This chapter also shows some of the applications and the applicability of steganography as an alternative to well-known cryptographic methods.\r\nChapter 3, \"Introdução à Segurança Demonstrável\", is an introductory reference for those interested in understanding provable security techniques, a subject of theoretical cryptography that studies the formal definition of strong security requirements and methods that may be used to analyse the security of cryptographic schemes with regard to these requirements.\r\nChapter 4, \"Soluções para o desenvolvimento de sistemas seguros\", presents new methods to develop secure software systems, based not only on the application of existing theories but also on the adoption of a development process that considers security by design as an integral part of the software construction project.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2007",
+      "SBSeg 2007"
+    ],
+    "cover": "assets/img/minicursos/book-100.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Forense Computacional: fundamentos, tecnologias e desafios atuais",
+        "authors": "Evandro Pereira, Leonardo Lemes Fagundes, Paulo Neukamp, Glauco Ludwig, Marlom Konrath",
+        "doi": "https://doi.org/10.5753/sbc.10003.5.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/100/448/719"
+      },
+      {
+        "num": "2",
+        "title": "Esteganografia e suas Aplicações",
+        "authors": "Eduardo Pagani Julio, Wagner Gaspar Brazil, Célio Vinicius Neves Albuquerque",
+        "doi": "https://doi.org/10.5753/sbc.10003.5.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/100/449/720"
+      },
+      {
+        "num": "3",
+        "title": "Introdução à Segurança Demonstrável",
+        "authors": "Rafael Dantas de Castro, Ricardo Dahab, Augusto Jun Devegili",
+        "doi": "https://doi.org/10.5753/sbc.10003.5.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/100/450/721"
+      },
+      {
+        "num": "4",
+        "title": "Soluções para o desenvolvimento de sistemas seguros",
+        "authors": "Milene Fiorio, Carlo O. Emmanoel, Paulo F. Pires, Flávia C. Delicato",
+        "doi": "https://doi.org/10.5753/sbc.10003.5.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/100/451/722"
+      }
+    ]
+  },
+  {
+    "edition": "VI",
+    "year": 2006,
+    "book_id": "101",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/101",
+    "title": "Minicursos do VI Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.10101.1",
+    "description": "O Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg) é um evento científico promovido anualmente pela Sociedade Brasileira de Computação (SBC) e representa o principal fórum no país para a apresentação de pesquisas e atividades relevantes ligadas à segurança da informação e de sistemas. Este livro reúne os cinco capítulos produzidos pelos autores das propostas de minicursos aceitas para apresentação no SBSeg 2006.\r\nO Capítulo 1, \"Segurança em Serviços Web\", apresenta os conceitos da arquitetura orientada a serviços, e em particular, a sua mais atual caracterização, os Serviços Web. Mostra-se, através de um cenário de uso, os benefícios em utilizar tal tecnologia e também são apresentados os desafios de segurança associados a esta. Por fim, são apresentados alguns trabalhos de pesquisa e tecnologias voltadas para tratar tais desafios de segurança.\r\nO Capítulo 2, \"Ataques e Mecanismos de Segurança em Redes Ad Hoc\", apresenta os principais ataques às redes ad hoc, classificando-os segundo os efeitos que causam e a camada de protocolos na qual eles atuam. São também apresentados e analisados os principais mecanismos de segurança utilizados para a proteção aos ataques, assim como os principais protocolos seguros específicos para redes ad hoc que foram propostos.\r\nO Capítulo 3, \"Introdução à Biometria\", apresenta uma visão geral da autenticação biométrica, examinando as principais tecnologias utilizadas e discutindo seus benefícios e limitações. São considerados ainda aspectos arquiteturais de sistemas biométricos, bem como problemas em aberto que precisam ser melhor pesquisados.\r\nO Capítulo 4, \"A Nova Geração de Modelos de Controle de Acesso em Sistemas Computacionais\", apresenta alguns modelos de controle de acesso, como DAC, MAC, DRM, RBAC e UCON, abordando as suas principais características e propriedades, como também um breve comparativo entre eles.\r\nO Capítulo 5, \"Técnicas de Defesa Contra Spam\", apresenta a motivação e os mecanismos utilizados para enviar os spams e as técnicas usadas para classificá-los e filtrá-los. Além disso, diferentes sistemas anti-spam encontrados na literatura são caracterizados. Por fim, novas propostas para coibir o envio de spams são discutidas.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2006",
+      "SBSeg 2006"
+    ],
+    "cover": "assets/img/minicursos/book-101.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Segurança em Serviços Web",
+        "authors": "Emerson Ribeiro de Mello, Michelle S. Wangham, Joni da Silva Fraga, Edson Camargo",
+        "doi": "https://doi.org/10.5753/sbc.10101.1.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/101/453/724"
+      },
+      {
+        "num": "2",
+        "title": "Ataques e Mecanismos de Segurança em Redes Ad Hoc",
+        "authors": "Natalia C. Fernandes, Marcelo D. D. Moreira, Pedro B. Velloso, Luís Henrique M. K. Costa, Otto Carlos M. B. Duarte",
+        "doi": "https://doi.org/10.5753/sbc.10101.1.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/101/454/725"
+      },
+      {
+        "num": "3",
+        "title": "Introdução à Biometria",
+        "authors": "Luciano R. Costa, Rafael R. Obelheiro, Joni S. Fraga",
+        "doi": "https://doi.org/10.5753/sbc.10101.1.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/101/455/726"
+      },
+      {
+        "num": "4",
+        "title": "A Nova Geração de Modelos de Controle de Acesso em Sistemas Computacionais",
+        "authors": "Luiz Otávio Botelho Lento, Joni da Silva Fraga, Lau Cheuk Lung",
+        "doi": "https://doi.org/10.5753/sbc.10101.1.4",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/101/456/727"
+      },
+      {
+        "num": "5",
+        "title": "Técnicas de Defesa Contra Spam",
+        "authors": "Danilo Michalczuk Taveira, Igor Monteiro Moraes, Marcelo Gonçalves Rubinstein, Otto Carlos Muniz Bandeira Duarte",
+        "doi": "https://doi.org/10.5753/sbc.10101.1.5",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/101/457/728"
+      }
+    ]
+  },
+  {
+    "edition": "V",
+    "year": 2005,
+    "book_id": "97",
+    "url": "https://sol.sbc.org.br/livros/index.php/sbc/catalog/book/97",
+    "title": "Minicursos do V Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+    "doi": "10.5753/sbc.9747.0",
+    "description": "&nbsp;\r\nThe Short Courses of SBSeg aim to (i) update the knowledge of students on topics not normally covered in the curricula of undergraduate courses or (ii) arouse great interest among academics and professionals. In the first edition of the Call for Short Courses, the community gave prestige to it with a high number of submissions. From a total of seventeen proposals submitted, the evaluation committee selected three for presentation and publication in book chapter form. In this book, we have the full texts of the selected proposals, organized into three chapters: (1) Negação de Serviço: Ataques e Contramedidas; (2) Segurança em Grades Computacionais; (3) Serviços Distribuídos Tolerantes a Intrusões: Resultados Recentes e Problemas Abertos.",
+    "keywords": [
+      "Segurança da Informação",
+      "Sistemas Computacionais",
+      "Minicursos do SBSeg 2005",
+      "SBSeg 2005"
+    ],
+    "cover": "assets/img/minicursos/book-97.jpg",
+    "chapters": [
+      {
+        "num": "1",
+        "title": "Negação de Serviço: Ataques e Contramedidas",
+        "authors": "Rafael P. Laufer, Igor M. Moraes, Pedro B. Velloso, Marco D. D. Bicudo, Miguel Elias M. Campista, Daniel de O. Cunha, Luís Henrique M. K. Costa, Otto Carlos M. B. Duarte",
+        "doi": "https://doi.org/10.5753/sbc.9747.0.1",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/97/430/701"
+      },
+      {
+        "num": "2",
+        "title": "Segurança em Grades Computacionais",
+        "authors": "José de Ribamar Braga Pinheiro Junior, Fabio Kon",
+        "doi": "https://doi.org/10.5753/sbc.9747.0.2",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/97/431/702"
+      },
+      {
+        "num": "3",
+        "title": "Serviços Distribuídos Tolerantes a Intrusões: resultados recentes e problemas abertos",
+        "authors": "Miguel Pupo Correia",
+        "doi": "https://doi.org/10.5753/sbc.9747.0.3",
+        "pdf": "https://books-sol.sbc.org.br/index.php/sbc/catalog/view/97/432/703"
+      }
+    ]
+  }
+]
