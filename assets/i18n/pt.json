@@ -201,9 +201,13 @@
     "eyebrow": "Publicações",
     "h1": "Publicações",
     "intro": "Referências e veículos de publicação relevantes para a comunidade brasileira de cibersegurança.",
-    "text": "A CESeg reúne referências e veículos de publicação relevantes para a comunidade brasileira de cibersegurança, além dos referenciais curriculares da área.",
+    "text": "Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições — por título, autor ou tema.",
     "ebooksCard": "Ebooks de Minicursos",
-    "ebooksCardNote": "Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib."
+    "ebooksCardNote": "Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib.",
+    "solEyebrow": "Biblioteca Digital · SOL/SBC",
+    "solH2": "Anais oficiais na SOL/SBC",
+    "solText": "Os anais de todas as edições do SBSeg são publicados na biblioteca digital SOL da SBC. Os recursos desta página complementam esse acervo oficial com busca e índices que cruzam as edições.",
+    "solCta": "Ver anais na SOL →"
   },
   "referenciais": {
     "title": "Referenciais — CESeg",

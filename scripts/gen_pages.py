@@ -284,9 +284,26 @@ def body_homenageados():
 
 
 def body_publicacoes():
-    return """
-      <p data-i18n="publicacoes.text">A CESeg reúne referências e veículos de publicação relevantes para a comunidade brasileira de cibersegurança, além dos referenciais curriculares da área.</p>
+    return f"""
+      <p class="lead" data-i18n="publicacoes.intro"></p>
+      <p data-i18n="publicacoes.text">Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições — por título, autor ou tema.</p>
+
+      <div class="feature feature-sol">
+        <div>
+          <div class="eyebrow" style="color:#fff;opacity:.85" data-i18n="publicacoes.solEyebrow">Biblioteca Digital · SOL/SBC</div>
+          <h2 data-i18n="publicacoes.solH2">Anais oficiais na SOL/SBC</h2>
+          <p data-i18n="publicacoes.solText">Os anais de todas as edições do SBSeg são publicados na biblioteca digital SOL da SBC. Os recursos desta página complementam esse acervo oficial com busca e índices que cruzam as edições.</p>
+        </div>
+        <a class="btn" style="background:#fff;color:var(--navy)" href="{SOL_ARTIGOS}" target="_blank" rel="noopener" data-i18n="publicacoes.solCta">Ver anais na SOL →</a>
+      </div>
+
       <div class="cards">
+        <a class="card" href="anais-trilha-principal.html"><h3 data-i18n="nav.anaisTP">Artigos — Trilha Principal</h3>
+          <p data-i18n="anaistp.note">Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título ou autor.</p></a>
+        <a class="card" href="anais-estendidos.html"><h3 data-i18n="nav.anaisEst">Artigos — Anais Estendidos</h3>
+          <p data-i18n="anaisest.note">Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento. Use a busca para filtrar.</p></a>
+        <a class="card" href="minicursos.html"><h3 data-i18n="publicacoes.ebooksCard">Ebooks de Minicursos</h3>
+          <p data-i18n="publicacoes.ebooksCardNote">Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib.</p></a>
         <a class="card" href="referenciais.html"><h3 data-i18n="nav.referenciais">Referenciais</h3>
           <p data-i18n="referenciais.intro">Materiais de referência para pesquisa e ensino em cibersegurança.</p></a>
         <a class="card" href="onde-publicar.html"><h3 data-i18n="nav.ondepublicar">Onde Publicar</h3>

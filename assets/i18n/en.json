@@ -201,9 +201,13 @@
     "eyebrow": "Publications",
     "h1": "Publications",
     "intro": "References and publication venues relevant to the Brazilian cybersecurity community.",
-    "text": "CESeg gathers references and publication venues relevant to the Brazilian cybersecurity community, as well as the field's curricular references.",
+    "text": "This page brings together the <strong>complete catalog</strong> of SBSeg proceedings published in the SOL/SBC Digital Library, plus <strong>complementary indexes and search tools</strong> that make it easy to locate and browse across editions — by title, author or topic.",
     "ebooksCard": "Short Course Ebooks",
-    "ebooksCardNote": "Each SBSeg edition's short courses, compiled and published as an ebook in the SBC OpenLib catalog."
+    "ebooksCardNote": "Each SBSeg edition's short courses, compiled and published as an ebook in the SBC OpenLib catalog.",
+    "solEyebrow": "Digital Library · SOL/SBC",
+    "solH2": "Official proceedings on SOL/SBC",
+    "solText": "The proceedings of every SBSeg edition are published in SBC's SOL digital library. The resources on this page complement that official archive with search and indexes that span all editions.",
+    "solCta": "View proceedings on SOL →"
   },
   "referenciais": {
     "title": "References — CESeg",

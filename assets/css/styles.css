@@ -139,6 +139,21 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--ink)}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;
   margin:.4rem 0 1.2rem}
 
+/* SOL highlight box (publications) */
+.feature-sol{margin:1.4rem 0 1.8rem}
+
+/* Publications: highlighted cards */
+body[data-page="publicacoes"] .cards .card{position:relative;
+  box-shadow:0 1px 2px rgba(15,23,42,.05);
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+body[data-page="publicacoes"] .cards .card h3{color:var(--navy);padding-right:26px}
+body[data-page="publicacoes"] .cards .card::after{content:"→";position:absolute;
+  top:22px;right:22px;font-size:1.15rem;color:var(--navy);opacity:0;
+  transform:translateX(-4px);transition:opacity .15s ease,transform .15s ease}
+body[data-page="publicacoes"] .cards .card:hover{transform:translateY(-3px);
+  border-color:var(--navy);box-shadow:0 10px 24px rgba(15,23,42,.10)}
+body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:translateX(0)}
+
 .partners{background:var(--bg-alt);text-align:center}
 .partners .logos{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;
   align-items:center;margin-top:18px;opacity:.7}
