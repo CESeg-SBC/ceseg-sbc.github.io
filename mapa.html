@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="map.title">Mapa da Cibersegurança · CESeg</title>
+  <meta name="description" data-i18n="map.desc" data-i18n-attr="content" content="Mapa interativo da pesquisa brasileira em cibersegurança: pesquisadores, grupos, programas e centros.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+        integrity="sha384-pmjIAcz2bAn0xukfxADbZIb3t8oRT9Sv0rvO+BR5Csr6Dhqq+nZs59P0pPKQJkEV" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+        integrity="sha384-wgw+aLYNQ7dlhK47ZPK7FRACiq7ROZwgFNg0m04avm4CaXS+Z9Y7nMu8yNjBKYC+" crossorigin="anonymous">
+</head>
+<body data-page="mapa">
+  <header id="site-header"></header>
+  <main>
+    <section class="page-head"><div class="wrap">
+      <div class="eyebrow" data-i18n="map.eyebrow">Mapa · dados RNP</div>
+      <h1 data-i18n="map.h1">Mapa da Cibersegurança no Brasil</h1>
+      <p class="lead" data-i18n="map.lead">Pesquisadores, grupos, programas e centros de pesquisa em cibersegurança no Brasil. Busque por nome, instituição, estado ou tema.</p>
+    </div></section>
+
+    <section class="map-app">
+      <div class="map-wrap">
+        <div class="map-toolbar">
+          <div class="map-search">
+            <input type="search" id="mapSearch" autocomplete="off"
+                   data-i18n-placeholder="map.searchPlaceholder"
+                   placeholder="Buscar por nome, instituição, estado ou tema...">
+          </div>
+          <div class="map-selects">
+            <select id="mapState" aria-label="Estado"></select>
+            <select id="mapTopic" aria-label="Tema"></select>
+            <button type="button" id="mapClear" class="map-clear" data-i18n="map.clear">Limpar</button>
+          </div>
+        </div>
+
+        <div class="map-chips" id="mapChips" role="group" aria-label="Tipos"></div>
+
+        <div class="map-meta">
+          <span class="map-count"><b id="mapVisible">0</b> <span data-i18n="map.of">de</span> <b id="mapTotal">0</b> <span data-i18n="map.results">resultados</span></span>
+          <div class="map-viewtoggle" role="group">
+            <button type="button" data-view="list" data-i18n="map.listView">Lista</button>
+            <button type="button" data-view="map" class="active" data-i18n="map.mapView">Mapa</button>
+          </div>
+        </div>
+
+        <div class="map-grid" id="mapGrid">
+          <div class="map-list" id="mapList" aria-label="Resultados"></div>
+          <div class="map-canvas">
+            <div id="cybermap"></div>
+          </div>
+        </div>
+        <p class="map-empty" id="mapNoResults" hidden data-i18n="map.noResults">Nenhum resultado encontrado.</p>
+        <p class="map-source"><span data-i18n="map.sourceNote">Dados do Mapa de Cibersegurança da RNP.</span>
+          <a href="https://cybersecmap.rnp.br" target="_blank" rel="noopener">cybersecmap.rnp.br</a></p>
+      </div>
+    </section>
+
+    <section class="section map-contribute" id="contribuir"><div class="wrap">
+      <div class="eyebrow" data-i18n="mapForm.eyebrow">Participe</div>
+      <h2 data-i18n="mapForm.h2">Inclua suas informações no mapa</h2>
+      <p class="lead" data-i18n="mapForm.intro">É pesquisador(a), lidera um grupo ou programa em cibersegurança? Envie seus dados para incluirmos no mapa. O formulário abre seu aplicativo de e-mail com a mensagem pronta para enviar.</p>
+
+      <form id="mapForm" class="map-form" novalidate>
+        <div class="mf-row">
+          <label>
+            <span data-i18n="mapForm.name">Nome completo</span>
+            <input type="text" name="name" required data-i18n-placeholder="mapForm.namePh" placeholder="Seu nome">
+          </label>
+          <label>
+            <span data-i18n="mapForm.email">E-mail</span>
+            <input type="email" name="email" required data-i18n-placeholder="mapForm.emailPh" placeholder="voce@instituicao.br">
+          </label>
+        </div>
+        <div class="mf-row">
+          <label>
+            <span data-i18n="mapForm.type">Tipo de registro</span>
+            <select name="type" id="mfType"></select>
+          </label>
+          <label>
+            <span data-i18n="mapForm.institution">Instituição</span>
+            <input type="text" name="institution" data-i18n-placeholder="mapForm.institutionPh" placeholder="Universidade / instituto">
+          </label>
+        </div>
+        <div class="mf-row">
+          <label>
+            <span data-i18n="mapForm.state">Estado (UF)</span>
+            <input type="text" name="state" maxlength="40" data-i18n-placeholder="mapForm.statePh" placeholder="Ex.: SP">
+          </label>
+          <label>
+            <span data-i18n="mapForm.links">Links (Lattes, grupo, site)</span>
+            <input type="text" name="links" data-i18n-placeholder="mapForm.linksPh" placeholder="http://lattes.cnpq.br/...">
+          </label>
+        </div>
+        <label>
+          <span data-i18n="mapForm.interests">Áreas / temas de atuação</span>
+          <input type="text" name="interests" data-i18n-placeholder="mapForm.interestsPh" placeholder="Ex.: criptografia, segurança de redes">
+        </label>
+        <label>
+          <span data-i18n="mapForm.message">Mensagem (opcional)</span>
+          <textarea name="message" rows="4" data-i18n-placeholder="mapForm.messagePh" placeholder="Informações adicionais..."></textarea>
+        </label>
+        <div class="mf-actions">
+          <button type="submit" class="btn btn-primary" data-i18n="mapForm.submit">Enviar por e-mail</button>
+          <span class="mf-hint" id="mfHint" data-i18n="mapForm.hint">Abre seu aplicativo de e-mail com a mensagem pronta.</span>
+        </div>
+        <p class="mf-error" id="mfError" hidden data-i18n="mapForm.error">Preencha nome e e-mail válidos.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"
+          integrity="sha384-eXVCORTRlv4FUUgS/xmOyr66XBVraen8ATNLMESp92FKXLAMiKkerixTiBvXriZr" crossorigin="anonymous"></script>
+  <script src="assets/js/mapa.js"></script>
+</body>
+</html>

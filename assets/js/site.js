@@ -7,6 +7,7 @@ const NAV = [
     {key:'nav.conferencistas', href:'conferencistas.html'}]},
   {key:'nav.grupos', href:'grupos.html', children:[
     {key:'nav.instituto', href:'instituto.html'}]},
+  {key:'nav.mapa', href:'mapa.html'},
   {key:'nav.sbseg', href:'sbseg.html', children:[
     {key:'nav.anais', href:'anais.html'},
     {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
@@ -87,6 +88,10 @@ let DICT = {};
 function t(key){
   return key.split('.').reduce((o,k)=> (o&&o[k]!=null)?o[k]:null, DICT) ?? null;
 }
+// Expose the i18n lookup on a stable namespace so page scripts (e.g. mapa.js) can
+// translate without relying on the bare global `t`, which third-party bundles
+// (Leaflet) may shadow with their own leaked global.
+window.cesegI18n = { t: t, lang: currentLang };
 function applyI18n(){
   document.querySelectorAll('[data-i18n]').forEach(el=>{
     const val = t(el.getAttribute('data-i18n'));
@@ -105,6 +110,8 @@ function applyI18n(){
   document.querySelectorAll('.lang button').forEach(b=>
     b.classList.toggle('active', b.dataset.lang===currentLang()));
   document.documentElement.lang = currentLang();
+  // Let page-specific scripts (e.g. mapa.js) re-render their dynamic labels.
+  document.dispatchEvent(new CustomEvent('i18n:applied'));
 }
 function currentLang(){
   const url = new URLSearchParams(location.search).get('lang');
