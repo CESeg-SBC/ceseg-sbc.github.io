@@ -38,6 +38,10 @@
     "downloadPdf": "Baixar PDF",
     "noLink": "sem link"
   },
+  "beta": {
+    "tag": "Beta v0.2",
+    "msg": "🚧 Site em construção — conteúdo em revisão e sujeito a alterações."
+  },
   "home": {
     "title": "CESeg — Comissão Especial de Cibersegurança da SBC",
     "desc": "A Comissão Especial de Cibersegurança da Sociedade Brasileira de Computação congrega e articula a comunidade acadêmica brasileira na área de cibersegurança.",

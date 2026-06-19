@@ -38,6 +38,10 @@
     "downloadPdf": "Download PDF",
     "noLink": "no link"
   },
+  "beta": {
+    "tag": "Beta v0.2",
+    "msg": "🚧 Site under construction — content is being reviewed and may change."
+  },
   "home": {
     "title": "CESeg — Special Committee on Cybersecurity (SBC)",
     "desc": "The Special Committee on Cybersecurity of the Brazilian Computer Society brings together and articulates the Brazilian academic community in cybersecurity.",

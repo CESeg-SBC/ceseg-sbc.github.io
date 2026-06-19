@@ -26,6 +26,18 @@ h1,h2,h3{font-family:var(--serif);line-height:1.15;color:var(--ink)}
 .btn-ghost{background:transparent;color:var(--navy)}
 .btn-ghost:hover{background:var(--bg-alt);text-decoration:none}
 
+/* Beta / under-construction banner */
+.beta-banner{position:sticky;top:0;z-index:60;background:#fef3c7;
+  border-bottom:1px solid #fde68a;color:#92400e}
+.beta-bar{display:flex;align-items:center;justify-content:center;gap:10px;
+  min-height:38px;padding:7px 24px;flex-wrap:wrap;text-align:center}
+.beta-tag{font-family:var(--sans);font-size:.7rem;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;color:#fff;background:#b45309;border-radius:999px;
+  padding:3px 10px;white-space:nowrap}
+.beta-msg{font-size:.86rem;font-weight:600}
+/* Sit the sticky header right below the sticky banner */
+.beta-banner + .site-header{top:39px}
+
 /* Header */
 .site-header{position:sticky;top:0;z-index:50;background:var(--bg);
   border-bottom:1px solid var(--border)}

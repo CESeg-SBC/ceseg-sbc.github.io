@@ -52,6 +52,13 @@ function renderHeader(current){
   </div>`;
 }
 
+function renderBetaBanner(){
+  return `<div class="wrap beta-bar">
+    <span class="beta-tag" data-i18n="beta.tag">Beta v0.2</span>
+    <span class="beta-msg" data-i18n="beta.msg">🚧 Site em construção — conteúdo em revisão e sujeito a alterações.</span>
+  </div>`;
+}
+
 function renderFooter(){
   return `<div class="wrap cols">
     <div><div class="brand-f">CESeg</div>
@@ -122,6 +129,12 @@ function setLang(lang){
 // ---- Boot ----
 document.addEventListener('DOMContentLoaded', ()=>{
   const current = (document.body.dataset.page||'index') + '.html';
+  const banner = document.createElement('div');
+  banner.className = 'beta-banner';
+  banner.setAttribute('role', 'status');
+  banner.innerHTML = renderBetaBanner();
+  document.body.insertBefore(banner, document.body.firstChild);
+
   const header = document.getElementById('site-header');
   const footer = document.getElementById('site-footer');
   if(header){ header.className='site-header'; header.innerHTML = renderHeader(current); }
