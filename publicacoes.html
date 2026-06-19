@@ -16,7 +16,7 @@
     </div></section>
     <section class="content"><div class="wrap">
       <p class="lead" data-i18n="publicacoes.intro"></p>
-      <p data-i18n="publicacoes.text">Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições — por título, autor ou tema.</p>
+      <p data-i18n="publicacoes.text">Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições, por título, autor ou tema.</p>
 
       <div class="feature feature-sol">
         <div>
@@ -28,10 +28,10 @@
       </div>
 
       <div class="cards">
-        <a class="card" href="anais-trilha-principal.html"><h3 data-i18n="nav.anaisTP">Artigos — Trilha Principal</h3>
-          <p data-i18n="anaistp.note">Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título ou autor.</p></a>
-        <a class="card" href="anais-estendidos.html"><h3 data-i18n="nav.anaisEst">Artigos — Anais Estendidos</h3>
-          <p data-i18n="anaisest.note">Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento. Use a busca para filtrar.</p></a>
+        <a class="card" href="anais-trilha-principal.html"><h3 data-i18n="nav.anaisTP">Artigos · Trilha Principal</h3>
+          <p data-i18n="anaistp.note">Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título, autor ou palavra-chave.</p></a>
+        <a class="card" href="anais-estendidos.html"><h3 data-i18n="nav.anaisEst">Artigos · Anais Estendidos</h3>
+          <p data-i18n="anaisest.note">Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento. Use a busca para filtrar por título, autor ou palavra-chave.</p></a>
         <a class="card" href="minicursos.html"><h3 data-i18n="publicacoes.ebooksCard">Ebooks de Minicursos</h3>
           <p data-i18n="publicacoes.ebooksCardNote">Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib.</p></a>
         <a class="card" href="referenciais.html"><h3 data-i18n="nav.referenciais">Referenciais</h3>
@@ -39,6 +39,113 @@
         <a class="card" href="onde-publicar.html"><h3 data-i18n="nav.ondepublicar">Onde Publicar</h3>
           <p data-i18n="ondepublicar.intro">Periódicos e conferências para publicação de pesquisa em cibersegurança.</p></a>
       </div>
+
+      <section class="pub-cloud-section" aria-labelledby="genCloudTitle">
+        <h2 id="genCloudTitle" class="pub-cloud-title" data-i18n="publicacoes.cloudTitle">Mapa geral de palavras-chave</h2>
+        <p class="pub-cloud-note" data-i18n="publicacoes.cloudNote">Temas mais recorrentes em todas as edições do SBSeg, combinando a Trilha Principal e os Anais Estendidos. As palavras-chave foram extraídas automaticamente dos títulos dos artigos. Clique em um termo para buscá-lo nos anais.</p>
+        <div class="wordcloud" id="genCloud">
+          <button type="button" class="wc-word wc-s7" data-kw="detecção de ataques" title="18">detecção de ataques</button>
+          <button type="button" class="wc-word wc-s5" data-kw="detecção de intrusão" title="12">detecção de intrusão</button>
+          <button type="button" class="wc-word wc-s4" data-kw="android" title="11">android</button>
+          <button type="button" class="wc-word wc-s4" data-kw="segurança" title="10">segurança</button>
+          <button type="button" class="wc-word wc-s3" data-kw="controle de acesso" title="9">controle de acesso</button>
+          <button type="button" class="wc-word wc-s3" data-kw="sistema de detecção" title="9">sistema de detecção</button>
+          <button type="button" class="wc-word wc-s3" data-kw="blockchain" title="8">blockchain</button>
+          <button type="button" class="wc-word wc-s3" data-kw="cryptography" title="8">cryptography</button>
+          <button type="button" class="wc-word wc-s3" data-kw="detecção de anomalias" title="8">detecção de anomalias</button>
+          <button type="button" class="wc-word wc-s3" data-kw="machine learning" title="8">machine learning</button>
+          <button type="button" class="wc-word wc-s3" data-kw="rede" title="8">rede</button>
+          <button type="button" class="wc-word wc-s3" data-kw="web" title="8">web</button>
+          <button type="button" class="wc-word wc-s3" data-kw="approach" title="7">approach</button>
+          <button type="button" class="wc-word wc-s3" data-kw="attacks" title="7">attacks</button>
+          <button type="button" class="wc-word wc-s3" data-kw="detecção de malwares" title="7">detecção de malwares</button>
+          <button type="button" class="wc-word wc-s3" data-kw="internet das coisas" title="7">internet das coisas</button>
+          <button type="button" class="wc-word wc-s3" data-kw="seleção de características" title="7">seleção de características</button>
+          <button type="button" class="wc-word wc-s2" data-kw="análise comparativa" title="6">análise comparativa</button>
+          <button type="button" class="wc-word wc-s2" data-kw="aprendizado de máquina" title="6">aprendizado de máquina</button>
+          <button type="button" class="wc-word wc-s2" data-kw="detecção de malware" title="6">detecção de malware</button>
+          <button type="button" class="wc-word wc-s2" data-kw="geração de dados" title="6">geração de dados</button>
+          <button type="button" class="wc-word wc-s2" data-kw="internet" title="6">internet</button>
+          <button type="button" class="wc-word wc-s2" data-kw="intrusões" title="6">intrusões</button>
+          <button type="button" class="wc-word wc-s2" data-kw="networks" title="6">networks</button>
+          <button type="button" class="wc-word wc-s2" data-kw="open source" title="6">open source</button>
+          <button type="button" class="wc-word wc-s2" data-kw="protocol" title="6">protocol</button>
+          <button type="button" class="wc-word wc-s2" data-kw="aplicações web" title="5">aplicações web</button>
+          <button type="button" class="wc-word wc-s2" data-kw="informação" title="5">informação</button>
+          <button type="button" class="wc-word wc-s2" data-kw="intrusion detection" title="5">intrusion detection</button>
+          <button type="button" class="wc-word wc-s2" data-kw="malware detection" title="5">malware detection</button>
+          <button type="button" class="wc-word wc-s2" data-kw="mitigação de ataques" title="5">mitigação de ataques</button>
+          <button type="button" class="wc-word wc-s2" data-kw="móveis" title="5">móveis</button>
+          <button type="button" class="wc-word wc-s2" data-kw="nova abordagem" title="5">nova abordagem</button>
+          <button type="button" class="wc-word wc-s2" data-kw="privacidade" title="5">privacidade</button>
+          <button type="button" class="wc-word wc-s2" data-kw="redes" title="5">redes</button>
+          <button type="button" class="wc-word wc-s2" data-kw="redes de computadores" title="5">redes de computadores</button>
+          <button type="button" class="wc-word wc-s2" data-kw="segurança cibernética" title="5">segurança cibernética</button>
+          <button type="button" class="wc-word wc-s2" data-kw="sistemas de detecção" title="5">sistemas de detecção</button>
+          <button type="button" class="wc-word wc-s2" data-kw="system" title="5">system</button>
+          <button type="button" class="wc-word wc-s2" data-kw="vulnerabilidades" title="5">vulnerabilidades</button>
+          <button type="button" class="wc-word wc-s1" data-kw="análise de desempenho" title="4">análise de desempenho</button>
+          <button type="button" class="wc-word wc-s1" data-kw="aprendizagem de máquina" title="4">aprendizagem de máquina</button>
+          <button type="button" class="wc-word wc-s1" data-kw="aprimorando" title="4">aprimorando</button>
+          <button type="button" class="wc-word wc-s1" data-kw="architecture" title="4">architecture</button>
+          <button type="button" class="wc-word wc-s1" data-kw="autenticação contínua" title="4">autenticação contínua</button>
+          <button type="button" class="wc-word wc-s1" data-kw="authentication" title="4">authentication</button>
+          <button type="button" class="wc-word wc-s1" data-kw="avaliação de métodos" title="4">avaliação de métodos</button>
+          <button type="button" class="wc-word wc-s1" data-kw="blind signatures" title="4">blind signatures</button>
+          <button type="button" class="wc-word wc-s1" data-kw="chaves públicas" title="4">chaves públicas</button>
+          <button type="button" class="wc-word wc-s1" data-kw="coisas" title="4">coisas</button>
+          <button type="button" class="wc-word wc-s1" data-kw="detection" title="4">detection</button>
+          <button type="button" class="wc-word wc-s1" data-kw="detecção" title="4">detecção</button>
+          <button type="button" class="wc-word wc-s1" data-kw="documentos eletrônicos" title="4">documentos eletrônicos</button>
+          <button type="button" class="wc-word wc-s1" data-kw="elliptic curve" title="4">elliptic curve</button>
+          <button type="button" class="wc-word wc-s1" data-kw="hardware" title="4">hardware</button>
+          <button type="button" class="wc-word wc-s1" data-kw="implementation" title="4">implementation</button>
+          <button type="button" class="wc-word wc-s1" data-kw="inteligência artificial" title="4">inteligência artificial</button>
+          <button type="button" class="wc-word wc-s1" data-kw="iot" title="4">iot</button>
+          <button type="button" class="wc-word wc-s1" data-kw="negação de serviço" title="4">negação de serviço</button>
+          <button type="button" class="wc-word wc-s1" data-kw="post quantum" title="4">post quantum</button>
+          <button type="button" class="wc-word wc-s1" data-kw="proteção de dados" title="4">proteção de dados</button>
+          <button type="button" class="wc-word wc-s1" data-kw="redes neurais" title="4">redes neurais</button>
+          <button type="button" class="wc-word wc-s1" data-kw="sensores" title="4">sensores</button>
+          <button type="button" class="wc-word wc-s1" data-kw="signatures" title="4">signatures</button>
+          <button type="button" class="wc-word wc-s1" data-kw="sistema de votação" title="4">sistema de votação</button>
+          <button type="button" class="wc-word wc-s1" data-kw="software" title="4">software</button>
+          <button type="button" class="wc-word wc-s1" data-kw="spki sdsi" title="4">spki sdsi</button>
+          <button type="button" class="wc-word wc-s1" data-kw="séries temporais" title="4">séries temporais</button>
+          <button type="button" class="wc-word wc-s1" data-kw="análise comportamental" title="3">análise comportamental</button>
+          <button type="button" class="wc-word wc-s1" data-kw="análise de malware" title="3">análise de malware</button>
+          <button type="button" class="wc-word wc-s1" data-kw="análise de vulnerabilidades" title="3">análise de vulnerabilidades</button>
+          <button type="button" class="wc-word wc-s1" data-kw="approximate matching" title="3">approximate matching</button>
+          <button type="button" class="wc-word wc-s1" data-kw="aprendizado profundo" title="3">aprendizado profundo</button>
+          <button type="button" class="wc-word wc-s1" data-kw="arquitetura baseada" title="3">arquitetura baseada</button>
+          <button type="button" class="wc-word wc-s1" data-kw="assinatura digital" title="3">assinatura digital</button>
+          <button type="button" class="wc-word wc-s1" data-kw="ataques" title="3">ataques</button>
+          <button type="button" class="wc-word wc-s1" data-kw="ataques ddos" title="3">ataques ddos</button>
+          <button type="button" class="wc-word wc-s1" data-kw="avaliando" title="3">avaliando</button>
+          <button type="button" class="wc-word wc-s1" data-kw="avaliação" title="3">avaliação</button>
+          <button type="button" class="wc-word wc-s1" data-kw="avaliação de desempenho" title="3">avaliação de desempenho</button>
+          <button type="button" class="wc-word wc-s1" data-kw="avaliação do impacto" title="3">avaliação do impacto</button>
+          <button type="button" class="wc-word wc-s1" data-kw="avx" title="3">avx</button>
+          <button type="button" class="wc-word wc-s1" data-kw="block cipher" title="3">block cipher</button>
+          <button type="button" class="wc-word wc-s1" data-kw="brasil" title="3">brasil</button>
+          <button type="button" class="wc-word wc-s1" data-kw="certificados digitais" title="3">certificados digitais</button>
+          <button type="button" class="wc-word wc-s1" data-kw="chave pública" title="3">chave pública</button>
+          <button type="button" class="wc-word wc-s1" data-kw="criptografia baseada" title="3">criptografia baseada</button>
+          <button type="button" class="wc-word wc-s1" data-kw="criptografia pós" title="3">criptografia pós</button>
+          <button type="button" class="wc-word wc-s1" data-kw="dados" title="3">dados</button>
+          <button type="button" class="wc-word wc-s1" data-kw="definidas por software" title="3">definidas por software</button>
+          <button type="button" class="wc-word wc-s1" data-kw="desenvolvimento" title="3">desenvolvimento</button>
+          <button type="button" class="wc-word wc-s1" data-kw="detecção de botnets" title="3">detecção de botnets</button>
+          <button type="button" class="wc-word wc-s1" data-kw="digitais" title="3">digitais</button>
+          <button type="button" class="wc-word wc-s1" data-kw="eficiente" title="3">eficiente</button>
+          <button type="button" class="wc-word wc-s1" data-kw="fake news" title="3">fake news</button>
+          <button type="button" class="wc-word wc-s1" data-kw="ferramenta para visualização" title="3">ferramenta para visualização</button>
+          <button type="button" class="wc-word wc-s1" data-kw="firewall" title="3">firewall</button>
+          <button type="button" class="wc-word wc-s1" data-kw="firewalls" title="3">firewalls</button>
+          <button type="button" class="wc-word wc-s1" data-kw="icp brasil" title="3">icp brasil</button>
+          <button type="button" class="wc-word wc-s1" data-kw="impacto de ataques" title="3">impacto de ataques</button>
+        </div>
+      </section>
     </div></section>
   </main>
   <footer id="site-footer"></footer>

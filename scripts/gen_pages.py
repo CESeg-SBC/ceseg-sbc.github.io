@@ -10,7 +10,10 @@ language-neutral data (names, institutions, dates, PDF links, journal titles)
 is embedded inline; translatable prose/headings use data-i18n keys that live
 in assets/i18n/{pt,en,es}.json. Missing keys fall back to the inline PT text.
 """
+import json
 import os
+
+import keywords  # sibling module: word-cloud rendering
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -283,10 +286,20 @@ def body_homenageados():
       </div>"""
 
 
+def _combined_cloud_html():
+    """Render the overall keyword cloud from the aggregate fetch_sbseg.py wrote."""
+    path = os.path.join(ROOT, "scripts", "keywords_combined.json")
+    if not os.path.exists(path):
+        return ""
+    counts = dict(json.load(open(path, encoding="utf-8"))["counts"])
+    return keywords.cloud_html(counts, cloud_id="genCloud", limit=100, indent="        ")
+
+
 def body_publicacoes():
+    cloud = _combined_cloud_html()
     return f"""
       <p class="lead" data-i18n="publicacoes.intro"></p>
-      <p data-i18n="publicacoes.text">Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições — por título, autor ou tema.</p>
+      <p data-i18n="publicacoes.text">Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições, por título, autor ou tema.</p>
 
       <div class="feature feature-sol">
         <div>
@@ -298,17 +311,23 @@ def body_publicacoes():
       </div>
 
       <div class="cards">
-        <a class="card" href="anais-trilha-principal.html"><h3 data-i18n="nav.anaisTP">Artigos — Trilha Principal</h3>
-          <p data-i18n="anaistp.note">Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título ou autor.</p></a>
-        <a class="card" href="anais-estendidos.html"><h3 data-i18n="nav.anaisEst">Artigos — Anais Estendidos</h3>
-          <p data-i18n="anaisest.note">Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento. Use a busca para filtrar.</p></a>
+        <a class="card" href="anais-trilha-principal.html"><h3 data-i18n="nav.anaisTP">Artigos · Trilha Principal</h3>
+          <p data-i18n="anaistp.note">Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título, autor ou palavra-chave.</p></a>
+        <a class="card" href="anais-estendidos.html"><h3 data-i18n="nav.anaisEst">Artigos · Anais Estendidos</h3>
+          <p data-i18n="anaisest.note">Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento. Use a busca para filtrar por título, autor ou palavra-chave.</p></a>
         <a class="card" href="minicursos.html"><h3 data-i18n="publicacoes.ebooksCard">Ebooks de Minicursos</h3>
           <p data-i18n="publicacoes.ebooksCardNote">Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib.</p></a>
         <a class="card" href="referenciais.html"><h3 data-i18n="nav.referenciais">Referenciais</h3>
           <p data-i18n="referenciais.intro">Materiais de referência para pesquisa e ensino em cibersegurança.</p></a>
         <a class="card" href="onde-publicar.html"><h3 data-i18n="nav.ondepublicar">Onde Publicar</h3>
           <p data-i18n="ondepublicar.intro">Periódicos e conferências para publicação de pesquisa em cibersegurança.</p></a>
-      </div>"""
+      </div>
+
+      <section class="pub-cloud-section" aria-labelledby="genCloudTitle">
+        <h2 id="genCloudTitle" class="pub-cloud-title" data-i18n="publicacoes.cloudTitle">Mapa geral de palavras-chave</h2>
+        <p class="pub-cloud-note" data-i18n="publicacoes.cloudNote">Temas mais recorrentes em todas as edições do SBSeg, combinando a Trilha Principal e os Anais Estendidos. As palavras-chave foram extraídas automaticamente dos títulos dos artigos. Clique em um termo para buscá-lo nos anais.</p>
+{cloud}
+      </section>"""
 
 
 def body_referenciais():

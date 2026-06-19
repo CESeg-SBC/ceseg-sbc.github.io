@@ -8,7 +8,7 @@
     "grupos": "Grupos",
     "instituto": "Instituto",
     "sbseg": "SBSeg",
-    "anais": "Anais — Trilha Principal",
+    "anais": "Anais · Trilha Principal",
     "minicursos": "Minicursos",
     "wise": "WISE",
     "homenagens": "Homenagens",
@@ -19,14 +19,14 @@
     "atas": "Atas",
     "regimentos": "Regimentos",
     "portarias": "Portarias",
-    "anaisTP": "Artigos — Trilha Principal",
-    "anaisEst": "Artigos — Anais Estendidos"
+    "anaisTP": "Artigos · Trilha Principal",
+    "anaisEst": "Artigos · Anais Estendidos"
   },
   "footer": {
     "about": "Comissão Especial de Cibersegurança da Sociedade Brasileira de Computação. Criada em 2004.",
     "cnpj": "CNPJ 29.532.264/0001-78",
     "contactTitle": "Contato",
-    "address": "Av. Bento Gonçalves, 9500 — Agronomia, Porto Alegre/RS, CEP 91501-970",
+    "address": "Av. Bento Gonçalves, 9500 · Agronomia, Porto Alegre/RS, CEP 91501-970",
     "navTitle": "Navegação",
     "credit": "<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener\">AI Horizon Labs</a> ajudando a comunidade com este site."
   },
@@ -40,10 +40,10 @@
   },
   "beta": {
     "tag": "Beta v0.2",
-    "msg": "🚧 Site em construção — conteúdo em revisão e sujeito a alterações."
+    "msg": "🚧 Site em construção, conteúdo em revisão e sujeito a alterações."
   },
   "home": {
-    "title": "CESeg — Comissão Especial de Cibersegurança da SBC",
+    "title": "CESeg · Comissão Especial de Cibersegurança da SBC",
     "desc": "A Comissão Especial de Cibersegurança da Sociedade Brasileira de Computação congrega e articula a comunidade acadêmica brasileira na área de cibersegurança.",
     "eyebrow": "Sociedade Brasileira de Computação · desde 2004",
     "h1": "Comissão Especial de Cibersegurança",
@@ -54,7 +54,7 @@
     "aboutH2": "O que é o CESeg",
     "aboutText": "A Comissão Especial de Cibersegurança (CESeg) da Sociedade Brasileira de Computação congrega e articula a comunidade acadêmica brasileira atuando na área de cibersegurança. Criada em 2004, reúne pesquisadores, estudantes, indústria e profissionais em torno da ciência e tecnologia de segurança cibernética no Brasil.",
     "eventEyebrow": "Evento principal",
-    "eventH2": "SBSeg 2026 — Búzios",
+    "eventH2": "SBSeg 2026 · Búzios",
     "eventText": "Simpósio Brasileiro de Cibersegurança: o fórum que conecta pesquisa, indústria e estudantes.",
     "eventCta": "Saiba mais →",
     "cardInstH3": "Instituto Nacional de Segurança Cibernética",
@@ -71,18 +71,18 @@
     "comm3s": "Formação na área"
   },
   "lista": {
-    "title": "Lista de Discussão — CESeg",
+    "title": "Lista de Discussão · CESeg",
     "desc": "Lista de discussão da comunidade de cibersegurança da SBC.",
     "eyebrow": "Comunidade",
     "h1": "Lista de Discussão",
     "intro": "A Lista SBC de Segurança da Informação e de Sistemas Computacionais é um ponto de encontro da comunidade acadêmica brasileira atuante em segurança, com discussões temáticas e divulgação de eventos.",
-    "warn": "Espera-se que esta lista <strong>não</strong> seja usada como espaço para consultoria técnica em configuração de sistemas — existem fóruns mais apropriados para isso.",
+    "warn": "Espera-se que esta lista <strong>não</strong> seja usada como espaço para consultoria técnica em configuração de sistemas, existem fóruns mais apropriados para isso.",
     "joinH2": "Como participar",
     "joinText": "A inscrição e o acesso aos arquivos (para inscritos) são feitos pela plataforma da lista, hospedada na UFRGS.",
     "joinCta": "Inscrever-se na lista →"
   },
   "org": {
-    "title": "Organização — CESeg",
+    "title": "Organização · CESeg",
     "desc": "Coordenação e comitê gestor da CESeg.",
     "eyebrow": "Organização",
     "h1": "Organização",
@@ -97,7 +97,7 @@
     "gestorText": "Composição do comitê gestor por ano."
   },
   "comissoes": {
-    "title": "Comissões — CESeg",
+    "title": "Comissões · CESeg",
     "desc": "Comissões de Educação e de Competições da CESeg.",
     "eyebrow": "Organização",
     "h1": "Comissões",
@@ -108,7 +108,7 @@
     "compText": "Estabelecida em 19 de setembro de 2023, atua para definir e promover estratégias de competições alinhadas à Comissão de Educação, atendendo à comunidade científica de segurança e às demandas da sociedade."
   },
   "conferencistas": {
-    "title": "Conferencistas Sêniores — CESeg",
+    "title": "Conferencistas Sêniores · CESeg",
     "desc": "Conferencistas sêniores da comunidade de cibersegurança da SBC.",
     "eyebrow": "Organização",
     "h1": "Conferencistas Sêniores",
@@ -116,16 +116,16 @@
     "progText": "A Sociedade Brasileira de Computação (SBC) lançou em 2014 o Programa de Conferencistas Seniores. Por meio dele, cada Comissão Especial indica pesquisadores com vasta experiência em sua área para representá-la em eventos e palestras."
   },
   "grupos": {
-    "title": "Grupos de Pesquisa — CESeg",
+    "title": "Grupos de Pesquisa · CESeg",
     "desc": "Grupos de pesquisa em cibersegurança no Brasil.",
     "eyebrow": "Grupos",
     "h1": "Grupos de Pesquisa",
     "intro": "Grupos de pesquisa em segurança de sistemas, de redes e da informação, distribuídos em universidades de todo o Brasil.",
-    "liveText": "A lista de grupos de pesquisa é dinâmica e mantida no portal oficial da CESeg, onde é atualizada continuamente. Consulte a relação completa — instituições, coordenadores e linhas de atuação — diretamente na fonte:",
+    "liveText": "A lista de grupos de pesquisa é dinâmica e mantida no portal oficial da CESeg, onde é atualizada continuamente. Consulte a relação completa, instituições, coordenadores e linhas de atuação, diretamente na fonte:",
     "liveCta": "Ver a lista completa de grupos →"
   },
   "instituto": {
-    "title": "Instituto — CESeg",
+    "title": "Instituto · CESeg",
     "desc": "Instituto Nacional de Ciência e Tecnologia em Segurança Cibernética.",
     "eyebrow": "Grupos",
     "h1": "Instituto Nacional de Segurança Cibernética",
@@ -135,7 +135,7 @@
     "instH2": "Instituições participantes"
   },
   "sbseg": {
-    "title": "SBSeg — CESeg",
+    "title": "SBSeg · CESeg",
     "desc": "Simpósio Brasileiro de Cibersegurança (SBSeg).",
     "eyebrow": "SBSeg",
     "h1": "Simpósio Brasileiro de Cibersegurança",
@@ -154,16 +154,16 @@
     "histNote": "Edições de 2001 a 2004 realizadas como Workshop em Segurança de Sistemas Computacionais (WSeg)."
   },
   "anais": {
-    "title": "Anais — Trilha Principal — CESeg",
+    "title": "Anais · Trilha Principal · CESeg",
     "desc": "Anais da trilha principal do SBSeg.",
     "eyebrow": "SBSeg",
-    "h1": "Anais — Trilha Principal",
+    "h1": "Anais · Trilha Principal",
     "intro": "Anais da trilha principal do Simpósio Brasileiro de Cibersegurança, com os artigos científicos das edições do evento.",
     "solText": "A Biblioteca Digital da Sociedade Brasileira de Computação (SOL) reúne os artigos de todas as edições do SBSeg.",
     "solCta": "Artigos do SBSeg no SOL →"
   },
   "minicursos": {
-    "title": "Minicursos — CESeg",
+    "title": "Minicursos · CESeg",
     "desc": "Minicursos do SBSeg.",
     "eyebrow": "SBSeg",
     "h1": "Minicursos",
@@ -181,7 +181,7 @@
     "ebookOpen": "Abrir ebook no SBC OpenLib ↗"
   },
   "wise": {
-    "title": "WISE — CESeg",
+    "title": "WISE · CESeg",
     "desc": "Trilha de educação em segurança da informação do SBSeg.",
     "eyebrow": "SBSeg",
     "h1": "WISE",
@@ -189,28 +189,30 @@
     "text": "O WISE é a trilha do SBSeg dedicada à educação e à formação em segurança da informação, reunindo trabalhos e experiências sobre o ensino de cibersegurança."
   },
   "homenageados": {
-    "title": "Homenagens — CESeg",
+    "title": "Homenagens · CESeg",
     "desc": "Homenageados da comunidade de cibersegurança.",
     "eyebrow": "Homenagens",
     "h1": "Homenagens",
     "intro": "Desde 2018, a cada 2 anos a CESeg reúne os membros da comunidade de cibersegurança do Brasil com o objetivo de sugerir um nome para ser homenageado pelas suas contribuições na área. Embora os critérios de indicação possam variar em cada edição, em geral os pesquisadores homenageados são escolhidos em razão de suas contribuições de pesquisa, formação de novos pesquisadores e atuação em favor da área de cibersegurança no Brasil e no mundo. O evento de homenagem, denominado \"Prêmio Destaque CESeg\", acontece em um espaço reservado durante o SBSeg do ano correspondente."
   },
   "publicacoes": {
-    "title": "Publicações — CESeg",
+    "title": "Publicações · CESeg",
     "desc": "Publicações e veículos da comunidade de cibersegurança.",
     "eyebrow": "Publicações",
     "h1": "Publicações",
     "intro": "Referências e veículos de publicação relevantes para a comunidade brasileira de cibersegurança.",
-    "text": "Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições — por título, autor ou tema.",
+    "text": "Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições, por título, autor ou tema.",
     "ebooksCard": "Ebooks de Minicursos",
     "ebooksCardNote": "Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib.",
     "solEyebrow": "Biblioteca Digital · SOL/SBC",
     "solH2": "Anais oficiais na SOL/SBC",
     "solText": "Os anais de todas as edições do SBSeg são publicados na biblioteca digital SOL da SBC. Os recursos desta página complementam esse acervo oficial com busca e índices que cruzam as edições.",
-    "solCta": "Ver anais na SOL →"
+    "solCta": "Ver anais na SOL →",
+    "cloudTitle": "Mapa geral de palavras-chave",
+    "cloudNote": "Temas mais recorrentes em todas as edições do SBSeg, combinando a Trilha Principal e os Anais Estendidos. As palavras-chave foram extraídas automaticamente dos títulos dos artigos. Clique em um termo para buscá-lo nos anais."
   },
   "referenciais": {
-    "title": "Referenciais — CESeg",
+    "title": "Referenciais · CESeg",
     "desc": "Referenciais de Formação em Cibersegurança.",
     "eyebrow": "Publicações",
     "h1": "Referenciais",
@@ -219,7 +221,7 @@
     "cta": "Acessar os referenciais no SOL →"
   },
   "ondepublicar": {
-    "title": "Onde Publicar — CESeg",
+    "title": "Onde Publicar · CESeg",
     "desc": "Periódicos e conferências para publicação na área.",
     "eyebrow": "Publicações",
     "h1": "Onde Publicar",
@@ -229,7 +231,7 @@
     "cNote": "Entre outras conferências internacionais de referência na área."
   },
   "documentos": {
-    "title": "Documentos — CESeg",
+    "title": "Documentos · CESeg",
     "desc": "Atas, regimentos e portarias da CESeg.",
     "eyebrow": "Documentos",
     "h1": "Documentos",
@@ -239,7 +241,7 @@
     "portText": "Portarias e atos oficiais relacionados às atividades da CESeg."
   },
   "atas": {
-    "title": "Atas — CESeg",
+    "title": "Atas · CESeg",
     "desc": "Atas das reuniões da CESeg.",
     "eyebrow": "Documentos",
     "h1": "Atas",
@@ -250,7 +252,7 @@
     "thDoc": "Documento"
   },
   "regimentos": {
-    "title": "Regimentos — CESeg",
+    "title": "Regimentos · CESeg",
     "desc": "Regimento interno da CESeg.",
     "eyebrow": "Documentos",
     "h1": "Regimentos",
@@ -258,38 +260,40 @@
     "item2017": "Regimento vigente (2017)"
   },
   "portarias": {
-    "title": "Portarias — CESeg",
+    "title": "Portarias · CESeg",
     "desc": "Portarias relacionadas à CESeg.",
     "eyebrow": "Documentos",
     "h1": "Portarias",
     "intro": "Portarias e atos oficiais relacionados à CESeg.",
-    "item020": "SBC — Portaria nº 020, de 23 de julho de 2021 — Curso de Cibersegurança"
+    "item020": "SBC, Portaria nº 020, de 23 de julho de 2021, Curso de Cibersegurança"
   },
   "pubcommon": {
     "papers": "artigos",
     "cite": "citar",
     "copyCite": "Copiar citação",
-    "searchPlaceholder": "Buscar por título ou autor…",
+    "searchPlaceholder": "Buscar por título, autor ou palavra-chave…",
     "editions": "Edições",
     "noResults": "Nenhum artigo encontrado.",
     "solIssue": "edição no SOL ↗",
     "sourcePrefix": "Dados extraídos da Biblioteca Digital da SBC (SOL)",
-    "updated": "Atualizado em"
+    "updated": "Atualizado em",
+    "cloudTitle": "Nuvem de palavras-chave",
+    "cloudNote": "Palavras-chave extraídas automaticamente dos títulos dos artigos. Clique em um termo para filtrar a lista."
   },
   "anaistp": {
-    "title": "Trilha Principal — Todos os Artigos — CESeg",
+    "title": "Trilha Principal · Todos os Artigos · CESeg",
     "desc": "Todos os artigos da Trilha Principal de todas as edições do SBSeg.",
     "eyebrow": "SBSeg · SOL",
-    "h1": "Trilha Principal — Todos os Artigos",
+    "h1": "Trilha Principal · Todos os Artigos",
     "intro": "Relação completa dos artigos da Trilha Principal do Simpósio Brasileiro de Cibersegurança (SBSeg), de todas as edições, em uma única página para facilitar a busca e a citação dos trabalhos.",
-    "note": "Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título ou autor."
+    "note": "Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. Use a busca para filtrar por título, autor ou palavra-chave."
   },
   "anaisest": {
-    "title": "Anais Estendidos — Todos os Artigos — CESeg",
+    "title": "Anais Estendidos · Todos os Artigos · CESeg",
     "desc": "Todos os artigos dos Anais Estendidos de todas as edições do SBSeg, por sub-evento.",
     "eyebrow": "SBSeg · SOL",
-    "h1": "Anais Estendidos — Todos os Artigos",
+    "h1": "Anais Estendidos · Todos os Artigos",
     "intro": "Relação completa dos artigos dos Anais Estendidos do SBSeg (workshops, salão de ferramentas, concurso de teses e dissertações, trilhas e demais sub-eventos), de todas as edições, em uma única página.",
-    "note": "Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento. Use a busca para filtrar."
+    "note": "Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento (workshops e trilhas). Use a busca para filtrar por título, autor ou palavra-chave."
   }
 }

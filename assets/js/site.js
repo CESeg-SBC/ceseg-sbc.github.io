@@ -11,8 +11,7 @@ const NAV = [
     {key:'nav.anais', href:'anais.html'},
     {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
     {key:'nav.anaisEst', href:'anais-estendidos.html'},
-    {key:'nav.minicursos', href:'minicursos.html'},
-    {key:'nav.wise', href:'wise.html'}]},
+    {key:'nav.minicursos', href:'minicursos.html'}]},
   {key:'nav.homenagens', href:'homenageados.html'},
   {key:'nav.publicacoes', href:'publicacoes.html', children:[
     {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
@@ -153,6 +152,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   loadLang(currentLang());
   initPubList();
   initMiniList();
+  initKeywordSearch();
 });
 
 // ---- Publications listing: live filter + copy citation ----
@@ -165,8 +165,9 @@ function initPubList(){
   const visEl = document.getElementById('pubVisible');
   const noRes = document.getElementById('pubNoResults');
   const papers = Array.from(list.querySelectorAll('.pub-paper'));
-  // Precompute a normalized haystack per paper once.
-  papers.forEach(p => p._hay = fold(p.dataset.title + ' ' + p.dataset.authors));
+  // Precompute a normalized haystack per paper once (title + authors + keywords).
+  papers.forEach(p => p._hay = fold(
+    p.dataset.title + ' ' + p.dataset.authors + ' ' + (p.dataset.keywords || '')));
 
   function apply(q){
     const needle = fold(q.trim());
@@ -192,6 +193,10 @@ function initPubList(){
 
   if(search) search.addEventListener('input', () => apply(search.value));
 
+  // Deep-link: ?q=term (used by the combined keyword map on publicacoes.html).
+  const q = new URLSearchParams(location.search).get('q');
+  if(q && search){ search.value = q; apply(q); }
+
   list.addEventListener('click', e => {
     const btn = e.target.closest('.pub-cite');
     if(!btn) return;
@@ -200,6 +205,26 @@ function initPubList(){
       btn.classList.add('copied');
       setTimeout(() => btn.classList.remove('copied'), 1500);
     }).catch(() => {});
+  });
+}
+
+// ---- Keyword cloud + chips: click a term to search ----
+function initKeywordSearch(){
+  const search = document.getElementById('pubSearch');
+  document.addEventListener('click', e => {
+    const w = e.target.closest('.wc-word, .pub-kw');
+    if(!w) return;
+    const kw = w.dataset.kw || w.textContent.trim();
+    if(search){
+      // On a listing page, fill the box and reuse its live filter.
+      search.value = kw;
+      search.dispatchEvent(new Event('input', {bubbles:true}));
+      const top = document.querySelector('.pub-toolbar') || search;
+      top.scrollIntoView({behavior:'smooth', block:'start'});
+    } else {
+      // On the overview page there is no list: jump to the Main Track filtered.
+      location.href = 'anais-trilha-principal.html?q=' + encodeURIComponent(kw);
+    }
   });
 }
 

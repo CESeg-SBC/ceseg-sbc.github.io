@@ -205,6 +205,30 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 .pub-cite.copied{color:#15803d;border-color:#86efac;background:#f0fdf4;opacity:1}
 .pub-noresults{padding:1.4rem;text-align:center;color:var(--faint)}
 
+/* Per-paper keyword chips */
+.pub-paper-keywords{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px;padding-right:84px}
+.pub-kw{font-family:var(--sans);font-size:.72rem;font-weight:500;color:var(--muted);
+  background:var(--bg-alt);border:1px solid var(--border);border-radius:999px;
+  padding:2px 9px;cursor:pointer;transition:color .12s,border-color .12s,background .12s}
+.pub-kw:hover,.pub-kw:focus{color:#fff;background:var(--navy);border-color:var(--navy);outline:none}
+
+/* Keyword word cloud (per-page and combined) */
+.pub-cloud-section{margin:2.6rem 0 0;padding-top:1.8rem;border-top:1px solid var(--border)}
+.pub-cloud-title{font-size:1.25rem;color:var(--navy)}
+.pub-cloud-note{font-size:.9rem;color:var(--muted);margin:.4rem 0 1.2rem;max-width:60ch}
+.wordcloud{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;
+  gap:6px 14px;line-height:1.5;padding:.5rem 0}
+.wc-word{font-family:var(--sans);background:none;border:0;padding:0 2px;cursor:pointer;
+  color:var(--faint);transition:color .12s}
+.wc-word:hover,.wc-word:focus{color:var(--link);outline:none;text-decoration:underline}
+.wc-s1{font-size:.8rem}
+.wc-s2{font-size:.95rem}
+.wc-s3{font-size:1.15rem;color:var(--muted)}
+.wc-s4{font-size:1.4rem;color:var(--muted)}
+.wc-s5{font-size:1.7rem;color:var(--link);font-weight:600}
+.wc-s6{font-size:2.05rem;color:var(--navy);font-weight:600}
+.wc-s7{font-size:2.45rem;color:var(--navy);font-weight:700}
+
 /* Minicurso ebooks grid */
 .ebook-title{font-size:1.4rem;margin:2.2rem 0 .4rem;padding-top:1.4rem;border-top:1px solid var(--border)}
 .ebook-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin:1.2rem 0 1.4rem}
@@ -255,7 +279,7 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 @media (max-width:860px){
   .pub-toolbar{top:0}
   .pub-cite{position:static;opacity:1;margin-top:8px;display:inline-block}
-  .pub-paper-title,.pub-paper-authors{padding-right:0}
+  .pub-paper-title,.pub-paper-authors,.pub-paper-keywords{padding-right:0}
 }
 
 /* Footer */

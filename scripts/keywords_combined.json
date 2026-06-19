@@ -1,0 +1,805 @@
+{
+ "generated": "19/06/2026",
+ "counts": [
+  [
+   "detecção de ataques",
+   18
+  ],
+  [
+   "detecção de intrusão",
+   12
+  ],
+  [
+   "android",
+   11
+  ],
+  [
+   "segurança",
+   10
+  ],
+  [
+   "controle de acesso",
+   9
+  ],
+  [
+   "sistema de detecção",
+   9
+  ],
+  [
+   "blockchain",
+   8
+  ],
+  [
+   "cryptography",
+   8
+  ],
+  [
+   "detecção de anomalias",
+   8
+  ],
+  [
+   "machine learning",
+   8
+  ],
+  [
+   "rede",
+   8
+  ],
+  [
+   "web",
+   8
+  ],
+  [
+   "approach",
+   7
+  ],
+  [
+   "attacks",
+   7
+  ],
+  [
+   "detecção de malwares",
+   7
+  ],
+  [
+   "internet das coisas",
+   7
+  ],
+  [
+   "seleção de características",
+   7
+  ],
+  [
+   "análise comparativa",
+   6
+  ],
+  [
+   "aprendizado de máquina",
+   6
+  ],
+  [
+   "detecção de malware",
+   6
+  ],
+  [
+   "geração de dados",
+   6
+  ],
+  [
+   "internet",
+   6
+  ],
+  [
+   "intrusões",
+   6
+  ],
+  [
+   "networks",
+   6
+  ],
+  [
+   "open source",
+   6
+  ],
+  [
+   "protocol",
+   6
+  ],
+  [
+   "aplicações web",
+   5
+  ],
+  [
+   "informação",
+   5
+  ],
+  [
+   "intrusion detection",
+   5
+  ],
+  [
+   "malware detection",
+   5
+  ],
+  [
+   "mitigação de ataques",
+   5
+  ],
+  [
+   "móveis",
+   5
+  ],
+  [
+   "nova abordagem",
+   5
+  ],
+  [
+   "privacidade",
+   5
+  ],
+  [
+   "redes",
+   5
+  ],
+  [
+   "redes de computadores",
+   5
+  ],
+  [
+   "segurança cibernética",
+   5
+  ],
+  [
+   "sistemas de detecção",
+   5
+  ],
+  [
+   "system",
+   5
+  ],
+  [
+   "vulnerabilidades",
+   5
+  ],
+  [
+   "análise de desempenho",
+   4
+  ],
+  [
+   "aprendizagem de máquina",
+   4
+  ],
+  [
+   "aprimorando",
+   4
+  ],
+  [
+   "architecture",
+   4
+  ],
+  [
+   "autenticação contínua",
+   4
+  ],
+  [
+   "authentication",
+   4
+  ],
+  [
+   "avaliação de métodos",
+   4
+  ],
+  [
+   "blind signatures",
+   4
+  ],
+  [
+   "chaves públicas",
+   4
+  ],
+  [
+   "coisas",
+   4
+  ],
+  [
+   "detection",
+   4
+  ],
+  [
+   "detecção",
+   4
+  ],
+  [
+   "documentos eletrônicos",
+   4
+  ],
+  [
+   "elliptic curve",
+   4
+  ],
+  [
+   "hardware",
+   4
+  ],
+  [
+   "implementation",
+   4
+  ],
+  [
+   "inteligência artificial",
+   4
+  ],
+  [
+   "iot",
+   4
+  ],
+  [
+   "negação de serviço",
+   4
+  ],
+  [
+   "post quantum",
+   4
+  ],
+  [
+   "proteção de dados",
+   4
+  ],
+  [
+   "redes neurais",
+   4
+  ],
+  [
+   "sensores",
+   4
+  ],
+  [
+   "signatures",
+   4
+  ],
+  [
+   "sistema de votação",
+   4
+  ],
+  [
+   "software",
+   4
+  ],
+  [
+   "spki sdsi",
+   4
+  ],
+  [
+   "séries temporais",
+   4
+  ],
+  [
+   "análise comportamental",
+   3
+  ],
+  [
+   "análise de malware",
+   3
+  ],
+  [
+   "análise de vulnerabilidades",
+   3
+  ],
+  [
+   "approximate matching",
+   3
+  ],
+  [
+   "aprendizado profundo",
+   3
+  ],
+  [
+   "arquitetura baseada",
+   3
+  ],
+  [
+   "assinatura digital",
+   3
+  ],
+  [
+   "ataques",
+   3
+  ],
+  [
+   "ataques ddos",
+   3
+  ],
+  [
+   "avaliando",
+   3
+  ],
+  [
+   "avaliação",
+   3
+  ],
+  [
+   "avaliação de desempenho",
+   3
+  ],
+  [
+   "avaliação do impacto",
+   3
+  ],
+  [
+   "avx",
+   3
+  ],
+  [
+   "block cipher",
+   3
+  ],
+  [
+   "brasil",
+   3
+  ],
+  [
+   "certificados digitais",
+   3
+  ],
+  [
+   "chave pública",
+   3
+  ],
+  [
+   "criptografia baseada",
+   3
+  ],
+  [
+   "criptografia pós",
+   3
+  ],
+  [
+   "dados",
+   3
+  ],
+  [
+   "definidas por software",
+   3
+  ],
+  [
+   "desenvolvimento",
+   3
+  ],
+  [
+   "detecção de botnets",
+   3
+  ],
+  [
+   "digitais",
+   3
+  ],
+  [
+   "eficiente",
+   3
+  ],
+  [
+   "fake news",
+   3
+  ],
+  [
+   "ferramenta para visualização",
+   3
+  ],
+  [
+   "firewall",
+   3
+  ],
+  [
+   "firewalls",
+   3
+  ],
+  [
+   "icp brasil",
+   3
+  ],
+  [
+   "impacto de ataques",
+   3
+  ],
+  [
+   "implementação",
+   3
+  ],
+  [
+   "implementação em software",
+   3
+  ],
+  [
+   "incidentes de segurança",
+   3
+  ],
+  [
+   "intrusão baseado",
+   3
+  ],
+  [
+   "keystroke dynamics",
+   3
+  ],
+  [
+   "learning",
+   3
+  ],
+  [
+   "malware classification",
+   3
+  ],
+  [
+   "malwares android",
+   3
+  ],
+  [
+   "mitigando ataques",
+   3
+  ],
+  [
+   "modelo de controle",
+   3
+  ],
+  [
+   "modelo de segurança",
+   3
+  ],
+  [
+   "oblivious transfer",
+   3
+  ],
+  [
+   "one class",
+   3
+  ],
+  [
+   "openid connect",
+   3
+  ],
+  [
+   "privacy preserving",
+   3
+  ],
+  [
+   "proof of stake",
+   3
+  ],
+  [
+   "protocolo criptográfico",
+   3
+  ],
+  [
+   "páginas web",
+   3
+  ],
+  [
+   "pós quântica",
+   3
+  ],
+  [
+   "redes de sensores",
+   3
+  ],
+  [
+   "redes definidas",
+   3
+  ],
+  [
+   "redes virtuais",
+   3
+  ],
+  [
+   "resposta",
+   3
+  ],
+  [
+   "roteadores",
+   3
+  ],
+  [
+   "security",
+   3
+  ],
+  [
+   "segura",
+   3
+  ],
+  [
+   "serviços web",
+   3
+  ],
+  [
+   "sistema de reputação",
+   3
+  ],
+  [
+   "sistemas de segurança",
+   3
+  ],
+  [
+   "supersingular isogeny",
+   3
+  ],
+  [
+   "tolerantes",
+   3
+  ],
+  [
+   "tráfego de rede",
+   3
+  ],
+  [
+   "windows",
+   3
+  ],
+  [
+   "zero knowledge",
+   3
+  ],
+  [
+   "abordagem para detecção",
+   2
+  ],
+  [
+   "access control",
+   2
+  ],
+  [
+   "acesso",
+   2
+  ],
+  [
+   "acesso baseado",
+   2
+  ],
+  [
+   "acesso remoto",
+   2
+  ],
+  [
+   "acordo de chave",
+   2
+  ],
+  [
+   "acordo de chaves",
+   2
+  ],
+  [
+   "address leaks",
+   2
+  ],
+  [
+   "adversarial attacks",
+   2
+  ],
+  [
+   "aes",
+   2
+  ],
+  [
+   "against differential",
+   2
+  ],
+  [
+   "algoritmo sha",
+   2
+  ],
+  [
+   "algoritmos de aprendizado",
+   2
+  ],
+  [
+   "amazon biobank",
+   2
+  ],
+  [
+   "analisando",
+   2
+  ],
+  [
+   "análise",
+   2
+  ],
+  [
+   "análise de comportamento",
+   2
+  ],
+  [
+   "análise de métodos",
+   2
+  ],
+  [
+   "análise do tráfego",
+   2
+  ],
+  [
+   "análise dos mecanismos",
+   2
+  ],
+  [
+   "análise exploratória",
+   2
+  ],
+  [
+   "análise forense",
+   2
+  ],
+  [
+   "aplicada",
+   2
+  ],
+  [
+   "aplicação",
+   2
+  ],
+  [
+   "aplicações baseadas",
+   2
+  ],
+  [
+   "apps",
+   2
+  ],
+  [
+   "arquitetura de segurança",
+   2
+  ],
+  [
+   "ataques de negação",
+   2
+  ],
+  [
+   "ataques distribuídos",
+   2
+  ],
+  [
+   "ataques sybil",
+   2
+  ],
+  [
+   "através da análise",
+   2
+  ],
+  [
+   "atributos mediado",
+   2
+  ],
+  [
+   "aumentando",
+   2
+  ],
+  [
+   "autenticação",
+   2
+  ],
+  [
+   "autenticação baseada",
+   2
+  ],
+  [
+   "autenticação mútua",
+   2
+  ],
+  [
+   "auxiliar",
+   2
+  ],
+  [
+   "avaliação de mecanismos",
+   2
+  ],
+  [
+   "baseado em papéis",
+   2
+  ],
+  [
+   "bases de dados",
+   2
+  ],
+  [
+   "biclique attack",
+   2
+  ],
+  [
+   "binária dinâmica",
+   2
+  ],
+  [
+   "biometric systems",
+   2
+  ],
+  [
+   "bitcoin",
+   2
+  ],
+  [
+   "blockchains",
+   2
+  ],
+  [
+   "bots sociais",
+   2
+  ],
+  [
+   "browser fingerprinting",
+   2
+  ],
+  [
+   "certificados",
+   2
+  ],
+  [
+   "civis",
+   2
+  ],
+  [
+   "classificação de malwares",
+   2
+  ],
+  [
+   "client side",
+   2
+  ],
+  [
+   "coercion resistant",
+   2
+  ],
+  [
+   "commerce",
+   2
+  ],
+  [
+   "compression functions",
+   2
+  ],
+  [
+   "computacionais",
+   2
+  ],
+  [
+   "computacional",
+   2
+  ],
+  [
+   "computação em nuvem",
+   2
+  ],
+  [
+   "computer security",
+   2
+  ],
+  [
+   "configuração de múltiplos",
+   2
+  ],
+  [
+   "confiáveis",
+   2
+  ],
+  [
+   "confiável",
+   2
+  ],
+  [
+   "consenso proof",
+   2
+  ],
+  [
+   "consensus algorithm",
+   2
+  ],
+  [
+   "conteúdo",
+   2
+  ],
+  [
+   "continuous authentication",
+   2
+  ],
+  [
+   "contratos inteligentes",
+   2
+  ]
+ ]
+}

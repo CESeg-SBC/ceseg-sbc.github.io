@@ -25,6 +25,8 @@ import subprocess
 import sys
 import time
 
+import keywords  # sibling module: title keyword mining + word-cloud rendering
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, ".cache", "sbseg")
 DATA = os.path.join(ROOT, "scripts", "sbseg_data.json")
@@ -184,13 +186,24 @@ def esc(s):
 def paper_html(p, year):
     cite = f"{p['authors']}. {p['title']}. SBSeg {year}." if p["authors"] else \
            f"{p['title']}. SBSeg {year}."
+    kws = p.get("keywords", [])
+    kw_attr = esc(", ".join(kws))
+    chips = "".join(
+        f'<button type="button" class="pub-kw" data-kw="{esc(k)}">{esc(k)}</button>'
+        for k in kws
+    )
+    kw_block = (
+        f'        <div class="pub-paper-keywords">{chips}</div>\n' if chips else ""
+    )
     return (
         '      <li class="pub-paper" '
         f'data-title="{esc(p["title"].lower())}" '
         f'data-authors="{esc(p["authors"].lower())}" '
+        f'data-keywords="{kw_attr}" '
         f'data-cite="{esc(cite)} {esc(p["url"])}">\n'
         f'        <a class="pub-paper-title" href="{esc(p["url"])}" target="_blank" rel="noopener">{esc(p["title"])}</a>\n'
         f'        <div class="pub-paper-authors">{esc(p["authors"])}</div>\n'
+        f"{kw_block}"
         '        <button class="pub-cite" type="button" data-i18n-title="pubcommon.copyCite" title="Copiar citação" aria-label="Copiar citação">⧉ <span data-i18n="pubcommon.cite">citar</span></button>\n'
         "      </li>"
     )
@@ -252,7 +265,7 @@ PAGE_TPL = """<!DOCTYPE html>
       <div class="pub-toolbar">
         <input type="search" class="pub-search" id="pubSearch"
                data-i18n-placeholder="pubcommon.searchPlaceholder"
-               placeholder="Buscar por título ou autor…" autocomplete="off">
+               placeholder="Buscar por título, autor ou palavra-chave…" autocomplete="off">
         <span class="pub-total"><span id="pubVisible">{total}</span> / {total}
           <span data-i18n="pubcommon.papers">artigos</span></span>
       </div>
@@ -270,6 +283,12 @@ PAGE_TPL = """<!DOCTYPE html>
 
       <p class="pub-noresults" id="pubNoResults" hidden data-i18n="pubcommon.noResults">Nenhum artigo encontrado.</p>
 
+      <section class="pub-cloud-section" aria-labelledby="pubCloudTitle">
+        <h2 id="pubCloudTitle" class="pub-cloud-title" data-i18n="pubcommon.cloudTitle">Nuvem de palavras-chave</h2>
+        <p class="pub-cloud-note" data-i18n="pubcommon.cloudNote">Palavras-chave extraídas automaticamente dos títulos dos artigos. Clique em um termo para filtrar a lista.</p>
+{cloud}
+      </section>
+
       <p class="source-note"><span data-i18n="pubcommon.sourcePrefix">Dados extraídos da Biblioteca Digital da SBC (SOL)</span>:
         <a href="{archive}" target="_blank" rel="noopener">{archive_label}</a>.
         <span data-i18n="pubcommon.updated">Atualizado em</span> {date}.</p>
@@ -282,14 +301,22 @@ PAGE_TPL = """<!DOCTYPE html>
 """
 
 
+def page_keywords(editions):
+    """All per-paper keyword lists across a set of editions (for a page cloud)."""
+    return (p.get("keywords", [])
+            for e in editions for s in e["sections"] for p in s["papers"])
+
+
 def build_page(key, page, editions, note, archive_url, archive_label):
     total = sum(sum(len(s["papers"]) for s in e["sections"]) for e in editions)
     body = "\n".join(edition_html(e["year"], e["roman"], e["url"], e["sections"],
                                   e["anchor"]) for e in editions)
+    counts = keywords.aggregate(page_keywords(editions))
+    cloud = keywords.cloud_html(counts, cloud_id="pubCloud", limit=80, indent="        ")
     today = time.strftime("%d/%m/%Y")
     return PAGE_TPL.format(
         key=key, page=page, desc="", note=note, total=total,
-        toc=toc_html(editions), body=body, date=today,
+        toc=toc_html(editions), body=body, cloud=cloud, date=today,
         archive=archive_url, archive_label=archive_label,
     )
 
@@ -316,12 +343,23 @@ def main():
 
     data = drop_frontmatter(data)
 
+    # Mine five keywords per paper from titles, with a corpus-wide TF-IDF index
+    # built over both tracks so weights (and the combined cloud) stay coherent.
+    all_titles = [p["title"] for grp in ("main_track", "estendido")
+                  for e in data[grp] for s in e["sections"] for p in s["papers"]]
+    index = keywords.build_index(all_titles)
+    for grp in ("main_track", "estendido"):
+        for e in data[grp]:
+            for s in e["sections"]:
+                for p in s["papers"]:
+                    p["keywords"] = keywords.keywords_for(p["title"], index)
+
     # Main track
     main_eds = [{**e, "anchor": f"sbseg-{e['year']}"} for e in data["main_track"]]
     main_html = build_page(
         "anaistp", "anais-trilha-principal", main_eds,
         "Todos os artigos da Trilha Principal do SBSeg, agrupados por edição. "
-        "Use a busca para filtrar por título ou autor.",
+        "Use a busca para filtrar por título, autor ou palavra-chave.",
         ARCHIVE, "sol.sbc.org.br · SBSeg",
     )
     with open(os.path.join(ROOT, "anais-trilha-principal.html"), "w", encoding="utf-8") as fh:
@@ -332,12 +370,27 @@ def main():
     ext_html = build_page(
         "anaisest", "anais-estendidos", ext_eds,
         "Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e "
-        "sub-evento (workshops e trilhas). Use a busca para filtrar.",
+        "sub-evento (workshops e trilhas). Use a busca para filtrar por título, "
+        "autor ou palavra-chave.",
         "https://sol.sbc.org.br/index.php/sbseg_estendido/issue/archive",
         "sol.sbc.org.br · SBSeg Estendido",
     )
     with open(os.path.join(ROOT, "anais-estendidos.html"), "w", encoding="utf-8") as fh:
         fh.write(ext_html)
+
+    # Combined/general keyword aggregate, consumed by gen_pages.py to render the
+    # overall word cloud on publicacoes.html. Top 200 keeps the file small.
+    combined = keywords.aggregate(
+        p.get("keywords", []) for grp in ("main_track", "estendido")
+        for e in data[grp] for s in e["sections"] for p in s["papers"]
+    )
+    combined_path = os.path.join(ROOT, "scripts", "keywords_combined.json")
+    with open(combined_path, "w", encoding="utf-8") as fh:
+        json.dump(
+            {"generated": time.strftime("%d/%m/%Y"),
+             "counts": keywords.top_counts(combined, 200)},
+            fh, ensure_ascii=False, indent=1,
+        )
 
     tp = sum(sum(len(s["papers"]) for s in e["sections"]) for e in main_eds)
     ex = sum(sum(len(s["papers"]) for s in e["sections"]) for e in ext_eds)
