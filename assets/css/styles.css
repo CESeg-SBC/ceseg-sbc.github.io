@@ -213,6 +213,22 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 .pub-kw:hover,.pub-kw:focus{color:#fff;background:var(--navy);border-color:var(--navy);outline:none}
 
 /* Keyword word cloud (per-page and combined) */
+/* Publicações: proposta de tópicos */
+.pub-proposal{margin:2.6rem 0 0;padding:1.8rem 0 0;border-top:1px solid var(--border)}
+.pub-proposal h2{font-size:1.5rem;color:var(--navy);margin:.3rem 0 .6rem}
+.pub-proposal h3{font-size:1.1rem;color:var(--navy);margin:1.6rem 0 .5rem}
+.pub-proposal .lead{font-size:1rem}
+.pub-proposal ul,.pub-proposal ol{margin:0 0 1rem;padding-left:1.4rem}
+.pub-proposal li{margin:.3rem 0;line-height:1.5}
+.prop-tax{counter-reset:none}
+.prop-tax>li{margin:.7rem 0;font-size:1rem}
+.prop-tax ul{margin:.35rem 0 .2rem;padding-left:1.2rem}
+.prop-tax ul li{font-size:.92rem;color:var(--muted)}
+.prop-new{display:inline-block;font-family:var(--sans);font-size:.66rem;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase;color:#fff;background:var(--navy);
+  border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:middle}
+.prop-foot{font-size:.82rem;color:var(--faint);margin-top:1.4rem;
+  border-top:1px dashed var(--border);padding-top:.9rem}
 .pub-cloud-section{margin:2.6rem 0 0;padding-top:1.8rem;border-top:1px solid var(--border)}
 .pub-cloud-title{font-size:1.25rem;color:var(--navy)}
 .pub-cloud-note{font-size:.9rem;color:var(--muted);margin:.4rem 0 1.2rem;max-width:60ch}
