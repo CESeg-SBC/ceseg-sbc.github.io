@@ -50,8 +50,10 @@
 
   var DATA = null, RECORDS = [], MARKERS = {}, map, cluster;
   var STATS = null, pubsLayer = null, toolsLayer = null;
-  // All entity types active by default except publications (kept off for clarity).
+  // Cluster entity types, all active by default. Publications and tools are not
+  // cluster types: they are aggregated per-institution overlays (see overlayOn).
   var activeTypes = { researcher: true, group: true, program: true, center: true, working_group: true };
+  // Overlay layers: pubs on by default, sbseg/tools off until toggled.
   var overlayOn = { pubs: true, sbseg: false, tools: false };
   var selState = '', selTopic = '', query = '';
   var els = {};

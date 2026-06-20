@@ -26,9 +26,19 @@ def fold(s):
     return "".join(c for c in s if unicodedata.category(c) != "Mn")
 
 
+SUFFIXES = {"jr", "junior", "filho", "neto", "sobrinho", "segundo"}
+
+
 def name_key(name):
-    """(first_token, last_token) of a folded personal name, or None."""
+    """(first_token, last_token) of a folded personal name, or None.
+
+    Trailing generational suffixes ("jr", "junior", "filho", "neto", "sobrinho",
+    "segundo") are dropped before picking the last token, so "Joao Silva Junior"
+    keys on ("joao", "silva") and matches "Joao Silva Jr." / "Joao Silva".
+    """
     toks = [t for t in re.split(r"[^\w]+", fold(name)) if len(t) > 1]
+    while len(toks) > 2 and toks[-1] in SUFFIXES:
+        toks.pop()
     if len(toks) < 2:
         return None
     return (toks[0], toks[-1])
@@ -153,6 +163,7 @@ def main():
     out = {"generated_from": PAGES, "match_rate": rate, "institutions": institutions}
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=1)
+        fh.write("\n")
     print(f"papers={len(papers)} institutions={len(institutions)} "
           f"match_rate={rate} -> {os.path.relpath(OUT, ROOT)}")
 
