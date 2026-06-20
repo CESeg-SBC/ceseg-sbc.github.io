@@ -1,0 +1,4244 @@
+{
+ "generated_from": [
+  "anais-trilha-principal.html",
+  "anais-estendidos.html"
+ ],
+ "match_rate": {
+  "papers": 0.545,
+  "tool_papers": 0.627
+ },
+ "institutions": [
+  {
+   "institution": "FEDERAL UNIVERSITY OF AMAZONAS",
+   "state": "AM",
+   "lat": -3.136759,
+   "lng": -59.988644,
+   "pub_count": 60,
+   "tool_count": 8,
+   "pubs": [
+    {
+     "title": "filo-transformer: um modelo baseado em grafo de alinhamento de árvores filogenéticas e transformers para identificação de rumores e fake news",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36636"
+    },
+    {
+     "title": "mitigando técnicas de anti-instrumentação em dbi: contramedidas baseadas em overhead e transparência",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36688"
+    },
+    {
+     "title": "caracterização de conhecimentos e comportamentos de cibersegurança: estudo exploratório com dados predominantes do extremo norte brasileiro",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30018"
+    },
+    {
+     "title": "uma análise compreensiva e exaustiva de métodos de seleção de características para detecção de malware android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30055"
+    },
+    {
+     "title": "mh-1m: one of the most comprehensive and up-to-date dataset for advanced android malware detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30077"
+    },
+    {
+     "title": "explaining the effectiveness of machine learning in malware detection: insights from explainable ai",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27206"
+    },
+    {
+     "title": "ataques de mudança de rótulo no contexto da detecção de malwares android: uma análise experimental",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27216"
+    },
+    {
+     "title": "capturing the behavior of android malware with mh-100k: a novel and multidimensional dataset",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27231"
+    },
+    {
+     "title": "autenticação contínua usando sensores inerciais dos smartphones e aprendizagem profunda",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21669"
+    },
+    {
+     "title": "uma análise de métodos de seleção de características aplicados à detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21675"
+    },
+    {
+     "title": "avaliação de ferramentas de automl em datasets de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21676"
+    },
+    {
+     "title": "avaliação de métodos de classificação baseados em regras de associação para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21677"
+    },
+    {
+     "title": "uma avaliação de comportamentos homográficos em ataques de phishing direcionados que exploram a suscetibilidade pela fidedignidade e sazonalidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17320"
+    },
+    {
+     "title": "wbf analyzer: um método para detecção de browser fingerprinting em páginas web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17327"
+    },
+    {
+     "title": "identificando indicadores de browser fingerprinting em páginas web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19258"
+    },
+    {
+     "title": "suscetibilidade através da forja de ﬁdedignidade: uma abordagem sobre ataques de phishing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13961"
+    },
+    {
+     "title": "avaliação e recomendação de aplicativos para dispositivos móveis com foco em segurança e privacidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13969"
+    },
+    {
+     "title": "reduzindo a superfície de ataque dos frameworks de instrumentação binária dinâmica",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13976"
+    },
+    {
+     "title": "autenticação contínua de usuários utilizando contadores de desempenho do sistema operacional",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13979"
+    },
+    {
+     "title": "detecção de api scrapers através do fluxo de hyperlinks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13991"
+    },
+    {
+     "title": "um data diode com hardware criptográfico para redes industriais críticas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4249"
+    },
+    {
+     "title": "taintjsec: um método de análise estática de marcação em código javascript para detecção de vazamento de dados sensíveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4253"
+    },
+    {
+     "title": "um método de identificação de navegadores web baseado na web audio api",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19491"
+    },
+    {
+     "title": "detecção de malware metamórfico baseada na indexação de grafos de dependência de dados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19505"
+    },
+    {
+     "title": "uma avaliação das prevenções de phishing em navegadores web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19513"
+    },
+    {
+     "title": "detecção de canvas fingerprinting em páginas web baseada no modelo vetorial",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19519"
+    },
+    {
+     "title": "mitigando a evasão de instrumentadores binários dinâmicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19521"
+    },
+    {
+     "title": "determinando o risco de fingerprinting em páginas web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19313"
+    },
+    {
+     "title": "identificação de códigos maliciosos metamórficos pela medição do nível de similaridade de grafos de dependência",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19315"
+    },
+    {
+     "title": "detecção de vazamentos de dados em aplicativos javascript em dispositivos móveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19316"
+    },
+    {
+     "title": "fit-ldap: um serviço de diretório tolerante a falhas e intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20084"
+    },
+    {
+     "title": "investigando o uso de características na detecção de urls maliciosas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20088"
+    },
+    {
+     "title": "bibliotecas para cache em android: uma análise na perspectiva de segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20114"
+    },
+    {
+     "title": "identificação e caracterização de comportamentos suspeitos através da análise do tráfego dns",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20129"
+    },
+    {
+     "title": "controlando a frequência de desvios indiretos para bloquear ataques rop",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20133"
+    },
+    {
+     "title": "estruturas virtuais e diferenciação de vértices em grafos de dependência para detecção de malware metamórfico",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20134"
+    },
+    {
+     "title": "um modelo funcional para serviços de identificação e autenticação tolerantes a faltas e intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19534"
+    },
+    {
+     "title": "etssdetector: uma ferramenta para detecção automática de vulnerabilidades de cross-site scripting em aplicações web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19536"
+    },
+    {
+     "title": "detecção de variações de malware metamórfico por meio de normalização de código e identificação de subfluxos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20534"
+    },
+    {
+     "title": "detecção de intrusos usando conjunto de k-nn gerado por subespaços aleatórios",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20573"
+    },
+    {
+     "title": "uma ferramenta de suporte a recuperação de informação na web focada em vulnerabilidades e anomalias internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20590"
+    },
+    {
+     "title": "aplicando a frequência de episódios na correlação de alertas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20591"
+    },
+    {
+     "title": "security information architecture for automation and control networks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20885"
+    },
+    {
+     "title": "avaliação de proteção contra ataques de negação de serviço distribuídos (ddos) utilizando lista de ips confiáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20926"
+    },
+    {
+     "title": "avaliação de mecanismos de segurança em uma plataforma para redes de sensores sem fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21530"
+    },
+    {
+     "title": "contradef: uma ferramenta de instrumentação binária dinâmica para análise de malware evasivo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36736"
+    },
+    {
+     "title": "estratégias de incentivo e ensino de comportamentos de cibersegurança: relato de experiência em uma universidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36761"
+    },
+    {
+     "title": "mh-automl: transparência, interpretabilidade e desempenho na detecção de malware android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124"
+    },
+    {
+     "title": "mh-fsf: um framework para reprodução, experimentação e avaliação de métodos de seleção de características",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125"
+    },
+    {
+     "title": "avaliação da eficiência de jogo educativo para o ensino do comportamento de distinguir e-mails legítimos de tentativas de phishing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30140"
+    },
+    {
+     "title": "construção e teste de app gamificado gerador de senhas fortes e memoráveis: um estudo exploratório em cibersegurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30143"
+    },
+    {
+     "title": "amgenerator e amexplorer: geração de metadados e construção de datasets android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271"
+    },
+    {
+     "title": "iosdbuilder: uma ferramenta de construção de datasets para detecção de malwares ios",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27290"
+    },
+    {
+     "title": "autocar: automação e reprodutibilidade de testes de métodos de classificação baseados em regras de associação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "fs3e: uma ferramenta para execução e avaliação de métodos de seleção de características para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704"
+    },
+    {
+     "title": "aprimorando o uso de links em api contract",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17360"
+    },
+    {
+     "title": "avaliando modelos de graph neural networks para detecção de usuários fraudulentos em e-commerce",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17361"
+    },
+    {
+     "title": "functionality-based mobile application recommendation system with security and privacy awareness",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19265"
+    }
+   ],
+   "tools": [
+    {
+     "title": "contradef: uma ferramenta de instrumentação binária dinâmica para análise de malware evasivo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36736"
+    },
+    {
+     "title": "mh-automl: transparência, interpretabilidade e desempenho na detecção de malware android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124"
+    },
+    {
+     "title": "mh-fsf: um framework para reprodução, experimentação e avaliação de métodos de seleção de características",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125"
+    },
+    {
+     "title": "amgenerator e amexplorer: geração de metadados e construção de datasets android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271"
+    },
+    {
+     "title": "autocar: automação e reprodutibilidade de testes de métodos de classificação baseados em regras de associação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "fs3e: uma ferramenta para execução e avaliação de métodos de seleção de características para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704"
+    }
+   ]
+  },
+  {
+   "institution": "UNIVERSITY OF CAMPINAS",
+   "state": "SP",
+   "lat": -22.818202,
+   "lng": -47.064796,
+   "pub_count": 45,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "implementação e avaliação da cifra de fluxo forro14 em hardware programável tofino usando a linguagem p4",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30039"
+    },
+    {
+     "title": "desafios e oportunidades de pesquisa na adoção de criptografia pós-quântica em redes veiculares",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30068"
+    },
+    {
+     "title": "requirements for a hybrid tpm based on optimized ml-dsa post-quantum signature",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30079"
+    },
+    {
+     "title": "avaliação do impacto da remoção de características comuns em estratégias de busca de arquivos similares",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17319"
+    },
+    {
+     "title": "uma proposta para confirmação de blocos sem comitês de validação em mecanismo de consenso proof-of-stake para blockchains públicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17324"
+    },
+    {
+     "title": "a study on fitting sphincs+ to blockchain usage",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19229"
+    },
+    {
+     "title": "entendendo e melhorando a capacidade de detecção de estratégias de busca de similaridade em investigações forenses",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19255"
+    },
+    {
+     "title": "understanding the effects of removing common blocks on approximate matching scores under different scenarios for digital forensic investigations",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13966"
+    },
+    {
+     "title": "uma análise preliminar do controle de forks no mecanismo de consenso proof-of-stake com tempo discreto",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13994"
+    },
+    {
+     "title": "a new similarity digest search strategy applied to minutia cylinder-codes for fingerprint identification",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4246"
+    },
+    {
+     "title": "avaliação de mecanismos de consenso para blockchains em busca de nova estratégia mais eficiente e segura",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4267"
+    },
+    {
+     "title": "estudo preliminar da adoção de assinaturas baseadas em hash no blockchain do bitcoin",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4271"
+    },
+    {
+     "title": "avaliação do custo/benefício da adoção de autômatos celulares na geração de números pseudoaleatórios no linux",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4272"
+    },
+    {
+     "title": "an operational costs analysis of similarity digest search strategies using approximate matching tools",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19497"
+    },
+    {
+     "title": "a comparison of encryption tools for disk data storage from digital forensics point of view",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19299"
+    },
+    {
+     "title": "uma comparação do custo computacional dos emparelhamentos bilineares ate, r-ate e optimal ate sobre curvas barreto-naehrig",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20093"
+    },
+    {
+     "title": "relação custo/benefício de técnicas utilizadas para prover privacidade em computação nas nuvens",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20144"
+    },
+    {
+     "title": "análise de vulnerabilidades e incidentes de segurança em grades de computação voluntária",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20634"
+    },
+    {
+     "title": "uma proposta para avaliação de criptossistemas implementados em software baseados em curvas elípticas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21286"
+    },
+    {
+     "title": "regressão da eficácia de analisadores de vulnerabilidades em contratos inteligentes de blockchains",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36763"
+    },
+    {
+     "title": "scalable batch verification for post-quantum hash-based signatures using starks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36772"
+    },
+    {
+     "title": "when ima/evm collides with systems administration",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41959"
+    },
+    {
+     "title": "compact memory implementations of the ml-dsa post-quantum digital signature algorithm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30141"
+    },
+    {
+     "title": "evaluating the network traffic on an improved version of the committeeless proof-of-stake blockchain consensus algorithm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30157"
+    },
+    {
+     "title": "uma proposta de adoção de autenticação baseada em identidades autossoberanas na rnp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27276"
+    },
+    {
+     "title": "impacto da otimização de funções hash no desempenho do algoritmo de assinatura digital pós-quântica crystals-dilithium",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27300"
+    },
+    {
+     "title": "análise comparativa da eficiência de mecanismos de consenso proof-of-stake com e sem comitês de validação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27304"
+    },
+    {
+     "title": "um estudo preliminar sobre a criação de autenticação alternativa via identificadores descentralizados aries para a federação cafe da rnp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27305"
+    },
+    {
+     "title": "analysis of committeeless proof-of-stake protocol: searching for a better point of operation",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27307"
+    },
+    {
+     "title": "avaliação de requisitos de processamento e memória do algoritmo de criptografia pós-quântica saber em plataforma arm cortex-m0+",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21711"
+    },
+    {
+     "title": "análise de viabilidade de implantação de sistema de autenticação híbrido baseado em identidades digitais federadas e identidades digitais descentralizadas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21714"
+    },
+    {
+     "title": "estudos de otimização do algoritmo de criptografia pós-quântica crystals-kyber",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17353"
+    },
+    {
+     "title": "proposta de avaliação do desempenho de um mecanismo de consenso probabilístico baseado em proof-of-stake para blockchains públicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17359"
+    },
+    {
+     "title": "a study on approximate matching for similarity search: techniques, limitations and improvements for digital forensic investigations",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19263"
+    },
+    {
+     "title": "ferramenta de monitoramento gráfico para suporte à criação e testes de novos mecanismos de consenso em blockchains",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19290"
+    },
+    {
+     "title": "uma comparação de desempenho de algoritmos para criptografia pós-quântica",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19291"
+    },
+    {
+     "title": "avaliação dos requisitos de tempo e espaço de assinaturas digitais stateful baseadas em funções hash para blockchains",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19292"
+    },
+    {
+     "title": "estudo comparativo de desempenho em assinaturas digitais pós-quânticas para plataformas de iot",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19293"
+    },
+    {
+     "title": "tocker: framework para a segurança de containers docker",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14016"
+    },
+    {
+     "title": "flat: federated lightweight authentication of things",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4140"
+    },
+    {
+     "title": "o futuro da gestão de identidades digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4152"
+    },
+    {
+     "title": "on-block certs: blockchain-based lightweight digital certificates",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4154"
+    },
+    {
+     "title": "aperfeiçoamento da ferramenta sdhash para identificação de artefatos similares em investigações forenses",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4161"
+    },
+    {
+     "title": "aprimorando o simulador simbo para testes de botnets avançadas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4163"
+    },
+    {
+     "title": "aumentando a confiabilidade dos resultados em grades computacionais com recursos públicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/20643"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF PARANÁ",
+   "state": "PR",
+   "lat": -25.428597,
+   "lng": -49.264185,
+   "pub_count": 44,
+   "tool_count": 6,
+   "pubs": [
+    {
+     "title": "além do desempenho: um estudo da confiabilidade de detectores de deepfakes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36612"
+    },
+    {
+     "title": "aprimorando a detecção de apts com geração de dados sintéticos baseada em gan-transformers",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36616"
+    },
+    {
+     "title": "artemis: uma plataforma modular para execução, monitoração e investigação de aplicativos android suspeitos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36617"
+    },
+    {
+     "title": "cordeiro em pele de lobo: desvelando a negação de serviço baseada em envenenamento de reputação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36625"
+    },
+    {
+     "title": "microsec traffic: utilizando estratégias de engenharia de tráfego para aprimoramento da eficiência de sistemas de detecção de intrusão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36646"
+    },
+    {
+     "title": "titan dga: uma gan otimizada por divergência kl com autoencoder baseado em transformers para geração de domínios maliciosos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36662"
+    },
+    {
+     "title": "dnapp: desafios de manutenção da integridade em hosts via caracterização de aplicações baseada em instruções",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36677"
+    },
+    {
+     "title": "o impacto de software anti-cheat na privacidade do usuário",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30044"
+    },
+    {
+     "title": "observação de ataques contra a memória do kernel android: desafios e soluções",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30045"
+    },
+    {
+     "title": "obsolescência não-programada: análise do uso de software desatualizado em ambiente de produção",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30046"
+    },
+    {
+     "title": "sapo-boi: pulando a pilha de rede no desenvolvimento de um nids baseado em bpf/xdp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30048"
+    },
+    {
+     "title": "utilizando estratégias de monitoramento leve em ambientes conteinerizados para detecção de anomalias via hids",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30058"
+    },
+    {
+     "title": "uma avaliação de comportamentos homográficos em ataques de phishing direcionados que exploram a suscetibilidade pela fidedignidade e sazonalidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17320"
+    },
+    {
+     "title": "análise de aplicativos no android utilizando traços de execução",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19233"
+    },
+    {
+     "title": "an empirical study on the blocking of http and dns requests at providers level to counter in-the-wild malware infections",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19237"
+    },
+    {
+     "title": "malware variants identiﬁcation in practice",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13960"
+    },
+    {
+     "title": "suscetibilidade através da forja de ﬁdedignidade: uma abordagem sobre ataques de phishing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13961"
+    },
+    {
+     "title": "uma modelagem de risco centrada em comportamentos para o desenvolvimento seguro de serviços no ecossistema web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13983"
+    },
+    {
+     "title": "hardware-assisted application misbehavior detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4257"
+    },
+    {
+     "title": "analysis, anti-analysis, anti-anti-analysis: an overview of the evasive malware scenario",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19504"
+    },
+    {
+     "title": "uma avaliação das prevenções de phishing em navegadores web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19513"
+    },
+    {
+     "title": "metodologia de detecção de malware por heurísticas comportamentais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19298"
+    },
+    {
+     "title": "voidbg: projeto e implementação de um debugger transparente para inspeção de aplicações protegidas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19314"
+    },
+    {
+     "title": "detecção de ataques por rop em tempo real assistida por hardware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19317"
+    },
+    {
+     "title": "agrupamento de malware por comportamento de execução usando lógica fuzzy",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19323"
+    },
+    {
+     "title": "análise transparente de malware com suporte por hardware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19324"
+    },
+    {
+     "title": "uma avaliação da proteção de dados sensíveis através do navegador web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20087"
+    },
+    {
+     "title": "monitoração de comportamento de malware em sistemas operacionais windows nt 6.x de 64 bits",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20131"
+    },
+    {
+     "title": "um sistema para análise e detecção de aplicações maliciosas de android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19549"
+    },
+    {
+     "title": "tendências do mercado nacional: procurando malware em aplicações android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19561"
+    },
+    {
+     "title": "análise comportamental de código malicioso através da monitoração de chamadas de sistema e tráfego de rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20596"
+    },
+    {
+     "title": "taxonomias de vulnerabilidades: situação atual",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21540"
+    },
+    {
+     "title": "p4nips: p4 network intrusion prevention system",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36743"
+    },
+    {
+     "title": "saci: solução para análise comportamental automatizada de código infeccioso em so ms windows modernos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30129"
+    },
+    {
+     "title": "on the malware detection problem: challenges & novel approaches",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21688"
+    },
+    {
+     "title": "corvus: uma solução sandbox e de threat intelligence para identificação e análise de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17339"
+    },
+    {
+     "title": "análise exploratória de atributos textuais em bases de dados para identificação de campos sensíveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17365"
+    },
+    {
+     "title": "breaking good: injeção de payloads legítimos em binários maliciosos para teste de robustez de antivírus contra evasão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19273"
+    },
+    {
+     "title": "revenge: extensões de engenharia reversa para o gdb",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/13997"
+    },
+    {
+     "title": "forseti: extração de características e classiﬁcação de binários elf",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/13998"
+    },
+    {
+     "title": "machine learning for malware detection: beyond accuracy rates",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14005"
+    },
+    {
+     "title": "hardware-assisted malware analysis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4136"
+    },
+    {
+     "title": "large scale studies: malware needles in a haystack",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4159"
+    },
+    {
+     "title": "malicious linux binaries: a landscape",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4160"
+    }
+   ],
+   "tools": [
+    {
+     "title": "p4nips: p4 network intrusion prevention system",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36743"
+    },
+    {
+     "title": "saci: solução para análise comportamental automatizada de código infeccioso em so ms windows modernos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30129"
+    },
+    {
+     "title": "corvus: uma solução sandbox e de threat intelligence para identificação e análise de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17339"
+    },
+    {
+     "title": "breaking good: injeção de payloads legítimos em binários maliciosos para teste de robustez de antivírus contra evasão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19273"
+    },
+    {
+     "title": "revenge: extensões de engenharia reversa para o gdb",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/13997"
+    },
+    {
+     "title": "forseti: extração de características e classiﬁcação de binários elf",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/13998"
+    }
+   ]
+  },
+  {
+   "institution": "UNIPAMPA",
+   "state": "RS",
+   "lat": -29.786626,
+   "lng": -55.770308,
+   "pub_count": 42,
+   "tool_count": 17,
+   "pubs": [
+    {
+     "title": "anonimização de incidentes de segurança com reidentificação controlada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36614"
+    },
+    {
+     "title": "categorização de incidentes de segurança utilizando engenharia de prompts em llms",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36624"
+    },
+    {
+     "title": "exploiting latent space discontinuities for building universal llm jailbreaks and data extraction attacks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36635"
+    },
+    {
+     "title": "além da similaridade: uma super-métrica generalizável para avaliação de fidelidade em dados sintéticos de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36668"
+    },
+    {
+     "title": "análise exploratória de criação de regras do waf modsecurity utilizando cinco llms distintos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36669"
+    },
+    {
+     "title": "gerenciamento integrado e adaptativo de firewalls baseado na fonte única de verdade (ssot) da rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36682"
+    },
+    {
+     "title": "iwshap: um método de seleção incremental de características para redes can baseado em inteligência artificial explicável (xai)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30036"
+    },
+    {
+     "title": "modelos interpretáveis com inteligência artificial explicável (xai) na detecção de intrusões em redes intra-veiculares controller area network (can)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30042"
+    },
+    {
+     "title": "uma análise compreensiva e exaustiva de métodos de seleção de características para detecção de malware android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30055"
+    },
+    {
+     "title": "firewalls de próxima geração (ngfw): funcionalidades, aplicações e vulnerabilidades",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30071"
+    },
+    {
+     "title": "geração de dados sintéticos tabulares para detecção de malware android: um estudo de caso",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30072"
+    },
+    {
+     "title": "mh-1m: one of the most comprehensive and up-to-date dataset for advanced android malware detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30077"
+    },
+    {
+     "title": "explaining the effectiveness of machine learning in malware detection: insights from explainable ai",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27206"
+    },
+    {
+     "title": "ataques de mudança de rótulo no contexto da detecção de malwares android: uma análise experimental",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27216"
+    },
+    {
+     "title": "capturing the behavior of android malware with mh-100k: a novel and multidimensional dataset",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27231"
+    },
+    {
+     "title": "uma análise de métodos de seleção de características aplicados à detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21675"
+    },
+    {
+     "title": "avaliação de ferramentas de automl em datasets de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21676"
+    },
+    {
+     "title": "avaliação de métodos de classificação baseados em regras de associação para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21677"
+    },
+    {
+     "title": "auth4app: protocols for identification and authentication using mobile applications",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19254"
+    },
+    {
+     "title": "gerenciamento de firewalls em redes híbridas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19260"
+    },
+    {
+     "title": "fit-ldap: um serviço de diretório tolerante a falhas e intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20084"
+    },
+    {
+     "title": "um modelo funcional para serviços de identificação e autenticação tolerantes a faltas e intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19534"
+    },
+    {
+     "title": "maldatagen: a modular framework for synthetic tabular data generation in malware detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739"
+    },
+    {
+     "title": "llms e engenharia de prompt para classificação automatizada de incidentes em socs",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36789"
+    },
+    {
+     "title": "sob a lupa corporativa brasileira: avaliação da cobertura de scanners de vulnerabilidades em aplicações atuais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36791"
+    },
+    {
+     "title": "iwshap: uma ferramenta para seleção incremental de características utilizando iwss e shap",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30123"
+    },
+    {
+     "title": "mh-automl: transparência, interpretabilidade e desempenho na detecção de malware android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124"
+    },
+    {
+     "title": "mh-fsf: um framework para reprodução, experimentação e avaliação de métodos de seleção de características",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125"
+    },
+    {
+     "title": "malsyngen: redes neurais artificiais na geração de dados tabulares sintéticos para detecção de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126"
+    },
+    {
+     "title": "sigapi autocraft: uma ferramenta de seleção de características com capacidade de generalização",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30131"
+    },
+    {
+     "title": "amgenerator e amexplorer: geração de metadados e construção de datasets android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271"
+    },
+    {
+     "title": "droidaugmentor: uma ferramenta de treinamento e avaliação de cgans para geração de dados sintéticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273"
+    },
+    {
+     "title": "fwnl: um sistema de processamento de linguagem natural para configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700"
+    },
+    {
+     "title": "autocar: automação e reprodutibilidade de testes de métodos de classificação baseados em regras de associação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "fs3e: uma ferramenta para execução e avaliação de métodos de seleção de características para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704"
+    },
+    {
+     "title": "wafcheck: uma ferramenta para auxiliar nos testes de web application firewalls (wafs)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17335"
+    },
+    {
+     "title": "identifica isp: autenticação mútua entre múltiplas entidades para serviços de suporte técnico prestados por isps",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17336"
+    },
+    {
+     "title": "fwunify: uma ferramenta para simplificar a configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17337"
+    },
+    {
+     "title": "e-certsds: certificados eletrônicos com assinatura digital",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17341"
+    },
+    {
+     "title": "permissões android para detecção de malwares: um estudo preliminar",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17356"
+    }
+   ],
+   "tools": [
+    {
+     "title": "maldatagen: a modular framework for synthetic tabular data generation in malware detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739"
+    },
+    {
+     "title": "iwshap: uma ferramenta para seleção incremental de características utilizando iwss e shap",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30123"
+    },
+    {
+     "title": "mh-automl: transparência, interpretabilidade e desempenho na detecção de malware android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124"
+    },
+    {
+     "title": "mh-fsf: um framework para reprodução, experimentação e avaliação de métodos de seleção de características",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125"
+    },
+    {
+     "title": "malsyngen: redes neurais artificiais na geração de dados tabulares sintéticos para detecção de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126"
+    },
+    {
+     "title": "sigapi autocraft: uma ferramenta de seleção de características com capacidade de generalização",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30131"
+    },
+    {
+     "title": "amgenerator e amexplorer: geração de metadados e construção de datasets android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271"
+    },
+    {
+     "title": "droidaugmentor: uma ferramenta de treinamento e avaliação de cgans para geração de dados sintéticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273"
+    },
+    {
+     "title": "fwnl: um sistema de processamento de linguagem natural para configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700"
+    },
+    {
+     "title": "autocar: automação e reprodutibilidade de testes de métodos de classificação baseados em regras de associação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "fs3e: uma ferramenta para execução e avaliação de métodos de seleção de características para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704"
+    },
+    {
+     "title": "wafcheck: uma ferramenta para auxiliar nos testes de web application firewalls (wafs)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17335"
+    },
+    {
+     "title": "identifica isp: autenticação mútua entre múltiplas entidades para serviços de suporte técnico prestados por isps",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17336"
+    },
+    {
+     "title": "fwunify: uma ferramenta para simplificar a configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17337"
+    },
+    {
+     "title": "e-certsds: certificados eletrônicos com assinatura digital",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17341"
+    }
+   ]
+  },
+  {
+   "institution": "PONTIFICAL CATHOLIC UNIVERSITY OF PARANÁ",
+   "state": "PR",
+   "lat": -25.450621,
+   "lng": -49.2514,
+   "pub_count": 32,
+   "tool_count": 3,
+   "pubs": [
+    {
+     "title": "avaliação da competência parental na gestão da privacidade dos filhos em ambientes digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36620"
+    },
+    {
+     "title": "detecção hierárquica confiável de malware de android baseado em arquiteturas cnn",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30026"
+    },
+    {
+     "title": "detecção de intrusão através de redes neurais profundas com saídas antecipadas para inferência rápida e confiável",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30029"
+    },
+    {
+     "title": "detecção de mídias pornográficas em dispositivos com recursos limitados para controle parental",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30030"
+    },
+    {
+     "title": "atualização de modelo baseado em aumento de dados e transferência de aprendizagem para detecção de intrusão em redes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21670"
+    },
+    {
+     "title": "gestão de identidade e acesso para dispositivos iot na smart grid",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17302"
+    },
+    {
+     "title": "um modelo de detecção de intrusão baseado em deep autoencoders e transfer learning",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17321"
+    },
+    {
+     "title": "sistema de detecção de intrusão confiável baseado em aprendizagem por fluxo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19251"
+    },
+    {
+     "title": "um sistema de detecção de intrusão baseado em aprendizagem por reforço",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19252"
+    },
+    {
+     "title": "método de autenticação multi-canal baseado em proximidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13977"
+    },
+    {
+     "title": "mitigando os efeitos de gan em classificação de imagens com cnn",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13978"
+    },
+    {
+     "title": "detecção de intrusão através de aprendizagem de fluxo no ambiente do adversário",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19501"
+    },
+    {
+     "title": "using huffman trees in features selection to enhance performance in spam detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19506"
+    },
+    {
+     "title": "modelo de ativação multi-domínios de papéis rbac usando controle de acesso baseado em atributos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20086"
+    },
+    {
+     "title": "avaliação resiliente de autorização uconabc para computação em nuvem",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19533"
+    },
+    {
+     "title": "uma arquitetura para auditoria de nível de serviço para computação em nuvem",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20551"
+    },
+    {
+     "title": "modelagem de aliciamento de menores em mensagens instantâneas de texto",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20553"
+    },
+    {
+     "title": "uma ontologia para mitigar xml injection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20562"
+    },
+    {
+     "title": "produção de provas digitais a partir de rastreamento em relacionamentos por e-mails",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20594"
+    },
+    {
+     "title": "gerenciamento distribuído de políticas de controle de acesso em ambiente corporativo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20886"
+    },
+    {
+     "title": "polvo-iids: um sistema de detecção de intrusão inteligente baseado em anomalias",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20888"
+    },
+    {
+     "title": "implementação de políticas ucon em um núcleo de sistema operacional",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20919"
+    },
+    {
+     "title": "extensões ao modelo rbac de restrições para suportar obrigações do uconabc",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20930"
+    },
+    {
+     "title": "integrando o modelo de segurança spki/sdsi ao ambiente de gerência wbem",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21228"
+    },
+    {
+     "title": "ethical dilemmas for cybersecurity and the impact of artificial intelligence",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41960"
+    },
+    {
+     "title": "atualização confiável dos modelos de detecção de intrusão baseada em aprendizagem de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30112"
+    },
+    {
+     "title": "apkanalyzer: ferramenta de classificação de malwares android baseada em multi-view e seleção de características multiobjetivo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30120"
+    },
+    {
+     "title": "seleção de características multiobjetivo para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30146"
+    },
+    {
+     "title": "kubemon: extrator de métricas de desempenho de sistema operacional e aplicações conteinerizadas em ambientes de nuvem no domínio do provedor",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27269"
+    },
+    {
+     "title": "towards reliable intrusion detection in high speed networks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19267"
+    },
+    {
+     "title": "ferramenta ppcensor: detecção de pornografia em tempo real no streaming de vídeo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19275"
+    },
+    {
+     "title": "integração de detecção de intrusão em redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4164"
+    }
+   ],
+   "tools": [
+    {
+     "title": "apkanalyzer: ferramenta de classificação de malwares android baseada em multi-view e seleção de características multiobjetivo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30120"
+    },
+    {
+     "title": "kubemon: extrator de métricas de desempenho de sistema operacional e aplicações conteinerizadas em ambientes de nuvem no domínio do provedor",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27269"
+    },
+    {
+     "title": "ferramenta ppcensor: detecção de pornografia em tempo real no streaming de vídeo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19275"
+    }
+   ]
+  },
+  {
+   "institution": "PROFESSOR AT UFSC",
+   "state": "SC",
+   "lat": -27.599464,
+   "lng": -48.519223,
+   "pub_count": 32,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "enhancing lorawan security: addressing static root keys with post-quantum cryptography",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36631"
+    },
+    {
+     "title": "sddup: confidentiality-aware semantic deduplication",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36659"
+    },
+    {
+     "title": "exploring digital signatures secrecy in web-platform: client-side cryptographic operations",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30035"
+    },
+    {
+     "title": "timing analysis of algorithm substitution attacks in a post-quantum tls protocol",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17311"
+    },
+    {
+     "title": "towards constant-time probabilistic root finding for code-based cryptography",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17313"
+    },
+    {
+     "title": "post-quantum signature with preimage chameleon hashing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19228"
+    },
+    {
+     "title": "an entropy source based on the bluetooth received signal strength indicator",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19231"
+    },
+    {
+     "title": "privacy-aware web authentication protocol with recovery and revocation",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19510"
+    },
+    {
+     "title": "análise de vulnerabilidade de esquemas de segredo compartilhado considerando um novo modelo de ameaça",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19511"
+    },
+    {
+     "title": "cloudsec - um middleware para compartilhamento de informações sigilosas em nuvens computacionais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20137"
+    },
+    {
+     "title": "cleaning up the pki for long-term signatures",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20542"
+    },
+    {
+     "title": "carimbos do tempo autenticados para a preservação por longo prazo de assinaturas digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20563"
+    },
+    {
+     "title": "uma icp baseada em certificados digitais autoassinados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20580"
+    },
+    {
+     "title": "ceremonies design for pki's hardware security modules",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20627"
+    },
+    {
+     "title": "infra-estrutura de chaves públicas otimizada: uma icp de suporte a assinaturas eficientes para documentos eletrônicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20628"
+    },
+    {
+     "title": "certificados otimizados para a validação eficiente da assinatura digital",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20932"
+    },
+    {
+     "title": "autenticação utilizando senhas descartáveis baseadas em caos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21225"
+    },
+    {
+     "title": "votação anônima segura utilizando lista de discussão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21231"
+    },
+    {
+     "title": "módulo cifrador de documentos eletrônicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21232"
+    },
+    {
+     "title": "assinatura confiável de documentos eletrônicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21253"
+    },
+    {
+     "title": "ostracon: um sistema de votação digital segura pela internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21255"
+    },
+    {
+     "title": "um protocolo criptográfico para comunicação anônima segura em grupo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21257"
+    },
+    {
+     "title": "farnel: um protocolo criptográfico para votação digital",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21261"
+    },
+    {
+     "title": "bringing semantics to authentication: an openid connect extension",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36747"
+    },
+    {
+     "title": "visão de futuro: o registro civil do brasil como emissor de credenciais verificáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36752"
+    },
+    {
+     "title": "hybrid post-quantum cryptography in network protocols",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30117"
+    },
+    {
+     "title": "bridging the gap: managing dual assurance levels in openid connect",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30133"
+    },
+    {
+     "title": "enhancing keycloak: implementing openid connect for identity assurance",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30135"
+    },
+    {
+     "title": "relato de experiência: adoção de lista de serviços de confiança na rede nacional de ensino e pesquisa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30138"
+    },
+    {
+     "title": "identificação eletrônica do registro civil do brasil",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27278"
+    },
+    {
+     "title": "menos certificação digital e mais identidade eletrônica: icpedu e cafe em um assinador digital inclusivo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27279"
+    },
+    {
+     "title": "tls 1.3 handshake analyzer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21693"
+    }
+   ],
+   "tools": [
+    {
+     "title": "tls 1.3 handshake analyzer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21693"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF SANTA MARIA",
+   "state": "RS",
+   "lat": -29.720931,
+   "lng": -53.709803,
+   "pub_count": 29,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "minimal but lethal: a xai-driven approach for feature-level adversarial attacks on healthcare 5.0",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36647"
+    },
+    {
+     "title": "recovering medical images from adversarial attacks: genetic algorithm-based adaptive compression (ga-ac)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36654"
+    },
+    {
+     "title": "análise exploratória de criação de regras do waf modsecurity utilizando cinco llms distintos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36669"
+    },
+    {
+     "title": "análise de vulnerabilidades da plataforma moodle com base no top 10 da owasp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30062"
+    },
+    {
+     "title": "firewalls de próxima geração (ngfw): funcionalidades, aplicações e vulnerabilidades",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30071"
+    },
+    {
+     "title": "microsserviços para geração de rcls no grasp-fs: uma abordagem escalável para seleção de features na detecção de intrusões em sistemas ciber-físicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27197"
+    },
+    {
+     "title": "modelagem e detecção de ataques grayhole ao protocolo goose usando o framework ereno",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27223"
+    },
+    {
+     "title": "investigating the performance of the gpt-3.5 model in fake news detection: an experimental analysis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27238"
+    },
+    {
+     "title": "bg-idps: detecção e prevenção de intrusões em tempo real em switches ebpf com o filtro de pacotes berkeley e a metaheurística grasp-fs",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21664"
+    },
+    {
+     "title": "detecção de ataques web: explorando redes neurais recorrentes com redutor de dimensionalidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17315"
+    },
+    {
+     "title": "incrementando os níveis de segurança na autenticação com single packet authorization e device fingerprinting",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13958"
+    },
+    {
+     "title": "filtro de bloom como ferramenta de apoio a detectores de ataques web baseados em aprendizagem de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13964"
+    },
+    {
+     "title": "técnica para retenção e recuperação de conhecimento na resolução de incidentes de segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13967"
+    },
+    {
+     "title": "legitimatebroker: mitigando ataques de personiﬁcação em broker mqtt na internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13968"
+    },
+    {
+     "title": "concrect: um mecanismo para mitigação dos efeitos de ataques de negação de serviço em internet das coisas industriais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19492"
+    },
+    {
+     "title": "detecção de ataque ddos flash crowd realizando análise comportamental de solicitações web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19305"
+    },
+    {
+     "title": "detecção de ddos através da análise da quantificação da recorrência baseada na extração de características dinâmicas e clusterização adaptativa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19321"
+    },
+    {
+     "title": "detecção de ddos através da análise da recorrência baseada na extração de características dinâmicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20104"
+    },
+    {
+     "title": "um mecanismo simples e eficiente para a autenticação de dispositivos na comunicação por campo de proximidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20143"
+    },
+    {
+     "title": "autenticação contínua para smartphones baseada em assinatura acústica",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20149"
+    },
+    {
+     "title": "o uso da transformada de haar na detecção de anomalias no tráfego web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19538"
+    },
+    {
+     "title": "modelo de dados de uma base de conhecimento para monitorar ataques em redes de computadores",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19548"
+    },
+    {
+     "title": "uma arquitetura de segurança para mecanismos de controle de acesso baseados em serviços web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20601"
+    },
+    {
+     "title": "filtros de alarmes de anomalias através de wavelets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20625"
+    },
+    {
+     "title": "uma metodologia seis sigma para implantação de uma gestão de segurança da informação centrada na percepção dos usuários",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20631"
+    },
+    {
+     "title": "caracterização de phishing com grandes modelos de linguagem (llms): uma avaliação comparativa entre gemini, deepseek e chatgpt",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36759"
+    },
+    {
+     "title": "detecção de intrusões na internet das coisas (iot): um ambiente de experimentação para obtenção de dados reais sobre protocolos emergentes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30156"
+    },
+    {
+     "title": "bou-guard: uma abordagem para detecção de conteúdo impróprio na internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27303"
+    },
+    {
+     "title": "detecção de intrusões baseada em séries temporais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/20903"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "STATE UNIVERSITY OF CAMPINAS - UNICAMP",
+   "state": "SP",
+   "lat": -22.818202,
+   "lng": -47.064796,
+   "pub_count": 27,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "a minimal white-box dedicated cipher proposal using incompressible lookup tables: space-hard aes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27202"
+    },
+    {
+     "title": "evaluation of modular multiplication techniques for supersingular isogeny schemes on armv8 cores",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21656"
+    },
+    {
+     "title": "evaluation of crystals-kyber and saber on the armv8 architecture",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21681"
+    },
+    {
+     "title": "a machine learning approach to detect misuse of cryptographic apis in source code",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19223"
+    },
+    {
+     "title": "a secure white box implementation of aes against first order dca",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13986"
+    },
+    {
+     "title": "an approach for adaptive security of cloud applications within the atmosphere platform",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13988"
+    },
+    {
+     "title": "white box implementations of dedicated ciphers on the arm neon architecture",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4264"
+    },
+    {
+     "title": "2-isogenies between elliptic curves in hesse model",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4270"
+    },
+    {
+     "title": "a longitudinal and retrospective study on how developers misuse cryptography in online communities",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19488"
+    },
+    {
+     "title": "a survey on tools and techniques for the programming and verification of secure cryptographic software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20083"
+    },
+    {
+     "title": "implementação em tempo constante de amostragem de gaussianas discretas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20098"
+    },
+    {
+     "title": "expanding a lattice-based hve scheme",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20125"
+    },
+    {
+     "title": "a comparison of simple side-channel analysis countermeasures for variable-base elliptic curve scalar multiplication",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20126"
+    },
+    {
+     "title": "um sistema para análise e detecção de aplicações maliciosas de android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19549"
+    },
+    {
+     "title": "modern fair exchange protocol design: dealing with complex digital items",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19554"
+    },
+    {
+     "title": "tendências do mercado nacional: procurando malware em aplicações android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19561"
+    },
+    {
+     "title": "scup - secure cryptographic microprocessor",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20564"
+    },
+    {
+     "title": "implementação eficiente de criptografia de curvas elípticas em sensores sem fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20896"
+    },
+    {
+     "title": "rawvec – a method for watermarking vector maps",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20921"
+    },
+    {
+     "title": "strand spaces and fair exchange: more on how to trace attacks and security problems",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20924"
+    },
+    {
+     "title": "avaliando protocolos de criptografia baseada em emparelhamentos em redes de sensores sem fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20933"
+    },
+    {
+     "title": "sos: sensoriamento overlay seguro em redes de sensores sem fio hierárquicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20939"
+    },
+    {
+     "title": "applying strand spaces to certified delivery proofs",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20940"
+    },
+    {
+     "title": "secleach – a random key distribution solution for securing clustered sensor networks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21529"
+    },
+    {
+     "title": "secoverlay – redes overlay sobre redes de sensores sem fio para transmissão segura de dados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21545"
+    },
+    {
+     "title": "beyond parasitic authentication",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21279"
+    },
+    {
+     "title": "efficient certificateless signcryption",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/20905"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "DEPARTMENT OF COMPUTER SCIENCE - FEDERAL UNIVERSITY OF MINAS GERAIS (UFMG)",
+   "state": "MG",
+   "lat": -19.870618,
+   "lng": -43.967737,
+   "pub_count": 24,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "avaliação do impacto de dp-sgd em modelos otimizados com tinyml",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36671"
+    },
+    {
+     "title": "detecção incremental de comportamento malicioso em vanets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21663"
+    },
+    {
+     "title": "avaliação da capacidade de generalização de ids stateful utilizando aprendizado de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21671"
+    },
+    {
+     "title": "zero trust access control with context-aware and behavior-based continuous authentication for smart homes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17305"
+    },
+    {
+     "title": "abordagem fim-a-fim para uso de aprendizado de máquina em ids – caso de detecção stateless para tcp scan",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19243"
+    },
+    {
+     "title": "um algoritmo de reputação centralizado para redes veiculares contra ataques de inconsistência e bad-mouthing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19244"
+    },
+    {
+     "title": "gerenciamento de tráfego seguro para redes vanets na presença de ataques de envenenamento de dados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19245"
+    },
+    {
+     "title": "controle de acesso à iot baseado na percepção de comunidade e conﬁança social contra ataques sybil",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13963"
+    },
+    {
+     "title": "disseminação robusta de dados pessoais sensíveis baseada em comunidade de interesse e conﬁança social para suportar situações emergenciais de saúde",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13972"
+    },
+    {
+     "title": "mitigação de ataques idfs no serviço de agrupamento de disseminação de dados em redes iot densas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13973"
+    },
+    {
+     "title": "comunicação robusta para disseminação de eventos dinâmicos em redes táticas apoiada em grafos temporais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4254"
+    },
+    {
+     "title": "um controle de associações resistente a ataques sybil para a disseminação segura de conteúdo da iot",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19295"
+    },
+    {
+     "title": "fit-ldap: um serviço de diretório tolerante a falhas e intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20084"
+    },
+    {
+     "title": "mitigando ataques ddos em sgis por reorganizações em agrupamentos de idp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20085"
+    },
+    {
+     "title": "decisão de transição em redes heterogêneas ciente do nível de segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20099"
+    },
+    {
+     "title": "avaliação das técnicas de detecção do ataque sybil na disseminação de conteúdo da internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20102"
+    },
+    {
+     "title": "sistema indicador de resiliência na conectividade de redes heterogêneas sem fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20127"
+    },
+    {
+     "title": "um sistema de detecção de ataques sinkhole sobre 6lowpan para internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20128"
+    },
+    {
+     "title": "uma arquitetura para mitigar ataques ddos em serviços web sob nuvem",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20558"
+    },
+    {
+     "title": "um esquema bio-inspirado para a tolerância à má-conduta em sistemas de quórum para manets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20576"
+    },
+    {
+     "title": "o impacto de ataques roq em redes 802.11 com controle de potência de transmissão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20623"
+    },
+    {
+     "title": "analisando o desempenho de um sistema de quóruns probabilístico para manets diante de ataques maliciosos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20624"
+    },
+    {
+     "title": "uma proposta para avaliacção de confiança em redes vanets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21720"
+    },
+    {
+     "title": "controle da disseminação em agrupamentos dinâmicos de dados para rede iot densa contra o ataque de injeção de dados falsos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19270"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF MINAS GERAIS",
+   "state": "MG",
+   "lat": -19.870618,
+   "lng": -43.967737,
+   "pub_count": 24,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "identificação de serviços e dispositivos em dados de motores de busca para o enriquecimento de análise de vulnerabilidades",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30037"
+    },
+    {
+     "title": "automação de autenticação para testes de segurança em aplicações web no zap",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30065"
+    },
+    {
+     "title": "identificação de endereços ip dinâmicos com dados públicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30074"
+    },
+    {
+     "title": "um arcabouço para processamento escalável de vulnerabilidades e caracterização de riscos à conformidade da lgpd",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27194"
+    },
+    {
+     "title": "uma extensão de framework de análise de protocolos de composibilidade universal para acordo de chaves com autenticação baseado em identidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17312"
+    },
+    {
+     "title": "lince: um arcabouço para ofuscação de estilo de escrita em texto",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17318"
+    },
+    {
+     "title": "uma metodologia para agrupamento e extração de informações de urls de phishing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13970"
+    },
+    {
+     "title": "the performance of error correcting codes in discrete and continuous fuzzy pairing protocols",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19518"
+    },
+    {
+     "title": "a publicly verifiable protocol for random number generation",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19527"
+    },
+    {
+     "title": "adc: um mecanismo de controle de acesso para o ciclo de vida das coisas inteligentes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19297"
+    },
+    {
+     "title": "criptografia baseada em identidade: uma análise comparativa sob a perspectiva da internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20107"
+    },
+    {
+     "title": "uma avaliação de toolkits para criptografia baseada em emparelhamento bilinear",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20108"
+    },
+    {
+     "title": "spambands: uma metodologia para identificação de fontes de spam agindo de forma orquestrada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20136"
+    },
+    {
+     "title": "decentralized management of one-time pad key material for a group",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20145"
+    },
+    {
+     "title": "a true random number generator based on quantum-optical noise",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20147"
+    },
+    {
+     "title": "universally composable committed oblivious transfer with a trusted initializer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20541"
+    },
+    {
+     "title": "syndrome-fortuna: a viable approach for linux random number generation",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20568"
+    },
+    {
+     "title": "fatores que afetam o comportamento de spammers na rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20569"
+    },
+    {
+     "title": "spsb: um ambiente seguro para o estudo de spambots",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20579"
+    },
+    {
+     "title": "anonv: uma arquitetura para verificação do grau de anonimização em coletas de tráfego de rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20600"
+    },
+    {
+     "title": "anonymous one-time broadcast using non-interactive dining cryptographer nets with applications to voting",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20918"
+    },
+    {
+     "title": "merging prêt-à-voter and punchscan",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20934"
+    },
+    {
+     "title": "authentication of things: authentication and access control for the entire iot device life-cycle",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21691"
+    },
+    {
+     "title": "routewatcher: monitorando e verificando rotas na internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/13999"
+    }
+   ],
+   "tools": [
+    {
+     "title": "routewatcher: monitorando e verificando rotas na internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/13999"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF RIO GRANDE DO SUL",
+   "state": "RS",
+   "lat": -30.028787,
+   "lng": -51.23161,
+   "pub_count": 20,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "anonimização de incidentes de segurança com reidentificação controlada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36614"
+    },
+    {
+     "title": "categorização de incidentes de segurança utilizando engenharia de prompts em llms",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36624"
+    },
+    {
+     "title": "secadvisor: a tool for cybersecurity planning using economic models",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30049"
+    },
+    {
+     "title": "sim-ciber: uma solução baseada em simulações probabilísticas para quantificação de riscos e impactos de ciberataques utilizando relatórios estatísticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30050"
+    },
+    {
+     "title": "ataques automatizados de engenharia social com o uso de bots em redes sociais profissionais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21665"
+    },
+    {
+     "title": "mitigando ataques de egoísmo e negação de serviço em nuvens via agrupamento de aplicações",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20543"
+    },
+    {
+     "title": "redes virtuais seguras: uma nova abordagem de mapeamento para proteger contra ataques de disrupção na rede física",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20549"
+    },
+    {
+     "title": "um modelo para mapeamento ótimo de redes virtuais com requisitos de segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20550"
+    },
+    {
+     "title": "ipsflow – uma proposta de ips distribuído para captura e bloqueio seletivo de tráfego malicioso em redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20557"
+    },
+    {
+     "title": "rumo à caracterização de disseminação ilegal de filmes em redes bittorrent",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20571"
+    },
+    {
+     "title": "uma arquitetura baseada em assinaturas para mitigação de botnets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20581"
+    },
+    {
+     "title": "taxonomia de malwares: uma avaliação dos malwares automaticamente propagados na rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20622"
+    },
+    {
+     "title": "uma proposta para medição de complexidade de segurança em procedimentos de tecnologia da informação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20893"
+    },
+    {
+     "title": "quebrando a barreira entre mecanismos de segurança através da composição de serviços web: uma arquitetura para detecção de ataques distribuídos e de múltiplas etapas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20945"
+    },
+    {
+     "title": "avaliação do emprego de raciocínio baseado em casos para identificar cenários de intrusão em logs de firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21538"
+    },
+    {
+     "title": "uma abordagem para detecção de ataques distribuídos e de múltiplas etapas baseada na composição de serviços web voltados à segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21554"
+    },
+    {
+     "title": "em busca de um roteiro experimental de curta duração para avaliação de sistemas de detecção de intrusão baseados em rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21256"
+    },
+    {
+     "title": "e-sentry+: um ids baseado em rede com suporte à especificação em alto nível de assinaturas de ataque",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21269"
+    },
+    {
+     "title": "llms e engenharia de prompt para classificação automatizada de incidentes em socs",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36789"
+    },
+    {
+     "title": "vulnerabilidades em aplicações web: uma análise baseada nos dados coletados em honeypots",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/20912"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF PAMPA (UNIPAMPA)",
+   "state": "RS",
+   "lat": -29.786626,
+   "lng": -55.770308,
+   "pub_count": 18,
+   "tool_count": 8,
+   "pubs": [
+    {
+     "title": "exploiting latent space discontinuities for building universal llm jailbreaks and data extraction attacks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36635"
+    },
+    {
+     "title": "além da similaridade: uma super-métrica generalizável para avaliação de fidelidade em dados sintéticos de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36668"
+    },
+    {
+     "title": "gerenciamento integrado e adaptativo de firewalls baseado na fonte única de verdade (ssot) da rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36682"
+    },
+    {
+     "title": "geração de dados sintéticos tabulares para detecção de malware android: um estudo de caso",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30072"
+    },
+    {
+     "title": "avaliação de ferramentas de automl em datasets de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21676"
+    },
+    {
+     "title": "auth4app: protocols for identification and authentication using mobile applications",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19254"
+    },
+    {
+     "title": "gerenciamento de firewalls em redes híbridas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19260"
+    },
+    {
+     "title": "protegendo bittorrent: projeto e avaliação de contra-medidas eficazes para ataques dos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20899"
+    },
+    {
+     "title": "corrupção, mentiras e isolamento: avaliação de impacto de ataques a bittorrent",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20920"
+    },
+    {
+     "title": "maldatagen: a modular framework for synthetic tabular data generation in malware detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739"
+    },
+    {
+     "title": "sob a lupa corporativa brasileira: avaliação da cobertura de scanners de vulnerabilidades em aplicações atuais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36791"
+    },
+    {
+     "title": "malsyngen: redes neurais artificiais na geração de dados tabulares sintéticos para detecção de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126"
+    },
+    {
+     "title": "droidaugmentor: uma ferramenta de treinamento e avaliação de cgans para geração de dados sintéticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273"
+    },
+    {
+     "title": "fwnl: um sistema de processamento de linguagem natural para configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "identifica isp: autenticação mútua entre múltiplas entidades para serviços de suporte técnico prestados por isps",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17336"
+    },
+    {
+     "title": "fwunify: uma ferramenta para simplificar a configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17337"
+    }
+   ],
+   "tools": [
+    {
+     "title": "maldatagen: a modular framework for synthetic tabular data generation in malware detection",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739"
+    },
+    {
+     "title": "malsyngen: redes neurais artificiais na geração de dados tabulares sintéticos para detecção de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126"
+    },
+    {
+     "title": "droidaugmentor: uma ferramenta de treinamento e avaliação de cgans para geração de dados sintéticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273"
+    },
+    {
+     "title": "fwnl: um sistema de processamento de linguagem natural para configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "identifica isp: autenticação mútua entre múltiplas entidades para serviços de suporte técnico prestados por isps",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17336"
+    },
+    {
+     "title": "fwunify: uma ferramenta para simplificar a configuração de múltiplos firewalls",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17337"
+    }
+   ]
+  },
+  {
+   "institution": "UNIVALI/RNP",
+   "state": "SC",
+   "lat": -26.923551,
+   "lng": -48.65142,
+   "pub_count": 18,
+   "tool_count": 3,
+   "pubs": [
+    {
+     "title": "um sistema de reputação baseado em blockchain contra ataques de mensagens falsas em vanets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17322"
+    },
+    {
+     "title": "autenticação multi-fator em provedores de identidade shibboleth",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4245"
+    },
+    {
+     "title": "um mecanismo agregador de atributos mediado pelo cliente alinhado ao programa de e-gov.br",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20130"
+    },
+    {
+     "title": "um sistema de reputação descentralizado para avaliar a confiança dos nós nas redes veiculares",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19543"
+    },
+    {
+     "title": "um mecanismo agregador de atributos mediado pelo cliente para um sistema de gestão de identidades federadas alinhado ao programa gov.br",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19556"
+    },
+    {
+     "title": "uma infraestrutura de autenticação e de autorização para internet das coisas baseada no saml e xacml",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19557"
+    },
+    {
+     "title": "gestão de identidades na web das coisas: um estudo de caso em saúde eletrônica",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19558"
+    },
+    {
+     "title": "segmentação de overlays p2p como suporte para memórias tolerantes a intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20570"
+    },
+    {
+     "title": "um modelo de composição de políticas de qualidade de proteção para serviços web compostos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20898"
+    },
+    {
+     "title": "um modelo para o gerenciamento federado do spki/sdsi através do serviço xkms",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20938"
+    },
+    {
+     "title": "repositórios seguros de dados para proteção de agentes móveis contra plataformas maliciosas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21226"
+    },
+    {
+     "title": "testbed para proxies de gestão de identidades: uma análise prática do shibboleth, simplesamlphp e satosa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36745"
+    },
+    {
+     "title": "inova id rs: desenvolvimento de um sistema de gestão de identidade federada aderente ao ecossistema de inovação do rio grande do sul",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27282"
+    },
+    {
+     "title": "federação saml no gidlab: explorando o potencial do simplesamlphp para experimentação",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27284"
+    },
+    {
+     "title": "como ofertar aplicações web python como um provedor de serviço shibboleth usando microsserviços",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19274"
+    },
+    {
+     "title": "transposição da autenticação federada para uma solução de controle de acesso físico no contexto da internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4144"
+    },
+    {
+     "title": "pesquisas exploratórias no testbed eduroam do gidlab",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4149"
+    },
+    {
+     "title": "o futuro da gestão de identidades digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4152"
+    }
+   ],
+   "tools": [
+    {
+     "title": "testbed para proxies de gestão de identidades: uma análise prática do shibboleth, simplesamlphp e satosa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36745"
+    },
+    {
+     "title": "como ofertar aplicações web python como um provedor de serviço shibboleth usando microsserviços",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19274"
+    },
+    {
+     "title": "transposição da autenticação federada para uma solução de controle de acesso físico no contexto da internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4144"
+    }
+   ]
+  },
+  {
+   "institution": "Federal University of Fluminense - (UFF)",
+   "state": "RJ",
+   "lat": -22.89637,
+   "lng": -43.12554,
+   "pub_count": 17,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "detecção de botnets em dispositivos iot utilizando análise de consultas dns com one-class svm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36628"
+    },
+    {
+     "title": "investigação do ataque flush+reload via web para extração de chaves rsa em alvos nativos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36644"
+    },
+    {
+     "title": "uso do tf-idf na comparação de dados para detecção de ransomware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30057"
+    },
+    {
+     "title": "vulnerabilidades de segurança cibernética em dispositivos de medição avançada de energia elétrica",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30082"
+    },
+    {
+     "title": "esquema de acordo de chaves de conferência baseado em um problema de funções quadráticas de duas variáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19495"
+    },
+    {
+     "title": "marca d’água estruturada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19514"
+    },
+    {
+     "title": "uso de controle chaveado para mitigação de ataque ativo de identificação de sistemas com malha fechada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19516"
+    },
+    {
+     "title": "ataques furtivos em sistemas de controle físicos cibernéticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19303"
+    },
+    {
+     "title": "identificação de código suspeito por meio de depuração supervisionada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20113"
+    },
+    {
+     "title": "protocolo para transferência parcial de conhecimento e sua aplicação à verificação segura de marcas d’água",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20118"
+    },
+    {
+     "title": "a randomized graph-based scheme for software watermarking",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20119"
+    },
+    {
+     "title": "sda-cog – sistema de detecção de ataques para rede de rádios cognitivos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20536"
+    },
+    {
+     "title": "uma arquitetura de segurança para medidores inteligentes – verificação prática de dados de energia multitarifada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20548"
+    },
+    {
+     "title": "rastreabilidade de códigos executáveis usando redes neurais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20595"
+    },
+    {
+     "title": "system identification attacks, model-based offensives and countermeasures in networked control systems",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19266"
+    },
+    {
+     "title": "across: um framework de autenticação e autorização baseado em políticas e atributos para organizações virtuais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4139"
+    },
+    {
+     "title": "o futuro da gestão de identidades digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4152"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal University of Rio de Janeiro - (UFRJ)",
+   "state": "RJ",
+   "lat": -22.863819,
+   "lng": -43.214269,
+   "pub_count": 16,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "protegendo redes de canais de pagamento sem fio com janelas de tempo de bloqueio mínimas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17323"
+    },
+    {
+     "title": "um sistema seguro de comercialização de dados pessoais sensíveis baseado em reputação, confiança e corrente de blocos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19247"
+    },
+    {
+     "title": "segurança e desempenho de protocolos de consenso baseados em prova para corrente de blocos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19248"
+    },
+    {
+     "title": "dfedforest: floresta federada descentralizada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19249"
+    },
+    {
+     "title": "uma avaliação de desempenho de segurança definida por software através de cadeias de funções de rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19493"
+    },
+    {
+     "title": "um sistema adaptativo de detecção e reação a ameaças",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19515"
+    },
+    {
+     "title": "atualização reversa: garantindo consistência de estados em redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20100"
+    },
+    {
+     "title": "flowfence: um sistema de defesa contra ataques de negação de serviço para redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20103"
+    },
+    {
+     "title": "um mecanismo para isolamento seguro de redes virtuais usando a abordagem híbrida xen e openflow",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19541"
+    },
+    {
+     "title": "uma técnica de rastreamento sem estado para identificar a origem de ataques a partir de um único pacote",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20597"
+    },
+    {
+     "title": "xnetmon: uma arquitetura com segurança para redes virtuais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20598"
+    },
+    {
+     "title": "controle de acesso auto-organizável e robusto baseado em nós delegados para redes ad hoc",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20884"
+    },
+    {
+     "title": "uma proposta de marcação de pacotes para rastreamento robusto a ataques",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20923"
+    },
+    {
+     "title": "avaliação do impacto da ação maliciosa de nós no roteamento em redes ad hoc",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21250"
+    },
+    {
+     "title": "estabelecimento de chave de grupo em redes ad hoc",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21264"
+    },
+    {
+     "title": "payment channel networks with resource-constrained devices",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30118"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF FLUMINENSE",
+   "state": "RJ",
+   "lat": -22.904183,
+   "lng": -43.13085,
+   "pub_count": 15,
+   "tool_count": 2,
+   "pubs": [
+    {
+     "title": "phishing guardian: detecção de sites de phishing com machine learning",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36652"
+    },
+    {
+     "title": "detecção de ataques de negação de serviço distribuídos com algoritmos de aprendizado de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30028"
+    },
+    {
+     "title": "eco-sa: estratégia de contenção otimizada da propagação em câmaras de eco utilizando simulated annealing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30034"
+    },
+    {
+     "title": "fedsbs: seleção de participantes baseado em pontuação para aprendizado federado no cenário de detecção de intrusão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27200"
+    },
+    {
+     "title": "um mecanismo de aprendizado incremental para detecção e bloqueio de mineração de criptomoedas em redes deﬁnidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13984"
+    },
+    {
+     "title": "uma avaliação de desempenho de cadeias de blocos privadas permissionadas através de cargas de trabalho realísticas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4261"
+    },
+    {
+     "title": "uma avaliação de desempenho de segurança definida por software através de cadeias de funções de rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19493"
+    },
+    {
+     "title": "cache nface: uma contramedida simples para o ataque em conluio produtor-consumidor em redes centradas em conteúdo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19509"
+    },
+    {
+     "title": "sobre a influência dos nós egoístas no descarregamento de tráfego com redes oportunistas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19319"
+    },
+    {
+     "title": "atualização reversa: garantindo consistência de estados em redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20100"
+    },
+    {
+     "title": "uma análise do impacto do ataque de poluição de cache em redes orientadas a conteúdo sem-fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20101"
+    },
+    {
+     "title": "flowfence: um sistema de defesa contra ataques de negação de serviço para redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20103"
+    },
+    {
+     "title": "um mecanismo para isolamento seguro de redes virtuais usando a abordagem híbrida xen e openflow",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19541"
+    },
+    {
+     "title": "exss: um emulador educativo de ataques cross-site scripting",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30121"
+    },
+    {
+     "title": "smartmed: uma ferramenta de controle de acesso a dados de saúde baseado em contratos inteligentes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27274"
+    }
+   ],
+   "tools": [
+    {
+     "title": "exss: um emulador educativo de ataques cross-site scripting",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30121"
+    },
+    {
+     "title": "smartmed: uma ferramenta de controle de acesso a dados de saúde baseado em contratos inteligentes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27274"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF UBERLÂNDIA (UFU)",
+   "state": "MG",
+   "lat": -18.920492,
+   "lng": -48.262297,
+   "pub_count": 13,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "anonimização de incidentes de segurança com reidentificação controlada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36614"
+    },
+    {
+     "title": "evolução de ameaças em fóruns da dark web e surface web: um estudo baseado em modelagem de tópicos e séries temporais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36633"
+    },
+    {
+     "title": "indicadores semânticos na engenharia de prompts: uma abordagem explicável para detecção de fake news",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36685"
+    },
+    {
+     "title": "comprehensive ransomware detection: optimization of feature selection through machine learning algorithms and explainable ai on memory analysis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30021"
+    },
+    {
+     "title": "uma arquitetura baseada em inteligência artificial explicável (xai) para sistemas de detecção de intrusões em smart grids",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30056"
+    },
+    {
+     "title": "extração e análise de indicadores de comprometimento (iocs) em fóruns da dark web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27218"
+    },
+    {
+     "title": "evaluating the performance of twitter-based exploit detectors",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19257"
+    },
+    {
+     "title": "providing iot host-based datasets for intrusion detection research",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4240"
+    },
+    {
+     "title": "one-class classification to detect botnets in iot devices",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4242"
+    },
+    {
+     "title": "flow-based intrusion detection for scada networks using supervised learning",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19498"
+    },
+    {
+     "title": "análise de alertas de sistemas de detecção de intrusão: uso de aprendizado supervisionado na redução de alertas falsos positivos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19499"
+    },
+    {
+     "title": "sandbox as a service: automatizando a configuracão do cuckoo sandbox e a geração de dados para análise de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21710"
+    },
+    {
+     "title": "transações op_return: uma oportunidade de análise forense",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17355"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "AERONAUTICS INSTITUTE OF TECHNOLOGY (ITA)",
+   "state": "SP",
+   "lat": -23.210654,
+   "lng": -45.875316,
+   "pub_count": 13,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "hikari – desafios reais, ameaças ocultas: uma plataforma de threat hunting gamificado",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36637"
+    },
+    {
+     "title": "além do sinal: autenticação biofísica com wi-fi csi e raspberry pi",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30015"
+    },
+    {
+     "title": "doh deception: evading ml-based tunnel detection models with real-world adversarial examples",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30032"
+    },
+    {
+     "title": "does asm2vec reduce drift on malware classification?",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27207"
+    },
+    {
+     "title": "saucy spice: uma nova abordagem eficiente para a detecção de malwares baseada em assinatura",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27208"
+    },
+    {
+     "title": "detecção de fraudes em criptomoedas utilizando métodos de classificação de séries temporais baseados em redes neurais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27228"
+    },
+    {
+     "title": "análise de vulnerabilidades em larga escala nos roteadores wi-fi por meio de web-fuzzing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27236"
+    },
+    {
+     "title": "um modelo de controle de acesso para conteúdos digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21247"
+    },
+    {
+     "title": "a3p: advanced airspace availability protocol for dynamic and trusted drone operations in smart cities",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36781"
+    },
+    {
+     "title": "unveiling firmware weaknesses: an approach for large-scale security analysis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30119"
+    },
+    {
+     "title": "segurança cibernética em roteadores wi-fi: abordagem automatizada para coleta e análise de firmware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30161"
+    },
+    {
+     "title": "binclustre: a configurable tool for binary clustering",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27272"
+    },
+    {
+     "title": "enumeração de sistemas operacionais e serviços de firmwares de roteadores sem-fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17351"
+    }
+   ],
+   "tools": [
+    {
+     "title": "binclustre: a configurable tool for binary clustering",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27272"
+    }
+   ]
+  },
+  {
+   "institution": "UNIVERSITY OF SÃO PAULO",
+   "state": "SP",
+   "lat": -23.559785,
+   "lng": -46.725853,
+   "pub_count": 13,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "recovering the secret on binary ring-lwe problem with random known bits",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27235"
+    },
+    {
+     "title": "the importance of the public global parameter on ring-lwe problem-based key encapsulation mechanims",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21682"
+    },
+    {
+     "title": "implementação eficiente de protocolos de acordo de chave em dispositivos de poder computacional restrito",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19555"
+    },
+    {
+     "title": "aprimoramento de protocolo de identificação baseado no problema mq",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20537"
+    },
+    {
+     "title": "segurança do bit menos significativo no rsa e em curvas elípticas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20540"
+    },
+    {
+     "title": "aumentando a segurança do md6 em relação aos ataques diferenciais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20577"
+    },
+    {
+     "title": "acordo de chave seguro contra autoridade mal intencionada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20578"
+    },
+    {
+     "title": "correção de deficiências no acordo de chaves de mandt",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20626"
+    },
+    {
+     "title": "uma versão mais forte do algoritmo rc6 contra criptanálise χ2",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20915"
+    },
+    {
+     "title": "attacking and defending post-quantum cryptography candidates",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30111"
+    },
+    {
+     "title": "segurança em internet das coisas: uma análise de comportamento de rede sob ataque",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27291"
+    },
+    {
+     "title": "two algorithms to improve the reaction attack on the qc-mdpc mceliece",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4137"
+    },
+    {
+     "title": "acordo de chave sem certificados sob emissão de múltiplas chaves públicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/20638"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "MILITARY INSTITUTE OF ENGINEERING",
+   "state": "RJ",
+   "lat": -22.955777,
+   "lng": -43.166203,
+   "pub_count": 12,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "mirak: um artefato para robustecimento do ambiente relying party rpki",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36687"
+    },
+    {
+     "title": "kill chain catalyst for autonomous red team operations in dynamic attack scenarios",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30040"
+    },
+    {
+     "title": "ptp flood: ataque cibernético de dos em cliente ptp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30078"
+    },
+    {
+     "title": "implementação de ataques em ambiente simulado para estudo de segurança cibernética em sistemas elétricos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27230"
+    },
+    {
+     "title": "hänsel und gretel: algoritmo para melhoria da resiliência cibernética pela diversificação de ativos através de aprendizado de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27237"
+    },
+    {
+     "title": "csiho: an ontology for computer security incident handling",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4239"
+    },
+    {
+     "title": "multimagnet: uma abordagem não determinística na escolha de múltiplos autoencoders para detecção de imagens contraditórias",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4259"
+    },
+    {
+     "title": "algoritmos de aprendizado de máquina aplicados ao reconhecimento de usuário baseado na dinâmica da digitação: um estudo comparativo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4260"
+    },
+    {
+     "title": "redes neurais convolucionais na detecção de bots sociais: um método baseado na clusterização de mensagens textuais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4262"
+    },
+    {
+     "title": "um método para detecção de bots sociais baseado em redes neurais convolucionais aplicadas em mensagens textuais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19524"
+    },
+    {
+     "title": "a era dos crypto ransomwares: um estudo de caso sobre o wannacry",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19525"
+    },
+    {
+     "title": "detecção de ataques cibernéticos em ambiente https utilizando aprendizado profundo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41954"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "UNIVERSITY OF SÃO PAULO (USP)",
+   "state": "SP",
+   "lat": -23.559785,
+   "lng": -46.725853,
+   "pub_count": 12,
+   "tool_count": 4,
+   "pubs": [
+    {
+     "title": "a new defensive technique against sleep deprivation attacks driven by battery usage",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21660"
+    },
+    {
+     "title": "análise de mensagens associadas à cibersegurança em redes irc",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20089"
+    },
+    {
+     "title": "foremost-ng: an open-source toolkit for advanced file carving and analysis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36737"
+    },
+    {
+     "title": "avaliação de desempenho e segurança de diferentes implementações do sistema de criptografia rsa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36757"
+    },
+    {
+     "title": "aplicação da técnica fuzzing em testes da implementação de referência do spdm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30150"
+    },
+    {
+     "title": "modelagem das áreas de risco de sistemas de detecção de intrusão para cálculo de métricas de privacidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27299"
+    },
+    {
+     "title": "fuzzing para o protocolo tls: estado da arte e comparação de fuzzers existentes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27306"
+    },
+    {
+     "title": "hashifypass - uma ferramenta para visualização de hashes de senhas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21695"
+    },
+    {
+     "title": "utilização de animações para comparação de hashes em votação eletrônica via internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21715"
+    },
+    {
+     "title": "an improved tool for detection of xss attacks by combining cnn with lstm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17333"
+    },
+    {
+     "title": "análise de desempenho de uma ferramenta para visualização de hashes em dispositivos móveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17357"
+    },
+    {
+     "title": "hashify: uma ferramenta para visualização de hashes com animações",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19277"
+    }
+   ],
+   "tools": [
+    {
+     "title": "foremost-ng: an open-source toolkit for advanced file carving and analysis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36737"
+    },
+    {
+     "title": "hashifypass - uma ferramenta para visualização de hashes de senhas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21695"
+    },
+    {
+     "title": "an improved tool for detection of xss attacks by combining cnn with lstm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17333"
+    },
+    {
+     "title": "hashify: uma ferramenta para visualização de hashes com animações",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19277"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL TECHNOLOGICAL UNIVERSITY OF PARANÁ (UTFPR)",
+   "state": "PR",
+   "lat": -24.73284,
+   "lng": -53.764545,
+   "pub_count": 11,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "enhancing lorawan security: addressing static root keys with post-quantum cryptography",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36631"
+    },
+    {
+     "title": "aplicação de ferramenta open-source na validação de integridade de conteúdos digitais para o combate a deepfakes maliciosos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36670"
+    },
+    {
+     "title": "timing analysis of algorithm substitution attacks in a post-quantum tls protocol",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17311"
+    },
+    {
+     "title": "an entropy source based on the bluetooth received signal strength indicator",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19231"
+    },
+    {
+     "title": "securing video on demand content with sgx: a decryption performance evaluation in client-side",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4248"
+    },
+    {
+     "title": "avaliação de certificados digitais pós-quânticos híbridos para integração em plataformas java",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36768"
+    },
+    {
+     "title": "otimização do desempenho de hashes com parallelhash para aceleração do hyperledger fabric",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36771"
+    },
+    {
+     "title": "towards faster and scalable post-quantum hyperledger fabric",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41958"
+    },
+    {
+     "title": "avaliando a prova de posse de chaves kem baseada em geração verificável",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36777"
+    },
+    {
+     "title": "hybrid post-quantum cryptography in network protocols",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30117"
+    },
+    {
+     "title": "tls 1.3 handshake analyzer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21693"
+    }
+   ],
+   "tools": [
+    {
+     "title": "tls 1.3 handshake analyzer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21693"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF RIO GRANDE DO SUL (UFRGS)",
+   "state": "RS",
+   "lat": -30.028787,
+   "lng": -51.23161,
+   "pub_count": 10,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "a comparison between cryptography libraries used in brski protocol for constrained devices",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36608"
+    },
+    {
+     "title": "robit - a binary optimization anti-plagiarism method",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36658"
+    },
+    {
+     "title": "uma abordagem para mitigação de phishing utilizando ebpf/xdp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36664"
+    },
+    {
+     "title": "sim-ciber: uma solução baseada em simulações probabilísticas para quantificação de riscos e impactos de ciberataques utilizando relatórios estatísticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30050"
+    },
+    {
+     "title": "a continuous heart-based biometric authentication for healthcare internet of things",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27196"
+    },
+    {
+     "title": "impacto da criptografia da camada de transporte em análises de fluxos com aprendizado de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27213"
+    },
+    {
+     "title": "quic-tr4ck: mitigando ataques quic-flood usando planos de dados programáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27215"
+    },
+    {
+     "title": "ataques automatizados de engenharia social com o uso de bots em redes sociais profissionais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21665"
+    },
+    {
+     "title": "combatendo vulnerabilidades em programas p4 com verificação baseada em asserções",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19508"
+    },
+    {
+     "title": "impacto: plataforma de capacitação em cibersegurança baseada em simulação de aspectos econômicos de ciberataques",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36738"
+    }
+   ],
+   "tools": [
+    {
+     "title": "impacto: plataforma de capacitação em cibersegurança baseada em simulação de aspectos econômicos de ciberataques",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36738"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF RIO DE JANEIRO",
+   "state": "RJ",
+   "lat": -22.863819,
+   "lng": -43.214269,
+   "pub_count": 10,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "avaliação da privacidade diferencial aplicada ao aprendizado federado através de ataques de inversão de modelo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36621"
+    },
+    {
+     "title": "tofl: time optimized federated learning",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36663"
+    },
+    {
+     "title": "guardrail: uma abordagem modular para sistemas de segurança em inteligência artificial generativa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36683"
+    },
+    {
+     "title": "análise da evolução topológica da rede lightning de canais de pagamento",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21659"
+    },
+    {
+     "title": "detecção de ataques a redes iot usando técnicas de aprendizado de máquina e aprendizado profundo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19242"
+    },
+    {
+     "title": "gatos virtuais: detectando e avaliando os impactos da mineração de criptomoedas em infraestrutura pública",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13962"
+    },
+    {
+     "title": "secure cloud processing for smart meters using intel sgx",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4274"
+    },
+    {
+     "title": "sistema de detecção de intrusão imuno-inspirado customizado para redes de sensores sem fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20593"
+    },
+    {
+     "title": "inxu: a flow-based intrusion prevention system for home iot networks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21689"
+    },
+    {
+     "title": "gestão segura e escalável de identidades através de múltiplas corrente de blocos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21707"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "STATE UNIVERSITY OF SANTA CATARINA",
+   "state": "SC",
+   "lat": -27.585778,
+   "lng": -48.502382,
+   "pub_count": 10,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "detecção eficiente de anomalias em hosts usando transformer com categorização de chamadas de sistema",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36676"
+    },
+    {
+     "title": "o impacto de software anti-cheat na privacidade do usuário",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30044"
+    },
+    {
+     "title": "utilizando estratégias de monitoramento leve em ambientes conteinerizados para detecção de anomalias via hids",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30058"
+    },
+    {
+     "title": "uso de chamadas wasi para a identificação de ameaças em aplicações webassembly",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27210"
+    },
+    {
+     "title": "uma estratégia dinâmica para a detecção de anomalias em binários webassembly",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27221"
+    },
+    {
+     "title": "um estudo de correlação de ataques drdos com fatores externos visando dados de honeypots",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21680"
+    },
+    {
+     "title": "brasil vs mundo: uma análise comparativa de ataques ddos por reﬂexão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13975"
+    },
+    {
+     "title": "experiências com um honeypot dns: caracterização e evoluão do tráfego malicioso",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19507"
+    },
+    {
+     "title": "analisando a viabilidade da implementação prática de sistemas tolerantes a intrusões",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21526"
+    },
+    {
+     "title": "jacoweb-abc: integração do modelo de controle de acesso uconabc no corbasec",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21532"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL INSTITUTE OF RIO GRANDE DO SUL",
+   "state": "RS",
+   "lat": -30.140688,
+   "lng": -51.130082,
+   "pub_count": 10,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "exploring digital signatures secrecy in web-platform: client-side cryptographic operations",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30035"
+    },
+    {
+     "title": "a non-probabilistic time-storage trade-off for unsalted hashes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19308"
+    },
+    {
+     "title": "bringing semantics to authentication: an openid connect extension",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36747"
+    },
+    {
+     "title": "visão de futuro: o registro civil do brasil como emissor de credenciais verificáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36752"
+    },
+    {
+     "title": "bridging the gap: managing dual assurance levels in openid connect",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30133"
+    },
+    {
+     "title": "enhancing keycloak: implementing openid connect for identity assurance",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30135"
+    },
+    {
+     "title": "relato de experiência: adoção de lista de serviços de confiança na rede nacional de ensino e pesquisa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30138"
+    },
+    {
+     "title": "identificação eletrônica do registro civil do brasil",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27278"
+    },
+    {
+     "title": "menos certificação digital e mais identidade eletrônica: icpedu e cafe em um assinador digital inclusivo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27279"
+    },
+    {
+     "title": "tls 1.3 handshake analyzer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21693"
+    }
+   ],
+   "tools": [
+    {
+     "title": "tls 1.3 handshake analyzer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21693"
+    }
+   ]
+  },
+  {
+   "institution": "UNIVERSITY OF SÃO PAULO, POLYTECHNIC SCHOOL",
+   "state": "SP",
+   "lat": -23.560438,
+   "lng": -46.727535,
+   "pub_count": 9,
+   "tool_count": 5,
+   "pubs": [
+    {
+     "title": "introducing two ros attack variants: breaking one-more unforgeability of bz blind signatures",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36643"
+    },
+    {
+     "title": "blockchain aplicado à rastreabilidade da cadeia produtiva do cacau da amazônia",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21657"
+    },
+    {
+     "title": "um mecanismo de proteção de quadros de controle para redes ieee 802.11",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20560"
+    },
+    {
+     "title": "building a labeled smart contract dataset for evaluating vulnerability detection tools’ effectiveness",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36735"
+    },
+    {
+     "title": "minimoni: combining hls with payword",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36741"
+    },
+    {
+     "title": "transparência de domínios: maior auditabilidade para serviços de transparência de certificados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17338"
+    },
+    {
+     "title": "amazon biobank - a community-based genetic database",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17342"
+    },
+    {
+     "title": "torrente, a micropayment based bittorrent extension to mitigate free riding",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17343"
+    },
+    {
+     "title": "improving cloud based encrypted databases",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19271"
+    }
+   ],
+   "tools": [
+    {
+     "title": "building a labeled smart contract dataset for evaluating vulnerability detection tools’ effectiveness",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36735"
+    },
+    {
+     "title": "minimoni: combining hls with payword",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36741"
+    },
+    {
+     "title": "transparência de domínios: maior auditabilidade para serviços de transparência de certificados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17338"
+    },
+    {
+     "title": "amazon biobank - a community-based genetic database",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17342"
+    },
+    {
+     "title": "torrente, a micropayment based bittorrent extension to mitigate free riding",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17343"
+    }
+   ]
+  },
+  {
+   "institution": "Federal Technological University of Paraná - (UTFPR)",
+   "state": "PR",
+   "lat": -25.439067,
+   "lng": -49.269635,
+   "pub_count": 9,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "securing video on demand content with sgx: a decryption performance evaluation in client-side",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4248"
+    },
+    {
+     "title": "privacy-preserving recommendations for online social networks using trusted execution environments",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4268"
+    },
+    {
+     "title": "análise de mensagens associadas à cibersegurança em redes irc",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20089"
+    },
+    {
+     "title": "rastreamento eficiente de pacotes na internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20944"
+    },
+    {
+     "title": "avaliação de desempenho e segurança de diferentes implementações do sistema de criptografia rsa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36757"
+    },
+    {
+     "title": "cyber resistance: protótipo de jogo educacional para ensino de segurança cibernética",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36769"
+    },
+    {
+     "title": "especificação de arcabouço para testes de escalação de privilégio em sistemas linux",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36770"
+    },
+    {
+     "title": "avaliação de diferentes implementações do sistema de criptografia rsa",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30153"
+    },
+    {
+     "title": "sistema conteinerizado de simulação para algoritmos de detecção de ataques em redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30162"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "CPQD",
+   "state": "SP",
+   "lat": -22.815978,
+   "lng": -47.045133,
+   "pub_count": 8,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "análise comparativa de ias generativas como ferramentas de apoio à programação segura",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30061"
+    },
+    {
+     "title": "a machine learning approach to detect misuse of cryptographic apis in source code",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19223"
+    },
+    {
+     "title": "an approach for adaptive security of cloud applications within the atmosphere platform",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13988"
+    },
+    {
+     "title": "a longitudinal and retrospective study on how developers misuse cryptography in online communities",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19488"
+    },
+    {
+     "title": "a survey on tools and techniques for the programming and verification of secure cryptographic software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20083"
+    },
+    {
+     "title": "hacking ginga: uma avaliação de segurança da plataforma de aplicações interativas da tv digital brasileira",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20589"
+    },
+    {
+     "title": "differentially private anomaly detection for energy market data",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36786"
+    },
+    {
+     "title": "ethical dilemmas for cybersecurity and the impact of artificial intelligence",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41960"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF PARÁ (UFPA)",
+   "state": "PA",
+   "lat": -1.466767,
+   "lng": -48.457642,
+   "pub_count": 8,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "pequenos passos em direção a um sistema prático de registro de votantes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21673"
+    },
+    {
+     "title": "registro prático aplicado a um sistema de votação resistente à coerção",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19253"
+    },
+    {
+     "title": "civis - a coercion-resistant election system",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4241"
+    },
+    {
+     "title": "farnel: um protocolo criptográfico para votação digital",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21261"
+    },
+    {
+     "title": "uma proposta de integração da biblioteca criptográfica do sistema helios ao sistema civis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30147"
+    },
+    {
+     "title": "utilização de animações para comparação de hashes em votação eletrônica via internet",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21715"
+    },
+    {
+     "title": "a implementação de um protocolo criptográﬁco para geração distribuída de credenciais no sistema civis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14007"
+    },
+    {
+     "title": "aprimorando a segurança do sistema de votação civis através da geração distribuída de credenciais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14011"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF SANTA CATARINA - (UFSC)",
+   "state": "SC",
+   "lat": -27.60528,
+   "lng": -48.523725,
+   "pub_count": 8,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "comparação entre lstm e clcnn na detecção de requisições maliciosas em ataques na web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17310"
+    },
+    {
+     "title": "aplicação do modelo uconabc em sistemas de comércio eletrônico b2b",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21533"
+    },
+    {
+     "title": "segurança multilateral e rbac para gerência de contabilidade em sistema distribuídos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21534"
+    },
+    {
+     "title": "rbrp: protocolo de reputação baseado em papéis para redes peer-to-peer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21536"
+    },
+    {
+     "title": "p2p-role: uma arquitetura de controle de acesso baseada em papéis para sistemas colaborativos peer-to-peer",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21223"
+    },
+    {
+     "title": "comunicação de grupo segura no corba: integridade e confidencialidade no miop",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21244"
+    },
+    {
+     "title": "um modelo de controle de acesso para conteúdos digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21247"
+    },
+    {
+     "title": "proposta e implementação de protocolo de transferência de arquivos usando segurança por chave pública (fast-tp)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21276"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL INSTITUTE OF SANTA CATARINA (IFSC)",
+   "state": "SC",
+   "lat": -27.611009,
+   "lng": -48.631293,
+   "pub_count": 8,
+   "tool_count": 2,
+   "pubs": [
+    {
+     "title": "autenticação multi-fator em provedores de identidade shibboleth",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4245"
+    },
+    {
+     "title": "um modelo para o gerenciamento federado do spki/sdsi através do serviço xkms",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20938"
+    },
+    {
+     "title": "transferência de autenticação e autorização através de serviços web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21523"
+    },
+    {
+     "title": "integração do passkeys em provedores de identidade shibboleth",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27283"
+    },
+    {
+     "title": "atualização de firmware em sistemas embarcados de forma segura e confiável",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17354"
+    },
+    {
+     "title": "como ofertar aplicações web python como um provedor de serviço shibboleth usando microsserviços",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19274"
+    },
+    {
+     "title": "transposição da autenticação federada para uma solução de controle de acesso físico no contexto da internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4144"
+    },
+    {
+     "title": "o futuro da gestão de identidades digitais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4152"
+    }
+   ],
+   "tools": [
+    {
+     "title": "como ofertar aplicações web python como um provedor de serviço shibboleth usando microsserviços",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19274"
+    },
+    {
+     "title": "transposição da autenticação federada para uma solução de controle de acesso físico no contexto da internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4144"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF SANTA CATARINA (UFSC)",
+   "state": "SC",
+   "lat": -27.599464,
+   "lng": -48.519223,
+   "pub_count": 7,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "enhancing lorawan security: addressing static root keys with post-quantum cryptography",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36631"
+    },
+    {
+     "title": "practical algorithms and parameters for modification-tolerant signature scheme",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30047"
+    },
+    {
+     "title": "análise de vulnerabilidade de esquemas de segredo compartilhado considerando um novo modelo de ameaça",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19511"
+    },
+    {
+     "title": "cleaning up the pki for long-term signatures",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20542"
+    },
+    {
+     "title": "infra-estrutura de chaves públicas otimizada: uma icp de suporte a assinaturas eficientes para documentos eletrônicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20628"
+    },
+    {
+     "title": "blockchain-based academic record system",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19269"
+    },
+    {
+     "title": "proposta de carimbo do tempo descentralizado e preciso para a icp-brasil utilizando sistemas embarcados e criptografia pós-quântica",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/19281"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "STATE UNIVERSITY OF LONDRINA",
+   "state": "PR",
+   "lat": -23.330028,
+   "lng": -51.213455,
+   "pub_count": 7,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "a triad of defenses to mitigate poisoning attacks in federated learning",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30013"
+    },
+    {
+     "title": "impacto do aprendizado de máquina adversário contra detectores de anomalias em séries temporais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30038"
+    },
+    {
+     "title": "impacto de ataques de evasão e eficácia da defesa baseada em treinamento adversário em detectores de malware",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30075"
+    },
+    {
+     "title": "providing iot host-based datasets for intrusion detection research",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4240"
+    },
+    {
+     "title": "one-class classification to detect botnets in iot devices",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4242"
+    },
+    {
+     "title": "flow-based intrusion detection for scada networks using supervised learning",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19498"
+    },
+    {
+     "title": "análise de alertas de sistemas de detecção de intrusão: uso de aprendizado supervisionado na redução de alertas falsos positivos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19499"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF CEARÁ (UFC) / COMPUTER SCIENCE DEPARTMENT",
+   "state": "CE",
+   "lat": -3.746459,
+   "lng": -38.573798,
+   "pub_count": 7,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "classificação de risco de vulnerabilidades de segurança via processos gaussianos e aprendizado ativo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30020"
+    },
+    {
+     "title": "abordagem de aprendizado incremental para sistemas de detecção de intrusão: combatendo o esquecimento catastrófico",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27199"
+    },
+    {
+     "title": "arquitetura de tempo real e modelo de aprendizado de máquina para detecção de fraudes de cartão de crédito",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27212"
+    },
+    {
+     "title": "detecção de intrusão em sistemas iot baseada em comitê de classificadores",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27224"
+    },
+    {
+     "title": "análise de severidade e explorabilidade de vulnerabilidades de segurança no setor público",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36783"
+    },
+    {
+     "title": "testes de segurança estáticos na esteira de desenvolvimento de aplicações: um estudo de caso na seplag-ce",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41953"
+    },
+    {
+     "title": "uma abordagem para testes de segurança em aplicações android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27294"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "State University of Ceará - (UECE)",
+   "state": "",
+   "lat": -3.792016,
+   "lng": -38.550665,
+   "pub_count": 7,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "gerenciamento de conexões usando firewall automatizado a partir de dados de inteligência sobre ameaças",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30073"
+    },
+    {
+     "title": "aplicação de técnicas de encriptação e anonimização em nuvem para proteção de dados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27201"
+    },
+    {
+     "title": "análise de severidade e explorabilidade de vulnerabilidades de segurança no setor público",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36783"
+    },
+    {
+     "title": "proteção de dados sensíveis através de criptografia com tpm",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36790"
+    },
+    {
+     "title": "detecção inteligente de malwares em sistemas windows",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41952"
+    },
+    {
+     "title": "testes de segurança estáticos na esteira de desenvolvimento de aplicações: um estudo de caso na seplag-ce",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41953"
+    },
+    {
+     "title": "data protection based on searchable encryption and anonymization techniques",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30115"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal Institute of Rio Grande do Sul - (IFRS)",
+   "state": "RS",
+   "lat": -30.140688,
+   "lng": -51.130082,
+   "pub_count": 7,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "modelo integrado para forense computacional em cenários envolvendo aplicações iot",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27195"
+    },
+    {
+     "title": "diahphish: uma solução baseada em redes neurais siamesas para detecção de ataques homográficos em páginas phishing direcionadas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27220"
+    },
+    {
+     "title": "a proposal to increase data utility on global differential privacy data based on data use predictions",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27239"
+    },
+    {
+     "title": "uma avaliação de comportamentos homográficos em ataques de phishing direcionados que exploram a suscetibilidade pela fidedignidade e sazonalidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17320"
+    },
+    {
+     "title": "eliminação segura de arquivos em memória não-volátil",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19490"
+    },
+    {
+     "title": "tramonto: uma estratégia de recomendações para testes de penetração",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19320"
+    },
+    {
+     "title": "multi-level consensus algorithm for appendable-block blockchains in iot environments",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21687"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "STATE UNIVERSITY OF SANTA CATARINA - UDESC",
+   "state": "SC",
+   "lat": -27.585778,
+   "lng": -48.502382,
+   "pub_count": 7,
+   "tool_count": 3,
+   "pubs": [
+    {
+     "title": "avaliação de ferramentas de automl em datasets de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21676"
+    },
+    {
+     "title": "auth4app: protocols for identification and authentication using mobile applications",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19254"
+    },
+    {
+     "title": "evaluating performance impacts in identity management based on keycloak and openid connect",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30136"
+    },
+    {
+     "title": "event2ledger: container traceability using docker swarm and consortium hyperledger blockchain",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21698"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    },
+    {
+     "title": "análise de segurança dos orquestradores kubernetes, docker swarm e apache mesos baseada no cve / mitre",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17349"
+    }
+   ],
+   "tools": [
+    {
+     "title": "event2ledger: container traceability using docker swarm and consortium hyperledger blockchain",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21698"
+    },
+    {
+     "title": "droidautoml: uma ferramenta de automl para o domínio de detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702"
+    },
+    {
+     "title": "adbuilder: uma ferramenta de construção de datasets para detecção de malwares android",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF CEARÁ",
+   "state": "CE",
+   "lat": -3.746459,
+   "lng": -38.573798,
+   "pub_count": 7,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "tarp fingerprinting: um mecanismo de browser fingerprinting baseado em html5 resistente a contramedidas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19301"
+    },
+    {
+     "title": "sistematização do contexto como fator de autenticação de usuários de dispositivos móveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20115"
+    },
+    {
+     "title": "um modelo de segurança em grades computacionais para o projeto grad-giga",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21551"
+    },
+    {
+     "title": "mapeamento sistemático de comparativos de ferramentas de análise estática de código com foco na segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36762"
+    },
+    {
+     "title": "análise de severidade e explorabilidade de vulnerabilidades de segurança no setor público",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36783"
+    },
+    {
+     "title": "testes de segurança estáticos na esteira de desenvolvimento de aplicações: um estudo de caso na seplag-ce",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41953"
+    },
+    {
+     "title": "mapeamento sistemático sobre ética e segurança em dispositivos de internet das coisas médicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41961"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal University of Pará - (UFPA)",
+   "state": "PA",
+   "lat": -1.466767,
+   "lng": -48.457642,
+   "pub_count": 6,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "ataque adversarial de evasão a sistema de detecção de intrusão e métodos de defesa em redes open ran",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36618"
+    },
+    {
+     "title": "seleção de características em stream para a detecção de ataques de rede",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17316"
+    },
+    {
+     "title": "ipsflow – uma proposta de ips distribuído para captura e bloqueio seletivo de tráfego malicioso em redes definidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20557"
+    },
+    {
+     "title": "estrutura de governança orientada por regras programáveis com suporte de identidade digital descentralizada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36749"
+    },
+    {
+     "title": "minindy: uma ferramenta de início rápido do hyperledger indy",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27277"
+    },
+    {
+     "title": "detecção de ataques ddos em redes sdn utilizando aprendizado de máquina: uma abordagem em microsserviços",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27287"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "CEPESC",
+   "state": "DF",
+   "lat": -15.828143,
+   "lng": -47.935251,
+   "pub_count": 6,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "improved decryption bounds and key generation for matrix ntru over integral domain",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36640"
+    },
+    {
+     "title": "tailoring a genetic algorithm for searching shortest lattice vector in ntru lattices",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36690"
+    },
+    {
+     "title": "cutting dimensions in the lll attack for the etru post-quantum cryptosystem",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30023"
+    },
+    {
+     "title": "lattice base reduction attack on matrix ntru",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30041"
+    },
+    {
+     "title": "automated security proof of square, led and clefia using the milp technique",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27225"
+    },
+    {
+     "title": "lgpd: levantamento de técnicas criptográficas e de anonimização para proteção de bases de dados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19227"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF BAHIA (UFBA)",
+   "state": "BA",
+   "lat": -13.005774,
+   "lng": -38.508758,
+   "pub_count": 6,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "revisitando o bootstrapping seguro na iot: abordagens do tcp/ip e oportunidades com ndn",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36655"
+    },
+    {
+     "title": "entre a confiança e o sigilo: reputação descentralizada com garantia de privacidade por meio de identidades digitais auto-soberanas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36679"
+    },
+    {
+     "title": "d-nac: controle de acesso distribuído para redes de dados nomeados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30024"
+    },
+    {
+     "title": "toid: reputação baseada em identificadores descentralizados para aplicações distribuídas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30052"
+    },
+    {
+     "title": "plataforma para gestão de identidades descentralizadas baseada em blockchain",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17304"
+    },
+    {
+     "title": "mininet-sec: plataforma de experimentação para segurança cibernética em redes programáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30127"
+    }
+   ],
+   "tools": [
+    {
+     "title": "mininet-sec: plataforma de experimentação para segurança cibernética em redes programáveis",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30127"
+    }
+   ]
+  },
+  {
+   "institution": "UNIVERSITY OF CAMPINAS (UNICAMP)",
+   "state": "SP",
+   "lat": -22.904183,
+   "lng": -43.13085,
+   "pub_count": 6,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "fast implementation of gf(28) inversion with applications to the aes s-box using arm helium mve extensions",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36680"
+    },
+    {
+     "title": "a minimal white-box dedicated cipher proposal using incompressible lookup tables: space-hard aes",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27202"
+    },
+    {
+     "title": "evaluation of modular multiplication techniques for supersingular isogeny schemes on armv8 cores",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21656"
+    },
+    {
+     "title": "evaluation of crystals-kyber and saber on the armv8 architecture",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21681"
+    },
+    {
+     "title": "a secure white box implementation of aes against first order dca",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13986"
+    },
+    {
+     "title": "white box implementations of dedicated ciphers on the arm neon architecture",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4264"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "UFABC, FEDERAL UNIVERSITY OF ABC",
+   "state": "SP",
+   "lat": -23.646314,
+   "lng": -46.528148,
+   "pub_count": 6,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "aprimoramento de protocolo de identificação baseado no problema mq",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20537"
+    },
+    {
+     "title": "acordo de chave seguro contra autoridade mal intencionada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20578"
+    },
+    {
+     "title": "análise de variantes do criptossistema mceliece e da versão candidata a padrão de encriptação baseada em códigos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17347"
+    },
+    {
+     "title": "hash criptográﬁco sobre senhas e aleatoriedade do argon2∗",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14008"
+    },
+    {
+     "title": "algoritmos de assinatura digital baseada em reticulados candidatos a padrão pós-quântico",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14010"
+    },
+    {
+     "title": "acordo de chave sem certificados sob emissão de múltiplas chaves públicas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/20638"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF CAMPINA GRANDE",
+   "state": "PB",
+   "lat": -7.220422,
+   "lng": -35.908397,
+   "pub_count": 5,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "simplificando a adoção de zta com motor de políticas e decisões baseadas em logs",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36660"
+    },
+    {
+     "title": "kafkaproxy: data-at-rest encryption and confidentiality support for kafka clusters",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19241"
+    },
+    {
+     "title": "santos’: algoritmo para detecção de ataques do tipo stepping-stones",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19503"
+    },
+    {
+     "title": "privacy-preserving techniques in smart metering: an overview",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19296"
+    },
+    {
+     "title": "agregação de dados na nuvem com garantias de segurança e privacidade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19311"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "State University of Santa Catarina - (UDESC)",
+   "state": "",
+   "lat": -27.585778,
+   "lng": -48.502382,
+   "pub_count": 5,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "exploratory use of ppg signal in continuous authentication",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20091"
+    },
+    {
+     "title": "autenticação utilizando senhas descartáveis baseadas em caos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21225"
+    },
+    {
+     "title": "votação anônima segura utilizando lista de discussão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21231"
+    },
+    {
+     "title": "módulo cifrador de documentos eletrônicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21232"
+    },
+    {
+     "title": "assinatura confiável de documentos eletrônicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21253"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF HEALTH SCIENCES OF PORTO ALEGRE (UFCSPA)",
+   "state": "RS",
+   "lat": -30.031154,
+   "lng": -51.220773,
+   "pub_count": 4,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "exploiting latent space discontinuities for building universal llm jailbreaks and data extraction attacks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36635"
+    },
+    {
+     "title": "secadvisor: a tool for cybersecurity planning using economic models",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30049"
+    },
+    {
+     "title": "sim-ciber: uma solução baseada em simulações probabilísticas para quantificação de riscos e impactos de ciberataques utilizando relatórios estatísticos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30050"
+    },
+    {
+     "title": "impacto: plataforma de capacitação em cibersegurança baseada em simulação de aspectos econômicos de ciberataques",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36738"
+    }
+   ],
+   "tools": [
+    {
+     "title": "impacto: plataforma de capacitação em cibersegurança baseada em simulação de aspectos econômicos de ciberataques",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36738"
+    }
+   ]
+  },
+  {
+   "institution": "NATIONAL INSTITUTE OF METROLOGY, STANDARDIZATION AND INDUSTRIAL QUALITY (INMETRO)",
+   "state": "RJ",
+   "lat": -22.599344,
+   "lng": -43.291518,
+   "pub_count": 4,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "secure cloud processing for smart meters using intel sgx",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4274"
+    },
+    {
+     "title": "autenticação de sensores usando eventos físicos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19294"
+    },
+    {
+     "title": "segurança no sensoriamento e aquisição de dados de testes de impacto veiculares",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20122"
+    },
+    {
+     "title": "rastreabilidade de códigos executáveis usando redes neurais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20595"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "UNIVERSITY OF VALE DO RIO DOS SINOS (UNISINOS)",
+   "state": "RS",
+   "lat": -29.794997,
+   "lng": -51.152494,
+   "pub_count": 4,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "an analysis of pre-trained models to identify cybersecurity incidents entities in the healthcare industry",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36753"
+    },
+    {
+     "title": "avaliação do reconhecimento de entidades nomeadas para descoberta de dados pessoais em transcrições de áudio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36758"
+    },
+    {
+     "title": "uma análise dos dados provenientes de vazamentos disponíveis para venda em marketplaces da dark web",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17350"
+    },
+    {
+     "title": "uma análise forense de carteiras eletrônicas móveis com foco na comprovação da autoria de crime cibernético",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/14013"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF SANTA MARIA (UFSM)",
+   "state": "RS",
+   "lat": -29.720931,
+   "lng": -53.709803,
+   "pub_count": 3,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "aprimorando a detecção de apts com geração de dados sintéticos baseada em gan-transformers",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36616"
+    },
+    {
+     "title": "titan dga: uma gan otimizada por divergência kl com autoencoder baseado em transformers para geração de domínios maliciosos",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36662"
+    },
+    {
+     "title": "bg-idps: detecção e prevenção de intrusões em tempo real em switches ebpf com o filtro de pacotes berkeley e a metaheurística grasp-fs",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21664"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "University of Brasília - (UNB)",
+   "state": "DF",
+   "lat": -15.764361,
+   "lng": -47.857824,
+   "pub_count": 3,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "balancing privacy and utility: evaluating distributional shifts and accuracy in differentially private synthetic breached data",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36623"
+    },
+    {
+     "title": "spatiotemporal patterns, typology and survival analysis of cyber incidents in brazil",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36689"
+    },
+    {
+     "title": "mutual authentication protocol for cloud-based e-health systems",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/4145"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal University of Maranhão - (UFMA)",
+   "state": "MA",
+   "lat": -2.566296,
+   "lng": -44.320994,
+   "pub_count": 3,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "metodologia para publicação de dados com preservação da privacidade para órgãos públicos: de maneira proativa e solicitada",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36645"
+    },
+    {
+     "title": "gerenciamento descentralizado de identidades para cidades inteligentes baseado na tecnologia blockchain",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21658"
+    },
+    {
+     "title": "um modelo de segurança e privacidade para redes sociais móveis aplicadas à área da saúde",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20559"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "INSTITUTE OF COMPUTING, STATE UNIVERSITY OF CAMPINAS (UNICAMP)",
+   "state": "SP",
+   "lat": -22.818202,
+   "lng": -47.064796,
+   "pub_count": 3,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "efficient transciphering with chacha20",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36678"
+    },
+    {
+     "title": "uma versão não-interativa do k-nn sobre dados cifrados",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19310"
+    },
+    {
+     "title": "principal component analysis over encrypted data using homomorphic encryption",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20110"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Zona Oeste University Center - (UERJ-ZO)",
+   "state": "SP",
+   "lat": -22.893412,
+   "lng": -43.590123,
+   "pub_count": 3,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "mirak: um artefato para robustecimento do ambiente relying party rpki",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36687"
+    },
+    {
+     "title": "mitigação de ataques ao bgp utilizando rpki",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17330"
+    },
+    {
+     "title": "validação da solução rpki para segurança do bgp",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21690"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "STATE UNIVERSITY OF RIO DE JANEIRO",
+   "state": "RJ",
+   "lat": -22.904349,
+   "lng": -43.234317,
+   "pub_count": 3,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "fedsbs: seleção de participantes baseado em pontuação para aprendizado federado no cenário de detecção de intrusão",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27200"
+    },
+    {
+     "title": "um mecanismo de aprendizado incremental para detecção e bloqueio de mineração de criptomoedas em redes deﬁnidas por software",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/13984"
+    },
+    {
+     "title": "exss: um emulador educativo de ataques cross-site scripting",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30121"
+    }
+   ],
+   "tools": [
+    {
+     "title": "exss: um emulador educativo de ataques cross-site scripting",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30121"
+    }
+   ]
+  },
+  {
+   "institution": "COMPUTER SCIENCE CENTER, FEDERAL UNIVERSITY OF PARAÍBA",
+   "state": "PB",
+   "lat": -7.14609,
+   "lng": -34.837581,
+   "pub_count": 3,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "mitigando a ameaça dos ataques slow ddos a redes sdn usando consolidação de regras",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27214"
+    },
+    {
+     "title": "automação e cibersegurança: criando uma ferramenta de testes para redes sdn",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30139"
+    },
+    {
+     "title": "demonstração experimental de vulnerabilidades em dispositivos internet das coisas",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21719"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF PARÁ",
+   "state": "PA",
+   "lat": -1.466767,
+   "lng": -48.457642,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "ataque adversarial de evasão a sistema de detecção de intrusão e métodos de defesa em redes open ran",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36618"
+    },
+    {
+     "title": "federated learning under attack: improving gradient inversion for batch of images",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/30070"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal University of Santa Maria - (UFSM)",
+   "state": "RS",
+   "lat": -29.720931,
+   "lng": -53.709803,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "minimal but lethal: a xai-driven approach for feature-level adversarial attacks on healthcare 5.0",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36647"
+    },
+    {
+     "title": "recovering medical images from adversarial attacks: genetic algorithm-based adaptive compression (ga-ac)",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36654"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "RNP/FEDERAL UNIVERSITY OF CAMPINA GRANDE (UFCG)",
+   "state": "PB",
+   "lat": -7.220422,
+   "lng": -35.908397,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "using lsms to strengthen access control of applications that use hostpath in kubernetes clusters",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36667"
+    },
+    {
+     "title": "melhorias no processo de armazenamento de dados em tpm para gerenciamento de integridade",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30144"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL INSTITUTE OF RIO GRANDE DO SUL (IFRS)",
+   "state": "RS",
+   "lat": -30.140688,
+   "lng": -51.130082,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "modelo integrado para forense computacional em cenários envolvendo aplicações iot",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27195"
+    },
+    {
+     "title": "multi-level consensus algorithm for appendable-block blockchains in iot environments",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21687"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Military Institute of Engineering - (IME)",
+   "state": "RJ",
+   "lat": -22.955777,
+   "lng": -43.166203,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "hänsel und gretel: algoritmo para melhoria da resiliência cibernética pela diversificação de ativos através de aprendizado de máquina",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27237"
+    },
+    {
+     "title": "detecção de ataques cibernéticos em ambiente https utilizando aprendizado profundo",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41954"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "POLYTECHNIC SCHOOL - UNIVERSITY OF SÃO PAULO",
+   "state": "SP",
+   "lat": -23.560438,
+   "lng": -46.727535,
+   "pub_count": 2,
+   "tool_count": 1,
+   "pubs": [
+    {
+     "title": "blockchain aplicado à rastreabilidade da cadeia produtiva do cacau da amazônia",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/21657"
+    },
+    {
+     "title": "amazon biobank - a community-based genetic database",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17342"
+    }
+   ],
+   "tools": [
+    {
+     "title": "amazon biobank - a community-based genetic database",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17342"
+    }
+   ]
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF SÃO CARLOS",
+   "state": "SP",
+   "lat": -21.983775,
+   "lng": -47.881612,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "casa de ferreiro, o espeto não é de pau: evoluindo uma plataforma segura para competições de segurança",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/17328"
+    },
+    {
+     "title": "execução de código arbitrário na urna eletrônica brasileira",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/4243"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF RIO GRANDE DO NORTE",
+   "state": "RN",
+   "lat": -5.782191,
+   "lng": -35.205074,
+   "pub_count": 2,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "auth4app: protocols for identification and authentication using mobile applications",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19254"
+    },
+    {
+     "title": "when ima/evm collides with systems administration",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41959"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF RONDÔNIA AND SIDIA",
+   "state": "RO",
+   "lat": -8.76331,
+   "lng": -63.906526,
+   "pub_count": 2,
+   "tool_count": 2,
+   "pubs": [
+    {
+     "title": "amazon biobank - a community-based genetic database",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17342"
+    },
+    {
+     "title": "torrente, a micropayment based bittorrent extension to mitigate free riding",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17343"
+    }
+   ],
+   "tools": [
+    {
+     "title": "amazon biobank - a community-based genetic database",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17342"
+    },
+    {
+     "title": "torrente, a micropayment based bittorrent extension to mitigate free riding",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17343"
+    }
+   ]
+  },
+  {
+   "institution": "UNIVERSITY OF BRASÍLIA (UNB)",
+   "state": "DF",
+   "lat": -15.764361,
+   "lng": -47.857824,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "balancing privacy and utility: evaluating distributional shifts and accuracy in differentially private synthetic breached data",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36623"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "University of Fortaleza - (UNIFOR)",
+   "state": "CE",
+   "lat": -3.771194,
+   "lng": -38.482364,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "q.u.a.s.e.: uma metodologia ágil para diagnóstico de ataques de phishing",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/36653"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "FEDERAL UNIVERSITY OF PERNAMBUCO (UFPE)",
+   "state": "PE",
+   "lat": -8.050501,
+   "lng": -34.95087,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "unsupervised som-based intrusion detection system for dns tunneling attacks",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/27232"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "KRYPTUS S.A.",
+   "state": "SP",
+   "lat": -22.812524,
+   "lng": -47.079584,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "uma nova abordagem de distribuição de chaves criptográficas para o framework de segurança tinysec",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/19559"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Pontifical Catholic University of São Paulo - (PUC/SP)",
+   "state": "SP",
+   "lat": -23.559785,
+   "lng": -46.725853,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "sistema de detecção de intrusão imuno-inspirado customizado para redes de sensores sem fio",
+     "url": "https://sol.sbc.org.br/index.php/sbseg/article/view/20593"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "HERETIANO GURJÃO E IVANILDA CANDEIA GURJÃO",
+   "state": "PB",
+   "lat": -7.220422,
+   "lng": -35.908397,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "analisador automático de segurança cibernética para o setor elétrico",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36767"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal University of Pampa – (UNIPAMPA)",
+   "state": "RS",
+   "lat": -29.690031,
+   "lng": -55.761183,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "solução integrada para análise e monitoramento de redes empresariais",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21716"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal Institute of Goiano - (if Goiano)",
+   "state": "DF",
+   "lat": -15.286821,
+   "lng": -49.629908,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "uma proposta para avaliacção de confiança em redes vanets",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21720"
+    }
+   ],
+   "tools": []
+  },
+  {
+   "institution": "Federal Institute of Santa Catarina - (IFSC)",
+   "state": "SC",
+   "lat": -27.611009,
+   "lng": -48.631293,
+   "pub_count": 1,
+   "tool_count": 0,
+   "pubs": [
+    {
+     "title": "atualização de firmware em sistemas embarcados de forma segura e confiável",
+     "url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/17354"
+    }
+   ],
+   "tools": []
+  }
+ ]
+}
