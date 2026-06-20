@@ -49,6 +49,7 @@
   }
 
   var DATA = null, RECORDS = [], MARKERS = {}, map, cluster;
+  var STATS = null, pubsLayer = null, toolsLayer = null;
   // All entity types active by default except publications (kept off for clarity).
   var activeTypes = { researcher: true, group: true, program: true, center: true, working_group: true };
   var overlayOn = { pubs: true, sbseg: false, tools: false };
@@ -185,7 +186,52 @@
     if (view === 'map' && map) setTimeout(function () { map.invalidateSize(); }, 50);
   }
 
-  function overlayCount() { return 0; }
+  function statRadius(n) { return Math.max(6, Math.min(28, 6 + Math.sqrt(n) * 2.5)); }
+
+  function overlayCount(name) {
+    if (!STATS) return 0;
+    if (name === 'pubs') return STATS.institutions.filter(function (i) { return i.pub_count > 0; }).length;
+    if (name === 'tools') return STATS.institutions.filter(function (i) { return i.tool_count > 0; }).length;
+    if (name === 'sbseg') return 25;
+    return 0;
+  }
+
+  function statPopup(inst, kind) {
+    var count = kind === 'tools' ? inst.tool_count : inst.pub_count;
+    var items = kind === 'tools' ? inst.tools : inst.pubs;
+    var labelKey = kind === 'tools' ? 'map.toolsCount' : 'map.pubsCount';
+    var labelDef = kind === 'tools' ? 'tools (Salão de Ferramentas)' : 'publications (SBSeg)';
+    var list = items.slice(0, 15).map(function (p) {
+      return '<li>' + (p.url
+        ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>'
+        : esc(p.title)) + '</li>';
+    }).join('');
+    var more = items.length > 15 ? '<li class="cm-more">+' + (items.length - 15) + '</li>' : '';
+    var color = kind === 'tools' ? TOOL_COLOR : TYPES.publication.color;
+    return '<div class="cm-detail"><span class="cm-tag" style="background:' + color + '">' +
+      esc(count + ' ' + tr(labelKey, labelDef)) + '</span><h4>' + esc(inst.institution) +
+      '</h4><ul class="cm-pub-list">' + list + more + '</ul></div>';
+  }
+
+  function buildStatLayers() {
+    pubsLayer = L.layerGroup();
+    toolsLayer = L.layerGroup();
+    (STATS.institutions || []).forEach(function (inst) {
+      if (inst.lat == null || inst.lng == null) return;
+      if (inst.pub_count > 0) {
+        L.circleMarker([inst.lat, inst.lng], {
+          radius: statRadius(inst.pub_count), color: '#fff', weight: 1,
+          fillColor: TYPES.publication.color, fillOpacity: 0.8
+        }).bindPopup(statPopup(inst, 'pubs'), { maxWidth: 320 }).addTo(pubsLayer);
+      }
+      if (inst.tool_count > 0) {
+        L.circleMarker([inst.lat, inst.lng], {
+          radius: statRadius(inst.tool_count), color: '#fff', weight: 1,
+          fillColor: TOOL_COLOR, fillOpacity: 0.85
+        }).bindPopup(statPopup(inst, 'tools'), { maxWidth: 320 }).addTo(toolsLayer);
+      }
+    });
+  }
 
   function buildChips() {
     els.chips.innerHTML = CHIP_ORDER.map(function (c) {
@@ -296,7 +342,7 @@
   /* SBSeg editions layer: a separate, toggleable overlay (default off) of the
      event's host cities, independent of the RNP type chips and the results list.
      Data is grouped by city, so a city that hosted several editions is one pin. */
-  var sbsegLayer = null, sbsegLoaded = false, sbsegOn = false;
+  var sbsegLayer = null, sbsegLoaded = false;
 
   function sbsegIcon() {
     return L.divIcon({
@@ -341,18 +387,21 @@
       .catch(function () { cb(true); });
   }
 
-  function toggleSbseg() {
-    sbsegOn = !sbsegOn;
-    var btn = els.sbsegToggle;
-    if (btn) btn.setAttribute('aria-pressed', String(sbsegOn));
-    if (!sbsegOn) {
-      if (sbsegLayer) map.removeLayer(sbsegLayer);
-      return;
+  function setOverlay(name, on) {
+    overlayOn[name] = on;
+    if (name === 'pubs') {
+      if (on) { if (pubsLayer) map.addLayer(pubsLayer); }
+      else if (pubsLayer) map.removeLayer(pubsLayer);
+    } else if (name === 'tools') {
+      if (on) { if (toolsLayer) map.addLayer(toolsLayer); }
+      else if (toolsLayer) map.removeLayer(toolsLayer);
+    } else if (name === 'sbseg') {
+      if (on) {
+        loadSbsegLayer(function (failed) { if (!failed && overlayOn.sbseg) map.addLayer(sbsegLayer); });
+      } else if (sbsegLayer) {
+        map.removeLayer(sbsegLayer);
+      }
     }
-    loadSbsegLayer(function (failed) {
-      if (failed || !sbsegOn) return; // user may have toggled back off while loading
-      map.addLayer(sbsegLayer);
-    });
   }
 
   function boot() {
@@ -369,15 +418,19 @@
       noResults: document.getElementById('mapNoResults')
     };
     buildMap();
-    fetch('assets/data/cybersecmap.json', { cache: 'no-cache' })
-      .then(function (res) { return res.json(); })
-      .then(function (d) {
-        DATA = d; RECORDS = d.records || [];
+    Promise.all([
+      fetch('assets/data/cybersecmap.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }),
+      fetch('assets/data/proceedings-stats.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).catch(function () { return { institutions: [] }; })
+    ]).then(function (res) {
+        DATA = res[0]; RECORDS = DATA.records || [];
+        STATS = res[1] || { institutions: [] };
         buildMarkers();
+        buildStatLayers();
         buildChips();
         buildSelects();
         wire();
         render();
+        if (overlayOn.pubs && pubsLayer) map.addLayer(pubsLayer); // default-on overlay
         if (window.matchMedia('(max-width: 760px)').matches) setView('map');
       })
       .catch(function () {

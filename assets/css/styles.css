@@ -466,3 +466,8 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 /* Comunidade filter strip: two rows of four chips. */
 #mapChips.map-chips { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
 @media (max-width: 760px) { #mapChips.map-chips { grid-template-columns: repeat(2, 1fr); } }
+
+/* Aggregated stat-layer popup lists */
+.cm-pub-list { margin: .4rem 0 0; padding-left: 1.1rem; font-size: .82rem; line-height: 1.35; max-height: 180px; overflow:auto; }
+.cm-pub-list li { margin: .15rem 0; }
+.cm-pub-list .cm-more { list-style: none; opacity: .6; }
