@@ -4,7 +4,7 @@
 Source: https://cybersecmap.rnp.br (Angular SPA backed by same-origin endpoints
 with no CORS headers, so the browser cannot fetch it live). This script pulls a
 snapshot and parses the messy HTML descriptions into one compact JSON the static
-CESeg page (mapa.html / assets/js/mapa.js) can load directly.
+CESeg page (comunidade.html / assets/js/mapa.js) can load directly.
 
 Re-run to refresh:  python3 scripts/fetch_cybersecmap.py
 

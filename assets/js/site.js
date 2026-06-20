@@ -5,7 +5,7 @@ const NAV = [
   {key:'nav.org', href:'organizacao.html', children:[
     {key:'nav.comissoes', href:'comissoes.html'},
     {key:'nav.conferencistas', href:'conferencistas.html'}]},
-  {key:'nav.mapa', href:'mapa.html'},
+  {key:'nav.mapa', href:'comunidade.html'},
   {key:'nav.sbseg', href:'sbseg.html', children:[
     {key:'nav.anais', href:'anais.html'},
     {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
