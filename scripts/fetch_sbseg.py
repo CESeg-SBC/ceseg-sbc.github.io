@@ -277,17 +277,17 @@ PAGE_TPL = """<!DOCTYPE html>
         </ul>
       </nav>
 
-      <div class="pub-list" id="pubList">
-{body}
-      </div>
-
-      <p class="pub-noresults" id="pubNoResults" hidden data-i18n="pubcommon.noResults">Nenhum artigo encontrado.</p>
-
       <section class="pub-cloud-section" aria-labelledby="pubCloudTitle">
         <h2 id="pubCloudTitle" class="pub-cloud-title" data-i18n="pubcommon.cloudTitle">Nuvem de palavras-chave</h2>
         <p class="pub-cloud-note" data-i18n="pubcommon.cloudNote">Palavras-chave extraídas automaticamente dos títulos dos artigos. Clique em um termo para filtrar a lista.</p>
 {cloud}
       </section>
+
+      <div class="pub-list" id="pubList">
+{body}
+      </div>
+
+      <p class="pub-noresults" id="pubNoResults" hidden data-i18n="pubcommon.noResults">Nenhum artigo encontrado.</p>
 
       <p class="source-note"><span data-i18n="pubcommon.sourcePrefix">Dados extraídos da Biblioteca Digital da SBC (SOL)</span>:
         <a href="{archive}" target="_blank" rel="noopener">{archive_label}</a>.
