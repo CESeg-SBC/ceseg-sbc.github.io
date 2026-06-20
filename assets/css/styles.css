@@ -462,3 +462,7 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
   .map-grid:not(.show-list):not(.show-map) .map-list{display:none}
   .mf-row{grid-template-columns:1fr}
 }
+
+/* Comunidade filter strip: two rows of four chips. */
+#mapChips.map-chips { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+@media (max-width: 760px) { #mapChips.map-chips { grid-template-columns: repeat(2, 1fr); } }

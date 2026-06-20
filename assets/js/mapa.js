@@ -16,7 +16,21 @@
     working_group: { color: '#0d9488', key: 'map.typeWorkingGroup', def: 'Working Groups' },
     publication:   { color: '#64748b', key: 'map.typePublication',  def: 'Publications' }
   };
-  var TYPE_ORDER = ['researcher', 'group', 'program', 'center', 'working_group', 'publication'];
+  // Cluster entity types (publication is now an aggregated overlay, not a cluster type).
+  var TYPE_ORDER = ['researcher', 'group', 'program', 'center', 'working_group'];
+  // Ordered two-row filter strip: type chips filter the cluster; overlay chips
+  // toggle their own Leaflet layer. Rendered four-per-row by CSS.
+  var TOOL_COLOR = '#c026d3';
+  var CHIP_ORDER = [
+    { kind: 'overlay', layer: 'pubs',  labelKey: 'map.typePublication',  def: 'Publications',     color: TYPES.publication.color },
+    { kind: 'overlay', layer: 'sbseg', labelKey: 'map.sbsegToggle',      def: 'SBSeg editions',   color: '#1e3a5f' },
+    { kind: 'type',    type: 'researcher',    labelKey: 'map.typeResearcher',   def: 'Researchers',      color: TYPES.researcher.color },
+    { kind: 'type',    type: 'group',         labelKey: 'map.typeGroup',        def: 'Research Groups',  color: TYPES.group.color },
+    { kind: 'type',    type: 'program',       labelKey: 'map.typeProgram',      def: 'Graduate Programs',color: TYPES.program.color },
+    { kind: 'type',    type: 'center',        labelKey: 'map.typeCenter',       def: 'R&D Centers',      color: TYPES.center.color },
+    { kind: 'type',    type: 'working_group', labelKey: 'map.typeWorkingGroup', def: 'Working Groups',   color: TYPES.working_group.color },
+    { kind: 'overlay', layer: 'tools', labelKey: 'map.typeTool',         def: 'Tools',            color: TOOL_COLOR }
+  ];
   var LIST_CAP = 400; // cap rendered cards; the map still shows every match.
 
   // i18n helper: use site.js's exposed lookup when the dictionary is loaded, else fallback.
@@ -36,7 +50,8 @@
 
   var DATA = null, RECORDS = [], MARKERS = {}, map, cluster;
   // All entity types active by default except publications (kept off for clarity).
-  var activeTypes = { researcher: true, group: true, program: true, center: true, working_group: true, publication: false };
+  var activeTypes = { researcher: true, group: true, program: true, center: true, working_group: true };
+  var overlayOn = { pubs: true, sbseg: false, tools: false };
   var selState = '', selTopic = '', query = '';
   var els = {};
 
@@ -63,6 +78,7 @@
 
   function buildMarkers() {
     RECORDS.forEach(function (r) {
+      if (r.type === 'publication') return; // aggregated into the pubs overlay
       if (r.lat == null || r.lng == null) return;
       var m = L.marker([r.lat, r.lng], { icon: icon(r.type) });
       m.bindPopup(detailHTML(r), { maxWidth: 300 });
@@ -169,12 +185,23 @@
     if (view === 'map' && map) setTimeout(function () { map.invalidateSize(); }, 50);
   }
 
+  function overlayCount() { return 0; }
+
   function buildChips() {
-    els.chips.innerHTML = TYPE_ORDER.map(function (type) {
-      return '<button type="button" class="cm-chip' + (activeTypes[type] ? ' active' : '') +
-        '" data-type="' + type + '" style="--c:' + TYPES[type].color + '">' +
-        '<span class="cm-chip-dot"></span><span class="cm-chip-label">' + esc(typeLabel(type)) +
-        '</span><span class="cm-chip-n">' + ((DATA.counts && DATA.counts[type]) || 0) + '</span></button>';
+    els.chips.innerHTML = CHIP_ORDER.map(function (c) {
+      var on, n;
+      if (c.kind === 'type') {
+        on = !!activeTypes[c.type];
+        n = (DATA.counts && DATA.counts[c.type]) || 0;
+      } else {
+        on = !!overlayOn[c.layer];
+        n = overlayCount(c.layer);
+      }
+      var label = tr(c.labelKey, c.def);
+      var data = c.kind === 'type' ? ' data-type="' + c.type + '"' : ' data-layer="' + c.layer + '"';
+      return '<button type="button" class="cm-chip' + (on ? ' active' : '') + '"' + data +
+        ' style="--c:' + c.color + '"><span class="cm-chip-dot"></span><span class="cm-chip-label">' +
+        esc(label) + '</span><span class="cm-chip-n">' + n + '</span></button>';
     }).join('');
   }
 
@@ -208,10 +235,16 @@
     els.search.addEventListener('input', function () { query = fold(this.value.trim()); render(); });
     els.chips.addEventListener('click', function (e) {
       var b = e.target.closest('.cm-chip'); if (!b) return;
-      var ty = b.dataset.type;
-      activeTypes[ty] = !activeTypes[ty];
-      b.classList.toggle('active', activeTypes[ty]);
-      render();
+      if (b.dataset.type) {
+        var ty = b.dataset.type;
+        activeTypes[ty] = !activeTypes[ty];
+        b.classList.toggle('active', activeTypes[ty]);
+        render();
+      } else if (b.dataset.layer) {
+        var ly = b.dataset.layer;
+        setOverlay(ly, !overlayOn[ly]);
+        b.classList.toggle('active', overlayOn[ly]);
+      }
     });
     els.state.addEventListener('change', function () { selState = this.value; render(); });
     els.topic.addEventListener('change', function () { selTopic = this.value; render(); });
@@ -227,7 +260,6 @@
     document.querySelectorAll('.map-viewtoggle button').forEach(function (b) {
       b.addEventListener('click', function () { setView(b.dataset.view); });
     });
-    if (els.sbsegToggle) els.sbsegToggle.addEventListener('click', toggleSbseg);
     document.addEventListener('i18n:applied', relabel);
     initForm();
   }
@@ -334,8 +366,7 @@
       grid: document.getElementById('mapGrid'),
       visible: document.getElementById('mapVisible'),
       total: document.getElementById('mapTotal'),
-      noResults: document.getElementById('mapNoResults'),
-      sbsegToggle: document.getElementById('sbsegToggle')
+      noResults: document.getElementById('mapNoResults')
     };
     buildMap();
     fetch('assets/data/cybersecmap.json', { cache: 'no-cache' })
