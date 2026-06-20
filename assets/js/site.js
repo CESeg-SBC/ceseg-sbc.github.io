@@ -1,7 +1,6 @@
 // ---- Navigation model (label keys resolved via i18n) ----
 const NAV = [
   {key:'nav.home', href:'index.html'},
-  {key:'nav.lista', href:'lista-de-discussao.html'},
   {key:'nav.org', href:'organizacao.html', children:[
     {key:'nav.comissoes', href:'comissoes.html'},
     {key:'nav.conferencistas', href:'conferencistas.html'}]},
