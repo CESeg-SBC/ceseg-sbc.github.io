@@ -53,8 +53,8 @@
   // Cluster entity types, all active by default. Publications and tools are not
   // cluster types: they are aggregated per-institution overlays (see overlayOn).
   var activeTypes = { researcher: true, group: true, program: true, center: true, working_group: true };
-  // Overlay layers: pubs on by default, sbseg/tools off until toggled.
-  var overlayOn = { pubs: true, sbseg: false, tools: false };
+  // Overlay layers: all on by default.
+  var overlayOn = { pubs: true, sbseg: true, tools: true };
   var selState = '', selTopic = '', query = '';
   var els = {};
 
@@ -432,7 +432,7 @@
         buildSelects();
         wire();
         render();
-        if (overlayOn.pubs && pubsLayer) map.addLayer(pubsLayer); // default-on overlay
+        ['pubs', 'sbseg', 'tools'].forEach(function (k) { if (overlayOn[k]) setOverlay(k, true); }); // default-on overlays
         if (window.matchMedia('(max-width: 760px)').matches) setView('map');
       })
       .catch(function () {
