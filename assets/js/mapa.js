@@ -227,6 +227,7 @@
     document.querySelectorAll('.map-viewtoggle button').forEach(function (b) {
       b.addEventListener('click', function () { setView(b.dataset.view); });
     });
+    if (els.sbsegToggle) els.sbsegToggle.addEventListener('click', toggleSbseg);
     document.addEventListener('i18n:applied', relabel);
     initForm();
   }
@@ -260,6 +261,68 @@
     });
   }
 
+  /* SBSeg editions layer: a separate, toggleable overlay (default off) of the
+     event's host cities, independent of the RNP type chips and the results list.
+     Data is grouped by city, so a city that hosted several editions is one pin. */
+  var sbsegLayer = null, sbsegLoaded = false, sbsegOn = false;
+
+  function sbsegIcon() {
+    return L.divIcon({
+      className: 'sbseg-pin',
+      html: '<span></span>',
+      iconSize: [16, 16], iconAnchor: [8, 8], popupAnchor: [0, -9]
+    });
+  }
+
+  function sbsegPopupHTML(c) {
+    var head = esc(c.city) + (c.uf ? ' · ' + esc(c.uf) : '');
+    var rows = c.editions.map(function (e) {
+      var links = e.links || {};
+      var parts = [];
+      if (links.site) parts.push('<a href="' + esc(links.site) + '" target="_blank" rel="noopener">' + esc(tr('map.sbsegSite', 'site')) + '</a>');
+      if (links.clone) parts.push('<a href="' + esc(links.clone) + '" target="_blank" rel="noopener">' + esc(tr('map.sbsegClone', 'clone')) + '</a>');
+      if (links.anais) parts.push('<a href="' + esc(links.anais) + '" target="_blank" rel="noopener">' + esc(tr('map.sbsegAnais', 'proceedings')) + '</a>');
+      var meta = [esc(String(e.year)), esc(e.dates)].filter(Boolean).join(' · ');
+      if (e.online) meta += ' · ' + esc(tr('map.sbsegOnline', 'online'));
+      if (e.wseg) meta += ' · WSeg';
+      return '<div class="sbseg-ed"><b>SBSeg ' + esc(e.n) + '</b> · ' + meta +
+        (parts.length ? '<div class="sbseg-ed-links">' + parts.join(' · ') + '</div>' : '') + '</div>';
+    }).join('');
+    return '<div class="sbseg-detail"><span class="sbseg-tag">SBSeg</span><h4>' + head + '</h4>' + rows + '</div>';
+  }
+
+  function loadSbsegLayer(cb) {
+    if (sbsegLoaded) { cb(); return; }
+    fetch('assets/data/sbseg-editions.json', { cache: 'no-cache' })
+      .then(function (res) { return res.json(); })
+      .then(function (d) {
+        sbsegLayer = L.layerGroup();
+        (d.cities || []).forEach(function (c) {
+          if (c.lat == null || c.lng == null) return;
+          L.marker([c.lat, c.lng], { icon: sbsegIcon() })
+            .bindPopup(sbsegPopupHTML(c), { maxWidth: 300 })
+            .addTo(sbsegLayer);
+        });
+        sbsegLoaded = true;
+        cb();
+      })
+      .catch(function () { cb(true); });
+  }
+
+  function toggleSbseg() {
+    sbsegOn = !sbsegOn;
+    var btn = els.sbsegToggle;
+    if (btn) btn.setAttribute('aria-pressed', String(sbsegOn));
+    if (!sbsegOn) {
+      if (sbsegLayer) map.removeLayer(sbsegLayer);
+      return;
+    }
+    loadSbsegLayer(function (failed) {
+      if (failed || !sbsegOn) return; // user may have toggled back off while loading
+      map.addLayer(sbsegLayer);
+    });
+  }
+
   function boot() {
     els = {
       search: document.getElementById('mapSearch'),
@@ -271,7 +334,8 @@
       grid: document.getElementById('mapGrid'),
       visible: document.getElementById('mapVisible'),
       total: document.getElementById('mapTotal'),
-      noResults: document.getElementById('mapNoResults')
+      noResults: document.getElementById('mapNoResults'),
+      sbsegToggle: document.getElementById('sbsegToggle')
     };
     buildMap();
     fetch('assets/data/cybersecmap.json', { cache: 'no-cache' })

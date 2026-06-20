@@ -21,7 +21,7 @@
     "portarias": "Portarias",
     "anaisTP": "Artigos · Trilha Principal",
     "anaisEst": "Artigos · Anais Estendidos",
-    "mapa": "Mapa"
+    "mapa": "Comunidade"
   },
   "footer": {
     "about": "Comissão Especial de Cibersegurança da Sociedade Brasileira de Computação. Criada em 2004.",
@@ -40,7 +40,7 @@
     "noLink": "sem link"
   },
   "beta": {
-    "tag": "Beta v0.2",
+    "tag": "Beta v0.3",
     "msg": "🚧 Site em construção, conteúdo em revisão e sujeito a alterações."
   },
   "home": {
@@ -58,10 +58,6 @@
     "eventH2": "SBSeg 2026 · Búzios",
     "eventText": "Simpósio Brasileiro de Cibersegurança: o fórum que conecta pesquisa, indústria e estudantes.",
     "eventCta": "Saiba mais →",
-    "cardInstH3": "Instituto Nacional de Segurança Cibernética",
-    "cardInstText": "Colaboração entre as principais instituições de pesquisa do país, no programa INCT/CNPq.",
-    "cardGroupsH3": "Grupos de Pesquisa",
-    "cardGroupsText": "Segurança de sistemas, de redes e da informação em universidades de todo o Brasil.",
     "commEyebrow": "Comunidade",
     "commH2": "Ações da comunidade",
     "comm1t": "Computação Brasil",
@@ -298,10 +294,10 @@
     "note": "Todos os artigos dos Anais Estendidos do SBSeg, agrupados por edição e sub-evento (workshops e trilhas). Use a busca para filtrar por título, autor ou palavra-chave."
   },
   "map": {
-    "title": "Mapa da Cibersegurança · CESeg",
+    "title": "Comunidade de Cibersegurança · CESeg",
     "desc": "Mapa interativo da pesquisa brasileira em cibersegurança: pesquisadores, grupos, programas e centros.",
-    "eyebrow": "Mapa · dados da RNP",
-    "h1": "Mapa da Cibersegurança no Brasil",
+    "eyebrow": "Comunidade · cibersegurança no Brasil",
+    "h1": "Comunidade de Cibersegurança no Brasil",
     "lead": "Pesquisadores, grupos, programas e centros de pesquisa em cibersegurança no Brasil. Busque por nome, instituição, estado ou tema.",
     "searchPlaceholder": "Buscar por nome, instituição, estado ou tema...",
     "clear": "Limpar",
@@ -311,7 +307,15 @@
     "mapView": "Mapa",
     "noResults": "Nenhum resultado encontrado.",
     "listCap": "Mostrando os primeiros 400 na lista; todos os resultados aparecem no mapa.",
-    "sourceNote": "Dados do Mapa de Cibersegurança da RNP.",
+    "sourcesTitle": "Origens dos dados",
+    "sourceRnp": "Mapa de Cibersegurança da RNP",
+    "sourceSbseg": "Edições do SBSeg",
+    "sourceCommunity": "Contribuições da comunidade",
+    "sbsegToggle": "Edições do SBSeg",
+    "sbsegSite": "site",
+    "sbsegClone": "clone",
+    "sbsegAnais": "anais",
+    "sbsegOnline": "online",
     "loadError": "Não foi possível carregar os dados do mapa.",
     "allStates": "Todos os estados",
     "allTopics": "Todos os temas",

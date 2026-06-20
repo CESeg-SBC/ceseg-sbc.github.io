@@ -389,6 +389,19 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 .map-empty{text-align:center;color:var(--muted);padding:16px}
 .map-source{font-size:.8rem;color:var(--faint);margin:10px 0 0}
 
+/* Data origins (sources) panel below the map */
+.map-sources{margin:14px 0 0;padding:13px 16px;background:var(--bg-alt);
+  border:1px solid var(--border);border-left:3px solid var(--navy);border-radius:8px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.map-sources-label{font-size:.72rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.05em;color:var(--navy)}
+.map-sources-list{list-style:none;margin:0;padding:0;
+  display:flex;flex-wrap:wrap;gap:6px 18px}
+.map-sources-list a{font-size:.86rem;color:var(--muted);font-weight:500;
+  display:inline-flex;align-items:baseline;gap:6px}
+.map-sources-list a:hover{color:var(--navy)}
+.map-src-host{font-size:.74rem;color:var(--faint);font-weight:400}
+
 /* Leaflet markers + popup detail */
 .cm-pin span{display:block;width:14px;height:14px;border-radius:50%;
   border:2px solid #fff;box-shadow:0 1px 4px rgba(15,23,42,.4)}
@@ -400,6 +413,29 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
   text-transform:uppercase;letter-spacing:.03em;padding-top:1px}
 .cm-d-row>div{flex:1;min-width:0;color:var(--ink);word-break:break-word}
 .leaflet-popup-content{margin:12px 14px}
+
+/* SBSeg editions overlay: toggle control, distinct diamond pins, popup */
+.map-layers{margin:10px 0 0}
+.map-layer-toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;
+  font:inherit;font-size:.86rem;font-weight:600;color:var(--muted);
+  background:var(--bg);border:1px solid var(--border);border-radius:999px;padding:6px 13px}
+.map-layer-toggle:hover{border-color:var(--navy);color:var(--navy)}
+.map-layer-toggle .mlt-mark{width:13px;height:13px;background:var(--navy);
+  transform:rotate(45deg);border:2px solid #fff;box-shadow:0 0 0 1px var(--navy);
+  border-radius:2px;opacity:.35}
+.map-layer-toggle[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.map-layer-toggle[aria-pressed="true"] .mlt-mark{opacity:1;box-shadow:0 0 0 1px #fff}
+.map-layer-toggle .mlt-n{font-size:.74rem;font-weight:700;opacity:.7}
+.sbseg-pin span{display:block;width:13px;height:13px;background:var(--navy);
+  border:2px solid #fff;border-radius:2px;transform:rotate(45deg);
+  box-shadow:0 1px 4px rgba(15,23,42,.45)}
+.sbseg-detail h4{font-family:var(--serif);font-size:1.02rem;color:var(--navy);margin:.3rem 0 .5rem}
+.sbseg-tag{display:inline-block;font-size:.66rem;font-weight:700;text-transform:uppercase;
+  letter-spacing:.05em;color:#fff;background:var(--navy);border-radius:999px;padding:2px 8px}
+.sbseg-ed{font-size:.84rem;line-height:1.4;padding:.32rem 0;border-top:1px solid var(--border)}
+.sbseg-ed:first-of-type{border-top:0}
+.sbseg-ed b{color:var(--ink)}
+.sbseg-ed-links{margin-top:2px;font-size:.8rem}
 
 /* Contact / contribute form */
 .map-contribute .map-form{max-width:720px;margin-top:18px}

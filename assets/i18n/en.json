@@ -21,7 +21,7 @@
     "portarias": "Ordinances",
     "anaisTP": "Papers · Main Track",
     "anaisEst": "Papers · Extended Annals",
-    "mapa": "Map"
+    "mapa": "Community"
   },
   "footer": {
     "about": "Special Committee on Cybersecurity of the Brazilian Computer Society. Established in 2004.",
@@ -40,7 +40,7 @@
     "noLink": "no link"
   },
   "beta": {
-    "tag": "Beta v0.2",
+    "tag": "Beta v0.3",
     "msg": "🚧 Site under construction, content is being reviewed and may change."
   },
   "home": {
@@ -58,10 +58,6 @@
     "eventH2": "SBSeg 2026 · Búzios",
     "eventText": "Brazilian Symposium on Cybersecurity: the forum that connects research, industry and students.",
     "eventCta": "Learn more →",
-    "cardInstH3": "National Institute of Cybersecurity",
-    "cardInstText": "A collaboration among the country's leading research institutions, under the INCT/CNPq program.",
-    "cardGroupsH3": "Research Groups",
-    "cardGroupsText": "Systems, network and information security at universities across Brazil.",
     "commEyebrow": "Community",
     "commH2": "Community actions",
     "comm1t": "Computação Brasil",
@@ -298,10 +294,10 @@
     "note": "All SBSeg Extended Annals papers, grouped by edition and sub-event (workshops and tracks). Use the search box to filter by title, author or keyword."
   },
   "map": {
-    "title": "Cybersecurity Map · CESeg",
+    "title": "Cybersecurity Community · CESeg",
     "desc": "Interactive map of Brazilian cybersecurity research: researchers, groups, programs and centers.",
-    "eyebrow": "Map · RNP data",
-    "h1": "Cybersecurity Map of Brazil",
+    "eyebrow": "Community · cybersecurity in Brazil",
+    "h1": "Cybersecurity Community in Brazil",
     "lead": "Researchers, research groups, graduate programs and R&D centers in cybersecurity across Brazil. Search by name, institution, state or topic.",
     "searchPlaceholder": "Search by name, institution, state or topic...",
     "clear": "Clear",
@@ -311,7 +307,15 @@
     "mapView": "Map",
     "noResults": "No results found.",
     "listCap": "Showing the first 400 in the list; all matches appear on the map.",
-    "sourceNote": "Data from the RNP Cybersecurity Map.",
+    "sourcesTitle": "Data sources",
+    "sourceRnp": "RNP Cybersecurity Map",
+    "sourceSbseg": "SBSeg editions",
+    "sourceCommunity": "Community contributions",
+    "sbsegToggle": "SBSeg editions",
+    "sbsegSite": "site",
+    "sbsegClone": "clone",
+    "sbsegAnais": "proceedings",
+    "sbsegOnline": "online",
     "loadError": "Could not load the map data.",
     "allStates": "All states",
     "allTopics": "All topics",

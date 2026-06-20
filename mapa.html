@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title data-i18n="map.title">Mapa da Cibersegurança · CESeg</title>
+  <title data-i18n="map.title">Comunidade de Cibersegurança · CESeg</title>
   <meta name="description" data-i18n="map.desc" data-i18n-attr="content" content="Mapa interativo da pesquisa brasileira em cibersegurança: pesquisadores, grupos, programas e centros.">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -17,8 +17,8 @@
   <header id="site-header"></header>
   <main>
     <section class="page-head"><div class="wrap">
-      <div class="eyebrow" data-i18n="map.eyebrow">Mapa · dados RNP</div>
-      <h1 data-i18n="map.h1">Mapa da Cibersegurança no Brasil</h1>
+      <div class="eyebrow" data-i18n="map.eyebrow">Comunidade · cibersegurança no Brasil</div>
+      <h1 data-i18n="map.h1">Comunidade de Cibersegurança no Brasil</h1>
       <p class="lead" data-i18n="map.lead">Pesquisadores, grupos, programas e centros de pesquisa em cibersegurança no Brasil. Busque por nome, instituição, estado ou tema.</p>
     </div></section>
 
@@ -39,6 +39,14 @@
 
         <div class="map-chips" id="mapChips" role="group" aria-label="Tipos"></div>
 
+        <div class="map-layers">
+          <button type="button" id="sbsegToggle" class="map-layer-toggle" aria-pressed="false">
+            <span class="mlt-mark"></span>
+            <span data-i18n="map.sbsegToggle">Edições do SBSeg</span>
+            <span class="mlt-n">25</span>
+          </button>
+        </div>
+
         <div class="map-meta">
           <span class="map-count"><b id="mapVisible">0</b> <span data-i18n="map.of">de</span> <b id="mapTotal">0</b> <span data-i18n="map.results">resultados</span></span>
           <div class="map-viewtoggle" role="group">
@@ -54,8 +62,19 @@
           </div>
         </div>
         <p class="map-empty" id="mapNoResults" hidden data-i18n="map.noResults">Nenhum resultado encontrado.</p>
-        <p class="map-source"><span data-i18n="map.sourceNote">Dados do Mapa de Cibersegurança da RNP.</span>
-          <a href="https://cybersecmap.rnp.br" target="_blank" rel="noopener">cybersecmap.rnp.br</a></p>
+        <div class="map-sources">
+          <span class="map-sources-label" data-i18n="map.sourcesTitle">Origens dos dados</span>
+          <ul class="map-sources-list">
+            <li><a href="https://cybersecmap.rnp.br" target="_blank" rel="noopener">
+              <span data-i18n="map.sourceRnp">Mapa de Cibersegurança da RNP</span>
+              <span class="map-src-host">cybersecmap.rnp.br</span></a></li>
+            <li><a href="https://sbseg-sbc.github.io" target="_blank" rel="noopener">
+              <span data-i18n="map.sourceSbseg">Edições do SBSeg</span>
+              <span class="map-src-host">sbseg-sbc.github.io</span></a></li>
+            <li><a href="#contribuir">
+              <span data-i18n="map.sourceCommunity">Contribuições da comunidade</span></a></li>
+          </ul>
+        </div>
       </div>
     </section>
 

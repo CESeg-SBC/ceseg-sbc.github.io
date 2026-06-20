@@ -21,7 +21,7 @@
     "portarias": "Resoluciones",
     "anaisTP": "Artículos · Pista Principal",
     "anaisEst": "Artículos · Anales Extendidos",
-    "mapa": "Mapa"
+    "mapa": "Comunidad"
   },
   "footer": {
     "about": "Comisión Especial de Ciberseguridad de la Sociedad Brasileña de Computación. Creada en 2004.",
@@ -40,7 +40,7 @@
     "noLink": "sin enlace"
   },
   "beta": {
-    "tag": "Beta v0.2",
+    "tag": "Beta v0.3",
     "msg": "🚧 Sitio en construcción, el contenido está en revisión y puede cambiar."
   },
   "home": {
@@ -58,10 +58,6 @@
     "eventH2": "SBSeg 2025 · Foz do Iguaçu",
     "eventText": "Simposio Brasileño de Ciberseguridad: el foro que conecta investigación, industria y estudiantes.",
     "eventCta": "Más información →",
-    "cardInstH3": "Instituto Nacional de Ciberseguridad",
-    "cardInstText": "Colaboración entre las principales instituciones de investigación del país, en el programa INCT/CNPq.",
-    "cardGroupsH3": "Grupos de Investigación",
-    "cardGroupsText": "Seguridad de sistemas, de redes y de la información en universidades de todo Brasil.",
     "commEyebrow": "Comunidad",
     "commH2": "Acciones de la comunidad",
     "comm1t": "Computação Brasil",
@@ -298,10 +294,10 @@
     "note": "Todos los artículos de los Anales Extendidos del SBSeg, agrupados por edición y subevento (talleres y pistas). Use la búsqueda para filtrar por título, autor o palabra clave."
   },
   "map": {
-    "title": "Mapa de Ciberseguridad · CESeg",
+    "title": "Comunidad de Ciberseguridad · CESeg",
     "desc": "Mapa interactivo de la investigación brasileña en ciberseguridad: investigadores, grupos, programas y centros.",
-    "eyebrow": "Mapa · datos de RNP",
-    "h1": "Mapa de Ciberseguridad de Brasil",
+    "eyebrow": "Comunidad · ciberseguridad en Brasil",
+    "h1": "Comunidad de Ciberseguridad en Brasil",
     "lead": "Investigadores, grupos de investigación, programas de posgrado y centros de I+D en ciberseguridad en Brasil. Busque por nombre, institución, estado o tema.",
     "searchPlaceholder": "Buscar por nombre, institución, estado o tema...",
     "clear": "Limpiar",
@@ -311,7 +307,15 @@
     "mapView": "Mapa",
     "noResults": "No se encontraron resultados.",
     "listCap": "Mostrando los primeros 400 en la lista; todos los resultados aparecen en el mapa.",
-    "sourceNote": "Datos del Mapa de Ciberseguridad de RNP.",
+    "sourcesTitle": "Origen de los datos",
+    "sourceRnp": "Mapa de Ciberseguridad de la RNP",
+    "sourceSbseg": "Ediciones del SBSeg",
+    "sourceCommunity": "Aportes de la comunidad",
+    "sbsegToggle": "Ediciones del SBSeg",
+    "sbsegSite": "sitio",
+    "sbsegClone": "clon",
+    "sbsegAnais": "anales",
+    "sbsegOnline": "en línea",
     "loadError": "No se pudieron cargar los datos del mapa.",
     "allStates": "Todos los estados",
     "allTopics": "Todos los temas",

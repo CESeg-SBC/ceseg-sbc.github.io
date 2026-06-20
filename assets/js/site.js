@@ -5,8 +5,6 @@ const NAV = [
   {key:'nav.org', href:'organizacao.html', children:[
     {key:'nav.comissoes', href:'comissoes.html'},
     {key:'nav.conferencistas', href:'conferencistas.html'}]},
-  {key:'nav.grupos', href:'grupos.html', children:[
-    {key:'nav.instituto', href:'instituto.html'}]},
   {key:'nav.mapa', href:'mapa.html'},
   {key:'nav.sbseg', href:'sbseg.html', children:[
     {key:'nav.anais', href:'anais.html'},
@@ -54,7 +52,7 @@ function renderHeader(current){
 
 function renderBetaBanner(){
   return `<div class="wrap beta-bar">
-    <span class="beta-tag" data-i18n="beta.tag">Beta v0.2</span>
+    <span class="beta-tag" data-i18n="beta.tag">Beta v0.3</span>
     <span class="beta-msg" data-i18n="beta.msg">🚧 Site em construção — conteúdo em revisão e sujeito a alterações.</span>
   </div>`;
 }
@@ -70,7 +68,6 @@ function renderFooter(){
       <p data-i18n="footer.address"></p></div>
     <div><h4 data-i18n="footer.navTitle"></h4>
       <p><a href="organizacao.html" data-i18n="nav.org"></a></p>
-      <p><a href="grupos.html" data-i18n="nav.grupos"></a></p>
       <p><a href="sbseg.html" data-i18n="nav.sbseg"></a></p>
       <p><a href="publicacoes.html" data-i18n="nav.publicacoes"></a></p>
       <p><a href="documentos.html" data-i18n="nav.documentos"></a></p></div>

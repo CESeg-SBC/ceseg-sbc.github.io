@@ -1,0 +1,70 @@
+{
+  "note": "SBSeg editions grouped by host city. Source: sbseg.html edition table. wseg=true marks the 2001-2004 editions held as Workshop em Seguranca de Sistemas Computacionais (WSeg).",
+  "cities": [
+    { "city": "Foz do Iguaçu", "uf": "PR", "lat": -25.516, "lng": -54.585, "editions": [
+      { "n": "XXV", "year": 2025, "dates": "1–4 set", "links": { "site": "https://sbseg2025.ppgia.pucpr.br/", "clone": "https://sbseg-sbc.github.io/sbseg2025/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/1555" } }
+    ] },
+    { "city": "São José dos Campos", "uf": "SP", "lat": -23.179, "lng": -45.887, "editions": [
+      { "n": "XXIV", "year": 2024, "dates": "16–19 set", "links": { "site": "https://sbseg2024.ita.br/", "clone": "https://sbseg-sbc.github.io/sbseg2024/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/1348" } }
+    ] },
+    { "city": "Juiz de Fora", "uf": "MG", "lat": -21.764, "lng": -43.349, "editions": [
+      { "n": "XXIII", "year": 2023, "dates": "18–21 set", "links": { "site": "https://sbseg2023.ufjf.br/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/1209" } }
+    ] },
+    { "city": "Santa Maria", "uf": "RS", "lat": -29.685, "lng": -53.807, "editions": [
+      { "n": "XXII", "year": 2022, "dates": "12–15 set", "links": { "site": "https://sbseg2022.inf.ufsm.br/", "clone": "https://sbseg-sbc.github.io/sbseg2022/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/984" } }
+    ] },
+    { "city": "Belém", "uf": "PA", "lat": -1.455, "lng": -48.490, "editions": [
+      { "n": "XXI", "year": 2021, "dates": "4–7 out", "online": true, "links": { "site": "https://sbseg2021.ufpa.br/", "clone": "https://sbseg-sbc.github.io/sbseg2021/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/822" } }
+    ] },
+    { "city": "Petrópolis", "uf": "RJ", "lat": -22.505, "lng": -43.178, "editions": [
+      { "n": "XX", "year": 2020, "dates": "13–16 out", "online": true, "links": { "site": "http://sbseg.sbc.org.br/2020/", "clone": "https://sbseg-sbc.github.io/sbseg2020/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/894" } }
+    ] },
+    { "city": "São Paulo", "uf": "SP", "lat": -23.550, "lng": -46.633, "editions": [
+      { "n": "XIX", "year": 2019, "dates": "2–5 set", "links": { "site": "https://sbseg2019.ime.usp.br/", "clone": "https://sbseg-sbc.github.io/sbseg2019/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/691" } }
+    ] },
+    { "city": "Natal", "uf": "RN", "lat": -5.795, "lng": -35.209, "editions": [
+      { "n": "XVIII", "year": 2018, "dates": "22–25 out", "links": { "site": "https://sbseg2018.imd.ufrn.br/", "clone": "https://sbseg-sbc.github.io/sbseg2018/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/279" } },
+      { "n": "III", "year": 2003, "dates": "mai", "wseg": true, "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/966" } }
+    ] },
+    { "city": "Brasília", "uf": "DF", "lat": -15.794, "lng": -47.882, "editions": [
+      { "n": "XVII", "year": 2017, "dates": "6–9 nov", "links": { "site": "https://sbseg2017.redes.unb.br/", "clone": "https://sbseg-sbc.github.io/sbseg2017/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/902" } },
+      { "n": "XI", "year": 2011, "dates": "6–11 nov", "links": { "clone": "https://sbseg-sbc.github.io/sbseg2011/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/939" } }
+    ] },
+    { "city": "Niterói", "uf": "RJ", "lat": -22.884, "lng": -43.103, "editions": [
+      { "n": "XVI", "year": 2016, "dates": "7–10 nov", "links": { "site": "http://sbseg2016.ic.uff.br/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/896" } }
+    ] },
+    { "city": "Florianópolis", "uf": "SC", "lat": -27.595, "lng": -48.548, "editions": [
+      { "n": "XV", "year": 2015, "dates": "9–12 nov", "links": { "clone": "https://sbseg-sbc.github.io/sbseg2015/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/924" } },
+      { "n": "V", "year": 2005, "dates": "26–30 set", "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/981" } },
+      { "n": "I", "year": 2001, "dates": "5–6 mar", "wseg": true, "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/968" } }
+    ] },
+    { "city": "Belo Horizonte", "uf": "MG", "lat": -19.917, "lng": -43.934, "editions": [
+      { "n": "XIV", "year": 2014, "dates": "3–6 nov", "links": { "site": "http://www.sbseg2014.dcc.ufmg.br/", "clone": "https://sbseg-sbc.github.io/sbseg2014/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/925" } }
+    ] },
+    { "city": "Manaus", "uf": "AM", "lat": -3.119, "lng": -60.021, "editions": [
+      { "n": "XIII", "year": 2013, "dates": "11–14 nov", "links": { "clone": "https://sbseg-sbc.github.io/sbseg2013/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/903" } }
+    ] },
+    { "city": "Curitiba", "uf": "PR", "lat": -25.428, "lng": -49.273, "editions": [
+      { "n": "XII", "year": 2012, "dates": "19–22 nov", "links": { "site": "http://sbseg2012.ppgia.pucpr.br/", "clone": "https://sbseg-sbc.github.io/sbseg2012/", "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/938" } }
+    ] },
+    { "city": "Fortaleza", "uf": "CE", "lat": -3.732, "lng": -38.527, "editions": [
+      { "n": "X", "year": 2010, "dates": "11–15 out", "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/940" } }
+    ] },
+    { "city": "Campinas", "uf": "SP", "lat": -22.907, "lng": -47.063, "editions": [
+      { "n": "IX", "year": 2009, "dates": "28 set–2 out", "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/942" } }
+    ] },
+    { "city": "Gramado", "uf": "RS", "lat": -29.379, "lng": -50.875, "editions": [
+      { "n": "VIII", "year": 2008, "dates": "1–5 set", "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/957" } },
+      { "n": "IV", "year": 2004, "dates": "10 mai", "wseg": true, "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/965" } }
+    ] },
+    { "city": "Rio de Janeiro", "uf": "RJ", "lat": -22.907, "lng": -43.173, "editions": [
+      { "n": "VII", "year": 2007, "dates": "27–31 ago", "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/959" } }
+    ] },
+    { "city": "Santos", "uf": "SP", "lat": -23.961, "lng": -46.334, "editions": [
+      { "n": "VI", "year": 2006, "dates": "28 ago–1 set", "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/960" } }
+    ] },
+    { "city": "Búzios", "uf": "RJ", "lat": -22.747, "lng": -41.882, "editions": [
+      { "n": "II", "year": 2002, "dates": "22 mai", "wseg": true, "links": { "anais": "https://sol.sbc.org.br/index.php/sbseg/issue/view/967" } }
+    ] }
+  ]
+}

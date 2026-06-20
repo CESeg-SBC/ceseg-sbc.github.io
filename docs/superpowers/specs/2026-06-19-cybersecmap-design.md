@@ -92,3 +92,29 @@ validates and opens the mailto link.
 - Live API fetch (blocked by CORS; snapshot instead).
 - Backend form storage (mailto only).
 - Editing/admin of the data.
+
+## Addendum (2026-06-19): SBSeg editions overlay
+
+A second, toggleable layer on the same map showing where each SBSeg edition was
+held. Decided: **separate toggle layer** (not a filter chip), **default off**,
+**reuse the sbseg.html table data only** (no organizers/TPC/awards).
+
+- **Data** `assets/data/sbseg-editions.json`: editions grouped by host city, so a
+  city that hosted several editions is a single pin. Each city is
+  `{city, uf, lat, lng, editions[]}`; each edition is
+  `{n, year, dates, online?, wseg?, links{site?, clone?, anais?}}`. 20 cities /
+  25 editions (2001-2025). `wseg:true` marks the 2001-2004 WSeg-era editions.
+  Source of the link set is the `sbseg.html` edition table; coordinates are added
+  per host city.
+- **UI** a `.map-layer-toggle` button below the RNP type chips ("SBSeg editions"
+  + count), `aria-pressed` reflecting state. It is independent of the RNP chips,
+  search, results list and detail panel.
+- **Logic** `mapa.js` gains a self-contained block: lazy-fetches the JSON on first
+  toggle into its own Leaflet `layerGroup` (no markercluster; only ~20 pins),
+  adds/removes it on toggle, guards against a load that finishes after the user
+  toggled back off. Pins are navy diamonds (distinct from RNP circles); popup
+  lists the city's editions with site/clone/anais links.
+- **i18n** `map.sbsegToggle/sbsegSite/sbsegClone/sbsegAnais/sbsegOnline` in
+  pt/en/es. **Styles** `.map-layer-toggle`, `.sbseg-pin`, `.sbseg-detail` family.
+- **Out of scope** organizers/TPC/awards per edition; a 2026 entry (no completed
+  edition); clustering.
