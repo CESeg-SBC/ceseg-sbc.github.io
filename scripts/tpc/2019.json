@@ -1,0 +1,249 @@
+{
+  "year": 2019,
+  "source": "https://sbseg2019.ime.usp.br/cfp-principal.html",
+  "members": [
+    {
+      "name": "Alberto Schaeffer-Filho",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Aldri dos Santos",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Allan Pinto",
+      "inst": "UNICAMP"
+    },
+    {
+      "name": "Altair Santin",
+      "inst": "PUCPR"
+    },
+    {
+      "name": "Alysson Bessani",
+      "inst": "University of Lisbon"
+    },
+    {
+      "name": "André Grégio",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Carla Merkle Westphall",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Carlos da Silva",
+      "inst": "UFRN"
+    },
+    {
+      "name": "Carlos Maziero",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Carlos André Batista de Carvalho",
+      "inst": "UFPI"
+    },
+    {
+      "name": "Daniel Batista",
+      "inst": "USP"
+    },
+    {
+      "name": "Davidson Boccardo",
+      "inst": "Clavis - Segurança da Informação"
+    },
+    {
+      "name": "Denise Goya",
+      "inst": "UFABC"
+    },
+    {
+      "name": "Dorgival Guedes",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Edna Canedo",
+      "inst": "UnB"
+    },
+    {
+      "name": "Eduardo Alchieri",
+      "inst": "UnB"
+    },
+    {
+      "name": "Eduardo da Silva",
+      "inst": "IFC"
+    },
+    {
+      "name": "Eduardo Feitosa",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Eduardo Souto",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Emerson Ribeiro de Mello",
+      "inst": "IFC"
+    },
+    {
+      "name": "Ewerton Andrade",
+      "inst": "UNIR"
+    },
+    {
+      "name": "Fabio Borges",
+      "inst": "LNCC"
+    },
+    {
+      "name": "Igor Moraes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Jean Martina",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Jéferson Campos Nobre",
+      "inst": "UNISINOS"
+    },
+    {
+      "name": "Jeroen van de Graaf",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Joaquim Celestino Júnior",
+      "inst": "UECE"
+    },
+    {
+      "name": "Karina Mochetti",
+      "inst": "UFF"
+    },
+    {
+      "name": "Leonardo B. Oliveira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Leonardo Fagundes",
+      "inst": "UNISINOS"
+    },
+    {
+      "name": "Lisandro Zambenedetti Granville",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Luciano Paschoal Gaspary",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Luiz Fernando Rust da Costa Carmo",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Luiz Carlos Albini",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Marco Aurelio Amaral Henriques",
+      "inst": "UNICAMP"
+    },
+    {
+      "name": "Marcos Simplicio Jr",
+      "inst": "USP"
+    },
+    {
+      "name": "Marinho Barcellos",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Marjory Da Costa-Abreu",
+      "inst": "UFRN"
+    },
+    {
+      "name": "Mário Alvim",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Michele Nogueira",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Michelle Wangham",
+      "inst": "UNIVALI"
+    },
+    {
+      "name": "Miguel Franklin de Castro",
+      "inst": "UFC"
+    },
+    {
+      "name": "Miguel Elias Mitre Campista",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Otto Carlos Muniz Bandeira Duarte",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Paulo de Geus",
+      "inst": "UNICAMP"
+    },
+    {
+      "name": "Paulo André da Silva Gonçalves",
+      "inst": "UFPE"
+    },
+    {
+      "name": "Pedro Velloso",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Priscila Solis",
+      "inst": "UnB"
+    },
+    {
+      "name": "Raphael Machado",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Raul Ceretta Nunes",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Ricardo Custódio",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Ricardo Dahab",
+      "inst": "UNICAMP"
+    },
+    {
+      "name": "Rossana Andrade",
+      "inst": "UFC"
+    },
+    {
+      "name": "Routo Terada",
+      "inst": "USP"
+    },
+    {
+      "name": "Sergio Oliveira",
+      "inst": "UFSJ"
+    }
+  ],
+  "chairs": [
+    {
+      "name": "Eduardo Feitosa",
+      "inst": "UFAM",
+      "role": "Coordenação do Comitê de Programa"
+    },
+    {
+      "name": "Luciano Paschoal Gaspary",
+      "inst": "INF-UFRGS",
+      "role": "Coordenação do Comitê de Programa"
+    },
+    {
+      "name": "Routo Terada",
+      "inst": "IME-USP",
+      "role": "Coordenação Geral"
+    },
+    {
+      "name": "Daniel Macêdo Batista",
+      "inst": "IME-USP",
+      "role": "Coordenação Geral"
+    }
+  ],
+  "notes": "Main track (Trilha Principal) Comitê de Programa extracted from the official CFP page cfp-principal.html. 55 PC members. Chairs (Coordenação do Comitê de Programa: Eduardo Feitosa, Luciano Paschoal Gaspary) and general coordination (Routo Terada, Daniel Macêdo Batista) listed separately. The comite.html page lists only chairs/workshop coordinators/local team, not the full PC. Note: two PC members (Eduardo Feitosa, Luciano Paschoal Gaspary) also appear as PC chairs; they are kept in both lists as printed."
+}

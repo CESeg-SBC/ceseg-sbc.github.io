@@ -1,0 +1,477 @@
+{
+  "year": 2024,
+  "source": "https://sbseg2024.ita.br/chamadas/trilha-principal/",
+  "members": [
+    {
+      "name": "Alberto Schaeffer-Filho",
+      "inst": "Federal University of Rio Grande do Sul (UFRGS)"
+    },
+    {
+      "name": "Aldri dos Santos",
+      "inst": "Universidade Federal de Minas Gerais"
+    },
+    {
+      "name": "Alex Borges Vieira",
+      "inst": "UFJF"
+    },
+    {
+      "name": "Altair Olivo Santin",
+      "inst": "Pontifícia Universidade Católica do Paraná (PUCPR)"
+    },
+    {
+      "name": "Alysson Bessani",
+      "inst": "University of Lisbon, Faculty of Sciences, Portugal"
+    },
+    {
+      "name": "Amanda Davi Resende",
+      "inst": "Universidade Estadual de Mato Grosso do Sul"
+    },
+    {
+      "name": "André Grégio",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Antônio Abelém",
+      "inst": "Universidade Federal do Pará – UFPA"
+    },
+    {
+      "name": "Antonio Casimiro",
+      "inst": "Universidade de Lisboa, Portugal"
+    },
+    {
+      "name": "Augusto Neto",
+      "inst": "Universidade Federal do Rio Grande do Norte – UFRN"
+    },
+    {
+      "name": "Bruno Zarpelão",
+      "inst": "State University of Londrina"
+    },
+    {
+      "name": "Carla Merkle Westphall",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Carlo Marcelo Revoredo da Silva",
+      "inst": "UPE"
+    },
+    {
+      "name": "Carlos da Silva",
+      "inst": "Sheffield Hallam University, Inglaterra"
+    },
+    {
+      "name": "Carlos André Batista de Carvalho",
+      "inst": "Universidade Federal do Piauí"
+    },
+    {
+      "name": "Carlos Raniery Paula dos Santos",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Cesar Marcondes",
+      "inst": "Instituto Tecnológico da Aeronáutica"
+    },
+    {
+      "name": "Charles Miers",
+      "inst": "Universidade do Estado de Santa Catarina"
+    },
+    {
+      "name": "Charles Prado",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Cinthia Freitas",
+      "inst": "Pontifícia Universidade Católica do Paraná"
+    },
+    {
+      "name": "Cintia Margi",
+      "inst": "Universidade de São Paulo"
+    },
+    {
+      "name": "Cristine Hoepers",
+      "inst": "Núcleo de Informação e Coordenação do Ponto br – NIC.br"
+    },
+    {
+      "name": "Daniel Batista",
+      "inst": "IME – USP"
+    },
+    {
+      "name": "Daniel Pigatto",
+      "inst": "UTFPR Curitiba"
+    },
+    {
+      "name": "Davidson Boccardo",
+      "inst": "Hospital Israelita Albert Einstein UNESP"
+    },
+    {
+      "name": "Denise Goya",
+      "inst": "Universidade Federal do ABC"
+    },
+    {
+      "name": "Dianne Medeiros",
+      "inst": "Universidade Federal Fluminense"
+    },
+    {
+      "name": "Diego Kreutz",
+      "inst": "UNIPAMPA e Monash University"
+    },
+    {
+      "name": "Diogo Mattos",
+      "inst": "Universidade Federal Fluminense"
+    },
+    {
+      "name": "Djamel Fawzi Hadj Sadok",
+      "inst": "Universidade Federal de Pernambuco (UFPE)"
+    },
+    {
+      "name": "Dorgival Guedes",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Edelberto Silva",
+      "inst": "Universidade Federal de Juiz de Fora"
+    },
+    {
+      "name": "Edna Canedo",
+      "inst": "Universidade de Brasília – UNB"
+    },
+    {
+      "name": "Eduardo Alchieri",
+      "inst": "UnB"
+    },
+    {
+      "name": "Eduardo Cominetti",
+      "inst": "USP"
+    },
+    {
+      "name": "Eduardo Feitosa",
+      "inst": "Universidade Federal do Amazonas"
+    },
+    {
+      "name": "Eduardo Souto",
+      "inst": "Universidade Federal de Amazonas – UFAM"
+    },
+    {
+      "name": "Eduardo Viegas",
+      "inst": "Pontifícia Universidade Católica do Paraná, PUC-PR"
+    },
+    {
+      "name": "Emerson Ribeiro de Mello",
+      "inst": "Instituto Federal de Santa Catarina"
+    },
+    {
+      "name": "Evander Rezende",
+      "inst": "ABIN"
+    },
+    {
+      "name": "Ewerton Andrade",
+      "inst": "Federal University of Rondonia (UNIR)"
+    },
+    {
+      "name": "Félix Rodrigues",
+      "inst": "University of Campinas"
+    },
+    {
+      "name": "Geovandro Pereira",
+      "inst": "University of Waterloo, Canada"
+    },
+    {
+      "name": "Gustavo de Carvalho Bertoli",
+      "inst": "Airbus, Alemanha"
+    },
+    {
+      "name": "Hilder Vitor Lima Pereira",
+      "inst": "Universidade Estadual de Campinas (UNICAMP)"
+    },
+    {
+      "name": "Igor Moraes",
+      "inst": "Universidade Federal Fluminense"
+    },
+    {
+      "name": "Ivan Sendin",
+      "inst": "Universidade Federal de Uberlândia"
+    },
+    {
+      "name": "Jean Martina",
+      "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+      "name": "Jeferson Campos Nobre",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Jeroen van de Graaf",
+      "inst": "Universidade Federal de Minas Gerais"
+    },
+    {
+      "name": "Jheyne Ortiz",
+      "inst": "STMicroelectronics Belgium"
+    },
+    {
+      "name": "João Gondim",
+      "inst": "Universidade de Brasília – UnB"
+    },
+    {
+      "name": "José Almeida",
+      "inst": "Univ. do Minho, Portugal"
+    },
+    {
+      "name": "Juliano Kazienko",
+      "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+      "name": "Leonardo B. Oliveira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Lisandro Zambenedetti Granville",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Lourenço Pereira Júnior",
+      "inst": "Instituto Tecnológico de Aeronáutica – ITA"
+    },
+    {
+      "name": "Luciano Ignaczak",
+      "inst": "UNISINOS"
+    },
+    {
+      "name": "Luciano Paschoal Gaspary",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Lucila Bento",
+      "inst": "Universidade do Estado do Rio de Janeiro"
+    },
+    {
+      "name": "Luis Kowada",
+      "inst": "Universidade Federal Fluminense"
+    },
+    {
+      "name": "Luiz Fernando Rust da Costa Carmo",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Luiz Carlos Albini",
+      "inst": "Universidade Federal do Paraná"
+    },
+    {
+      "name": "Maicon Stihler",
+      "inst": "CEFET-MG"
+    },
+    {
+      "name": "Marcelo Pasin",
+      "inst": "HES-SO Univ. of Applied Sciences and Arts of Western Switzerland"
+    },
+    {
+      "name": "Marco Aurelio Amaral Henriques",
+      "inst": "FEEC – Unicamp"
+    },
+    {
+      "name": "Marco Antonio Torrez Rojas",
+      "inst": "IFC"
+    },
+    {
+      "name": "Marcos Simplicio Jr",
+      "inst": "Universidade de São Paulo, Escola Politécnica"
+    },
+    {
+      "name": "Marcus Botacin",
+      "inst": "Texas A&M University, USA"
+    },
+    {
+      "name": "Marinho Barcellos",
+      "inst": "University of Waikato, Nova Zelândia"
+    },
+    {
+      "name": "Marjory Da Costa-Abreu",
+      "inst": "Sheffield Hallam University, Inglaterra"
+    },
+    {
+      "name": "Martín Vigil",
+      "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+      "name": "Mário Alvim",
+      "inst": "Universidade Federal de Minas Gerais"
+    },
+    {
+      "name": "Michele Nogueira",
+      "inst": "Federal University of Minas Gerais"
+    },
+    {
+      "name": "Michelle Wangham",
+      "inst": "Universidade do Vale do Itajaí"
+    },
+    {
+      "name": "Miguel Correia",
+      "inst": "INESC – IST – Ulisboa, Portugal"
+    },
+    {
+      "name": "Miguel Franklin de Castro",
+      "inst": "Universidade Federal do Ceará"
+    },
+    {
+      "name": "Miguel Elias Mitre Campista",
+      "inst": "Universidade Federal do Rio de Janeiro"
+    },
+    {
+      "name": "Muriel Franco",
+      "inst": "Federal University of Rio Grande do Sul (UFRGS)"
+    },
+    {
+      "name": "Natalia Castro Fernandes",
+      "inst": "Universidade Federal Fluminense"
+    },
+    {
+      "name": "Nuno Neves",
+      "inst": "LASIGE/UL, Portugal"
+    },
+    {
+      "name": "Otávio Gomes",
+      "inst": "Universidade Federal de Itajubá (UNIFEI)"
+    },
+    {
+      "name": "Paulo Barreto",
+      "inst": "University of Washington, Tacoma, EUA"
+    },
+    {
+      "name": "Paulo de Geus",
+      "inst": "University of Campinas"
+    },
+    {
+      "name": "Paulo Matias",
+      "inst": "Universidade Federal de São Carlos"
+    },
+    {
+      "name": "Pedro Ferreira",
+      "inst": "Univ. Lisboa, Portugal"
+    },
+    {
+      "name": "Priscila Solis",
+      "inst": "Universidade de Brasília"
+    },
+    {
+      "name": "Rafael de Sousa Junior",
+      "inst": "University of Brasília"
+    },
+    {
+      "name": "Rafael Obelheiro",
+      "inst": "UDESC"
+    },
+    {
+      "name": "Rafael Pires",
+      "inst": "Swiss Federal Institute of Technology Lausanne (EPFL)"
+    },
+    {
+      "name": "Raphael Machado",
+      "inst": "Clavis and UFF"
+    },
+    {
+      "name": "Raul Ceretta Nunes",
+      "inst": "Federal University of Santa Maria"
+    },
+    {
+      "name": "Ricardo Custódio",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Ricardo Dahab",
+      "inst": "University of Campinas"
+    },
+    {
+      "name": "Roberto Gallo",
+      "inst": "University of Campinas"
+    },
+    {
+      "name": "Roberto Samarone Araujo",
+      "inst": "Universidade Federal do Pará"
+    },
+    {
+      "name": "Rodrigo Miani",
+      "inst": "Universidade Federal de Uberlândia"
+    },
+    {
+      "name": "Rogerio Medeiros",
+      "inst": "ABIN"
+    },
+    {
+      "name": "Rossana Andrade",
+      "inst": "Universidade Federal do Ceará – UFC"
+    },
+    {
+      "name": "Routo Terada",
+      "inst": "University of São Paulo"
+    },
+    {
+      "name": "Rui Miguel Soares Silva",
+      "inst": "Polytechnic Institute of Beja, Portugal"
+    },
+    {
+      "name": "Sergio Oliveira",
+      "inst": "Universidade Federal de São João del Rei"
+    },
+    {
+      "name": "Silvio Quincozes",
+      "inst": "Universidade Federal do Pampa"
+    },
+    {
+      "name": "Tereza Carvalho",
+      "inst": "Universidade de São Paulo"
+    },
+    {
+      "name": "Tertuliano de Souza Neto",
+      "inst": "ABIN"
+    },
+    {
+      "name": "Thaís Bardini Idalino",
+      "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+      "name": "Thales Paiva",
+      "inst": "Universidade de São Paulo"
+    },
+    {
+      "name": "Thiago do Rego Sousa",
+      "inst": "CEPESC"
+    },
+    {
+      "name": "Valério Rosset",
+      "inst": "Instituto Tecnológico de Aeronáutica – ITA"
+    },
+    {
+      "name": "Vinícius Costa",
+      "inst": "ABIN"
+    },
+    {
+      "name": "Vinicius Cogo",
+      "inst": "University of Lisbon , Portugal"
+    },
+    {
+      "name": "Vitor Hugo Galhardo Moia",
+      "inst": "Eldorado Research Institute"
+    },
+    {
+      "name": "Walter Priesnitz Filho",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Weverton Cordeiro",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Wilson Melo Jr",
+      "inst": "National Institute of Metrology, Quality and Technology"
+    }
+  ],
+  "chairs": [
+    {
+      "name": "Altair Olivo Santin",
+      "inst": "PUCPR"
+    },
+    {
+      "name": "Raphael Machado",
+      "inst": "UFF"
+    }
+  ],
+  "notes": "Comitê de Programa (members) and Coordenadores do Comitê de Programa (chairs) extracted from the Trilha Principal CFP page. General coordinators (Coordenadores Gerais): Lourenço Alves Pereira Júnior (ITA), Diego Luis Kreutz (UNIPAMPA), not included as TPC."
+}

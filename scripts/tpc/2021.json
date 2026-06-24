@@ -1,0 +1,317 @@
+{
+  "year": 2021,
+  "source": "https://sbseg-sbc.github.io/sbseg2021/sbseg2021.ufpa.br/chamada_principal.html",
+  "members": [
+    {
+      "name": "Alberto Schaeffer Filho",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Aldri dos Santos",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Allan Pinto",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Altair Santin",
+      "inst": "PUC-PR"
+    },
+    {
+      "name": "Alysson Bessani",
+      "inst": "University of Lisbon"
+    },
+    {
+      "name": "Anderson Nascimento",
+      "inst": "University of Washington"
+    },
+    {
+      "name": "André Grégio",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Antônio Abelém",
+      "inst": "UFPA"
+    },
+    {
+      "name": "Augusto Neto",
+      "inst": "UFRN"
+    },
+    {
+      "name": "Bruno Zarpelão",
+      "inst": "UEL"
+    },
+    {
+      "name": "Carla Merkle Westphall",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Carlo Marcelo Revoredo da Silva",
+      "inst": "UPE"
+    },
+    {
+      "name": "Carlos André Batista de Carvalho",
+      "inst": "UFPI"
+    },
+    {
+      "name": "Carlos da Silva",
+      "inst": "Sheffield Hallam University"
+    },
+    {
+      "name": "Carlos Maziero",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Carlos Raniery Paula dos Santos",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Daniel Batista",
+      "inst": "USP"
+    },
+    {
+      "name": "Davidson Boccardo",
+      "inst": "Clavis - Segurança da Informação"
+    },
+    {
+      "name": "Diego Kreutz",
+      "inst": "Unipampa"
+    },
+    {
+      "name": "Diogo Mattos",
+      "inst": "UFF"
+    },
+    {
+      "name": "Edna Canedo",
+      "inst": "UNB"
+    },
+    {
+      "name": "Eduardo Alchieri",
+      "inst": "UNB"
+    },
+    {
+      "name": "Eduardo da Silva",
+      "inst": "IFC"
+    },
+    {
+      "name": "Eduardo Feitosa",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Eduardo Souto",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Emerson Ribeiro de Mello",
+      "inst": "IFSC"
+    },
+    {
+      "name": "Ewerton Andrade",
+      "inst": "UNIR"
+    },
+    {
+      "name": "Fernando Quintao Pereira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Hilder Vitor Lima Pereira",
+      "inst": "KU Leuven"
+    },
+    {
+      "name": "Igor Moraes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Ivan Sendin",
+      "inst": "UFU"
+    },
+    {
+      "name": "Jean Martina",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Jeferson Campos Nobre",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Jeroen van de Graaf",
+      "inst": "UFMG"
+    },
+    {
+      "name": "João Gondim",
+      "inst": "UNB"
+    },
+    {
+      "name": "Josivaldo Araujo",
+      "inst": "UFPA"
+    },
+    {
+      "name": "Juliano Kazienko",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Kaio Barbosa",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Leonardo B. Oliveira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Lisandro Zambenedetti Granville",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Lucia Moura",
+      "inst": "University of Ottawa"
+    },
+    {
+      "name": "Luciano Paschoal Gaspary",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Lucila Bento",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Luis Kowada",
+      "inst": "UFF"
+    },
+    {
+      "name": "Luiz Carlos Albini",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Luiz Fernando Rust da Costa Carmo",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Marco Aurelio Amaral Henriques",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Marcos Simplicio Jr",
+      "inst": "USP"
+    },
+    {
+      "name": "Mário Alvim",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Marjory Da Costa-Abreu",
+      "inst": "Sheffield Hallam University"
+    },
+    {
+      "name": "Martín Vigil",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Michele Nogueira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Michelle Wangham",
+      "inst": "Univali"
+    },
+    {
+      "name": "Miguel Elias Mitre Campista",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Miguel Franklin de Castro",
+      "inst": "UFC"
+    },
+    {
+      "name": "Natalia Castro Fernandes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Otto Carlos Muniz Bandeira Duarte",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Paulo Barreto",
+      "inst": "University of Washington"
+    },
+    {
+      "name": "Paulo de Geus",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Paulo Matias",
+      "inst": "UFSCar"
+    },
+    {
+      "name": "Pedro Velloso",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Priscila Solis",
+      "inst": "UNB"
+    },
+    {
+      "name": "Rafael de Sousa Junior",
+      "inst": "UNB"
+    },
+    {
+      "name": "Raphael Machado",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Raul Ceretta Nunes",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Ricardo Custódio",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Ricardo Dahab",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Roberto Gallo",
+      "inst": "Kryptus"
+    },
+    {
+      "name": "Roberto Samarone Araujo",
+      "inst": "UFPA"
+    },
+    {
+      "name": "Ronaldo Sales",
+      "inst": "IME"
+    },
+    {
+      "name": "Rossana Andrade",
+      "inst": "UFC"
+    },
+    {
+      "name": "Routo Terada",
+      "inst": "USP"
+    },
+    {
+      "name": "Sergio Oliveira",
+      "inst": "UFSJ"
+    },
+    {
+      "name": "Vitor Hugo Galhardo Moia",
+      "inst": "Samsung Research"
+    },
+    {
+      "name": "Walter Priesnitz Filho",
+      "inst": "UFSM"
+    }
+  ],
+  "chairs": [
+    {
+      "name": "Marco Amaral Henriques",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Eduardo Souto",
+      "inst": "UFAM"
+    }
+  ],
+  "notes": "Extracted from the archived clone of the original UFPA site (chamada_principal.html, the Trilha Principal / main-track call for papers), which contains the full 'Comitê de Programa' member list (73 members) and a 'Comitê de Organização' block. Chairs are the 'Coordenação do Comitê de Programa' (Marco Amaral Henriques, Unicamp; Eduardo Souto, UFAM); both also appear in the members list, as is usual. The general/CESeg coordination (Roberto Samarone Araujo, Antônio Abelém, Michele Nogueira, Igor Moraes) and the local organizing/workshop coordinators in comite.html are NOT included. Affiliation abbreviations are kept as printed on the page."
+}

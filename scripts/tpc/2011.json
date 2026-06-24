@@ -1,0 +1,17 @@
+{
+  "year": 2011,
+  "source": "https://sbseg2011.redes.unb.br/chamada_sbseg.html?v=17 (and mirror https://www.ppgee.unb.br/sbseg2011/ + reposted doc https://docplayer.com.br/17240629-Organizacao-do-sbseg-2011.html) — none could be fetched live; see notes",
+  "members": [
+    {"name": "Aldri dos Santos", "inst": "UFPR"},
+    {"name": "Altair Santin", "inst": "PUCPR"},
+    {"name": "Anderson Nascimento", "inst": "UnB"},
+    {"name": "André dos Santos", "inst": "UECE"},
+    {"name": "André Grégio", "inst": "CTI"},
+    {"name": "Antonio Maio", "inst": "Kryptus"}
+  ],
+  "chairs": [
+    {"name": "Jeroen van de Graaf", "inst": "UFMG"},
+    {"name": "Luiz Fernando Rust da Costa Carmo", "inst": "INMETRO / UFRJ"}
+  ],
+  "notes": "PARTIAL / INCOMPLETE LIST — could not retrieve the full main-track Comitê de Programa. The complete member list (estimated ~40 people, comparable to the 41-member 2012 list) lives only on the SBSeg 2011 conference site committee pages (chamada_sbseg.html / organizacao.html on www.ppgee.unb.br/sbseg2011 and its successor host sbseg2011.redes.unb.br) and on a reposted DocPlayer document 'Organização do SBSeg 2011' (docplayer.com.br/17240629). NONE could be fetched: (1) sbseg2011.redes.unb.br resolves (164.41.222.108) but its HTTPS server rejects every TLS handshake with 'tlsv1 alert internal error' (alert 80, internal_error) for all clients tried here (LibreSSL curl, OpenSSL python, forced TLS1.0-1.2, no-SNI) and even headless Chromium via r.jina.ai got ERR_SSL_PROTOCOL_ERROR — the server's TLS is broken for modern clients; (2) www.ppgee.unb.br/sbseg2011/ now 301-redirects to a CMS path that 404s (old static site removed); (3) the committee fragment pages were NEVER captured by the Wayback Machine (only agenda.html @20120102 has a 200 capture, and it contains the program schedule, not the TPC); (4) docplayer.com.br has no A/AAAA DNS record (Cloudflare origin offline) and is not in Wayback; (5) the GitHub clone https://sbseg-sbc.github.io/sbseg2011/ only mirrors a single seginfo.com.br blog post that links to the CFP but contains no committee; (6) SBC SOL issue (sol.sbc.org.br/index.php/sbseg/issue/view/939) and DBLP have the 20 papers but no front-matter/Comitê de Programa. The 6 'members' above and the 2 'chairs' are the only entries recoverable from Google's stale index of the dead docplayer/conference pages (the members are the start of the alphabetical A-names of the genuine main-track list, verified to begin 'Aldri dos Santos, Altair Santin, Anderson Nascimento, André dos Santos, André Grégio, Antonio Maio (Kryptus), Arlindo...'); they should NOT be treated as the complete committee. Chairs (Jeroen van de Graaf, UFMG; Luiz Fernando Rust da Costa Carmo, INMETRO/UFRJ) are corroborated by the recurring pair in scripts/tpc/2012.json. General chairs (coordenação geral, not program chairs): Anderson Clayton Alves Nascimento (UnB) and Rafael Timóteo de Sousa Júnior (UnB). WARNING: a 14-name list often surfaced by search summarizers (Joni Fraga, Michelle Wangham, Aldri dos Santos, Altair Santin, Débora Muchaluat, Eleri Cardozo, Emerson Ribeiro de Mello, Marinho Barcellos, Michele Nogueira, Noemi Rodriguez, Ricardo Custódio, Roberto Samarone, Vinod Rebello) is the WGID *workshop* committee, NOT the main-track Comitê de Programa, and was deliberately excluded. To complete this file, fetch the SBSeg 2011 Anais front-matter PDF or reach the UnB committee pages from a network where their legacy TLS negotiates."
+}

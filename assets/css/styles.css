@@ -487,3 +487,75 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 .cm-pub-list { margin: .4rem 0 0; padding-left: 1.1rem; font-size: .82rem; line-height: 1.35; max-height: 180px; overflow:auto; }
 .cm-pub-list li { margin: .15rem 0; }
 .cm-pub-list .cm-more { list-style: none; opacity: .6; }
+
+/* ===== TPC statistics page (estatisticas-tpc.html) ===== */
+.tpc-h2{font-size:1.5rem;margin:2.4rem 0 .5rem}
+.tpc-p{color:var(--muted);max-width:720px;margin-bottom:1rem;font-size:.95rem}
+.tpc-error{color:#b91c1c;padding:1rem 0}
+
+/* KPI cards */
+.tpc-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:14px;margin:1.6rem 0 .4rem}
+.tpc-kpi{border:1px solid var(--border);border-radius:var(--radius);background:var(--bg-alt);
+  padding:18px 16px;display:flex;flex-direction:column;gap:6px}
+.tpc-kpi-v{font-family:var(--serif);font-size:1.9rem;font-weight:700;color:var(--navy);line-height:1}
+.tpc-kpi-l{font-size:.82rem;color:var(--muted);line-height:1.3}
+
+/* Correlation chart */
+.tpc-chart{margin:.4rem 0 1rem}
+.tpc-svg{width:100%;height:auto;max-width:680px;display:block;background:var(--bg);
+  border:1px solid var(--border);border-radius:var(--radius)}
+.tpc-grid{stroke:var(--border);stroke-width:1}
+.tpc-axis{stroke:var(--faint);stroke-width:1.2}
+.tpc-fit{stroke:var(--link);stroke-width:2;stroke-dasharray:6 4;opacity:.7}
+.tpc-pt circle{fill:var(--navy);opacity:.85}
+.tpc-pt text{font-family:var(--sans);font-size:11px;fill:var(--muted)}
+.tpc-axislbl{font-family:var(--sans);font-size:10px;fill:var(--faint)}
+.tpc-axistitle{font-family:var(--sans);font-size:12px;font-weight:600;fill:var(--ink)}
+.tpc-corr-note{font-size:.88rem;color:var(--muted);margin:.3rem 0 0}
+
+/* Tables */
+.tpc-table{border-collapse:collapse;width:100%;font-size:.92rem}
+.tpc-table th,.tpc-table td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);
+  vertical-align:top}
+.tpc-table thead th{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--navy);background:var(--bg-alt);position:sticky;top:0}
+.tpc-table td.tpc-num,.tpc-table th.tpc-num{text-align:right;white-space:nowrap}
+.tpc-edrow:hover{background:var(--bg-alt)}
+.tpc-sub{color:var(--faint);font-size:.82rem;font-weight:400}
+.tpc-pill{display:inline-block;min-width:20px;text-align:center;background:var(--navy);color:#fff;
+  border-radius:999px;font-size:.74rem;font-weight:700;padding:1px 8px;margin-left:4px}
+
+/* inline % bar */
+.tpc-bar{display:block;height:5px;border-radius:3px;background:var(--border);margin-top:5px;overflow:hidden}
+.tpc-bar>span{display:block;height:100%;background:var(--link);opacity:.65}
+
+/* expand button + detail list */
+.tpc-expand,.tpc-more{font-family:var(--sans);font-size:.78rem;font-weight:600;color:var(--link);
+  background:transparent;border:1px solid var(--border);border-radius:6px;padding:3px 9px;
+  cursor:pointer;white-space:nowrap;margin-left:6px}
+.tpc-expand:hover,.tpc-more:hover{border-color:var(--navy);background:var(--bg-alt)}
+.tpc-more{display:inline-block;margin:.8rem 0 0;padding:7px 16px;font-size:.85rem}
+.tpc-detrow td{background:var(--bg-alt)}
+.tpc-mlist{margin:.2rem 0 .4rem 1.2rem;columns:2;column-gap:32px}
+.tpc-mlist li{break-inside:avoid;margin:.18rem 0;font-size:.88rem}
+.tpc-mname{font-weight:600}
+.tpc-minst{color:var(--faint);font-size:.8rem;margin-left:6px}
+.tpc-src{font-size:.8rem;margin:.4rem 0 0}
+
+/* methodology */
+.tpc-meth{margin:.4rem 0 1rem 1.1rem;color:var(--muted);font-size:.9rem}
+.tpc-meth li{margin:.35rem 0}
+.tpc-regen{font-size:.82rem;color:var(--faint)}
+
+/* reference callout on anais-trilha-principal */
+.tpc-callout{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  border:1px solid var(--border);border-left:4px solid var(--navy);border-radius:var(--radius);
+  background:var(--bg-alt);padding:14px 18px;margin:1rem 0 1.4rem}
+.tpc-callout-txt{flex:1;min-width:220px;font-size:.92rem;color:var(--ink)}
+.tpc-callout-txt b{color:var(--navy)}
+
+@media(max-width:620px){
+  .tpc-mlist{columns:1}
+  .tpc-kpi-v{font-size:1.6rem}
+}

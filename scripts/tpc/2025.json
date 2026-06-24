@@ -1,0 +1,590 @@
+{
+ "year": 2025,
+ "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/index.html",
+ "members": [
+  {
+   "name": "Alberto Egon Schaeffer-Filho",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Aldri Luiz dos Santos",
+   "inst": "UNIVERSIDADE FEDERAL DE MINAS GERAIS"
+  },
+  {
+   "name": "Alex Borges Vieira",
+   "inst": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA"
+  },
+  {
+   "name": "Alexandre Melo Braga",
+   "inst": "CPQD"
+  },
+  {
+   "name": "Alexandre Augusto Giron",
+   "inst": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ"
+  },
+  {
+   "name": "Altair Olivo Santin",
+   "inst": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ"
+  },
+  {
+   "name": "Amanda Cristina Davi Resende",
+   "inst": "Universidade Estadual de Mato Grosso do Sul"
+  },
+  {
+   "name": "Anderson Fernandes Pereira dos Santos",
+   "inst": "INSTITUTO MILITAR DE ENGENHARIA"
+  },
+  {
+   "name": "André R A Grégio",
+   "inst": "UNIVERSIDADE FEDERAL DO PARANÁ"
+  },
+  {
+   "name": "André Riker",
+   "inst": "Federal University of Para"
+  },
+  {
+   "name": "André Zúquete",
+   "inst": "University of Aveiro"
+  },
+  {
+   "name": "Antonio Casimiro",
+   "inst": "Universidade de Lisboa"
+  },
+  {
+   "name": "Antonio Guimarães",
+   "inst": "IMDEA Software Institute"
+  },
+  {
+   "name": "Antônio Jorge Gomes Abelém",
+   "inst": "UNIVERSIDADE FEDERAL DO PARÁ"
+  },
+  {
+   "name": "Augusto José Venâncio Neto",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+  },
+  {
+   "name": "Avelino Francisco Zorzo",
+   "inst": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Bernardo Portela",
+   "inst": "Instituto de Engenharia de Sistemas e Computadores"
+  },
+  {
+   "name": "Bruno Bogaz Zarpelão",
+   "inst": "State University of Londrina"
+  },
+  {
+   "name": "Bruno Miguel Sousa",
+   "inst": "University of Coimbra"
+  },
+  {
+   "name": "Bruno Rodrigues",
+   "inst": "University of St Gallen"
+  },
+  {
+   "name": "Bruno Vavala",
+   "inst": "Amazon Security"
+  },
+  {
+   "name": "Bruno L Dalmazo",
+   "inst": "Federal University of Rio Grande"
+  },
+  {
+   "name": "Carla Merkle Westphall",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA CATARINA"
+  },
+  {
+   "name": "Carlo Marcelo Revoredo da Silva",
+   "inst": "UPE"
+  },
+  {
+   "name": "Carlos Eduardo da Silva",
+   "inst": "Sheffield Hallam University"
+  },
+  {
+   "name": "Carlos André Batista de Carvalho",
+   "inst": "UNIVERSIDADE FEDERAL DO PIAUÍ"
+  },
+  {
+   "name": "Carlos Raniery Paula dos Santos",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA MARIA"
+  },
+  {
+   "name": "Cesar A Marcondes",
+   "inst": "Instituto Tecnologico da Aeronautica"
+  },
+  {
+   "name": "Charles Christian Miers",
+   "inst": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA"
+  },
+  {
+   "name": "Charles Prado",
+   "inst": "Inmetro"
+  },
+  {
+   "name": "Cintia Borges Margi",
+   "inst": "UNIVERSIDADE DE SÃO PAULO"
+  },
+  {
+   "name": "Claudio Miceli de Farias",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Cristian Ramón Cappo",
+   "inst": "Universidad Nacional de Asunción"
+  },
+  {
+   "name": "Daniel Macêdo Batista",
+   "inst": "University of São Paulo"
+  },
+  {
+   "name": "Daniel Pigatto",
+   "inst": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ"
+  },
+  {
+   "name": "Daniel Sadoc Menasche",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Davidson Rodrigo Boccardo",
+   "inst": "Hospital Israelita Albert Einstein"
+  },
+  {
+   "name": "Denise Hideko Goya",
+   "inst": "UNIVERSIDADE FEDERAL DO ABC"
+  },
+  {
+   "name": "Dianne Scherly Varela de Medeiros",
+   "inst": "UNIVERSIDADE FEDERAL FLUMINENSE"
+  },
+  {
+   "name": "Diego Kreutz",
+   "inst": "UNIVERSIDADE FEDERAL DO PAMPA"
+  },
+  {
+   "name": "Diego Molinos",
+   "inst": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA"
+  },
+  {
+   "name": "Diego Passos",
+   "inst": "Instituto Superior de Engenharia de Lisboa"
+  },
+  {
+   "name": "Diogo Barradas",
+   "inst": "University of Waterloo"
+  },
+  {
+   "name": "Diogo Menezes Ferrazani Mattos",
+   "inst": "UNIVERSIDADE FEDERAL FLUMINENSE"
+  },
+  {
+   "name": "Djamel Fawzi Hadj Sadok",
+   "inst": "UNIVERSIDADE FEDERAL DE PERNAMBUCO"
+  },
+  {
+   "name": "Dorgival Guedes",
+   "inst": "UNIVERSIDADE FEDERAL DE MINAS GERAIS"
+  },
+  {
+   "name": "Edelberto Franco Silva",
+   "inst": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA"
+  },
+  {
+   "name": "Eder John Scheid",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Edmar Gurjão",
+   "inst": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"
+  },
+  {
+   "name": "Eduardo Alchieri",
+   "inst": "UNIVERSIDADE DE BRASÍLIA"
+  },
+  {
+   "name": "Eduardo James Pereira Souto",
+   "inst": "UNIVERSIDADE FEDERAL DO AMAZONAS"
+  },
+  {
+   "name": "Eduardo Kugler Viegas",
+   "inst": "Pontifícia Universidade Católica do Paraná"
+  },
+  {
+   "name": "Eduardo L Cominetti",
+   "inst": "UNIVERSIDADE DE SÃO PAULO"
+  },
+  {
+   "name": "Eduardo Luzeiro Feitosa",
+   "inst": "UNIVERSIDADE FEDERAL DO AMAZONAS"
+  },
+  {
+   "name": "Emerson Ribeiro de Mello",
+   "inst": "INSTITUTO FEDERAL DE SANTA CATARINA"
+  },
+  {
+   "name": "Evandro Luiz Cardoso Macedo",
+   "inst": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Ewerton Rodrigues Andrade",
+   "inst": "UNIVERSIDADE FEDERAL DE RONDÔNIA"
+  },
+  {
+   "name": "Félix Carvalho Rodrigues",
+   "inst": "University of Campinas"
+  },
+  {
+   "name": "Fernando Ramos",
+   "inst": "Instituto Superior Tecnico / INESC-ID"
+  },
+  {
+   "name": "Frederico Schardong",
+   "inst": "INSTITUTO FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Gabriel de Carvalho",
+   "inst": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Geovandro Pereira",
+   "inst": "LG Electronics"
+  },
+  {
+   "name": "Gustavo de Carvalho Bertoli",
+   "inst": "Airbus"
+  },
+  {
+   "name": "Helio N Cunha Neto",
+   "inst": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Hendrio Luis Souza Bragança",
+   "inst": "Federal University of Amazonas"
+  },
+  {
+   "name": "Hilder Vitor Lima Pereira",
+   "inst": "UNIVERSIDADE ESTADUAL DE CAMPINAS"
+  },
+  {
+   "name": "Hugo D Scolnik",
+   "inst": "FCEyN"
+  },
+  {
+   "name": "Ian Vilar Bastos",
+   "inst": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Igor Cesar Gonzalez Ribeiro",
+   "inst": "CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA"
+  },
+  {
+   "name": "Igor Monteiro Moraes",
+   "inst": "UNIVERSIDADE FEDERAL FLUMINENSE"
+  },
+  {
+   "name": "Iguatemi E Fonseca",
+   "inst": "UNIVERSIDADE FEDERAL DA PARAÍBA"
+  },
+  {
+   "name": "Ioram Schechtman Sette",
+   "inst": "UNIVERSIDADE FEDERAL DE PERNAMBUCO"
+  },
+  {
+   "name": "Ivan Silva Sendin",
+   "inst": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA"
+  },
+  {
+   "name": "Jean Martina",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA CATARINA"
+  },
+  {
+   "name": "Jeferson Campos Nobre",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Jeroen van de Graaf",
+   "inst": "UNIVERSIDADE FEDERAL DE MINAS GERAIS"
+  },
+  {
+   "name": "Jó Ueyama",
+   "inst": "UNIVERSIDADE DE SÃO PAULO"
+  },
+  {
+   "name": "João Gondim",
+   "inst": "UNIVERSIDADE DE BRASÍLIA"
+  },
+  {
+   "name": "José Bacelar Almeida",
+   "inst": "Univ do Minho"
+  },
+  {
+   "name": "Juliano Kazienko",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA MARIA"
+  },
+  {
+   "name": "Laerte Peotta",
+   "inst": "University of Brasilia"
+  },
+  {
+   "name": "Leandro Márcio Bertholdo",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Leobino Nascimento Sampaio",
+   "inst": "UNIVERSIDADE FEDERAL DA BAHIA"
+  },
+  {
+   "name": "Lisandro Zambenedetti Granville",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Lourenco Alves Pereira Jr",
+   "inst": "INSTITUTO TECNOLÓGICO DE AERONÁUTICA"
+  },
+  {
+   "name": "Luciano Ignaczak",
+   "inst": "UNIVERSIDADE DO VALE DO RIO DOS SINOS"
+  },
+  {
+   "name": "Luciano Paschoal Gaspary",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Lucila Maria de Souza Bento",
+   "inst": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Luis Antonio Kowada",
+   "inst": "UNIVERSIDADE FEDERAL FLUMINENSE"
+  },
+  {
+   "name": "Luiz Fernando Rust da Costa Carmo",
+   "inst": "Inmetro"
+  },
+  {
+   "name": "Luiz Carlos Pessoa Albini",
+   "inst": "UNIVERSIDADE FEDERAL DO PARANÁ"
+  },
+  {
+   "name": "Maicon Stihler",
+   "inst": "CEFET-MG"
+  },
+  {
+   "name": "Marco Antonio Torrez Rojas",
+   "inst": "INSTITUTO FEDERAL CATARINENSE"
+  },
+  {
+   "name": "Marco Aurelio Amaral Henriques",
+   "inst": "UNIVERSIDADE ESTADUAL DE CAMPINAS"
+  },
+  {
+   "name": "Marcos Antonio Simplicio Jr",
+   "inst": "UNIVERSIDADE DE SÃO PAULO"
+  },
+  {
+   "name": "Marcus Botacin",
+   "inst": "Texas A&M University"
+  },
+  {
+   "name": "Marinho Barcellos",
+   "inst": "University of Waikato"
+  },
+  {
+   "name": "Mário S Alvim",
+   "inst": "UNIVERSIDADE FEDERAL DE MINAS GERAIS"
+  },
+  {
+   "name": "Marjory Da Costa-Abreu",
+   "inst": "Sheffield Hallam University"
+  },
+  {
+   "name": "Martín Vigil",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA CATARINA"
+  },
+  {
+   "name": "Michelle Silva Wangham",
+   "inst": "UNIVERSIDADE DO VALE DO ITAJAÍ"
+  },
+  {
+   "name": "Miguel Franklin de Castro",
+   "inst": "UNIVERSIDADE FEDERAL DO CEARÁ"
+  },
+  {
+   "name": "Miguel Elias Mitre Campista",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO"
+  },
+  {
+   "name": "Muriel Figueredo Franco",
+   "inst": "UNIVERSIDADE FEDERAL DE CIÊNCIAS DA SAÚDE DE PORTO ALEGRE"
+  },
+  {
+   "name": "Natalia Castro Fernandes",
+   "inst": "UNIVERSIDADE FEDERAL FLUMINENSE"
+  },
+  {
+   "name": "Nicollas Rodrigues de Oliveira",
+   "inst": "UNIVERSIDADE FEDERAL FLUMINENSE"
+  },
+  {
+   "name": "Nuno Neves",
+   "inst": "LASIGE/UL"
+  },
+  {
+   "name": "Paulo Freitas de Araujo Filho",
+   "inst": "Universidade Federal de Pernambuco"
+  },
+  {
+   "name": "Paulo Matias",
+   "inst": "UNIVERSIDADE FEDERAL DE SÃO CARLOS"
+  },
+  {
+   "name": "Paulo S L M Barreto",
+   "inst": "University of Washington | Tacoma"
+  },
+  {
+   "name": "Paulo Veríssimo",
+   "inst": "King Abdullah University of Science and Technology"
+  },
+  {
+   "name": "Pedro Ferreira",
+   "inst": "Faculdade de Ciências"
+  },
+  {
+   "name": "Priscila Solis",
+   "inst": "UNIVERSIDADE DE BRASÍLIA"
+  },
+  {
+   "name": "Rafael R Obelheiro",
+   "inst": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA"
+  },
+  {
+   "name": "Rafael T de Sousa Junior",
+   "inst": "University of Brasilia"
+  },
+  {
+   "name": "Ramon Fontes",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+  },
+  {
+   "name": "Raphael C S Machado",
+   "inst": "Inmetro and UFF"
+  },
+  {
+   "name": "Raul Ceretta Nunes",
+   "inst": "Federal University of Santa Maria"
+  },
+  {
+   "name": "Ricardo Dahab",
+   "inst": "University of Campinas"
+  },
+  {
+   "name": "Ricardo Felipe Custódio",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA CATARINA"
+  },
+  {
+   "name": "Roben Castagna Lunardi",
+   "inst": "INSTITUTO FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Roberto Samarone Araujo",
+   "inst": "UNIVERSIDADE FEDERAL DO PARÁ"
+  },
+  {
+   "name": "Rodrigo Brandão Mansilha",
+   "inst": "UNIVERSIDADE FEDERAL DO PAMPA"
+  },
+  {
+   "name": "Rodrigo Miani",
+   "inst": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA"
+  },
+  {
+   "name": "Roger Immich",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+  },
+  {
+   "name": "Ronaldo R Goldschmidt",
+   "inst": "INSTITUTO MILITAR DE ENGENHARIA"
+  },
+  {
+   "name": "Rossana Maria de Castro Andrade",
+   "inst": "UNIVERSIDADE FEDERAL DO CEARÁ"
+  },
+  {
+   "name": "Routo Terada",
+   "inst": "University of São Paulo"
+  },
+  {
+   "name": "Rui Miguel Soares Silva",
+   "inst": "Polytechnic Institute of Beja"
+  },
+  {
+   "name": "Sergio Oliveira",
+   "inst": "Universidade Federal de São João del rei"
+  },
+  {
+   "name": "Silvio Quincozes",
+   "inst": "UNIVERSIDADE FEDERAL DO PAMPA"
+  },
+  {
+   "name": "Tereza Cristina M B Carvalho",
+   "inst": "UNIVERSIDADE DE SÃO PAULO"
+  },
+  {
+   "name": "Thaís Bardini Idalino",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA CATARINA"
+  },
+  {
+   "name": "Thales Paiva",
+   "inst": "UNIVERSIDADE DE SÃO PAULO"
+  },
+  {
+   "name": "Thiago do Rego Sousa",
+   "inst": "Cepesc"
+  },
+  {
+   "name": "Tiago Cogumbreiro",
+   "inst": "University of Massachusetts Boston"
+  },
+  {
+   "name": "Tiago Heinrich",
+   "inst": "Max Planck Institute for Informatics"
+  },
+  {
+   "name": "Valderi Reis Quietinho Leithardt",
+   "inst": "Instituto Universitário de Lisboa"
+  },
+  {
+   "name": "Valério Rosset",
+   "inst": "INSTITUTO TECNOLÓGICO DE AERONÁUTICA"
+  },
+  {
+   "name": "Vinícius Fülber Garcia",
+   "inst": "Federal University of Paraná"
+  },
+  {
+   "name": "Vinícius Lagrota",
+   "inst": "Centro de Pesquisa e Desenvolvimento para a Segurança das Comunicações"
+  },
+  {
+   "name": "Vitor Hugo Galhardo Moia",
+   "inst": "Instituto de Pesquisas Eldorado"
+  },
+  {
+   "name": "Walter Priesnitz Filho",
+   "inst": "UNIVERSIDADE FEDERAL DE SANTA MARIA"
+  },
+  {
+   "name": "Weverton Luis da Costa Cordeiro",
+   "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL"
+  },
+  {
+   "name": "Wilson Melo Jr",
+   "inst": "National Institute of Metrology"
+  },
+  {
+   "name": "Wojciech Ozga",
+   "inst": "IBM Research"
+  }
+ ]
+}

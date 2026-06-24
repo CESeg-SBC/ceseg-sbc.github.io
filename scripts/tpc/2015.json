@@ -1,0 +1,10 @@
+{
+  "year": 2015,
+  "source": "https://sbseg-sbc.github.io/sbseg2015/ ; https://sol.sbc.org.br/index.php/sbseg/issue/view/924",
+  "members": [],
+  "chairs": [
+    { "name": "Carlos Maziero", "inst": "UFPR" },
+    { "name": "Routo Terada", "inst": "USP" }
+  ],
+  "notes": "Full main-track Program Committee (Comitê de Programa) member list for SBSeg 2015 could NOT be recovered. The original SBSeg 2015 event site (UFSC/UNIVALI, Florianópolis, 9-12 Nov 2015) is offline and has NO captures in the Wayback Machine (checked sbseg2015.ufsc.br/inf/das/lisha, sbseg2015.univali.br, gsd.das.ufsc.br/sbseg2015, etc.). The GitHub mirror (sbseg-sbc.github.io/sbseg2015) is a reconstruction from archived material and lists only general coordination, not the PC. Its preserved source (PoP-SC/RNP support page) is an unrelated connectivity page. The SBC proceedings (SOL issue 924, DOI 10.5753/sbseg.2015) contain only the 36 papers and an intro paragraph; there is no front-matter/preliminary-pages entry listing PC members. The LBD mirror (lbd.dcc.ufmg.br/colecoes/sbseg/2015) was unreachable (DNS/connection failure) from this environment and may still hold the printed anais front matter with the PC list. CONFIRMED from the SOL issue introduction: the program committee was chaired (coordenado) by Carlos Maziero (UFPR) and Routo Terada (USP), who organized the volume. General coordination of the event: Michelle Wangham (UNIVALI) and Joni da Silva Fraga (UFSC). members=[] because no member-level data is available from any reachable source."
+}

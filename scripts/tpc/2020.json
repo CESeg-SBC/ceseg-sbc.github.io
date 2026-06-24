@@ -1,0 +1,247 @@
+{
+  "year": 2020,
+  "source": "https://sbseg-sbc.github.io/sbseg2020/sbseg.sbc.org.br/2020/pt/chamadas/principal.html",
+  "members": [
+    {
+      "name": "Alberto Schaeffer-Filho",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Aldri dos Santos",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Altair Santin",
+      "inst": "PUCPR"
+    },
+    {
+      "name": "Alysson Bessani",
+      "inst": "Universidade de Lisboa"
+    },
+    {
+      "name": "André Grégio",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Bruno Zarpelão",
+      "inst": "UEL"
+    },
+    {
+      "name": "Carla Merkle Westphall",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Carlos da Silva",
+      "inst": "Sheffield Hallam University"
+    },
+    {
+      "name": "Carlos Maziero",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Carlos André Batista de Carvalho",
+      "inst": "UFPI"
+    },
+    {
+      "name": "Daniel Batista",
+      "inst": "USP"
+    },
+    {
+      "name": "Davidson Boccardo",
+      "inst": "Clavis - Segurança da Informação"
+    },
+    {
+      "name": "Denise Goya",
+      "inst": "UFABC"
+    },
+    {
+      "name": "Diogo Mattos",
+      "inst": "UFF"
+    },
+    {
+      "name": "Dorgival Guedes",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Edna Canedo",
+      "inst": "UnB"
+    },
+    {
+      "name": "Eduardo Alchieri",
+      "inst": "UnB"
+    },
+    {
+      "name": "Eduardo da Silva",
+      "inst": "IFSC"
+    },
+    {
+      "name": "Eduardo Feitosa",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Eduardo Souto",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Emerson Ribeiro de Mello",
+      "inst": "IFSC"
+    },
+    {
+      "name": "Ewerton Andrade",
+      "inst": "IFRO"
+    },
+    {
+      "name": "Fabio Borges",
+      "inst": "LNCC"
+    },
+    {
+      "name": "Igor Moraes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Jean Martina",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Jeferson Campos Nobre",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Joaquim Celestino Júnior",
+      "inst": "UECE"
+    },
+    {
+      "name": "Juliano Kazienko",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Karina Mochetti",
+      "inst": "UBC"
+    },
+    {
+      "name": "Leonardo B. Oliveira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Lisandro Zambenedetti Granville",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Luciano Paschoal Gaspary",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Luis Kowada",
+      "inst": "UFF"
+    },
+    {
+      "name": "Luiz Fernando Rust da Costa Carmo",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Luiz Carlos Albini",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Marco Aurelio Amaral Henriques",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Marcos Simplicio Jr",
+      "inst": "USP"
+    },
+    {
+      "name": "Marinho Barcellos",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Marjory Da Costa-Abreu",
+      "inst": "Sheffield Hallam University"
+    },
+    {
+      "name": "Mário Alvim",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Michele Nogueira",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Michelle Wangham",
+      "inst": "UNIVALI"
+    },
+    {
+      "name": "Miguel Franklin de Castro",
+      "inst": "UFC"
+    },
+    {
+      "name": "Miguel Elias Mitre Campista",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Natalia Castro Fernandes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Otto Carlos Muniz Bandeira Duarte",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Paulo de Geus",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Paulo André da Silva Gonçalves",
+      "inst": "UFPE"
+    },
+    {
+      "name": "Pedro Velloso",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Priscila Solis",
+      "inst": "UnB"
+    },
+    {
+      "name": "Rafael de Sousa Junior",
+      "inst": "UnB"
+    },
+    {
+      "name": "Raphael Machado",
+      "inst": "Inmetro e UFF"
+    },
+    {
+      "name": "Raul Ceretta Nunes",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Ricardo Custódio",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Ricardo Dahab",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Routo Terada",
+      "inst": "USP"
+    },
+    {
+      "name": "Sergio Oliveira",
+      "inst": "UFSJ"
+    }
+  ],
+  "chairs": [
+    {
+      "name": "Igor Monteiro Moraes",
+      "inst": "UFF",
+      "role": "PC Chair (Trilha de Sistemas Computacionais e Redes de Comunicação)"
+    },
+    {
+      "name": "Luis Kowada",
+      "inst": "UFF",
+      "role": "PC Chair (Trilha de Criptografia)"
+    }
+  ],
+  "notes": "SBSeg 2020 (XX SBSeg), online due to COVID-19, organized by LNCC/Inmetro/UFF. Main track had two sub-tracks: Criptografia and Sistemas Computacionais e Redes de Comunicação. Members extracted from the 'COMITÊ DE PROGRAMA' section of the main-track call-for-papers (principal.html). Chairs are the 'Coordenação do Comitê de Programa do SBSeg 2020'. The separate comite_pt.html page only lists general/local organizing committee and workshop coordinators, not the full PC member roster. 57 PC members listed."
+}

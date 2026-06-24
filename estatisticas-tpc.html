@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="tpc.title">Estatísticas do TPC · Trilha Principal · CESeg</title>
+  <meta name="description" data-i18n="tpc.desc" data-i18n-attr="content"
+        content="Cruzamento entre os membros do Comitê de Programa (TPC) da Trilha Principal do SBSeg e os artigos aceitos em cada edição.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="estatisticas-tpc">
+  <header id="site-header"></header>
+  <main>
+    <section class="page-head"><div class="wrap">
+      <div class="eyebrow" data-i18n="tpc.eyebrow">SBSeg · Trilha Principal</div>
+      <h1 data-i18n="tpc.h1">TPC × Artigos Aceitos: o impacto do Comitê de Programa</h1>
+      <p class="lead" data-i18n="tpc.lead">Cruzamento entre os membros do Comitê de Programa Técnico (TPC) da Trilha Principal do SBSeg e os artigos efetivamente aceitos em cada edição.</p>
+    </div></section>
+
+    <section class="content"><div class="wrap">
+      <p data-i18n="tpc.intro">Para cada edição, cruzamos a lista de membros do TPC (extraída da chamada de trabalhos daquele ano) com a autoria dos artigos aceitos na mesma edição. O objetivo é dimensionar o peso das submissões do próprio comitê, a relação entre o tamanho do TPC e o volume de aceitos, e quem são os membros mais publicados.</p>
+
+      <div id="tpcApp">
+        <!-- KPIs -->
+        <div class="tpc-kpis" id="tpcKpis"></div>
+
+        <!-- (b) correlation -->
+        <h2 class="tpc-h2" data-i18n="tpc.corrTitle">Tamanho do TPC × artigos aceitos</h2>
+        <p class="tpc-p" data-i18n="tpc.corrDesc">Edições com comitês maiores tendem a registrar mais artigos aceitos. A correlação é forte e positiva, mas não implica causalidade: comitês crescem junto com a comunidade e o número de submissões.</p>
+        <div class="tpc-chart" id="tpcCorr"></div>
+
+        <!-- (a,c) per-edition -->
+        <h2 class="tpc-h2" data-i18n="tpc.edTitle">Por edição: impacto e destaques</h2>
+        <p class="tpc-p" data-i18n="tpc.edDesc">"Artigos c/ autor do TPC" mede quantos dos aceitos têm ao menos um coautor que era membro do comitê naquele ano. "Membros que publicaram" conta quantos integrantes do TPC assinaram ao menos um artigo. Clique em "ver todos" para a lista completa de cada edição.</p>
+        <div id="tpcEditions"></div>
+
+        <!-- (d) global ranking -->
+        <h2 class="tpc-h2" data-i18n="tpc.rkTitle">Ranking geral dos membros do TPC mais publicados</h2>
+        <p class="tpc-p" data-i18n="tpc.rkDesc">Soma dos artigos aceitos por pessoa, contando apenas as edições em que ela integrava o TPC. Um mesmo artigo com vários coautores do comitê é creditado a cada um deles.</p>
+        <div id="tpcRanking"></div>
+      </div>
+
+      <!-- methodology -->
+      <h2 class="tpc-h2" data-i18n="tpc.methTitle">Metodologia e limitações</h2>
+      <ul class="tpc-meth">
+        <li data-i18n="tpc.meth1">Artigos: trilha principal (completos + curtos) de <b>scripts/sbseg_data.json</b>, extraídos dos anais na SOL/SBC. Aberturas e apresentações não contam.</li>
+        <li data-i18n="tpc.meth2">TPC: listas extraídas da chamada da Trilha Principal de cada edição (sites oficiais e clones em sbseg-sbc.github.io; quando necessário, via Wayback Machine). Membros e coordenadores do comitê de programa entram; comitês de organização local e de workshops satélites ficam de fora.</li>
+        <li data-i18n="tpc.meth3">Cruzamento por nome (primeiro + último token, com tratamento de sufixos como Jr./Filho), o mesmo critério usado nas demais estatísticas do site. Homônimos podem gerar pequenas imprecisões.</li>
+        <li data-i18n="tpc.meth4">Cobertura: 13 edições (2012–2014 e 2016–2025). As edições de 2011 (lista incompleta) e 2015 (lista indisponível online) foram excluídas das estatísticas.</li>
+      </ul>
+      <p class="tpc-regen" data-i18n="tpc.regen">Dados gerados por <b>scripts/tpc_crossref.py</b> a partir de <b>scripts/tpc/&lt;ano&gt;.json</b> e <b>scripts/sbseg_data.json</b>.</p>
+    </div></section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/tpc.js"></script>
+</body>
+</html>

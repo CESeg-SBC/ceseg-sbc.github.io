@@ -1,0 +1,349 @@
+{
+  "year": 2023,
+  "source": "https://web.archive.org/web/20231210202843/https://sbseg2023.ufjf.br/chamadas/trilha-principal/",
+  "members": [
+    {
+      "name": "Alberto Schaeffer Filho",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Aldri dos Santos",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Alex Borges Vieira",
+      "inst": "UFJF"
+    },
+    {
+      "name": "Altair Santin",
+      "inst": "PUC-PR"
+    },
+    {
+      "name": "André Grégio",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Antônio Abelém",
+      "inst": "UFPA"
+    },
+    {
+      "name": "Augusto Neto",
+      "inst": "UFRN"
+    },
+    {
+      "name": "Bruno B. Zarpelão",
+      "inst": "UEL"
+    },
+    {
+      "name": "Carla Merkle Westphall",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Carlo Marcelo Revoredo da Silva",
+      "inst": "UPE"
+    },
+    {
+      "name": "Carlos André Batista de Carvalho",
+      "inst": "UFPI"
+    },
+    {
+      "name": "Carlos Eduardo da Silva",
+      "inst": "Sheffield Hallam University"
+    },
+    {
+      "name": "Carlos Raniery Paula dos Santos",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Charles Christian Miers",
+      "inst": "UDESC"
+    },
+    {
+      "name": "Charles Prado",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Daniel Batista",
+      "inst": "USP"
+    },
+    {
+      "name": "Davidson Boccardo",
+      "inst": "Clavis – Segurança da Informação"
+    },
+    {
+      "name": "Diego Kreutz",
+      "inst": "Unipampa"
+    },
+    {
+      "name": "Diogo Mattos",
+      "inst": "UFF"
+    },
+    {
+      "name": "Dorgival Guedes",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Edelberto Franco Silva",
+      "inst": "Universidade Federal de Juiz de Fora"
+    },
+    {
+      "name": "Eduardo Alchieri",
+      "inst": "UNB"
+    },
+    {
+      "name": "Eduardo Feitosa",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Eduardo Souto",
+      "inst": "UFAM"
+    },
+    {
+      "name": "Emerson Ribeiro de Mello",
+      "inst": "IFSC"
+    },
+    {
+      "name": "Ewerton Andrade",
+      "inst": "UNIR"
+    },
+    {
+      "name": "Félix Carvalho Rodrigues",
+      "inst": "University of Campinas"
+    },
+    {
+      "name": "Hilder Vitor Lima Pereira",
+      "inst": "COSIC, KU Leuven"
+    },
+    {
+      "name": "Igor Moraes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Ivan Sendin",
+      "inst": "UFU"
+    },
+    {
+      "name": "Jean Martina",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Jeferson Campos Nobre",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Jeroen van de Graaf",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Jheyne Nayara Ortiz",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "João Gondim",
+      "inst": "UNB"
+    },
+    {
+      "name": "Juliano Kazienko",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Lisandro Zambenedetti Granville",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Lourenco Pereira Jr",
+      "inst": "ITA"
+    },
+    {
+      "name": "Luciano Paschoal Gaspary",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Lucila Bento",
+      "inst": "UERJ"
+    },
+    {
+      "name": "Luis Kowada",
+      "inst": "UFF"
+    },
+    {
+      "name": "Luiz Carlos Albini",
+      "inst": "UFPR"
+    },
+    {
+      "name": "Luiz Fernando Rust da Costa Carmo",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Marco Aurelio Amaral Henriques",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Marcos Simplicio Jr",
+      "inst": "USP"
+    },
+    {
+      "name": "Marinho Barcellos",
+      "inst": "University of Waikato"
+    },
+    {
+      "name": "Mário S. Alvim",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Marjory Da Costa-Abreu",
+      "inst": "Sheffield Hallam University"
+    },
+    {
+      "name": "Martín Vigil",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Michele Nogueira",
+      "inst": "UFMG"
+    },
+    {
+      "name": "Michelle Wangham",
+      "inst": "Univali"
+    },
+    {
+      "name": "Miguel Elias Mitre Campista",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Miguel Franklin de Castro",
+      "inst": "UFC"
+    },
+    {
+      "name": "Natalia Castro Fernandes",
+      "inst": "UFF"
+    },
+    {
+      "name": "Paulo André da Silva Gonçalves",
+      "inst": "UFPE"
+    },
+    {
+      "name": "Paulo Barreto",
+      "inst": "University of Washington"
+    },
+    {
+      "name": "Paulo de Geus",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Paulo Matias",
+      "inst": "UFSCar"
+    },
+    {
+      "name": "Pedro Velloso",
+      "inst": "UFRJ"
+    },
+    {
+      "name": "Priscila Solis",
+      "inst": "UNB"
+    },
+    {
+      "name": "Rafael de Sousa Junior",
+      "inst": "UNB"
+    },
+    {
+      "name": "Rafael Obelheiro",
+      "inst": "UDESC"
+    },
+    {
+      "name": "Raphael Machado",
+      "inst": "Inmetro"
+    },
+    {
+      "name": "Raul Ceretta Nunes",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Ricardo Custódio",
+      "inst": "UFSC"
+    },
+    {
+      "name": "Ricardo Dahab",
+      "inst": "Unicamp"
+    },
+    {
+      "name": "Roberto Gallo",
+      "inst": "Kryptus"
+    },
+    {
+      "name": "Roberto Samarone Araujo",
+      "inst": "UFPA"
+    },
+    {
+      "name": "Rodrigo Sanches Miani",
+      "inst": "UFU"
+    },
+    {
+      "name": "Rossana Andrade",
+      "inst": "UFC"
+    },
+    {
+      "name": "Routo Terada",
+      "inst": "USP"
+    },
+    {
+      "name": "Sergio Oliveira",
+      "inst": "UFSJ"
+    },
+    {
+      "name": "Silvio Ereno Quincozes",
+      "inst": "Universidade Federal de Uberlândia"
+    },
+    {
+      "name": "Tereza Carvalho",
+      "inst": "USP"
+    },
+    {
+      "name": "Thais Bardini Idalino",
+      "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+      "name": "Thales Areco Bandiera Paiva",
+      "inst": "Universidade de São Paulo"
+    },
+    {
+      "name": "Vitor Hugo Galhardo Moia",
+      "inst": "Instituto de Pesquisas Eldorado"
+    },
+    {
+      "name": "Walter Priesnitz Filho",
+      "inst": "UFSM"
+    },
+    {
+      "name": "Weverton Cordeiro",
+      "inst": "UFRGS"
+    },
+    {
+      "name": "Wilson Melo Jr",
+      "inst": "Inmetro"
+    }
+  ],
+  "chairs": [
+    {
+      "name": "Aldri Luiz dos Santos",
+      "inst": "UFMG",
+      "role": "Coordenador de Programa"
+    },
+    {
+      "name": "Weverton Luis da Costa Cordeiro",
+      "inst": "UFRGS",
+      "role": "Coordenador de Programa"
+    },
+    {
+      "name": "Alex Borges Vieira",
+      "inst": "UFJF",
+      "role": "Coordenador Geral"
+    },
+    {
+      "name": "Edelberto Franco Silva",
+      "inst": "UFJF",
+      "role": "Coordenador Geral"
+    }
+  ],
+  "notes": "Main track (Trilha Principal) TPC for SBSeg 2023, XXIII edition (Juiz de Fora-MG, 18-21 Sep 2023). Extracted from the Wayback Machine snapshot (2023-12-10) of the genuine 2023 site, because the live sbseg2023.ufjf.br domain now serves the SBSeg 2024 site (different committee). TPC members listed under 'Comitê Técnico de Programa (TPC)' on the trilha-principal CFP page. Chairs (general + program coordinators) taken from the Wayback 2023 homepage comites section (snapshot 2023-10-01)."
+}
