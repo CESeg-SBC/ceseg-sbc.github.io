@@ -5,11 +5,7 @@ const NAV = [
     {key:'nav.comissoes', href:'comissoes.html'},
     {key:'nav.conferencistas', href:'conferencistas.html'}]},
   {key:'nav.mapa', href:'comunidade.html'},
-  {key:'nav.sbseg', href:'sbseg.html', children:[
-    {key:'nav.anais', href:'anais.html'},
-    {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
-    {key:'nav.anaisEst', href:'anais-estendidos.html'},
-    {key:'nav.minicursos', href:'minicursos.html'}]},
+  {key:'nav.sbseg', href:'https://sbseg-sbc.github.io'},
   {key:'nav.homenagens', href:'homenageados.html'},
   {key:'nav.publicacoes', href:'publicacoes.html', children:[
     {key:'nav.anaisTP', href:'anais-trilha-principal.html'},
@@ -69,7 +65,7 @@ function renderFooter(){
       <p data-i18n="footer.address"></p></div>
     <div><h4 data-i18n="footer.navTitle"></h4>
       <p><a href="organizacao.html" data-i18n="nav.org"></a></p>
-      <p><a href="sbseg.html" data-i18n="nav.sbseg"></a></p>
+      <p><a href="https://sbseg-sbc.github.io" data-i18n="nav.sbseg"></a></p>
       <p><a href="publicacoes.html" data-i18n="nav.publicacoes"></a></p>
       <p><a href="documentos.html" data-i18n="nav.documentos"></a></p></div>
   </div>
