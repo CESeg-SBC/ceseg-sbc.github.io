@@ -27,6 +27,16 @@ OUT = os.path.join(ROOT, "assets", "data", "tpc-stats.json")
 # Editions whose scraped TPC list is incomplete/unavailable; excluded from stats.
 EXCLUDE = {2011, 2015}
 
+# Canonical (current/primary) institution for the GLOBAL ranking, keyed by
+# name_key. The per-edition data keeps each year's historical affiliation; the
+# global ranking, however, should show the person's current home institution,
+# not whichever it happened to be in their earliest TPC edition.
+CANONICAL_INST = {
+    ("diego", "kreutz"): "UNIPAMPA",
+    ("andre", "gregio"): "UFPR",
+    ("silvio", "quincozes"): "UNIPAMPA",
+}
+
 SUFFIXES = {"jr", "junior", "filho", "neto", "sobrinho", "segundo"}
 
 
@@ -187,6 +197,9 @@ def main():
     global_ranking = sorted(
         glob_people.values(),
         key=lambda g: (-g["total_papers"], -len(g["pub_editions"]), fold(g["name"])))
+    for k, g in glob_people.items():
+        if k in CANONICAL_INST:
+            g["inst"] = CANONICAL_INST[k]
     for g in global_ranking:
         g["n_tpc_editions"] = len(g["tpc_editions"])
         g["n_pub_editions"] = len(g["pub_editions"])

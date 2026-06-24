@@ -203,6 +203,8 @@
     "text": "This page brings together the <strong>complete catalog</strong> of SBSeg proceedings published in the SOL/SBC Digital Library, plus <strong>complementary indexes and search tools</strong> that make it easy to locate and browse across editions, by title, author or topic.",
     "ebooksCard": "Short Course Ebooks",
     "ebooksCardNote": "Each SBSeg edition's short courses, compiled and published as an ebook in the SBC OpenLib catalog.",
+    "tpcCardNote": "Cross-reference between the SBSeg main track Program Committee members and the papers accepted in each edition.",
+    "tpcEstCardNote": "Cross-reference between each sub-event's Program Committee (Tools Track, WGID, WTICG, CTD, workshops) and the accepted papers.",
     "solEyebrow": "Digital Library · SOL/SBC",
     "solH2": "Official proceedings on SOL/SBC",
     "solText": "The proceedings of every SBSeg edition are published in SBC's SOL digital library. The resources on this page complement that official archive with search and indexes that span all editions.",

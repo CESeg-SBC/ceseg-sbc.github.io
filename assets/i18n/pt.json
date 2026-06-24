@@ -203,6 +203,8 @@
     "text": "Esta página reúne o <strong>catálogo completo</strong> dos anais do SBSeg publicados na Biblioteca Digital SOL/SBC, acrescido de <strong>índices e recursos de busca complementares</strong> que facilitam a localização e a navegação transversal às edições, por título, autor ou tema.",
     "ebooksCard": "Ebooks de Minicursos",
     "ebooksCardNote": "Os minicursos de cada edição do SBSeg, compilados e publicados em ebook no catálogo da SBC OpenLib.",
+    "tpcCardNote": "Cruzamento entre os membros do Comitê de Programa da Trilha Principal do SBSeg e os artigos aceitos em cada edição.",
+    "tpcEstCardNote": "Cruzamento entre os Comitês de Programa de cada sub-evento (Salão de Ferramentas, WGID, WTICG, CTD, workshops) e os artigos aceitos.",
     "solEyebrow": "Biblioteca Digital · SOL/SBC",
     "solH2": "Anais oficiais na SOL/SBC",
     "solText": "Os anais de todas as edições do SBSeg são publicados na biblioteca digital SOL da SBC. Os recursos desta página complementam esse acervo oficial com busca e índices que cruzam as edições.",

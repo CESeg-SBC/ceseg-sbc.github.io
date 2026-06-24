@@ -203,6 +203,8 @@
     "text": "Esta página reúne el <strong>catálogo completo</strong> de las actas del SBSeg publicadas en la Biblioteca Digital SOL/SBC, además de <strong>índices y recursos de búsqueda complementarios</strong> que facilitan la localización y la navegación transversal entre ediciones, por título, autor o tema.",
     "ebooksCard": "Ebooks de Minicursos",
     "ebooksCardNote": "Los minicursos de cada edición del SBSeg, compilados y publicados en ebook en el catálogo de la SBC OpenLib.",
+    "tpcCardNote": "Cruce entre los miembros del Comité de Programa de la pista principal del SBSeg y los artículos aceptados en cada edición.",
+    "tpcEstCardNote": "Cruce entre los Comités de Programa de cada sub-evento (Salón de Herramientas, WGID, WTICG, CTD, talleres) y los artículos aceptados.",
     "solEyebrow": "Biblioteca Digital · SOL/SBC",
     "solH2": "Actas oficiales en SOL/SBC",
     "solText": "Las actas de todas las ediciones del SBSeg se publican en la biblioteca digital SOL de la SBC. Los recursos de esta página complementan ese acervo oficial con búsqueda e índices que cruzan las ediciones.",
