@@ -1,0 +1,76 @@
+{
+ "year": 2021,
+ "edition_site": "https://sbseg2021.ufpa.br/",
+ "edition_clone": "https://sbseg-sbc.github.io/sbseg2021/",
+ "subevents": [
+  {
+   "section": "Salão de Ferramentas",
+   "abbrev": "SF",
+   "source": "https://sbseg-sbc.github.io/sbseg2021/sbseg2021.ufpa.br/chamada_salao_ferramentas.html",
+   "found": true,
+   "chairs": [
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"}
+   ],
+   "members": [
+    {"name": "André Grégio", "inst": "UFPR"},
+    {"name": "Carlos Eduardo da Silva", "inst": "Sheffield Hallam University"},
+    {"name": "Carlos Maziero", "inst": "UFPR"},
+    {"name": "Daniel Batista", "inst": "USP"},
+    {"name": "Diego Kreutz", "inst": "UNIPAMPA"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "Ewerton Andrade", "inst": "UNIR"},
+    {"name": "João Gondim", "inst": "UnB"},
+    {"name": "Luis Carlos de Bona", "inst": "UFPR"},
+    {"name": "Marcos Simplicio Jr.", "inst": "USP"},
+    {"name": "Marjory Da Costa-Abreu", "inst": "Sheffield Hallam University"},
+    {"name": "Martin Vigil", "inst": "UFSC"},
+    {"name": "Michelle Silva Wangham", "inst": "UNIVALI"},
+    {"name": "Robson Albuquerque", "inst": "UnB"}
+   ],
+   "notes": "Page title is 'V Salão de Ferramentas SBSeg 2021'. Chair is the 'Coordenação do V Salão de Ferramentas' (Emerson Ribeiro de Mello, IFSC). General SBSeg 2021 coordination (Roberto Samarone Araujo, Antônio Abelém) and CESeg coordination (Michele Nogueira, Igor Moraes) are NOT included as chairs. 15 program-committee members. Affiliations kept as printed."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação",
+   "abbrev": "WTICG",
+   "source": "https://sbseg-sbc.github.io/sbseg2021/sbseg2021.ufpa.br/chamada_wticg.html",
+   "found": true,
+   "chairs": [
+    {"name": "Eduardo Feitosa", "inst": "UFAM"}
+   ],
+   "members": [
+    {"name": "Altair Olivo Santin", "inst": "PUCPR"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"},
+    {"name": "Arlindo L. Marcon Jr", "inst": "IFPR"},
+    {"name": "Ewerton Andrade", "inst": "UNIR"},
+    {"name": "Carla Merkle Westphall", "inst": "UFSC"},
+    {"name": "Gerson Castro", "inst": "Tempest Security Intelligence"},
+    {"name": "Carlo Silva", "inst": "UPE"},
+    {"name": "Igor Moraes", "inst": "UFF"},
+    {"name": "Carlos da Silva", "inst": "Sheffield Hallam University"},
+    {"name": "Jean Martina", "inst": "UFSC"},
+    {"name": "Cintia Margi", "inst": "USP"},
+    {"name": "Jefferson Ricardini", "inst": "USP"},
+    {"name": "Daniel Batista", "inst": "USP"},
+    {"name": "João Gondim", "inst": "UNB"},
+    {"name": "Danilo Curvelo", "inst": "UFRN"},
+    {"name": "Juliano Kazienko", "inst": "UFSM"},
+    {"name": "Dianne Medeiros", "inst": "UFF"},
+    {"name": "Luiz Fernando Rust da Costa Carmo", "inst": "Inmetro"},
+    {"name": "Diego Kreutz", "inst": "UNIPAMPA"},
+    {"name": "Marco Aurelio Amaral Henriques", "inst": "UNICAMP"},
+    {"name": "Edelberto Silva", "inst": "UFJF"},
+    {"name": "Michelle Wangham", "inst": "UNIVALI"},
+    {"name": "Edna Canedo", "inst": "UNB"},
+    {"name": "Marjory Da Costa Abreu", "inst": "Sheffield Hallam University"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Rafael Obelheiro", "inst": "UDESC"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "Renato Borseti", "inst": "LNCC"},
+    {"name": "Ricardo Dahab", "inst": "UNICAMP"},
+    {"name": "Natalia Castro Fernandes", "inst": "UFF"}
+   ],
+   "notes": "Page title is 'XV Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG)'. Chair is the 'XV WTICG Coordination' (Eduardo Feitosa, UFAM), who also appears in the members list. General SBSeg 2021 coordination (Roberto Samarone Araujo, Antônio Abelém) and CESeg coordination (Michele Nogueira, Igor Moraes) are NOT included as chairs. 30 program-committee members listed in two columns on the page. Affiliations kept as printed."
+  }
+ ]
+}

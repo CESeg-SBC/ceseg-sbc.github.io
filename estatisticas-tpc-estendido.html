@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="tpce.title">Estatísticas do TPC · Anais Estendidos · CESeg</title>
+  <meta name="description" data-i18n="tpce.desc" data-i18n-attr="content"
+        content="Cruzamento entre os membros dos Comitês de Programa (TPC) de cada sub-evento do SBSeg e os artigos aceitos nos anais estendidos.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="estatisticas-tpc-estendido">
+  <header id="site-header"></header>
+  <main>
+    <section class="page-head"><div class="wrap">
+      <div class="eyebrow" data-i18n="tpce.eyebrow">SBSeg · Anais Estendidos · Sub-eventos</div>
+      <h1 data-i18n="tpce.h1">TPC dos sub-eventos × artigos aceitos</h1>
+      <p class="lead" data-i18n="tpce.lead">Cada sub-evento do SBSeg (Salão de Ferramentas, WGID, WTICG, CTD, workshops) tem seu próprio Comitê de Programa. Aqui cruzamos esses comitês com a autoria dos artigos aceitos no mesmo sub-evento e edição.</p>
+    </div></section>
+
+    <section class="content"><div class="wrap">
+      <p data-i18n="tpce.intro">Para cada par (edição, sub-evento) coletamos a lista do comitê (membros e coordenadores) na chamada de trabalhos daquele ano e cruzamos com a autoria dos artigos aceitos naquele mesmo sub-evento. Objetivos: dimensionar o peso das submissões do próprio comitê, a relação entre o tamanho do TPC do sub-evento e o número de aceitos, os membros mais publicados em cada edição e o ranking geral.</p>
+
+      <div id="tpceApp">
+        <div class="tpc-kpis" id="tpceKpis"></div>
+
+        <!-- (b) correlation, per sub-event unit -->
+        <h2 class="tpc-h2" data-i18n="tpce.corrTitle">Tamanho do TPC do sub-evento × artigos aceitos</h2>
+        <p class="tpc-p" data-i18n="tpce.corrDesc">Cada ponto é um sub-evento de uma edição (apenas os que publicaram a lista de membros do comitê). A relação é positiva, mas mais fraca que na trilha principal: sub-eventos pequenos com comitês enxutos convivem com workshops de comitê grande e poucos aceitos.</p>
+        <div class="tpc-chart" id="tpceCorr"></div>
+
+        <!-- (e) by sub-event type -->
+        <h2 class="tpc-h2" data-i18n="tpce.typeTitle">Por tipo de sub-evento</h2>
+        <p class="tpc-p" data-i18n="tpce.typeDesc">Agregando todas as edições, quanto cada tipo de sub-evento depende de submissões de membros do próprio comitê. O Salão de Ferramentas concentra de longe a maior autoria do TPC (perto de 60% dos artigos); no WTICG e no CTD, em que os trabalhos são majoritariamente de estudantes, essa fração cai para cerca de um terço ou menos.</p>
+        <div id="tpceTypes"></div>
+
+        <!-- (a,c) per edition -->
+        <h2 class="tpc-h2" data-i18n="tpce.edTitle">Por edição: sub-eventos e destaques</h2>
+        <p class="tpc-p" data-i18n="tpce.edDesc">"Artigos c/ autor do TPC" conta quantos aceitos têm ao menos um coautor que era membro do comitê daquele sub-evento. Clique em uma edição para ver a quebra por sub-evento e os membros mais publicados.</p>
+        <div id="tpceEditions"></div>
+
+        <!-- (d) global ranking -->
+        <h2 class="tpc-h2" data-i18n="tpce.rkTitle">Ranking geral: membros do TPC mais publicados nos sub-eventos</h2>
+        <p class="tpc-p" data-i18n="tpce.rkDesc">Soma dos artigos aceitos por pessoa nos sub-eventos em que ela integrava o comitê. Um artigo com vários coautores do comitê é creditado a cada um deles.</p>
+        <div id="tpceRanking"></div>
+      </div>
+
+      <h2 class="tpc-h2" data-i18n="tpce.methTitle">Metodologia e limitações</h2>
+      <ul class="tpc-meth">
+        <li data-i18n="tpce.meth1">Artigos: todos os sub-eventos dos anais estendidos de <b>scripts/sbseg_data.json</b> (SOL/SBC), exceto a Abertura.</li>
+        <li data-i18n="tpce.meth2">TPC: comitê de cada sub-evento (membros + coordenadores), extraído da chamada de trabalhos daquele sub-evento e edição (sites oficiais, clones em sbseg-sbc.github.io e Wayback Machine).</li>
+        <li data-i18n="tpce.meth3">Cruzamento por nome (primeiro + último token, com tratamento de sufixos como Jr./Filho), o mesmo critério das demais estatísticas do site. Homônimos podem gerar pequenas imprecisões.</li>
+        <li data-i18n="tpce.meth4">Cobertura: edições 2018–2025, 34 sub-eventos. Em 8 deles a chamada listou apenas os coordenadores (sem o comitê completo): SF 2018, CTD/WGID/WTICG 2022, WGID 2023, WGID/WQuSec/W. Ética 2025. Nesses casos a correlação usa apenas os sub-eventos com lista de membros publicada.</li>
+        <li data-i18n="tpce.meth5">Mapeamentos inferidos em 2025: "Resumos Expandidos" e "Iniciação em Andamento" usam o comitê do WTICG; "Resumos Expandidos da Trilha da Indústria" usa o comitê da Trilha de Indústria.</li>
+      </ul>
+      <p class="tpc-regen" data-i18n="tpce.regen">Dados gerados por <b>scripts/tpc_estendido_crossref.py</b> a partir de <b>scripts/tpc/estendido/&lt;ano&gt;.json</b> e <b>scripts/sbseg_data.json</b>.</p>
+    </div></section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="assets/js/site.js"></script>
+  <script src="assets/js/tpc-estendido.js"></script>
+</body>
+</html>

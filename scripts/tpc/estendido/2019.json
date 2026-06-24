@@ -1,0 +1,72 @@
+{
+ "year": 2019,
+ "edition_site": "https://sbseg2019.ime.usp.br/",
+ "edition_clone": "https://sbseg-sbc.github.io/sbseg2019/",
+ "subevents": [
+  {
+   "section": "Salão de Ferramentas",
+   "abbrev": "SF",
+   "source": "https://sbseg2019.ime.usp.br/cfp-ferramentas.html",
+   "found": true,
+   "chairs": [
+    {"name": "André Grégio", "inst": "UFPR"}
+   ],
+   "members": [
+    {"name": "Adriano Cansian", "inst": "Unesp"},
+    {"name": "Altair Santin", "inst": "PUC-PR"},
+    {"name": "Carlos Maziero", "inst": "UFPR"},
+    {"name": "Davidson Boccardo", "inst": "Clavis Segurança da Informação"},
+    {"name": "Diego Aranha", "inst": "Aarhus University"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "João Gondim", "inst": "UnB"},
+    {"name": "Karina Mochetti", "inst": "UFF"},
+    {"name": "Luis Bona", "inst": "UFPR"},
+    {"name": "Márjory da Costa-Abreu", "inst": "UFRN"},
+    {"name": "Robson Albuquerque", "inst": "UnB"}
+   ],
+   "notes": "Chair (Coordenador do Salão de Ferramentas) listed on cfp-ferramentas.html and comite.html. 12 program committee members."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação",
+   "abbrev": "WTICG",
+   "source": "https://sbseg2019.ime.usp.br/cfp-wticg.html",
+   "found": true,
+   "chairs": [
+    {"name": "Carlos Eduardo da Silva", "inst": "IMD/UFRN"},
+    {"name": "Cíntia Borges Margi", "inst": "EP-USP"}
+   ],
+   "members": [
+    {"name": "Altair Santin", "inst": "PUCPR"},
+    {"name": "Arlindo L. Marcon Jr.", "inst": "IFPR"},
+    {"name": "Carla Merkle Westphall", "inst": "UFSC"},
+    {"name": "Carlos Ferraz", "inst": "UFPE"},
+    {"name": "Daniel Batista", "inst": "USP"},
+    {"name": "Danilo Curvelo", "inst": "UFRN"},
+    {"name": "Diogo Mattos", "inst": "UFF"},
+    {"name": "Edelberto Silva", "inst": "UFJF"},
+    {"name": "Edna Canedo", "inst": "UnB"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"},
+    {"name": "Ewerton Rodrigues de Andrade", "inst": "UNIR"},
+    {"name": "Igor Moraes", "inst": "UFF"},
+    {"name": "Ivanilson Junior", "inst": "IFRN"},
+    {"name": "Jean Martina", "inst": "UFSC"},
+    {"name": "Jefferson Ricardini", "inst": "USP"},
+    {"name": "Juliano Kazienko", "inst": "UFSM"},
+    {"name": "Juliano Naves", "inst": "IFRO"},
+    {"name": "Leonardo B. Oliveira", "inst": "UFMG"},
+    {"name": "Luiz Fernando Rust da Costa Carmo", "inst": "Inmetro"},
+    {"name": "Marco Aurelio Amaral Henriques", "inst": "Unicamp"},
+    {"name": "Márjory da Costa Abreu", "inst": "UFRN"},
+    {"name": "Michelle Wangham", "inst": "Univali"},
+    {"name": "Natalia Castro Fernandes", "inst": "UFF"},
+    {"name": "Rafael Obelheiro", "inst": "UDESC"},
+    {"name": "Silvio Sampaio", "inst": "UFRN"},
+    {"name": "William de Souza", "inst": "University of London"}
+   ],
+   "notes": "Chairs (Carlos Eduardo da Silva, Cíntia Borges Margi) listed inline as (Chair) on cfp-wticg.html and as coordinators on comite.html; institutions for chairs taken from comite.html (IMD/UFRN; EP-USP). The two chairs also appear in the program committee list on cfp-wticg.html but are recorded only under chairs here. 28 distinct program committee members excluding chairs."
+  }
+ ]
+}

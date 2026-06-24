@@ -1,0 +1,121 @@
+{
+ "year": 2018,
+ "edition_site": "https://sbseg2018.imd.ufrn.br/",
+ "edition_clone": "https://sbseg-sbc.github.io/sbseg2018/",
+ "subevents": [
+  {
+   "section": "Concurso de Teses e Dissertações",
+   "abbrev": "CTD",
+   "source": "https://web.archive.org/web/20190124032134/https://sbseg2018.imd.ufrn.br/pt/comite/",
+   "found": true,
+   "chairs": [
+    {"name": "Fábio Borges", "inst": "LNCC"}
+   ],
+   "members": [
+    {"name": "Altair Santin", "inst": ""},
+    {"name": "Anderson Fernandes Pereira dos Santos", "inst": ""},
+    {"name": "Artur Ziviani", "inst": ""},
+    {"name": "Bruno Schulze", "inst": ""},
+    {"name": "Debora Muchaluat-Saade", "inst": ""},
+    {"name": "Eduardo Feitosa", "inst": ""},
+    {"name": "Franklin Marquezino", "inst": ""},
+    {"name": "Lisandro Zambenedetti Granville", "inst": ""},
+    {"name": "Luciano Paschoal Gaspary", "inst": ""},
+    {"name": "Marco Aurelio Amaral Henriques", "inst": ""},
+    {"name": "Michele Nogueira", "inst": ""},
+    {"name": "Michelle Wangham", "inst": ""},
+    {"name": "Natalia Castro Fernandes", "inst": ""},
+    {"name": "Pedro Lara", "inst": ""},
+    {"name": "Rafael de Sousa Junior", "inst": ""},
+    {"name": "Raphael Machado", "inst": ""},
+    {"name": "Renato Portugal", "inst": ""},
+    {"name": "Ricardo Custódio", "inst": ""},
+    {"name": "Ricardo Dahab", "inst": ""},
+    {"name": "Routo Terada", "inst": ""}
+   ],
+   "notes": "Section heading on page: 'Coordenação do concurso de teses e dissertações (CTD)'. Coordinator/chair: Fábio Borges (LNCC). The 'Comitê de programa' list for CTD gives member names WITHOUT affiliations on the page, so inst left empty. 20 members."
+  },
+  {
+   "section": "Salão de Ferramentas",
+   "abbrev": "SF",
+   "source": "https://web.archive.org/web/20190124032134/https://sbseg2018.imd.ufrn.br/pt/comite/",
+   "found": true,
+   "chairs": [
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"}
+   ],
+   "members": [],
+   "notes": "Section heading on page: 'Coordenação do Salão de Ferramentas'. Only the coordinator (Emerson Ribeiro de Mello, IFSC) is listed on the committee page; no separate Salão de Ferramentas program committee / avaliadores roster is published on this page."
+  },
+  {
+   "section": "Workshop de Gestão de Identidades Digitais",
+   "abbrev": "WGID",
+   "source": "https://web.archive.org/web/20190124032134/https://sbseg2018.imd.ufrn.br/pt/comite/",
+   "found": true,
+   "chairs": [
+    {"name": "Edelberto Franco Silva", "inst": "UFJF"}
+   ],
+   "members": [
+    {"name": "Altair Santin", "inst": "PUC-PR"},
+    {"name": "Antônio Tadeu Gomes", "inst": "LNCC"},
+    {"name": "Carlos da Silva", "inst": "UFRN"},
+    {"name": "Carlos Ferraz", "inst": "UFPE"},
+    {"name": "Débora Muchauat Saade", "inst": "UFF"},
+    {"name": "Edelberto Franco Silva", "inst": "UFJF"},
+    {"name": "Eduardo Pagani", "inst": "UFJF"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"},
+    {"name": "Fábio Borges", "inst": "LNCC"},
+    {"name": "Flávio Deus", "inst": "UnB"},
+    {"name": "Gustavo Motta", "inst": "UFPB"},
+    {"name": "Jean Martina", "inst": "UFSC"},
+    {"name": "Marco Aurelio Amaral", "inst": "UNICAMP"},
+    {"name": "Michelle Wangham", "inst": "UNIVALI"},
+    {"name": "Natalia Castro Fernandes", "inst": "UFF"},
+    {"name": "Ricardo Custódio", "inst": "UFSC"}
+   ],
+   "notes": "Section heading on page: 'Workshop de Gestão de Identidades Digitais (WGID)'. Coordinator/chair Edelberto Franco Silva (UFJF) also appears within the program committee list on the page. 16 members."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação",
+   "abbrev": "WTICG",
+   "source": "https://web.archive.org/web/20190124032134/https://sbseg2018.imd.ufrn.br/pt/comite/",
+   "found": true,
+   "chairs": [
+    {"name": "Igor Moraes", "inst": "UFF"},
+    {"name": "Ivanilson Junior", "inst": "IFRN"}
+   ],
+   "members": [
+    {"name": "Alberto Schaeffer-Filho", "inst": "UFRGS"},
+    {"name": "Altair Santin", "inst": "PUCPR"},
+    {"name": "André Grégio", "inst": "UFPR"},
+    {"name": "Arlindo L. Marcon Jr.", "inst": "IFPR"},
+    {"name": "Carla Merkle Westphall", "inst": "UFSC"},
+    {"name": "Carlos da Silva", "inst": "UFRN"},
+    {"name": "Carlos Maziero", "inst": "UFPR"},
+    {"name": "Carlos Gustavo Rocha", "inst": "IFRN"},
+    {"name": "Daniel Batista", "inst": "USP"},
+    {"name": "Daniel G. Costa", "inst": "UEFS"},
+    {"name": "Davidson Boccardo", "inst": "Clavis Segurança da Informação"},
+    {"name": "Diogo Mattos", "inst": "UFF"},
+    {"name": "Edelberto Silva", "inst": "UFJF"},
+    {"name": "Edna Canedo", "inst": "UnB"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"},
+    {"name": "João Gondim", "inst": "UnB"},
+    {"name": "Juliano Kazienko", "inst": "UFSM"},
+    {"name": "Juliano Naves", "inst": "IFRO"},
+    {"name": "Leonardo B. Oliveira", "inst": "UFMG"},
+    {"name": "Luiz Fernando Rust da Costa Carmo", "inst": "Inmetro"},
+    {"name": "Márjory da Costa Abreu", "inst": "UFRN"},
+    {"name": "Michelle Wangham", "inst": "Univali"},
+    {"name": "Paulo André da Silva Gonçalves", "inst": "UFPE"},
+    {"name": "Rafael Obelheiro", "inst": "UDESC"},
+    {"name": "Raphael Machado", "inst": "Inmetro"},
+    {"name": "Ricardo Dahab", "inst": "Unicamp"},
+    {"name": "Rodrigo de Souza Couto", "inst": "UERJ"},
+    {"name": "William de Souza", "inst": "University of London"}
+   ],
+   "notes": "Section heading on page: 'Coordenação do Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG)'. Two coordinators/chairs: Igor Moraes (UFF) and Ivanilson Junior (IFRN). 30 program committee members, each with affiliation as written on the page."
+  }
+ ]
+}

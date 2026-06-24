@@ -1,0 +1,93 @@
+{
+ "year": 2022,
+ "edition_site": "https://sbseg2022.inf.ufsm.br/",
+ "edition_clone": "https://sbseg-sbc.github.io/sbseg2022/",
+ "subevents": [
+  {
+   "section": "Concurso de Teses e Dissertações",
+   "abbrev": "CTD",
+   "source": "https://sbseg2022.inf.ufsm.br/chamada_ctd.html",
+   "found": true,
+   "chairs": [
+    {"name": "Altair Olivo Santin", "inst": "PUCPR"}
+   ],
+   "members": [],
+   "notes": "Chamada page (CTDSeg) lists only the coordinator Altair Olivo Santin (PUCPR). No Comitê de Programa / Comissão de Avaliação roster is published on the call page or the related programação pages."
+  },
+  {
+   "section": "Salão de Ferramentas",
+   "abbrev": "SF",
+   "source": "https://sbseg2022.inf.ufsm.br/chamada_sf.html",
+   "found": true,
+   "chairs": [
+    {"name": "Diego Kreutz", "inst": "Unipampa"},
+    {"name": "Raul Ceretta Nunes", "inst": "UFSM"}
+   ],
+   "members": [
+    {"name": "André Grégio", "inst": "Universidade Federal do Paraná (UFPR)"},
+    {"name": "Bruno Albertini", "inst": "Universidade de São Paulo (EP/USP)"},
+    {"name": "Bruno Vavalà", "inst": "Intel"},
+    {"name": "Carlos da Silva", "inst": "Sheffield Hallam University"},
+    {"name": "Carlos Maziero", "inst": "Universidade Federal do Paraná (UFPR)"},
+    {"name": "Charles Miers", "inst": "Universidade do Estado de Santa Catarina (UDESC)"},
+    {"name": "Daniel Batista", "inst": "Universidade de São Paulo (IME/USP)"},
+    {"name": "Diego Kreutz", "inst": "Universidade Federal do Pampa (UNIPAMPA)"},
+    {"name": "Diogo Mattos", "inst": "Universidade Federal Fluminense (UFF)"},
+    {"name": "Eduardo Feitosa", "inst": "Universidade Federal de Amazonas (UFAM)"},
+    {"name": "Eduardo Souto", "inst": "Universidade Federal de Amazonas (UFAM)"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "Instituto Federal de Santa Catarina (IFSC)"},
+    {"name": "Ewerton Andrade", "inst": "Universidade Federal de Rondônia (UNIR)"},
+    {"name": "Gerson Castro", "inst": "Tempest Security Intelligence"},
+    {"name": "Henrique Ferraz Arcoverde", "inst": "Tempest Security Intelligence"},
+    {"name": "Jeferson Campos Nobre", "inst": "Universidade Federal do Rio Grande do Sul (UFRGS)"},
+    {"name": "João Chervinski", "inst": "Monash University"},
+    {"name": "João Gondim", "inst": "Universidade de Brasília (UnB)"},
+    {"name": "Juliano Kazienko", "inst": "Universidade Federal de Santa Maria (UFSM)"},
+    {"name": "Lourenco Pereira Jr", "inst": "Instituto Tecnológico de Aeronáutica (ITA)"},
+    {"name": "Luciano Ignaczak", "inst": "Universidade do Vale do Rio dos Sinos (UNISINOS)"},
+    {"name": "Luis Carlos De Bona", "inst": "Universidade Federal do Paraná (UFPR)"},
+    {"name": "Marcia Henke", "inst": "Universidade Federal de Santa Maria (UFSM)"},
+    {"name": "Marcos Simplicio Jr", "inst": "Universidade de São Paulo (EP/USP)"},
+    {"name": "Marjory Da Costa-Abreu", "inst": "Sheffield Hallam University"},
+    {"name": "Martín Vigil", "inst": "Universidade Federal de Santa Catarina (UFSC)"},
+    {"name": "Mauricio Correa", "inst": "XLabs Security"},
+    {"name": "Michelle Wangham", "inst": "Universidade do Vale do Itajaí (UNIVALI)"},
+    {"name": "Rafael Obelheiro", "inst": "Universidade do Estado de Santa Catarina (UDESC)"},
+    {"name": "Rafael Pires", "inst": "Swiss Federal Institute of Technology Lausanne (EPFL)"},
+    {"name": "Raul Ceretta Nunes", "inst": "Universidade Federal de Santa Maria (UFSM)"},
+    {"name": "Ricardo Schmidt", "inst": "Universidade de Passo Fundo (UPF)"},
+    {"name": "Roben Lunardi", "inst": "Instituto Federal do Rio Grande do Sul (IFRS)"},
+    {"name": "Roberto Samarone Araujo", "inst": "Universidade Federal do Pará (UFPA)"},
+    {"name": "Robson Albuquerque", "inst": "Universidade de Brasília (UnB)"},
+    {"name": "Rodrigo Mansilha", "inst": "Universidade Federal do Pampa (UNIPAMPA)"},
+    {"name": "Silvio Quincozes", "inst": "Universidade Federal de Uberlândia (UFU)"},
+    {"name": "Tiago Antônio Rizzetti", "inst": "Universidade Federal de Santa Maria (UFSM)"},
+    {"name": "Vinicius Cogo", "inst": "University of Lisbon"}
+   ],
+   "notes": "Chairs (Coordenadores): Diego Kreutz (Unipampa) and Raul Ceretta Nunes (UFSM). Comitê do Programa fully published on the call page with institutions (39 members)."
+  },
+  {
+   "section": "Workshop de Gestão de Identidades Digitais",
+   "abbrev": "WGID",
+   "source": "https://sbseg2022.inf.ufsm.br/chamada-wgid.html",
+   "found": true,
+   "chairs": [
+    {"name": "Jean Everson Martina", "inst": "UFSC"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"}
+   ],
+   "members": [],
+   "notes": "XII WGID coordinators: Jean Everson Martina (UFSC) and Emerson Ribeiro de Mello (IFSC). Comitê de Programa shown as 'Em formação' (under formation) on the call page; no member roster was ever published on the call or programação-WGId page."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação",
+   "abbrev": "WTICG",
+   "source": "https://sbseg2022.inf.ufsm.br/chamada_wticg.html",
+   "found": true,
+   "chairs": [
+    {"name": "Rossana Maria de Castro Andrade", "inst": "UFC"}
+   ],
+   "members": [],
+   "notes": "Call page lists only the coordinator Rossana Maria de Castro Andrade (UFC). Text mentions an evaluation commission ('Uma comissão de avaliação escolherá os melhores...') but no committee member roster is published."
+  }
+ ]
+}

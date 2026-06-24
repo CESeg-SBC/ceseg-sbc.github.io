@@ -1,0 +1,1218 @@
+{
+ "year": 2025,
+ "edition_site": "https://sbseg2025.ppgia.pucpr.br/",
+ "edition_clone": "https://sbseg-sbc.github.io/sbseg2025/",
+ "subevents": [
+  {
+   "section": "Salão de Ferramentas",
+   "abbrev": "SF",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/sf/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Davidson Rodrigo Boccardo",
+     "inst": "Hospital Israelita Albert Einstein"
+    },
+    {
+     "name": "Wilson S. Melo Jr.",
+     "inst": "Inmetro"
+    }
+   ],
+   "members": [
+    {
+     "name": "Alan Oliveira de Sá",
+     "inst": "ULisboa"
+    },
+    {
+     "name": "Álvaro Rincon",
+     "inst": "UFRJ"
+    },
+    {
+     "name": "André R. A. Grégio",
+     "inst": "UFPR"
+    },
+    {
+     "name": "Breno Santana Santos",
+     "inst": "UFS"
+    },
+    {
+     "name": "Bruno de Carvalho Albertin",
+     "inst": "EPUSP"
+    },
+    {
+     "name": "Charles Christian Miers",
+     "inst": "UFSC"
+    },
+    {
+     "name": "Daniel Macêdo Batista",
+     "inst": "USP"
+    },
+    {
+     "name": "Dianne Scherly Varela de Medeiros",
+     "inst": "UFF"
+    },
+    {
+     "name": "Diego Kreutz",
+     "inst": "UNIPAMPA"
+    },
+    {
+     "name": "Diogo Menezes Ferrazani Mattos",
+     "inst": "UFF"
+    },
+    {
+     "name": "Eduardo Luzeiro Feitosa",
+     "inst": "UFAM"
+    },
+    {
+     "name": "Ewerton Andrade",
+     "inst": "UNIR"
+    },
+    {
+     "name": "Lucila Maria de Souza Bento",
+     "inst": "UERJ"
+    },
+    {
+     "name": "Marianne Batista Diniz da Silva",
+     "inst": "UFAL"
+    },
+    {
+     "name": "Robson Albuquerque",
+     "inst": "UnB"
+    },
+    {
+     "name": "Rodrigo Brandão Mansilha",
+     "inst": "UNIPAMPA"
+    }
+   ],
+   "notes": "16 program committee members + 2 chairs, as listed on the SF call page."
+  },
+  {
+   "section": "Workshop de Gestão de Identidades Digitais",
+   "abbrev": "WGID",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wgid/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Frederico Schardong",
+     "inst": "IFRS"
+    },
+    {
+     "name": "Emerson Ribeiro de Mello",
+     "inst": "IFSC"
+    }
+   ],
+   "members": [],
+   "notes": "Full name on page: XV Workshop de Gestão de Identidades Digitais. Only the two workshop coordinators are listed; no separate Comitê de Programa published on the call page."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação",
+   "abbrev": "WTICG",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wticg/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Flavia Paiva Agostini",
+     "inst": "Inmetro"
+    },
+    {
+     "name": "Vinícius Fülber Garcia",
+     "inst": "Universidade Federal do Paraná"
+    }
+   ],
+   "members": [
+    {
+     "name": "Ademar Takeo Akabane",
+     "inst": "Pontifícia Universidade Católica de Campinas"
+    },
+    {
+     "name": "André R. A. Grégio",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Carla Merkle Westphall",
+     "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+     "name": "Carlos A. Maziero",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Carlos Eduardo da Silva",
+     "inst": "Sheffield Hallam University"
+    },
+    {
+     "name": "Carlos Raniery Paula dos Santos",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Charles Varlei Neu",
+     "inst": "Universidade de Santa Cruz do Sul"
+    },
+    {
+     "name": "Cintia Borges Margi",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Daniel Pigatto",
+     "inst": "Universidade Tecnológica Federal do Paraná"
+    },
+    {
+     "name": "Daniel Stefani Marcon",
+     "inst": "Universidade do Vale do Rio Dos Sinos"
+    },
+    {
+     "name": "Dianne Scherly Varela de Medeiros",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Diego Kreutz",
+     "inst": "Universidade Federal do Pampa"
+    },
+    {
+     "name": "Diogo Menezes Ferrazani Mattos",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Dionisio Leite",
+     "inst": "Universidade Federal do Mato Grosso do Sul"
+    },
+    {
+     "name": "Eder John Scheid",
+     "inst": "Universidade Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Eduardo James Pereira Souto",
+     "inst": "Universidade Federal do Amazonas"
+    },
+    {
+     "name": "Eduardo Luzeiro Feitosa",
+     "inst": "Universidade Federal do Amazonas"
+    },
+    {
+     "name": "Emerson Ribeiro de Mello",
+     "inst": "Instituto Federal de Santa Catarina"
+    },
+    {
+     "name": "Érico Amaral",
+     "inst": "Universidade Federal do Pampa"
+    },
+    {
+     "name": "Ewerton Andrade",
+     "inst": "Universidade Federal de Rondônia e Sidia"
+    },
+    {
+     "name": "Flavia Paiva Agostini",
+     "inst": "Laboratório Nacional de Computação Científica"
+    },
+    {
+     "name": "Giovanni Venâncio",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Hilder Vitor Lima Pereira",
+     "inst": "Universidade Estadual de Campinas"
+    },
+    {
+     "name": "Igor Monteiro Moraes",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Ivan Silva Sendin",
+     "inst": "Universidade Federal de Uberlândia"
+    },
+    {
+     "name": "Jeferson Campos Nobre",
+     "inst": "Universidade Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Joaquim Celestino Júnior",
+     "inst": "Universidade Estadual do Ceará"
+    },
+    {
+     "name": "Juliano Kazienko",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Kalinka Regina Lucas Jaquie Castelo Branco",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Lucas Bondan",
+     "inst": "Rede Nacional de Ensino E Pesquisa"
+    },
+    {
+     "name": "Luciano Ignaczak",
+     "inst": "Universidade do Vale do Rio Dos Sinos"
+    },
+    {
+     "name": "Luis Carlos Erpen De Bona",
+     "inst": "Federal University of Parana"
+    },
+    {
+     "name": "Luiz Carlos Pessoa Albini",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Marcia Henke",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Marco Aurelio Amaral Henriques",
+     "inst": "Universidade Estadual de Campinas"
+    },
+    {
+     "name": "Marcus Botacin",
+     "inst": "Texas A&M University"
+    },
+    {
+     "name": "Marjory Da Costa-Abreu",
+     "inst": "Sheffield Hallam University"
+    },
+    {
+     "name": "Miguel Franklin de Castro",
+     "inst": "Universidade Federal do Ceará"
+    },
+    {
+     "name": "Muriel Figueredo Franco",
+     "inst": "Universidade Federal de Ciências da Saúde de Porto Alegre"
+    },
+    {
+     "name": "Newton Carlos Will",
+     "inst": "Universidade Tecnológica Federal do Paraná"
+    },
+    {
+     "name": "Paulo Matias",
+     "inst": "Universidade Federal de São Carlos"
+    },
+    {
+     "name": "Priscila Solis",
+     "inst": "Universidade de Brasília"
+    },
+    {
+     "name": "Rafael R. Obelheiro",
+     "inst": "Universidade do Estado de Santa Catarina"
+    },
+    {
+     "name": "Roben Castagna Lunardi",
+     "inst": "Instituto Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Roberto Samarone Araujo",
+     "inst": "Universidade Federal do Pará"
+    },
+    {
+     "name": "Robson Albuquerque",
+     "inst": "Universidade de Brasília"
+    },
+    {
+     "name": "Rodolfo Ipolito Meneguette",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Roger Immich",
+     "inst": "Universidade Federal do Rio Grande do Norte"
+    },
+    {
+     "name": "Sergio Oliveira",
+     "inst": "Universidade Federal de São João Del Rei"
+    },
+    {
+     "name": "Tiago Heinrich",
+     "inst": "Max Planck Institute for Informatics"
+    },
+    {
+     "name": "Vinícius Fülber Garcia",
+     "inst": "Federal University of Parana"
+    }
+   ],
+   "notes": "Full name on page: XIX Workshop de Trabalhos de Iniciação Científica e de Graduação. 51 members in the Comitê Técnico de Programa + 2 chairs. Page describes two categories: Trabalhos Completos and Trabalhos em Andamento (no separate committee for each)."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação em Andamento",
+   "abbrev": "WTICG Andamento",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wticg/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Flavia Paiva Agostini",
+     "inst": "Inmetro"
+    },
+    {
+     "name": "Vinícius Fülber Garcia",
+     "inst": "Universidade Federal do Paraná"
+    }
+   ],
+   "members": [
+    {
+     "name": "Ademar Takeo Akabane",
+     "inst": "Pontifícia Universidade Católica de Campinas"
+    },
+    {
+     "name": "André R. A. Grégio",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Carla Merkle Westphall",
+     "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+     "name": "Carlos A. Maziero",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Carlos Eduardo da Silva",
+     "inst": "Sheffield Hallam University"
+    },
+    {
+     "name": "Carlos Raniery Paula dos Santos",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Charles Varlei Neu",
+     "inst": "Universidade de Santa Cruz do Sul"
+    },
+    {
+     "name": "Cintia Borges Margi",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Daniel Pigatto",
+     "inst": "Universidade Tecnológica Federal do Paraná"
+    },
+    {
+     "name": "Daniel Stefani Marcon",
+     "inst": "Universidade do Vale do Rio Dos Sinos"
+    },
+    {
+     "name": "Dianne Scherly Varela de Medeiros",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Diego Kreutz",
+     "inst": "Universidade Federal do Pampa"
+    },
+    {
+     "name": "Diogo Menezes Ferrazani Mattos",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Dionisio Leite",
+     "inst": "Universidade Federal do Mato Grosso do Sul"
+    },
+    {
+     "name": "Eder John Scheid",
+     "inst": "Universidade Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Eduardo James Pereira Souto",
+     "inst": "Universidade Federal do Amazonas"
+    },
+    {
+     "name": "Eduardo Luzeiro Feitosa",
+     "inst": "Universidade Federal do Amazonas"
+    },
+    {
+     "name": "Emerson Ribeiro de Mello",
+     "inst": "Instituto Federal de Santa Catarina"
+    },
+    {
+     "name": "Érico Amaral",
+     "inst": "Universidade Federal do Pampa"
+    },
+    {
+     "name": "Ewerton Andrade",
+     "inst": "Universidade Federal de Rondônia e Sidia"
+    },
+    {
+     "name": "Flavia Paiva Agostini",
+     "inst": "Laboratório Nacional de Computação Científica"
+    },
+    {
+     "name": "Giovanni Venâncio",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Hilder Vitor Lima Pereira",
+     "inst": "Universidade Estadual de Campinas"
+    },
+    {
+     "name": "Igor Monteiro Moraes",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Ivan Silva Sendin",
+     "inst": "Universidade Federal de Uberlândia"
+    },
+    {
+     "name": "Jeferson Campos Nobre",
+     "inst": "Universidade Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Joaquim Celestino Júnior",
+     "inst": "Universidade Estadual do Ceará"
+    },
+    {
+     "name": "Juliano Kazienko",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Kalinka Regina Lucas Jaquie Castelo Branco",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Lucas Bondan",
+     "inst": "Rede Nacional de Ensino E Pesquisa"
+    },
+    {
+     "name": "Luciano Ignaczak",
+     "inst": "Universidade do Vale do Rio Dos Sinos"
+    },
+    {
+     "name": "Luis Carlos Erpen De Bona",
+     "inst": "Federal University of Parana"
+    },
+    {
+     "name": "Luiz Carlos Pessoa Albini",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Marcia Henke",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Marco Aurelio Amaral Henriques",
+     "inst": "Universidade Estadual de Campinas"
+    },
+    {
+     "name": "Marcus Botacin",
+     "inst": "Texas A&M University"
+    },
+    {
+     "name": "Marjory Da Costa-Abreu",
+     "inst": "Sheffield Hallam University"
+    },
+    {
+     "name": "Miguel Franklin de Castro",
+     "inst": "Universidade Federal do Ceará"
+    },
+    {
+     "name": "Muriel Figueredo Franco",
+     "inst": "Universidade Federal de Ciências da Saúde de Porto Alegre"
+    },
+    {
+     "name": "Newton Carlos Will",
+     "inst": "Universidade Tecnológica Federal do Paraná"
+    },
+    {
+     "name": "Paulo Matias",
+     "inst": "Universidade Federal de São Carlos"
+    },
+    {
+     "name": "Priscila Solis",
+     "inst": "Universidade de Brasília"
+    },
+    {
+     "name": "Rafael R. Obelheiro",
+     "inst": "Universidade do Estado de Santa Catarina"
+    },
+    {
+     "name": "Roben Castagna Lunardi",
+     "inst": "Instituto Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Roberto Samarone Araujo",
+     "inst": "Universidade Federal do Pará"
+    },
+    {
+     "name": "Robson Albuquerque",
+     "inst": "Universidade de Brasília"
+    },
+    {
+     "name": "Rodolfo Ipolito Meneguette",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Roger Immich",
+     "inst": "Universidade Federal do Rio Grande do Norte"
+    },
+    {
+     "name": "Sergio Oliveira",
+     "inst": "Universidade Federal de São João Del Rei"
+    },
+    {
+     "name": "Tiago Heinrich",
+     "inst": "Max Planck Institute for Informatics"
+    },
+    {
+     "name": "Vinícius Fülber Garcia",
+     "inst": "Federal University of Parana"
+    }
+   ],
+   "notes": "Not a separate sub-event: 'em Andamento' (Trabalhos em Andamento) is the in-progress-works category of the WTICG, evaluated by the same WTICG Comitê Técnico de Programa. Committee copied from WTICG."
+  },
+  {
+   "section": "Resumos Expandidos",
+   "abbrev": "RE",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wticg/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Flavia Paiva Agostini",
+     "inst": "Inmetro"
+    },
+    {
+     "name": "Vinícius Fülber Garcia",
+     "inst": "Universidade Federal do Paraná"
+    }
+   ],
+   "members": [
+    {
+     "name": "Ademar Takeo Akabane",
+     "inst": "Pontifícia Universidade Católica de Campinas"
+    },
+    {
+     "name": "André R. A. Grégio",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Carla Merkle Westphall",
+     "inst": "Universidade Federal de Santa Catarina"
+    },
+    {
+     "name": "Carlos A. Maziero",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Carlos Eduardo da Silva",
+     "inst": "Sheffield Hallam University"
+    },
+    {
+     "name": "Carlos Raniery Paula dos Santos",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Charles Varlei Neu",
+     "inst": "Universidade de Santa Cruz do Sul"
+    },
+    {
+     "name": "Cintia Borges Margi",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Daniel Pigatto",
+     "inst": "Universidade Tecnológica Federal do Paraná"
+    },
+    {
+     "name": "Daniel Stefani Marcon",
+     "inst": "Universidade do Vale do Rio Dos Sinos"
+    },
+    {
+     "name": "Dianne Scherly Varela de Medeiros",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Diego Kreutz",
+     "inst": "Universidade Federal do Pampa"
+    },
+    {
+     "name": "Diogo Menezes Ferrazani Mattos",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Dionisio Leite",
+     "inst": "Universidade Federal do Mato Grosso do Sul"
+    },
+    {
+     "name": "Eder John Scheid",
+     "inst": "Universidade Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Eduardo James Pereira Souto",
+     "inst": "Universidade Federal do Amazonas"
+    },
+    {
+     "name": "Eduardo Luzeiro Feitosa",
+     "inst": "Universidade Federal do Amazonas"
+    },
+    {
+     "name": "Emerson Ribeiro de Mello",
+     "inst": "Instituto Federal de Santa Catarina"
+    },
+    {
+     "name": "Érico Amaral",
+     "inst": "Universidade Federal do Pampa"
+    },
+    {
+     "name": "Ewerton Andrade",
+     "inst": "Universidade Federal de Rondônia e Sidia"
+    },
+    {
+     "name": "Flavia Paiva Agostini",
+     "inst": "Laboratório Nacional de Computação Científica"
+    },
+    {
+     "name": "Giovanni Venâncio",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Hilder Vitor Lima Pereira",
+     "inst": "Universidade Estadual de Campinas"
+    },
+    {
+     "name": "Igor Monteiro Moraes",
+     "inst": "Universidade Federal Fluminense"
+    },
+    {
+     "name": "Ivan Silva Sendin",
+     "inst": "Universidade Federal de Uberlândia"
+    },
+    {
+     "name": "Jeferson Campos Nobre",
+     "inst": "Universidade Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Joaquim Celestino Júnior",
+     "inst": "Universidade Estadual do Ceará"
+    },
+    {
+     "name": "Juliano Kazienko",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Kalinka Regina Lucas Jaquie Castelo Branco",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Lucas Bondan",
+     "inst": "Rede Nacional de Ensino E Pesquisa"
+    },
+    {
+     "name": "Luciano Ignaczak",
+     "inst": "Universidade do Vale do Rio Dos Sinos"
+    },
+    {
+     "name": "Luis Carlos Erpen De Bona",
+     "inst": "Federal University of Parana"
+    },
+    {
+     "name": "Luiz Carlos Pessoa Albini",
+     "inst": "Universidade Federal do Paraná"
+    },
+    {
+     "name": "Marcia Henke",
+     "inst": "Universidade Federal de Santa Maria"
+    },
+    {
+     "name": "Marco Aurelio Amaral Henriques",
+     "inst": "Universidade Estadual de Campinas"
+    },
+    {
+     "name": "Marcus Botacin",
+     "inst": "Texas A&M University"
+    },
+    {
+     "name": "Marjory Da Costa-Abreu",
+     "inst": "Sheffield Hallam University"
+    },
+    {
+     "name": "Miguel Franklin de Castro",
+     "inst": "Universidade Federal do Ceará"
+    },
+    {
+     "name": "Muriel Figueredo Franco",
+     "inst": "Universidade Federal de Ciências da Saúde de Porto Alegre"
+    },
+    {
+     "name": "Newton Carlos Will",
+     "inst": "Universidade Tecnológica Federal do Paraná"
+    },
+    {
+     "name": "Paulo Matias",
+     "inst": "Universidade Federal de São Carlos"
+    },
+    {
+     "name": "Priscila Solis",
+     "inst": "Universidade de Brasília"
+    },
+    {
+     "name": "Rafael R. Obelheiro",
+     "inst": "Universidade do Estado de Santa Catarina"
+    },
+    {
+     "name": "Roben Castagna Lunardi",
+     "inst": "Instituto Federal do Rio Grande do Sul"
+    },
+    {
+     "name": "Roberto Samarone Araujo",
+     "inst": "Universidade Federal do Pará"
+    },
+    {
+     "name": "Robson Albuquerque",
+     "inst": "Universidade de Brasília"
+    },
+    {
+     "name": "Rodolfo Ipolito Meneguette",
+     "inst": "Universidade de São Paulo"
+    },
+    {
+     "name": "Roger Immich",
+     "inst": "Universidade Federal do Rio Grande do Norte"
+    },
+    {
+     "name": "Sergio Oliveira",
+     "inst": "Universidade Federal de São João Del Rei"
+    },
+    {
+     "name": "Tiago Heinrich",
+     "inst": "Max Planck Institute for Informatics"
+    },
+    {
+     "name": "Vinícius Fülber Garcia",
+     "inst": "Federal University of Parana"
+    }
+   ],
+   "notes": "No standalone 'Resumos Expandidos' call page exists on the 2025 site. Resumos expandidos correspond to the WTICG 'Trabalhos em Andamento' category, evaluated by the WTICG Comitê Técnico de Programa; committee copied from WTICG. Verify against the extended-proceedings papers (a resumo expandido may also belong to the Industry track, see 'Resumos Expandidos da Trilha da Indústria')."
+  },
+  {
+   "section": "Workshop de Tecnologia Eleitoral",
+   "abbrev": "WTE",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wte/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Roberto Samarone Araújo",
+     "inst": "UFPA"
+    },
+    {
+     "name": "Paulo Matias",
+     "inst": "UFSCar"
+    }
+   ],
+   "members": [
+    {
+     "name": "Clovis Torres Fernandes",
+     "inst": ""
+    },
+    {
+     "name": "Eduardo L. Cominetti",
+     "inst": "USP"
+    },
+    {
+     "name": "Lourenço Alves Pereira Jr",
+     "inst": "ITA"
+    },
+    {
+     "name": "Marco Antonio Torrez Rojas",
+     "inst": "IFC"
+    },
+    {
+     "name": "Marcos Antonio Simplicio Jr",
+     "inst": "USP"
+    },
+    {
+     "name": "Osvaldo Catsumi Imamura",
+     "inst": ""
+    },
+    {
+     "name": "Ricardo Dahab",
+     "inst": "Unicamp"
+    },
+    {
+     "name": "Yeda Regina Venturini",
+     "inst": "UFSCAR"
+    }
+   ],
+   "notes": "Full name on page: VII Workshop de Tecnologia Eleitoral. 8 program committee members + 2 chairs. Two members listed without an institution on the page."
+  },
+  {
+   "section": "Workshop Cibersegurança Quântica: Teoria, Tecnologias e Aplicações",
+   "abbrev": "WQuSec",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wqusec/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Antônio Abelém",
+     "inst": "UFPA"
+    },
+    {
+     "name": "Jéferson Campos Nobre",
+     "inst": "UFRGS"
+    }
+   ],
+   "members": [],
+   "notes": "Only the two co-chairs (Organização / Co-Chairs) are listed; no separate Comitê de Programa roster published on the call page."
+  },
+  {
+   "section": "Trilha de Interação com a Indústria e de Inovação",
+   "abbrev": "Trilha Indústria",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/trilha-industria/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Diego Kreutz",
+     "inst": "UNIPAMPA"
+    },
+    {
+     "name": "Michelle Wangham",
+     "inst": "UNIVALI e RNP"
+    }
+   ],
+   "members": [
+    {
+     "name": "Anderson Fernandes Pereira dos Santos",
+     "inst": "INSTITUTO MILITAR DE ENGENHARIA"
+    },
+    {
+     "name": "Andrey Brito",
+     "inst": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"
+    },
+    {
+     "name": "Anselmo Lacerda Gomes",
+     "inst": "Instituto Atlântico"
+    },
+    {
+     "name": "Avelino Francisco Zorzo",
+     "inst": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL"
+    },
+    {
+     "name": "Charles Christian Miers",
+     "inst": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA"
+    },
+    {
+     "name": "Charles Varlei Neu",
+     "inst": "UNIVERSIDADE DE SANTA CRUZ DO SUL"
+    },
+    {
+     "name": "Danilo Farias de Carvalho",
+     "inst": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA"
+    },
+    {
+     "name": "Davidson Boccardo",
+     "inst": "Hospital Albert Einstein"
+    },
+    {
+     "name": "Diego Kreutz",
+     "inst": "UNIVERSIDADE FEDERAL DO PAMPA"
+    },
+    {
+     "name": "Divanilson R Campelo",
+     "inst": "UNIVERSIDADE FEDERAL DE PERNAMBUCO"
+    },
+    {
+     "name": "Eduardo James Pereira Souto",
+     "inst": "UNIVERSIDADE FEDERAL DO AMAZONAS"
+    },
+    {
+     "name": "Eduardo L Cominetti",
+     "inst": "UNIVERSIDADE DE SÃO PAULO"
+    },
+    {
+     "name": "Eduardo Luzeiro Feitosa",
+     "inst": "UNIVERSIDADE FEDERAL DO AMAZONAS"
+    },
+    {
+     "name": "Ewerton Andrade",
+     "inst": "Universidade Federal De Rondônia E Sidia"
+    },
+    {
+     "name": "Fernando C H Marino",
+     "inst": "CPqD"
+    },
+    {
+     "name": "Francisco R P da Ponte",
+     "inst": "Tempest Security Technologies"
+    },
+    {
+     "name": "Gerson Castro",
+     "inst": "Tempest Security Technologies"
+    },
+    {
+     "name": "Henrique Arcoverde",
+     "inst": "Centro de Informática da UFPE"
+    },
+    {
+     "name": "Hilder Vitor Lima Pereira",
+     "inst": "UNIVERSIDADE ESTADUAL DE CAMPINAS"
+    },
+    {
+     "name": "Jefferson Capovilla",
+     "inst": "Motorola Mobility"
+    },
+    {
+     "name": "Julio Hernandez",
+     "inst": "UNIVERSIDADE ESTADUAL DE CAMPINAS"
+    },
+    {
+     "name": "Laerte Peotta",
+     "inst": "Universidade de Brasilia"
+    },
+    {
+     "name": "Lourenco Alves Pereira Jr",
+     "inst": "INSTITUTO TECNOLÓGICO DE AERONÁUTICA"
+    },
+    {
+     "name": "Marcelo Parada",
+     "inst": "Lenovo R&D"
+    },
+    {
+     "name": "Marco Antonio Torrez Rojas",
+     "inst": "INSTITUTO FEDERAL CATARINENSE"
+    },
+    {
+     "name": "Marcos Antonio Simplicio Jr",
+     "inst": "UNIVERSIDADE DE SÃO PAULO"
+    },
+    {
+     "name": "Mehran Misaghi",
+     "inst": "INSTITUTO FEDERAL CATARINENSE"
+    },
+    {
+     "name": "Paulo Freitas de Araujo Filho",
+     "inst": "Universidade Federal de Pernambuco"
+    },
+    {
+     "name": "Ramon Fontes",
+     "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+    },
+    {
+     "name": "Reinaldo Gomes",
+     "inst": "RNP"
+    },
+    {
+     "name": "Ricardo Dahab",
+     "inst": "University of Campinas"
+    },
+    {
+     "name": "Roben Castagna Lunardi",
+     "inst": "INSTITUTO FEDERAL DO RIO GRANDE DO SUL"
+    },
+    {
+     "name": "Roberto Gallo",
+     "inst": "University of Campinas"
+    },
+    {
+     "name": "Rodrigo Borrozino",
+     "inst": "Motorola"
+    },
+    {
+     "name": "Roger Immich",
+     "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+    },
+    {
+     "name": "Thales Paiva",
+     "inst": "UNIVERSIDADE DE SÃO PAULO"
+    },
+    {
+     "name": "Victor Takashi Hayashi",
+     "inst": "University of São Paulo"
+    },
+    {
+     "name": "Vitor Hugo Galhardo Moia",
+     "inst": "Instituto de Pesquisas Eldorado"
+    },
+    {
+     "name": "Yeda Regina Venturini",
+     "inst": "UNIVERSIDADE FEDERAL DE SÃO CARLOS"
+    }
+   ],
+   "notes": "39 program committee members + 2 chairs. Institutions copied as written (uppercase) on the call page."
+  },
+  {
+   "section": "Resumos Expandidos da Trilha da Indústria",
+   "abbrev": "RE Indústria",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/trilha-industria/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Diego Kreutz",
+     "inst": "UNIPAMPA"
+    },
+    {
+     "name": "Michelle Wangham",
+     "inst": "UNIVALI e RNP"
+    }
+   ],
+   "members": [
+    {
+     "name": "Anderson Fernandes Pereira dos Santos",
+     "inst": "INSTITUTO MILITAR DE ENGENHARIA"
+    },
+    {
+     "name": "Andrey Brito",
+     "inst": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE"
+    },
+    {
+     "name": "Anselmo Lacerda Gomes",
+     "inst": "Instituto Atlântico"
+    },
+    {
+     "name": "Avelino Francisco Zorzo",
+     "inst": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL"
+    },
+    {
+     "name": "Charles Christian Miers",
+     "inst": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA"
+    },
+    {
+     "name": "Charles Varlei Neu",
+     "inst": "UNIVERSIDADE DE SANTA CRUZ DO SUL"
+    },
+    {
+     "name": "Danilo Farias de Carvalho",
+     "inst": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA"
+    },
+    {
+     "name": "Davidson Boccardo",
+     "inst": "Hospital Albert Einstein"
+    },
+    {
+     "name": "Diego Kreutz",
+     "inst": "UNIVERSIDADE FEDERAL DO PAMPA"
+    },
+    {
+     "name": "Divanilson R Campelo",
+     "inst": "UNIVERSIDADE FEDERAL DE PERNAMBUCO"
+    },
+    {
+     "name": "Eduardo James Pereira Souto",
+     "inst": "UNIVERSIDADE FEDERAL DO AMAZONAS"
+    },
+    {
+     "name": "Eduardo L Cominetti",
+     "inst": "UNIVERSIDADE DE SÃO PAULO"
+    },
+    {
+     "name": "Eduardo Luzeiro Feitosa",
+     "inst": "UNIVERSIDADE FEDERAL DO AMAZONAS"
+    },
+    {
+     "name": "Ewerton Andrade",
+     "inst": "Universidade Federal De Rondônia E Sidia"
+    },
+    {
+     "name": "Fernando C H Marino",
+     "inst": "CPqD"
+    },
+    {
+     "name": "Francisco R P da Ponte",
+     "inst": "Tempest Security Technologies"
+    },
+    {
+     "name": "Gerson Castro",
+     "inst": "Tempest Security Technologies"
+    },
+    {
+     "name": "Henrique Arcoverde",
+     "inst": "Centro de Informática da UFPE"
+    },
+    {
+     "name": "Hilder Vitor Lima Pereira",
+     "inst": "UNIVERSIDADE ESTADUAL DE CAMPINAS"
+    },
+    {
+     "name": "Jefferson Capovilla",
+     "inst": "Motorola Mobility"
+    },
+    {
+     "name": "Julio Hernandez",
+     "inst": "UNIVERSIDADE ESTADUAL DE CAMPINAS"
+    },
+    {
+     "name": "Laerte Peotta",
+     "inst": "Universidade de Brasilia"
+    },
+    {
+     "name": "Lourenco Alves Pereira Jr",
+     "inst": "INSTITUTO TECNOLÓGICO DE AERONÁUTICA"
+    },
+    {
+     "name": "Marcelo Parada",
+     "inst": "Lenovo R&D"
+    },
+    {
+     "name": "Marco Antonio Torrez Rojas",
+     "inst": "INSTITUTO FEDERAL CATARINENSE"
+    },
+    {
+     "name": "Marcos Antonio Simplicio Jr",
+     "inst": "UNIVERSIDADE DE SÃO PAULO"
+    },
+    {
+     "name": "Mehran Misaghi",
+     "inst": "INSTITUTO FEDERAL CATARINENSE"
+    },
+    {
+     "name": "Paulo Freitas de Araujo Filho",
+     "inst": "Universidade Federal de Pernambuco"
+    },
+    {
+     "name": "Ramon Fontes",
+     "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+    },
+    {
+     "name": "Reinaldo Gomes",
+     "inst": "RNP"
+    },
+    {
+     "name": "Ricardo Dahab",
+     "inst": "University of Campinas"
+    },
+    {
+     "name": "Roben Castagna Lunardi",
+     "inst": "INSTITUTO FEDERAL DO RIO GRANDE DO SUL"
+    },
+    {
+     "name": "Roberto Gallo",
+     "inst": "University of Campinas"
+    },
+    {
+     "name": "Rodrigo Borrozino",
+     "inst": "Motorola"
+    },
+    {
+     "name": "Roger Immich",
+     "inst": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
+    },
+    {
+     "name": "Thales Paiva",
+     "inst": "UNIVERSIDADE DE SÃO PAULO"
+    },
+    {
+     "name": "Victor Takashi Hayashi",
+     "inst": "University of São Paulo"
+    },
+    {
+     "name": "Vitor Hugo Galhardo Moia",
+     "inst": "Instituto de Pesquisas Eldorado"
+    },
+    {
+     "name": "Yeda Regina Venturini",
+     "inst": "UNIVERSIDADE FEDERAL DE SÃO CARLOS"
+    }
+   ],
+   "notes": "Not a separate sub-event: extended abstracts (resumos expandidos) of the Industry track, evaluated by the same Trilha de Interação com a Indústria e de Inovação committee. Committee copied from Trilha Indústria."
+  },
+  {
+   "section": "Workshop de Ética em Cibersegurança",
+   "abbrev": "WECS",
+   "source": "https://sbseg-sbc.github.io/sbseg2025/sbseg2025.ppgia.pucpr.br/chamadas/wecs/index.html",
+   "found": true,
+   "chairs": [
+    {
+     "name": "Maria Eugenia Barroso",
+     "inst": "Globethics"
+    },
+    {
+     "name": "Rudolf Eduard Von Sinner",
+     "inst": "PUCPR"
+    },
+    {
+     "name": "Adriana Baravalle",
+     "inst": "Globethics"
+    }
+   ],
+   "members": [],
+   "notes": "Full name on page: WECS 2025 - Workshop de Ética em CiberSegurança. Only the three workshop coordinators are listed; no separate Comitê de Programa published on the call page."
+  }
+ ]
+}

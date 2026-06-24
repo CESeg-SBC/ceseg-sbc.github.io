@@ -548,6 +548,18 @@ body[data-page="publicacoes"] .cards .card:hover::after{opacity:1;transform:tran
 .tpc-meth li{margin:.35rem 0}
 .tpc-regen{font-size:.82rem;color:var(--faint)}
 
+/* per-edition accordion on estatisticas-tpc-estendido */
+.tpce-ed{border:1px solid var(--border);border-radius:var(--radius);margin:.6rem 0;
+  background:var(--bg-alt);overflow:hidden}
+.tpce-ed>summary{cursor:pointer;padding:11px 16px;list-style:none;font-size:.96rem}
+.tpce-ed>summary::-webkit-details-marker{display:none}
+.tpce-ed>summary::before{content:"\25B8";display:inline-block;margin-right:9px;
+  color:var(--muted);transition:transform .15s}
+.tpce-ed[open]>summary::before{transform:rotate(90deg)}
+.tpce-ed .table-wrap{padding:0 6px}
+.tpce-toplbl{margin:.5rem 16px .2rem;font-size:.82rem;font-weight:700;color:var(--muted)}
+.tpce-toplist{margin:0 16px 14px}
+
 /* reference callout on anais-trilha-principal */
 .tpc-callout{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
   border:1px solid var(--border);border-left:4px solid var(--navy);border-radius:var(--radius);

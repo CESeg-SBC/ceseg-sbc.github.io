@@ -16,6 +16,7 @@ const NAV = [
     {key:'nav.anaisEst', href:'anais-estendidos.html'},
     {key:'nav.minicursos', href:'minicursos.html'},
     {key:'nav.tpc', href:'estatisticas-tpc.html'},
+    {key:'nav.tpcEst', href:'estatisticas-tpc-estendido.html'},
     {key:'nav.referenciais', href:'referenciais.html'},
     {key:'nav.ondepublicar', href:'onde-publicar.html'}]},
   {key:'nav.documentos', href:'documentos.html', children:[

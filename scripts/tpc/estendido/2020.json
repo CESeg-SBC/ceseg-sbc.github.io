@@ -1,0 +1,109 @@
+{
+ "year": 2020,
+ "edition_site": "http://sbseg.sbc.org.br/2020/",
+ "edition_clone": "https://sbseg-sbc.github.io/sbseg2020/",
+ "subevents": [
+  {
+   "section": "Concurso de Teses e Dissertações",
+   "abbrev": "CTD",
+   "source": "http://sbseg.sbc.org.br/2020/pt/chamadas/ctdseg.html",
+   "found": true,
+   "chairs": [
+    {"name": "Eduardo Feitosa", "inst": "UFAM"}
+   ],
+   "members": [
+    {"name": "Altair Santin", "inst": "PUCPR"},
+    {"name": "Anderson Fernandes Pereira dos Santos", "inst": "IME"},
+    {"name": "André Grégio", "inst": "UFPR"},
+    {"name": "Bruno Schulze", "inst": "LNCC"},
+    {"name": "Carlos da Silva", "inst": "Sheffield Hallam University"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"},
+    {"name": "Leonardo B. Oliveira", "inst": "UFMG"},
+    {"name": "Márcia Henke", "inst": "UFSM"},
+    {"name": "Marco Aurélio Amaral Henriques", "inst": "UNICAMP"},
+    {"name": "Marcos Simplicio Jr", "inst": "USP"},
+    {"name": "Michelle Wangham", "inst": "UNIVALI"},
+    {"name": "Natalia Castro Fernandes", "inst": "UFF"},
+    {"name": "Noemi Rodriguez", "inst": "PUC-Rio"},
+    {"name": "Raul Ceretta", "inst": "UFSM"},
+    {"name": "Ricardo Custódio", "inst": "UFSC"},
+    {"name": "Ricardo Dahab", "inst": "UNICAMP"},
+    {"name": "Roberto Samarone Araujo", "inst": "UFPA"},
+    {"name": "Routo Terada", "inst": "USP"}
+   ],
+   "notes": "Page title: Concurso de Teses e Dissertações em Segurança da Informação e Sistemas Computacionais (CTDSeg). The 'section' field uses the canonical join key 'Concurso de Teses e Dissertações'."
+  },
+  {
+   "section": "Salão de Ferramentas",
+   "abbrev": "SF",
+   "source": "http://sbseg.sbc.org.br/2020/pt/chamadas/ferramentas.html",
+   "found": true,
+   "chairs": [
+    {"name": "Roberto Samarone Araujo", "inst": "UFPA"}
+   ],
+   "members": [
+    {"name": "Altair Santin", "inst": "PUCPR"},
+    {"name": "André Grégio", "inst": "UFPR"},
+    {"name": "André Marins", "inst": "RNP"},
+    {"name": "Carlos Maziero", "inst": "UFPR"},
+    {"name": "Daniel Macedo Batista", "inst": "USP"},
+    {"name": "Diego Kreutz", "inst": "Unipampa"},
+    {"name": "Davidson Boccardo", "inst": "Clavis Segurança da Informação"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "João Gondim", "inst": "UnB"},
+    {"name": "Karina Mochetti", "inst": "UBC/Canada"},
+    {"name": "Luis Bona", "inst": "UFPR"},
+    {"name": "Márjory da Costa-Abreu", "inst": "UFRN"},
+    {"name": "Martin Vigil", "inst": "UFSC"},
+    {"name": "Michelle Wangham", "inst": "UNIVALI"},
+    {"name": "Paulo Matias", "inst": "UFSCAR"},
+    {"name": "Robson Albuquerque", "inst": "UnB"}
+   ],
+   "notes": "Page title: IV Salão de Ferramentas SBSeg."
+  },
+  {
+   "section": "Workshop de Trabalhos de Iniciação Científica e de Graduação",
+   "abbrev": "WTICG",
+   "source": "http://sbseg.sbc.org.br/2020/pt/chamadas/wticg.html",
+   "found": true,
+   "chairs": [
+    {"name": "Márjory da Costa-Abreu", "inst": "Sheffield Hallam University/UFRN"},
+    {"name": "Natalia de Castro Fernandes", "inst": "UFF"}
+   ],
+   "members": [
+    {"name": "Aline de Lurdes Lunkes", "inst": "LNCC"},
+    {"name": "Altair Santin", "inst": "PUCPR"},
+    {"name": "Arlindo L. Marcon Jr.", "inst": "IFPR"},
+    {"name": "Carla Merkle Westphall", "inst": "UFSC"},
+    {"name": "Carlos da Silva", "inst": "Sheffield Hallam University"},
+    {"name": "Carlos Ferraz", "inst": "UFPE"},
+    {"name": "Cintia Margi", "inst": "USP"},
+    {"name": "Daniel Batista", "inst": "IME/USP"},
+    {"name": "Danilo Curvelo", "inst": "UFRN"},
+    {"name": "Dianne Medeiros", "inst": "UFF"},
+    {"name": "Diogo Mattos", "inst": "UFF"},
+    {"name": "Edelberto Silva", "inst": "UFJF"},
+    {"name": "Edna Canedo", "inst": "UNB"},
+    {"name": "Eduardo Feitosa", "inst": "UFAM"},
+    {"name": "Eduardo Souto", "inst": "UFAM"},
+    {"name": "Emerson Ribeiro de Mello", "inst": "IFSC"},
+    {"name": "Ewerton Andrade", "inst": "UNIR"},
+    {"name": "Fabio Borges", "inst": "LNCC"},
+    {"name": "Jean Martina", "inst": "UFSC"},
+    {"name": "Jefferson Ricardini", "inst": "USP"},
+    {"name": "João Gondim", "inst": "UnB"},
+    {"name": "Juliano Kazienko", "inst": "UFSM"},
+    {"name": "Marco Aurélio Amaral Henriques", "inst": "UNICAMP"},
+    {"name": "Michelle Wangham", "inst": "UNIVALI"},
+    {"name": "Paulo André da Silva Gonçalves", "inst": "UFPE"},
+    {"name": "Rafael Obelheiro", "inst": "UDESC"},
+    {"name": "Renato Borseti", "inst": "LNCC"},
+    {"name": "Ricardo Dahab", "inst": "UNICAMP"},
+    {"name": "William de Souza", "inst": "Royal Holloway, University of London"}
+   ],
+   "notes": "Page title: XIII Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG)."
+  }
+ ]
+}
